@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-11-21T20:00:08+00:00",
-  "total": 90,
+  "actualizado": "2026-11-21T21:15:29+00:00",
+  "total": 91,
   "noticias": [
     {
       "id": "e86559286e7f7d3c",
@@ -205,6 +205,28 @@
       ]
     },
     {
+      "id": "a0460a74bd7882bc",
+      "titular": "Jennifer Lawrence, en shock por la desaparición del arco de Katniss que guardaba de 'Los juegos del hambre': \"Me lo robaron\"",
+      "titular_original": "Jennifer Lawrence, en shock por la desaparición del arco de Katniss que guardaba de 'Los juegos del hambre': \"Me lo robaron\"",
+      "metodo_titular": "original",
+      "fecha": "2026-11-21T15:00:00+00:00",
+      "actualizado": "2026-11-21T15:00:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [
+        "Desapariciones"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "20minutos",
+          "url": "https://www.20minutos.es/cinemania/noticias/jennifer-lawrence-desaparicion-arco-katniss-juegos-hambre_7063546_0.html",
+          "fecha": "2026-11-21T15:00:00+00:00"
+        }
+      ]
+    },
+    {
       "id": "38f7479accba8177",
       "titular": "Un equipo de científicos crea un \"planimal\" fusionando ADN de hámster y algas",
       "titular_original": "Un equipo de científicos crea un \"planimal\" fusionando ADN de hámster y algas",
@@ -252,7 +274,7 @@
       "titular_original": "Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out",
       "metodo_titular": "revision_editorial",
       "fecha": "2026-11-21T13:15:21+00:00",
-      "actualizado": "2026-11-21T13:15:21+00:00",
+      "actualizado": "2026-11-21T21:05:29+00:00",
       "categoria": "TRUE CRIME",
       "region": "MUNDO",
       "temas": [],
