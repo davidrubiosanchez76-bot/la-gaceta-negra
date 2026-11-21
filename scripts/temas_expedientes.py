@@ -25,7 +25,7 @@ CONTEXTO = re.compile(
     r"sextor\w*|explotaci\w*|exploitat\w*|child abuse|coerc\w*|"
     r"chantaj\w*|criminal\w*|amenaz\w*|threat\w*|"
     r"gang|"
-    r"radicaliza\w*|detenid\w*|acusa\w*|charged|arrest\w*|sentenc\w*|conden\w*)\b"
+    r"radicaliza\w*|investiga\w*|fiscal\w*|detenid\w*|acusa\w*|charged|arrest\w*|sentenc\w*|conden\w*)\b"
 )
 AMBIGUO = (r"\b764\b", r"\bthe com\b", r"\bcom network\b")
 
