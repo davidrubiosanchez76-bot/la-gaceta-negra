@@ -7,7 +7,7 @@ Agregador automático de titulares de TRUE CRIME, CRIME SCENE y LITERATURA NEGRA
 - Código y archivos de datos en este repositorio público.
 - `.github/workflows/actualizar.yml`: busca noticias a las 08:17 y 20:17, hora de Madrid, y permite ejecutar **Run workflow** manualmente.
 - `scripts/actualizar.py`: lee las fuentes RSS, clasifica y agrupa coincidencias conservadoras, conserva las noticias en `archivo/YYYY-MM.json` y actualiza `data/noticias.json`.
-- `config/fuentes.json`: **18 fuentes RSS configuradas (17 activas)**, incluyendo noticias catalanas, españolas, europeas, estadounidenses y mundiales. Para añadir Google Alerts, configurar entrega como RSS y añadir su URL.
+- `config/fuentes.json`: **16 fuentes RSS configuradas (15 activas)**, incluyendo noticias catalanas, españolas, europeas, estadounidenses y mundiales. Para añadir Google Alerts, configurar entrega como RSS y añadir su URL.
 - `config/expedientes.json`: expedientes en seguimiento (Isak Andic y Lindsay Clancy). Las noticias se asignan por coincidencia con alias configurados.
 - `archivo/indice.json`: meses y filtros disponibles para hemeroteca.
 - `tests/test_actualizar.py`: pruebas básicas de lector y agrupación.
@@ -47,7 +47,7 @@ El prototipo es una prueba técnica: conviene revisar la relevancia y los posibl
 
 ## Cobertura geográfica (21/11/2026)
 
-La Gaceta incorpora el campo `region`: CATALUÑA, ESPAÑA, EUROPA, ESTADOS UNIDOS y MUNDO. El país del periódico **no equivale** al lugar del acontecimiento: cuando el titular no permite determinarlo y el feed no está circunscrito a una zona, la noticia pasa a MUNDO para evitar clasificaciones arbitrarias. El selector España también incluye Cataluña.
+La Gaceta incorpora el campo `region`: ESPAÑA, EUROPA, ESTADOS UNIDOS y MUNDO. El país del periódico **no equivale** al lugar del acontecimiento: cuando el titular no permite determinarlo y el feed no está circunscrito a una zona, la noticia pasa a MUNDO para evitar clasificaciones arbitrarias. Los sucesos de cualquier lugar de España se agrupan en ESPAÑA, sin filtro específico para Cataluña.
 
 La nueva versión del HTML de Blogger incorpora el selector geográfico y abre la Hemeroteca con los resultados del último mes, sin exigir pulsar «Buscar». El HTML ya publicado en Blogger debe sustituirse por esa versión, porque modificar los datos en GitHub no altera la interfaz pegada en Blogger.
 
@@ -61,3 +61,7 @@ La página lee `titular`, que puede ser una **reformulación editorial conservad
 **Criterio:** nunca inventar delito, modo de comisión, lugar, parentesco, fechas ni identidad; conservar expresiones de presunción/acusación cuando no exista condena. Si una reformulación segura no es posible con las reglas actuales, se mantiene el titular original en lugar de inventar detalles o mostrar un titular genérico.
 
 **Alcance inicial comprobado:** 13 de las 70 noticias existentes reescritas mediante reglas; el resto permanecen con su título original. La reformulación general de noticias muy distintas o su traducción flexible requerirá integrar un modelo de lenguaje externo; no se han activado servicios de pago ni se han incorporado claves de API.
+
+## Alcance geográfico y fuentes (noviembre 2026)
+
+La Gaceta no publica titulares de RSS en catalán y elimina la categoría geográfica CATALUÑA. El RSS de 3CatInfo y el canal exclusivamente local «La Vanguardia — Barcelona» se han retirado del sistema y del histórico. Las noticias que sucedan en Cataluña pero procedan de fuentes generales pueden aparecer bajo ESPAÑA. La selección queda en ESPAÑA, EUROPA, ESTADOS UNIDOS y MUNDO.

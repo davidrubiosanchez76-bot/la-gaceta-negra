@@ -1,6 +1,6 @@
 {
   "actualizado": "2026-11-21T08:14:00+00:00",
-  "total": 72,
+  "total": 64,
   "noticias": [
     {
       "id": "87f4c2e829321f4b",
@@ -119,27 +119,6 @@
       "metodo_titular": "revision_editorial"
     },
     {
-      "id": "2e2e3dfe7439e516",
-      "titular": "Foment del Treball alerta del perill del narcotràfic per a l'economia",
-      "fecha": "2026-11-20T20:39:51+00:00",
-      "actualizado": "2026-11-20T20:39:51+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "MUNDO",
-      "temas": [
-        "Narcotráfico"
-      ],
-      "expedientes": [],
-      "fuentes": [
-        {
-          "medio": "3CatInfo",
-          "url": "https://www.3cat.cat/3catinfo/foment-del-treball-alerta-del-perill-del-narcotrafic-per-a-leconomia/noticia/3441153",
-          "fecha": "2026-11-20T20:39:51+00:00"
-        }
-      ],
-      "titular_original": "Foment del Treball alerta del perill del narcotràfic per a l'economia",
-      "metodo_titular": "original"
-    },
-    {
       "id": "6983a6e5b1b7c67b",
       "titular": "Un hombre simuló su suicidio tras matar a su exesposa y esconder el cadáver en un barril enterrado en su propiedad",
       "fecha": "2026-11-20T20:21:03+00:00",
@@ -237,25 +216,6 @@
       "metodo_titular": "revision_editorial"
     },
     {
-      "id": "e874b92691e9d1fe",
-      "titular": "En llibertat el milionari nord-americà Fergie Chambers, l'activista propalestí detingut a Eivissa",
-      "fecha": "2026-11-20T18:05:29+00:00",
-      "actualizado": "2026-11-20T18:05:29+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "ESPAÑA",
-      "temas": [],
-      "expedientes": [],
-      "fuentes": [
-        {
-          "medio": "3CatInfo",
-          "url": "https://www.3cat.cat/3catinfo/en-llibertat-el-milionari-nord-america-fergie-chambers-lactivista-propalesti-detingut-a-eivissa/noticia/3441086",
-          "fecha": "2026-11-20T18:05:29+00:00"
-        }
-      ],
-      "titular_original": "En llibertat el milionari nord-americà Fergie Chambers, l'activista propalestí detingut a Eivissa",
-      "metodo_titular": "original"
-    },
-    {
       "id": "8e140ac271640ed8",
       "titular": "Localizada en un camino una mujer de avanzada edad desaparecida de una residencia de mayores",
       "fecha": "2026-11-20T17:46:54+00:00",
@@ -282,7 +242,7 @@
       "fecha": "2026-11-20T17:12:03+00:00",
       "actualizado": "2026-11-20T17:12:03+00:00",
       "categoria": "TRUE CRIME",
-      "region": "CATALUÑA",
+      "region": "ESPAÑA",
       "temas": [],
       "expedientes": [],
       "fuentes": [
@@ -372,25 +332,6 @@
       ],
       "titular_original": "Detenido en Granada al hombre acusado de disparar contra su expareja y su excuñada en octubre",
       "metodo_titular": "regla"
-    },
-    {
-      "id": "698df9f1bb21f987",
-      "titular": "El Salvador de Bukele agafa el control de la seguretat d'un Haití dominat per les bandes criminals",
-      "fecha": "2026-11-20T14:42:48+00:00",
-      "actualizado": "2026-11-20T14:42:48+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "MUNDO",
-      "temas": [],
-      "expedientes": [],
-      "fuentes": [
-        {
-          "medio": "3CatInfo",
-          "url": "https://www.3cat.cat/3catinfo/el-salvador-de-bukele-agafa-el-control-de-la-seguretat-dun-haiti-dominat-per-les-bandes-criminals/noticia/3440986",
-          "fecha": "2026-11-20T14:42:48+00:00"
-        }
-      ],
-      "titular_original": "El Salvador de Bukele agafa el control de la seguretat d'un Haití dominat per les bandes criminals",
-      "metodo_titular": "original"
     },
     {
       "id": "f0581694fcafa3ab",
@@ -949,65 +890,6 @@
       "metodo_titular": "revision_editorial"
     },
     {
-      "id": "18d91e44b4a0f809",
-      "titular": "El Prat: dos pasajeros detenidos con 316 bolas de cocaína en el cuerpo",
-      "fecha": "2026-11-18T11:10:10+00:00",
-      "actualizado": "2026-11-18T11:10:10+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "CATALUÑA",
-      "temas": [
-        "Narcotráfico"
-      ],
-      "expedientes": [],
-      "fuentes": [
-        {
-          "medio": "La Vanguardia — Barcelona",
-          "url": "https://www.lavanguardia.com/sucesos/20261118/11687067/detenidos-dos-pasajeros-aeropuerto-prat-316-bolas-cocaina-cuerpo.html",
-          "fecha": "2026-11-18T11:10:10+00:00"
-        }
-      ],
-      "titular_original": "Detenidos dos pasajeros en el aeropuerto de El Prat con 316 bolas de cocaína en su cuerpo",
-      "metodo_titular": "regla"
-    },
-    {
-      "id": "0d6d128d6d79934d",
-      "titular": "La Sagrada Familia: detenido un hombre por una presunta agresión sexual",
-      "fecha": "2026-11-18T09:32:52+00:00",
-      "actualizado": "2026-11-18T09:32:52+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "CATALUÑA",
-      "temas": [],
-      "expedientes": [],
-      "fuentes": [
-        {
-          "medio": "La Vanguardia — Barcelona",
-          "url": "https://www.lavanguardia.com/local/barcelona/20261118/11687020/detenido-hombre-presunta-agresion-sexual-zona-sagrada-familia.html",
-          "fecha": "2026-11-18T09:32:52+00:00"
-        }
-      ],
-      "titular_original": "Detenido un hombre por una presunta agresión sexual en la zona de la Sagrada Familia",
-      "metodo_titular": "regla"
-    },
-    {
-      "id": "e80c602372a16cd3",
-      "titular": "Barcelona: una detención por ocho atracos violentos en establecimientos",
-      "fecha": "2026-11-18T07:32:13+00:00",
-      "actualizado": "2026-11-18T07:32:13+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "CATALUÑA",
-      "temas": [],
-      "expedientes": [],
-      "fuentes": [
-        {
-          "medio": "La Vanguardia — Barcelona",
-          "url": "https://www.lavanguardia.com/local/barcelona/20261118/11686931/detenido-ocho-atracos-violentos-establecimientos-barcelona.html",
-          "fecha": "2026-11-18T07:32:13+00:00"
-        }
-      ],
-      "titular_original": "Detenido por ocho atracos violentos en establecimientos de Barcelona",
-      "metodo_titular": "regla"
-    },
-    {
       "id": "70b5527a80de2259",
       "titular": "Cine: «Sacamantecas»",
       "fecha": "2026-11-18T07:30:00+00:00",
@@ -1124,25 +1006,6 @@
       "metodo_titular": "revision_editorial"
     },
     {
-      "id": "753aef6bc5e6591a",
-      "titular": "Barcelona: detención por robar con violencia cadenas de oro y relojes a personas mayores",
-      "fecha": "2026-11-17T10:16:34+00:00",
-      "actualizado": "2026-11-17T10:16:34+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "CATALUÑA",
-      "temas": [],
-      "expedientes": [],
-      "fuentes": [
-        {
-          "medio": "La Vanguardia — Barcelona",
-          "url": "https://www.lavanguardia.com/local/barcelona/20261117/11686282/detenido-robar-violencia-cadenas-oro-relojes-personas-mayores-barcelona.html",
-          "fecha": "2026-11-17T10:16:34+00:00"
-        }
-      ],
-      "titular_original": "Detenido por robar con violencia cadenas de oro y relojes a personas mayores en Barcelona",
-      "metodo_titular": "regla"
-    },
-    {
       "id": "d17b94cf849f577a",
       "titular": "Una demanda atribuye a una furgoneta escolar de bajo coste un accidente con un estudiante muerto y otro con quemaduras en el 70 % del cuerpo",
       "fecha": "2026-11-16T21:36:50+00:00",
@@ -1238,25 +1101,6 @@
       ],
       "titular_original": "Why A US Ruling On AI Child Abuse Images Would Not Survive In Britain",
       "metodo_titular": "revision_editorial"
-    },
-    {
-      "id": "25dd48154acf0e56",
-      "titular": "Barcelona: prisión para tres detenidos por los disturbios tras la huelga del 11-N",
-      "fecha": "2026-11-13T18:19:56+00:00",
-      "actualizado": "2026-11-13T18:19:56+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "CATALUÑA",
-      "temas": [],
-      "expedientes": [],
-      "fuentes": [
-        {
-          "medio": "La Vanguardia — Barcelona",
-          "url": "https://www.lavanguardia.com/local/barcelona/20261113/11683776/tres-detenidos-relacionados-disturbios-huelga-11-n-barcelona-pasan-prision-provisional.html",
-          "fecha": "2026-11-13T18:19:56+00:00"
-        }
-      ],
-      "titular_original": "Prisión para tres de los detenidos por los disturbios tras la huelga del 11-N en Barcelona",
-      "metodo_titular": "regla"
     },
     {
       "id": "67b53f11b02cfbed",

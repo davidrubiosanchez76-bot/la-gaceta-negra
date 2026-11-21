@@ -45,6 +45,7 @@ CRIME_SCENE = ("adn", "ciencia forense", "tecnica forense", "medicina forense", 
 LITERARY = ("novela negra", "novela policiaca", "literatura criminal", "literatura negra", "ficcion criminal", "thriller policiac", "premio edgar", "premio hammett", "festival de novela negra", "novela de misterio", "novela policial", "cine negro", "ficcion noir", "crime fiction", "noir fiction", "mystery novel", "thriller novel", "detective novel", "crime novel", "mystery fiction", "novela negra", "novel·la negra", "novel·la policíaca")
 CRIME = ("asesinat", "asesino", "asesina", "homicid", "crimen", "criminal", "detenid", "detien", "blanqueo", "ciberataque", "desaparec", "desaparicion", "secuestro", "narcotraf", "violencia machista", "violencia de genero", "feminicidio", "robo con violencia", "atraco", "sicario", "estafa millonaria", "policia investiga", "presunto asesino", "procesad", "condena por", "asesino en serie", "terrorismo", "trata de personas", "murder", "homicide", "killed", "killing", "slain", "stabbed", "stabbing", "arrested", "rape", "rapist", "sexual assault", "kidnapped", "kidnapping", "fraud", "shooting", "shot dead", "found dead", "missing girl", "missing woman", "missing person", "convicted", "sentenced to prison", "sentenced for", "pleads guilty", "pleaded guilty", "charged with murder", "criminal trial", "death penalty", "crime scene", "assassinat", "assassinat", "homicidi", "detingut", "detinguda", "detenen", "segrest", "narcotrafic", "violencia masclista", "feminicidi", "crim organitzat", "assassi", "desaparicio", "robatori violent", "arson", "murdered", "throat slit")
 EXCLUDE = ("accidente de trafico", "colision entre", "incendio forestal", "terremoto", "atropello accidental", "fenomeno meteorologico", "gta vi", "video game", "glider crash", "crashes into", "road accident", "car crash", "plane crash", "forensic focus digest", "registration opens for", "virtual summit", "climate summit")
+FUENTES_EXCLUIDAS = {"3CatInfo", "La Vanguardia — Barcelona"}
 
 
 def read_json(path, default):
@@ -171,7 +172,7 @@ def same_event(a, b):
     if a["categoria"] != b["categoria"]:
         return False
     regions = {story_region(a), story_region(b)}
-    if len(regions) > 1 and regions != {"CATALUÑA", "ESPAÑA"}:
+    if len(regions) > 1:
         return False
     for x in a["fuentes"]:
         if any(x["url"] == y["url"] for y in b["fuentes"]):
@@ -196,9 +197,8 @@ def same_event(a, b):
 # Ámbito del SUCESO, no país de la redacción. La falta de datos se refleja
 # como MUNDO, salvo RSS específicamente regionales/nacionales.
 GEOGRAFIA = [
-    ("CATALUÑA", ("barcelona", "badalona", "terrassa", "sabadell", "hospitalet", "girona", "gerona", "lleida", "lerida", "tarragona", "mataro", "granollers", "manresa", "catalunya", "cataluna", "catalonia", "mossos", "baix llobregat", "maresme", "barcelones", "valles", "llivia", "vic", "figueres", "puigcerda", "olot", "blanes", "reus", "sitges")),
     ("ESTADOS UNIDOS", ("estados unidos", "eeuu", "ee.uu", "united states", "usa", "u.s.", "california", "texas", "florida", "massachusetts", "connecticut", "new york", "nueva york", "washington dc", "los angeles", "chicago", "boston", "arizona", "kentucky", "idaho", "ohio", "minnesota", "tennessee", "georgia usa", "new jersey", "pennsylvania")),
-    ("ESPAÑA", ("espana", "spain", "madrid", "valencia", "sevilla", "seville", "andalucia", "galicia", "murcia", "bilbao", "zaragoza", "malaga", "alicante", "canarias", "burgos", "castilla", "granada", "asturias", "navarra", "cadiz", "baleares", "pamplona", "vitoria", "policia nacional", "guardia civil", "eivissa", "ibiza", "mallorca", "parla", "guadalajara")),
+    ("ESPAÑA", ("espana", "spain", "madrid", "valencia", "sevilla", "seville", "andalucia", "galicia", "murcia", "bilbao", "zaragoza", "malaga", "alicante", "canarias", "burgos", "castilla", "granada", "asturias", "navarra", "cadiz", "baleares", "pamplona", "vitoria", "policia nacional", "guardia civil", "barcelona", "badalona", "terrassa", "sabadell", "hospitalet", "girona", "gerona", "lleida", "lerida", "tarragona", "mataro", "granollers", "manresa", "catalunya", "cataluna", "catalonia", "mossos", "baix llobregat", "maresme", "barcelones", "valles", "llivia", "vic", "figueres", "puigcerda", "olot", "blanes", "reus", "sitges", "eivissa", "ibiza", "mallorca", "parla", "guadalajara")),
     ("EUROPA", ("reino unido", "united kingdom", "britain", "british", "england", "scotland", "london", "france", "francia", "french", "paris", "italia", "italy", "rome", "roma", "germany", "alemania", "berlin", "polonia", "poland", "portugal", "lisbon", "lisboa", "bruselas", "brussels", "belgica", "belgium", "ukraine", "ucrania", "russia", "rusia", "suiza", "switzerland", "netherlands", "paises bajos", "noruega", "norway", "denmark", "sweden", "suecia", "dinamarca", "ireland", "irlanda", "austria", "grecia", "greece", "hungria", "hungary", "prague", "praga")),
 ]
 
@@ -208,7 +208,7 @@ def region_of(text, fallback="MUNDO"):
     for label, names in GEOGRAFIA:
         if any(re.search(r"(?<![a-z])" + re.escape(n) + r"(?![a-z])", text) for n in names):
             return label
-    return fallback if fallback in ("CATALUÑA", "ESPAÑA", "EUROPA", "ESTADOS UNIDOS", "MUNDO") else "MUNDO"
+    return "ESPAÑA" if fallback == "CATALUÑA" else (fallback if fallback in ("ESPAÑA", "EUROPA", "ESTADOS UNIDOS", "MUNDO") else "MUNDO")
 
 
 def story_region(story):
@@ -249,8 +249,6 @@ def merge_into(stories, new):
             for source in new["fuentes"]:
                 if source["url"] not in urls:
                     old["fuentes"].append(source)
-            if new["region"] == "CATALUÑA" and old["region"] == "ESPAÑA":
-                old["region"] = "CATALUÑA"
             old["temas"] = sorted(set(old["temas"]) | set(new["temas"]))
             old["expedientes"] = sorted(set(old["expedientes"]) | set(new["expedientes"]))
             old["actualizado"] = max(old["actualizado"], new["actualizado"])
@@ -276,6 +274,12 @@ def main():
     folder = ROOT / "archivo"
     stories = []
     def review_old(old):
+        # Eliminar de portada y archivo todas las fuentes excluidas, también en fichas agrupadas.
+        old["fuentes"] = [f for f in old.get("fuentes", []) if f.get("medio") not in FUENTES_EXCLUIDAS]
+        if not old["fuentes"]:
+            return None
+        if old.get("region") == "CATALUÑA":
+            old["region"] = "ESPAÑA"
         # Conservar intactos los titulares de hemeroteca seleccionados y verificados.
         # Su fecha, fuente, categoría y texto ya fueron comprobados editorialmente.
         if old.get("origen") == "hemeroteca_manual":

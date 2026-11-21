@@ -57,7 +57,7 @@ class TestGaceta(unittest.TestCase):
     def test_deduplicacion_segun_original(self):
         d = "2026-11-21T08:00:00+00:00"
         def s(title, orig, url):
-            return {"categoria":"TRUE CRIME","region":"CATALUÑA","fecha":d,
+            return {"categoria":"TRUE CRIME","region":"ESPAÑA","fecha":d,
                     "titular":title, "titular_original":orig,
                     "fuentes":[{"url":url,"fecha":d}]}
         a = s("Vic: detenido un hombre por un presunto delito",
@@ -82,8 +82,19 @@ class TestGaceta(unittest.TestCase):
         self.assertTrue(g.same_event(a, b))
         self.assertFalse(g.same_event(a, c))
 
+    def test_no_fuentes_catalanas(self):
+        import json
+        from pathlib import Path
+        feeds = json.loads((Path(__file__).resolve().parents[1] / "config" / "fuentes.json").read_text(encoding="utf-8"))
+        self.assertFalse(any(x.get("idioma") == "ca" for x in feeds))
+        self.assertFalse(any(x.get("nombre") in g.FUENTES_EXCLUIDAS for x in feeds))
+
+    def test_region_espanola(self):
+        self.assertEqual(g.region_of("Detención en Vic"), "ESPAÑA")
+        self.assertEqual(g.region_of("Un asesinato en Badalona"), "ESPAÑA")
+
     def test_regions(self):
-        self.assertEqual(g.region_of("Un homicidio en Barcelona", "ESPAÑA"), "CATALUÑA")
+        self.assertEqual(g.region_of("Un homicidio en Barcelona", "ESPAÑA"), "ESPAÑA")
         self.assertEqual(g.region_of("Murder trial in Massachusetts", "MUNDO"), "ESTADOS UNIDOS")
         self.assertEqual(g.region_of("Crime in London", "MUNDO"), "EUROPA")
         self.assertEqual(g.region_of("A murder case without a location", "MUNDO"), "MUNDO")

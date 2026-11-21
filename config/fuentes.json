@@ -40,22 +40,6 @@
     "idioma": "es"
   },
   {
-    "nombre": "La Vanguardia — Barcelona",
-    "url": "https://www.lavanguardia.com/rss/local/barcelona.xml",
-    "categoria": "AUTO",
-    "region": "CATALUÑA",
-    "activo": true,
-    "idioma": "es"
-  },
-  {
-    "nombre": "3CatInfo",
-    "url": "https://api.ccma.cat/noticies?_format=rss&origen=frontal&frontal=n324-portada-noticia&version=2.0",
-    "categoria": "AUTO",
-    "region": "MUNDO",
-    "activo": true,
-    "idioma": "ca"
-  },
-  {
     "nombre": "Europa Press — España",
     "url": "https://www.europapress.es/rss/rss.aspx?ch=66",
     "categoria": "AUTO",
