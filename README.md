@@ -65,3 +65,16 @@ La página lee `titular`, que puede ser una **reformulación editorial conservad
 ## Alcance geográfico y fuentes (noviembre 2026)
 
 La Gaceta no publica titulares de RSS en catalán y elimina la categoría geográfica CATALUÑA. El RSS de 3CatInfo y el canal exclusivamente local «La Vanguardia — Barcelona» se han retirado del sistema y del histórico. Las noticias que sucedan en Cataluña pero procedan de fuentes generales pueden aparecer bajo ESPAÑA. La selección queda en ESPAÑA, EUROPA, ESTADOS UNIDOS y MUNDO.
+
+## Expedientes temáticos (21/11/2026)
+
+Ahora se admiten dos tipos de expediente en `config/expedientes.json`:
+
+- `tipo` ausente: **expediente de caso**, asociado a nombres/alias concretos (Isak Andic, Lindsay Clancy, Luigi Mangione).
+- `tipo: "tematico"`: **expediente de fenómeno criminal**, asociado a un detector específico y conservador. El primero es `extremismo-nihilista-violento` (`detector: "nve"`).
+
+El expediente **EXTREMISMO VIOLENTO NIHILISTA** incorpora una hemeroteca inicial de 13 noticias verificadas de 2025-2026, con fuentes originales, seleccionadas una a una. También sigue nuevas noticias en los RSS generales y en un RSS oficial del Departamento de Justicia de EE. UU. limitado a este expediente (`solo_expediente`). El detector distingue las expresiones de extremismo nihilista y referencias relevantes a 764 o The Com de las coincidencias accidentales con “764”, “nihilismo” o “terrorismo” por separado. No asigna por sí mismo una calificación penal de terrorismo.
+
+La Hemeroteca general sigue siendo independiente; el archivo aparece en **Expedientes → True Crime → EXTREMISMO VIOLENTO NIHILISTA**. El HTML vigente lee la lista de expedientes desde GitHub, por lo que no requiere añadir manualmente una nueva tarjeta. No se guardan ni reproducen imágenes o textos de explotación ni otro material gráfico sensible.
+
+Los titulares históricos se conservarán durante las siguientes actualizaciones al tener `origen: "hemeroteca_manual"`. Cualquier información de carácter judicial distingue la acusación de la condena. El concepto académico y policial de extremismo nihilista violento es debatido y no todos los delitos relacionados constituyen jurídicamente terrorismo.
