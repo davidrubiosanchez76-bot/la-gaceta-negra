@@ -28,9 +28,28 @@ jobs:
       - name: Configurar Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
+          python-version: '3.11'
       - name: Comprobar funcionamiento
         run: python -m unittest discover -s tests -v
+      - name: Recuperar modelo de traducción
+        uses: actions/cache@v4
+        with:
+          path: ~/.local/share/argos-translate
+          key: gaceta-argos-en-es-v1
+      - name: Instalar traductor local inglés-castellano
+        continue-on-error: true
+        timeout-minutes: 8
+        run: |
+          python -m pip install --disable-pip-version-check argostranslate
+          python - <<'PY'
+          from argostranslate import translate
+          languages = translate.get_installed_languages()
+          if any(x.code=='en' for x in languages) and any(x.code=='es' for x in languages):
+              print("Modelo disponible en caché")
+          else:
+              import subprocess, sys
+              subprocess.run(["argospm","install","translate-en_es"], check=True)
+          PY
       - name: Recopilar y clasificar noticias
         run: python scripts/actualizar.py
       - name: Guardar nuevas noticias
