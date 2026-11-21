@@ -215,7 +215,7 @@ def story_region(story):
     return story.get("region", "MUNDO")
 
 
-def make_story(item, feed, config):
+def make_story(item, feed, config, correcciones=None):
     title = html.unescape(re.sub(r"<[^>]+>", "", item["title"])).strip()
     url = clean_url(item["url"])
     date = date_parse(item["date"])
@@ -230,8 +230,11 @@ def make_story(item, feed, config):
     dt = date.isoformat(timespec="seconds")
     idioma = 'en' if es_ingles(feed['nombre'], feed.get('idioma','')) else 'es'
     editorial, metodo = titulo_para_publicar(title, cat, idioma)
+    sid = hashlib.sha1((normalize(title) + "|" + date.strftime("%Y-%m-%d")).encode()).hexdigest()[:16]
+    if sid in (correcciones or {}):
+        editorial, metodo = correcciones[sid], "revision_editorial"
     return {
-        "id": hashlib.sha1((normalize(title) + "|" + date.strftime("%Y-%m-%d")).encode()).hexdigest()[:16],
+        "id": sid,
         "titular": editorial[:260], "titular_original": title[:260], "metodo_titular": metodo, "fecha": dt, "actualizado": dt,
         "categoria": cat, "region": region_of(title, feed.get("region", "MUNDO")), "temas": topics_of(title, cat),
         "expedientes": cases_of(title, config),
@@ -269,6 +272,7 @@ def fetch(url):
 def main():
     feeds = read_json(ROOT / "config/fuentes.json", [])
     watch = read_json(ROOT / "config/expedientes.json", [])
+    correcciones = read_json(ROOT / "config/titulares_revisados.json", {})
     folder = ROOT / "archivo"
     stories = []
     def review_old(old):
@@ -292,7 +296,10 @@ def main():
         old["categoria"] = cat
         old["titular_original"] = original[:260]
         idioma = "en" if es_ingles(source, origin.get("idioma","")) else "es"
-        old["titular"], old["metodo_titular"] = titulo_para_publicar(original, cat, idioma)
+        if old.get("id") in correcciones:
+            old["titular"], old["metodo_titular"] = correcciones[old["id"]], "revision_editorial"
+        else:
+            old["titular"], old["metodo_titular"] = titulo_para_publicar(original, cat, idioma)
         old["region"] = region_of(original, origin.get("region", "MUNDO"))
         old["temas"] = topics_of(original, cat)
         old["expedientes"] = cases_of(original, watch)
@@ -317,7 +324,7 @@ def main():
             success += 1
             count = 0
             for article in items:
-                story = make_story(article, f, watch)
+                story = make_story(article, f, watch, correcciones)
                 if story:
                     found += 1
                     if merge_into(stories, story):
