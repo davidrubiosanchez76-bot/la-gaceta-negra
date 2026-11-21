@@ -1,6 +1,6 @@
 # LA GACETA NEGRA · BALAS Y ESTRELLAS
 
-Agregador automático de titulares de TRUE CRIME, CRIME SCENE y LITERATURA NEGRA, para mostrar en la página Blogger de Balas y Estrellas.
+Agregador automático de titulares de TRUE CRIME, CRIME SCENE y FICCIÓN NEGROCRIMINAL, para mostrar en la página Blogger de Balas y Estrellas.
 
 ## Estado de instalación
 

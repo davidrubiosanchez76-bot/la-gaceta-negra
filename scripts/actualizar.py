@@ -38,7 +38,7 @@ TOPICS = {
     "Violencia en la pareja": ("violencia machista", "violencia de genero", "pareja", "expareja", "feminicidio"),
     "Desapariciones": ("desaparecid", "desaparicion", "paradero desconocido", "persona desaparecida"),
     "Criminalística": ("adn", "forense", "criminalistic", "huella dactilar", "medicina legal", "genetica forense", "balistica", "antropologia forense"),
-    "Literatura negra": ("novela negra", "novela policiaca", "literatura negra", "thriller", "premio edgar", "detective literario"),
+    "Ficción negrocriminal": ("novela negra", "novela policiaca", "literatura negra", "thriller", "premio edgar", "detective literario"),
     "Juicios": ("tribunal", "juicio", "sentencia", "juzgado", "acusacion", "veredicto", "condenad"),
 }
 CRIME_SCENE = ("adn", "ciencia forense", "tecnica forense", "medicina forense", "criminalistica", "antropologia forense", "balistica", "huellas dactilares", "genetica forense", "identificacion genetica", "restos humanos", "prueba pericial", "forensic", "dna evidence", "forensic dna", "forensic science", "fingerprint analysis", "forensic genealogy", "digital forensics", "crime scene analysis", "evidence testing", "forensic investigation", "forensic technology", "pericia forense", "pericial informatica")
@@ -134,12 +134,12 @@ def category(text, src):
     s = normalize(text)
     if any(w in s for w in EXCLUDE):
         return None
-    if src in ("LITERATURA NEGRA", "CRIME SCENE"):
+    if src in ("FICCIÓN NEGROCRIMINAL", "CRIME SCENE"):
         return src
     if any(w in s for w in CRIME_SCENE):
         return "CRIME SCENE"
     if any(w in s for w in LITERARY):
-        return "LITERATURA NEGRA"
+        return "FICCIÓN NEGROCRIMINAL"
     if any(w in s for w in CRIME):
         return "TRUE CRIME"
     return None
@@ -148,8 +148,8 @@ def category(text, src):
 def topics_of(text, cat):
     s = normalize(text)
     found = [key for key, words in TOPICS.items() if any(w in s for w in words)]
-    if cat == "LITERATURA NEGRA" and "Literatura negra" not in found:
-        found.append("Literatura negra")
+    if cat == "FICCIÓN NEGROCRIMINAL" and "Ficción negrocriminal" not in found:
+        found.append("Ficción negrocriminal")
     if cat == "CRIME SCENE" and "Criminalística" not in found:
         found.append("Criminalística")
     return found
@@ -290,7 +290,7 @@ def main():
         origin = next((f for f in feeds if f["nombre"] == source), {})
         hint = origin.get("categoria", "AUTO")
         if hint == "AUTO" and source.startswith("Revista Calibre"):
-            hint = "LITERATURA NEGRA"
+            hint = "FICCIÓN NEGROCRIMINAL"
         if hint == "AUTO" and source.startswith("ScienceDaily"):
             hint = "CRIME SCENE"
         original = old.get("titular_original") or old.get("titular", "")

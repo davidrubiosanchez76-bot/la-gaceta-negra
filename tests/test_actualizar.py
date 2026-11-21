@@ -99,6 +99,11 @@ class TestGaceta(unittest.TestCase):
         self.assertEqual(g.region_of("Crime in London", "MUNDO"), "EUROPA")
         self.assertEqual(g.region_of("A murder case without a location", "MUNDO"), "MUNDO")
 
+    def test_categoria_ficcion_negrocriminal(self):
+        self.assertEqual(g.category("Nueva novela negra premiada en un festival", "AUTO"), "FICCIÓN NEGROCRIMINAL")
+        self.assertEqual(g.category("Se estrena un ciclo de cine negro", "AUTO"), "FICCIÓN NEGROCRIMINAL")
+        self.assertIn("Ficción negrocriminal", g.topics_of("Nueva novela negra", "FICCIÓN NEGROCRIMINAL"))
+
     def test_multilingual_categories(self):
         self.assertEqual(g.category("Police arrest suspect in double murder in Texas", "AUTO"), "TRUE CRIME")
         self.assertEqual(g.category("Noves tècniques de digital forensics", "AUTO"), "CRIME SCENE")

@@ -2,7 +2,7 @@
   {
     "nombre": "Revista Calibre .38",
     "url": "https://revistacalibre38.com/feed/",
-    "categoria": "LITERATURA NEGRA",
+    "categoria": "FICCIÓN NEGROCRIMINAL",
     "region": "MUNDO",
     "activo": true,
     "idioma": "es"
@@ -106,7 +106,7 @@
   {
     "nombre": "CrimeReads",
     "url": "https://crimereads.com/feed/",
-    "categoria": "LITERATURA NEGRA",
+    "categoria": "FICCIÓN NEGROCRIMINAL",
     "region": "MUNDO",
     "activo": true,
     "idioma": "en"
