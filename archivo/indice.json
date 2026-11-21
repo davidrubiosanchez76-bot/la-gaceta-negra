@@ -2,15 +2,10 @@
   "meses": [
     {
       "mes": "2026-11",
-      "total": 48,
+      "total": 8,
       "expedientes": [],
       "temas": [
-        "Crimen organizado",
-        "Desapariciones",
-        "Juicios",
-        "Literatura negra",
-        "Narcotráfico",
-        "Violencia en la pareja"
+        "Literatura negra"
       ]
     }
   ]
