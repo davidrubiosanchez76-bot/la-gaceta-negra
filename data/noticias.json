@@ -1,1 +1,883 @@
-{"actualizado":null,"total":0,"noticias":[]}
+{
+  "actualizado": "2026-11-21T07:32:50+00:00",
+  "total": 48,
+  "noticias": [
+    {
+      "id": "426223a00f470a23",
+      "titular": "De reparto con las nuevas furgonetas Smart Compact Van de Stellantis",
+      "fecha": "2026-11-21T06:00:35+00:00",
+      "actualizado": "2026-11-21T06:00:35+00:00",
+      "categoria": "TRUE CRIME",
+      "temas": [],
+      "expedientes": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/motor/novedades/reparto-nuevas-furgonetas-smart-compact-stellantis_1_13681681.html",
+          "fecha": "2026-11-21T06:00:35+00:00"
+        }
+      ]
+    },
+    {
+      "id": "8d4253f0eeee5552",
+      "titular": "Marisol Collado (Unidad del Pueblo Canario): “Empobrecida, intolerante y desigual. Esa es la Canarias que proyecta un gobierno de PP y Vox”",
+      "fecha": "2026-11-21T05:02:53+00:00",
+      "actualizado": "2026-11-21T05:02:53+00:00",
+      "categoria": "TRUE CRIME",
+      "temas": [
+        "Violencia en la pareja"
+      ],
+      "expedientes": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/canariasahora/politica/marisol-collado-unidad-pueblo-canario-empobrecida-intolerante-desigual-canarias-proyecta-gobierno-pp-vox_1_13680934.html",
+          "fecha": "2026-11-21T05:02:53+00:00"
+        }
+      ]
+    },
+    {
+      "id": "994762d702e05d92",
+      "titular": "'Back in Time!': cuando Torremolinos era una babel para \"rebeldes con causa\" y \"trabajadores de la música\"",
+      "fecha": "2026-11-21T05:01:46+00:00",
+      "actualizado": "2026-11-21T05:01:46+00:00",
+      "categoria": "LITERATURA NEGRA",
+      "temas": [
+        "Literatura negra"
+      ],
+      "expedientes": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/andalucia/lacajanegra/cine/back-in-time-torremolinos-babel-rebeldes-causa-trabajadores-musica_1_13677129.html",
+          "fecha": "2026-11-21T05:01:46+00:00"
+        }
+      ]
+    },
+    {
+      "id": "046b56584e80e4b7",
+      "titular": "¿Por qué se encarceló una semana a un huelguista? Una magistrada enmienda a la jueza que veía riesgo de reincidencia",
+      "fecha": "2026-11-21T00:46:44+00:00",
+      "actualizado": "2026-11-21T00:46:44+00:00",
+      "categoria": "TRUE CRIME",
+      "temas": [
+        "Violencia en la pareja",
+        "Juicios"
+      ],
+      "expedientes": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/comunitat-valenciana/encarcelo-semana-huelguista-magistrada-enmienda-jueza-veia-riesgo-reincidencia_1_13679778.html",
+          "fecha": "2026-11-21T00:46:44+00:00"
+        }
+      ]
+    },
+    {
+      "id": "c1f57de6399f8e4e",
+      "titular": "El toque Almodóvar",
+      "fecha": "2026-11-20T21:08:39+00:00",
+      "actualizado": "2026-11-20T21:08:39+00:00",
+      "categoria": "LITERATURA NEGRA",
+      "temas": [
+        "Narcotráfico",
+        "Literatura negra"
+      ],
+      "expedientes": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/opinion/toque-almodovar_129_13680684.html",
+          "fecha": "2026-11-20T21:08:39+00:00"
+        }
+      ]
+    },
+    {
+      "id": "db2b80385aa8e6a8",
+      "titular": "Silvia Salis, el martillo contra la ultraderecha italiana",
+      "fecha": "2026-11-20T21:08:38+00:00",
+      "actualizado": "2026-11-20T21:08:38+00:00",
+      "categoria": "TRUE CRIME",
+      "temas": [
+        "Violencia en la pareja"
+      ],
+      "expedientes": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/opinion/silvia-salis-martillo-ultraderecha-italiana_129_13680247.html",
+          "fecha": "2026-11-20T21:08:38+00:00"
+        }
+      ]
+    },
+    {
+      "id": "ca076fb95e09cfb5",
+      "titular": "Mardom, el médico que enlaza las guardias de 24 horas con la música: “La vocación no nos da superpoderes”",
+      "fecha": "2026-11-20T21:08:38+00:00",
+      "actualizado": "2026-11-20T21:08:38+00:00",
+      "categoria": "TRUE CRIME",
+      "temas": [
+        "Violencia en la pareja",
+        "Desapariciones"
+      ],
+      "expedientes": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/cultura/musica/mardom-medico-enlaza-guardias-24-horas-musica-vocacion-no-da-superpoderes_1_13679305.html",
+          "fecha": "2026-11-20T21:08:38+00:00"
+        }
+      ]
+    },
+    {
+      "id": "7b48921d2ebd70ce",
+      "titular": "Cómo Hollywood dejó tirados a los actores y actrices trans: \"Ya nadie nos quiere\"",
+      "fecha": "2026-11-20T21:08:38+00:00",
+      "actualizado": "2026-11-20T21:08:38+00:00",
+      "categoria": "LITERATURA NEGRA",
+      "temas": [
+        "Juicios",
+        "Literatura negra"
+      ],
+      "expedientes": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/cultura/cine/hollywood-dejo-tirados-actores-actrices-trans-nadie-quiere_1_13679709.html",
+          "fecha": "2026-11-20T21:08:38+00:00"
+        }
+      ]
+    },
+    {
+      "id": "b13f0d3b2d8f6495",
+      "titular": "La ley de la gravedad",
+      "fecha": "2026-11-20T21:08:36+00:00",
+      "actualizado": "2026-11-20T21:08:36+00:00",
+      "categoria": "TRUE CRIME",
+      "temas": [],
+      "expedientes": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/opinion/zona-critica/ley-gravedad_129_13681294.html",
+          "fecha": "2026-11-20T21:08:36+00:00"
+        }
+      ]
+    },
+    {
+      "id": "4c0fc965c0ffb213",
+      "titular": "Una de cada tres medidas de Vox ataca a niños y niñas",
+      "fecha": "2026-11-20T21:08:36+00:00",
+      "actualizado": "2026-11-20T21:08:36+00:00",
+      "categoria": "TRUE CRIME",
+      "temas": [
+        "Violencia en la pareja",
+        "Juicios"
+      ],
+      "expedientes": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/opinion/zona-critica/tres-medidas-vox-ataca-ninos-ninas_129_13681808.html",
+          "fecha": "2026-11-20T21:08:36+00:00"
+        }
+      ]
+    },
+    {
+      "id": "77bc4f2fac9de30d",
+      "titular": "🎙️PODCAST | Francesca Albanese y Jason Hickel defienden la organización social y el boicot frente al genocidio y el rearme",
+      "fecha": "2026-11-20T21:08:35+00:00",
+      "actualizado": "2026-11-20T21:08:35+00:00",
+      "categoria": "LITERATURA NEGRA",
+      "temas": [
+        "Literatura negra"
+      ],
+      "expedientes": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/internacional/podcast-francesca-albanese-jason-hickel-defienden-organizacion-social-boicot-frente-genocidio-rearme_1_13680334.html",
+          "fecha": "2026-11-20T21:08:35+00:00"
+        }
+      ]
+    },
+    {
+      "id": "33d1d02fab426bf2",
+      "titular": "¿Qué debate dicen ustedes que ganó Feijóo?",
+      "fecha": "2026-11-20T21:08:35+00:00",
+      "actualizado": "2026-11-20T21:08:35+00:00",
+      "categoria": "TRUE CRIME",
+      "temas": [
+        "Narcotráfico"
+      ],
+      "expedientes": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/opinion/zona-critica/debate-dicen-gano-feijoo_129_13680408.html",
+          "fecha": "2026-11-20T21:08:35+00:00"
+        }
+      ]
+    },
+    {
+      "id": "79f61038ea17e37c",
+      "titular": "Lisa Blumen convierte ser influencer en pesadilla: “La gente está cansada de comprar basura y de que les mientan\"",
+      "fecha": "2026-11-20T21:08:34+00:00",
+      "actualizado": "2026-11-20T21:08:34+00:00",
+      "categoria": "LITERATURA NEGRA",
+      "temas": [
+        "Literatura negra",
+        "Juicios"
+      ],
+      "expedientes": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/era/lisa-blumen-convierte-influencer-pesadilla-gente-cansada-comprar-basura-les-mientan_1_13681640.html",
+          "fecha": "2026-11-20T21:08:34+00:00"
+        }
+      ]
+    },
+    {
+      "id": "45233cdfeb615fb1",
+      "titular": "La intrahistoria de los préstamos con los que el húngaro Orbán rescató a Abascal",
+      "fecha": "2026-11-20T21:08:32+00:00",
+      "actualizado": "2026-11-20T21:08:32+00:00",
+      "categoria": "LITERATURA NEGRA",
+      "temas": [
+        "Juicios",
+        "Literatura negra"
+      ],
+      "expedientes": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/politica/intrahistoria-prestamos-hungaro-orban-rescato-abascal_1_13677768.html",
+          "fecha": "2026-11-20T21:08:32+00:00"
+        }
+      ]
+    },
+    {
+      "id": "3b60442050968f6e",
+      "titular": "Cómo la primera condena de la historia a un país por genocidio marca el futuro del caso contra Israel en La Haya",
+      "fecha": "2026-11-20T21:08:32+00:00",
+      "actualizado": "2026-11-20T21:08:32+00:00",
+      "categoria": "TRUE CRIME",
+      "temas": [
+        "Juicios"
+      ],
+      "expedientes": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/internacional/primera-condena-historia-pais-genocidio-marca-futuro-caso-israel-haya_1_13681793.html",
+          "fecha": "2026-11-20T21:08:32+00:00"
+        }
+      ]
+    },
+    {
+      "id": "6ddd10bc2804c9fd",
+      "titular": "David Jiménez y Alberto San Juan debaten de periodismo por 'El director': \"Muchas personas han intentado que esta película no se haga”",
+      "fecha": "2026-11-20T21:08:31+00:00",
+      "actualizado": "2026-11-20T21:08:31+00:00",
+      "categoria": "LITERATURA NEGRA",
+      "temas": [
+        "Literatura negra",
+        "Juicios"
+      ],
+      "expedientes": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/cultura/cine/david-jimenez-alberto-san-juan-debaten-periodismo-director-personas-han-intentado-pelicula-no-haga_1_13679627.html",
+          "fecha": "2026-11-20T21:08:31+00:00"
+        }
+      ]
+    },
+    {
+      "id": "892e888fee1cb5b6",
+      "titular": "La Cumbre del Clima entra en la prórroga bajo amenazas de bloqueo",
+      "fecha": "2026-11-20T21:08:30+00:00",
+      "actualizado": "2026-11-20T21:08:30+00:00",
+      "categoria": "TRUE CRIME",
+      "temas": [
+        "Crimen organizado"
+      ],
+      "expedientes": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/sociedad/cumbre-clima-entra-prorroga-amenazas-bloqueo_1_13681073.html",
+          "fecha": "2026-11-20T21:08:30+00:00"
+        }
+      ]
+    },
+    {
+      "id": "69c8318178ae9d2f",
+      "titular": "Del renacer nuclear a la incógnita del uranio y el ‘fracking’: la política energética que promueven PP y Vox",
+      "fecha": "2026-11-20T21:08:28+00:00",
+      "actualizado": "2026-11-20T21:08:28+00:00",
+      "categoria": "TRUE CRIME",
+      "temas": [
+        "Violencia en la pareja",
+        "Desapariciones"
+      ],
+      "expedientes": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/economia/renacer-nuclear-incognita-uranio-fracking-politica-energetica-promueven-pp-vox_1_13676338.html",
+          "fecha": "2026-11-20T21:08:28+00:00"
+        }
+      ]
+    },
+    {
+      "id": "22e31590fe3836b9",
+      "titular": "Del barro a las urnas: la zona cero de la dana desvela su voto tras perder la confianza en las instituciones",
+      "fecha": "2026-11-20T21:08:28+00:00",
+      "actualizado": "2026-11-20T21:08:28+00:00",
+      "categoria": "LITERATURA NEGRA",
+      "temas": [
+        "Desapariciones",
+        "Literatura negra"
+      ],
+      "expedientes": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/comunitat-valenciana/barro-urnas-zona-cero-dana-desvela-voto-perder-confianza-instituciones_1_13657705.html",
+          "fecha": "2026-11-20T21:08:28+00:00"
+        }
+      ]
+    },
+    {
+      "id": "1b84636f1bfa2111",
+      "titular": "Néstor Rego, candidato del BNG: \"No damos ninguna batalla por perdida, trabajamos para que no haya gobierno de las derechas\"",
+      "fecha": "2026-11-20T21:08:28+00:00",
+      "actualizado": "2026-11-20T21:08:28+00:00",
+      "categoria": "TRUE CRIME",
+      "temas": [
+        "Violencia en la pareja",
+        "Juicios"
+      ],
+      "expedientes": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/galicia/nestor-rego-candidato-bng-no-damos-batalla-perdida-no-haya-gobierno-derechas_128_13679866.html",
+          "fecha": "2026-11-20T21:08:28+00:00"
+        }
+      ]
+    },
+    {
+      "id": "e89cdc183f4438c3",
+      "titular": "El mapa más detallado de las elecciones generales desde el 2000: los votos a cada partido, calle a calle",
+      "fecha": "2026-11-20T21:08:27+00:00",
+      "actualizado": "2026-11-20T21:08:27+00:00",
+      "categoria": "TRUE CRIME",
+      "temas": [],
+      "expedientes": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/politica/mapa-detallado-elecciones-generales-2000-votos-partido-calle-calle_1_13671872.html",
+          "fecha": "2026-11-20T21:08:27+00:00"
+        }
+      ]
+    },
+    {
+      "id": "0811211d6bf18136",
+      "titular": "Esther Martínez, candidata del PP en Bizkaia: \"El PNV ha tragado con toda la corrupción de los gobiernos de Sánchez\"",
+      "fecha": "2026-11-20T20:54:36+00:00",
+      "actualizado": "2026-11-20T20:54:36+00:00",
+      "categoria": "TRUE CRIME",
+      "temas": [
+        "Narcotráfico",
+        "Crimen organizado",
+        "Violencia en la pareja",
+        "Juicios"
+      ],
+      "expedientes": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/euskadi/esther-martinez-candidata-pp-bizkaia-pnv-tragado-corrupcion-gobiernos-sanchez_128_13681213.html",
+          "fecha": "2026-11-20T20:54:36+00:00"
+        }
+      ]
+    },
+    {
+      "id": "e534520c22e68f02",
+      "titular": "La parafernalia nazi en casa del asesino de Guillem Agulló: 110 esvásticas, cartuchos, una espada o un busto de Adolf Hitler",
+      "fecha": "2026-11-20T20:15:17+00:00",
+      "actualizado": "2026-11-20T20:15:17+00:00",
+      "categoria": "LITERATURA NEGRA",
+      "temas": [
+        "Juicios",
+        "Literatura negra"
+      ],
+      "expedientes": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/comunitat-valenciana/parafernalia-nazi-casa-asesino-guillem-agullo-110-esvasticas-cartuchos-espada-busto-adolf-hitler_1_13681188.html",
+          "fecha": "2026-11-20T20:15:17+00:00"
+        }
+      ]
+    },
+    {
+      "id": "dc71d7e87f236983",
+      "titular": "Podemos marca perfil de la mano de Rufián redoblando sus críticas a PSOE y Frente Amplio",
+      "fecha": "2026-11-20T19:45:55+00:00",
+      "actualizado": "2026-11-20T19:45:55+00:00",
+      "categoria": "TRUE CRIME",
+      "temas": [
+        "Violencia en la pareja"
+      ],
+      "expedientes": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/politica/marca-perfil-mano-rufian-redoblando-criticas-psoe-frente-amplio_1_13681876.html",
+          "fecha": "2026-11-20T19:45:55+00:00"
+        }
+      ]
+    },
+    {
+      "id": "e81bce9a05fdb482",
+      "titular": "La UE y el Reino Unido escenifican un 'reinicio' tras el Brexit con más pasos políticos que acuerdos claves",
+      "fecha": "2026-11-20T13:26:35+00:00",
+      "actualizado": "2026-11-20T13:26:35+00:00",
+      "categoria": "TRUE CRIME",
+      "temas": [],
+      "expedientes": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/internacional/ue-reino-unido-escenifican-reinicio-brexit-pasos-politicos-acuerdos-claves_1_13679720.html",
+          "fecha": "2026-11-20T13:26:35+00:00"
+        }
+      ]
+    },
+    {
+      "id": "492beb76ef4a1529",
+      "titular": "Renfe urge a sus clientes a cambiar las contraseñas tras un ciberataque que pudo robar también DNIs e historial de viajes",
+      "fecha": "2026-11-20T13:20:31+00:00",
+      "actualizado": "2026-11-20T13:20:31+00:00",
+      "categoria": "TRUE CRIME",
+      "temas": [],
+      "expedientes": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/tecnologia/renfe-urge-clientes-cambiar-contrasenas-ciberataque-pudo-robar-dnis-e-historial-viajes_1_13680581.html",
+          "fecha": "2026-11-20T13:20:31+00:00"
+        }
+      ]
+    },
+    {
+      "id": "38916c034b47a9a2",
+      "titular": "La Unió de Periodistes Valencians condena la agresión del asesino de Guillem Agulló a un equipo de La Sexta",
+      "fecha": "2026-11-20T12:55:03+00:00",
+      "actualizado": "2026-11-20T12:55:03+00:00",
+      "categoria": "TRUE CRIME",
+      "temas": [],
+      "expedientes": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/comunitat-valenciana/unio-periodistes-valencians-condena-agresion-asesino-guillem-agullo-equipo-sexta_1_13680517.html",
+          "fecha": "2026-11-20T12:55:03+00:00"
+        }
+      ]
+    },
+    {
+      "id": "9a421daaa4b27cf3",
+      "titular": "Los jueces regalan a Feijóo una manguera para regar de falsedades su duelo con Sánchez",
+      "fecha": "2026-11-20T12:41:22+00:00",
+      "actualizado": "2026-11-20T12:41:22+00:00",
+      "categoria": "TRUE CRIME",
+      "temas": [
+        "Crimen organizado",
+        "Juicios"
+      ],
+      "expedientes": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/politica/jueces-regalan-feijoo-manguera-regar-falsedades-duelo-sanchez_129_13679800.html",
+          "fecha": "2026-11-20T12:41:22+00:00"
+        }
+      ]
+    },
+    {
+      "id": "ccd3f8ded862865e",
+      "titular": "La Audiencia Nacional deja en libertad a 'Fergie' Chambers mientras decide sobre su extradición",
+      "fecha": "2026-11-20T09:03:35+00:00",
+      "actualizado": "2026-11-20T09:03:35+00:00",
+      "categoria": "TRUE CRIME",
+      "temas": [
+        "Juicios"
+      ],
+      "expedientes": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/politica/audiencia-nacional-aplaza-pronunciamiento-extradicion-fergie-chambers-eeuu_1_13679354.html",
+          "fecha": "2026-11-20T09:03:35+00:00"
+        }
+      ]
+    },
+    {
+      "id": "5db809c6eb00998a",
+      "titular": "El HDL, el colesterol \"bueno\" que quieres que suba: cómo conseguirlo con ejercicio",
+      "fecha": "2026-11-20T08:33:00+00:00",
+      "actualizado": "2026-11-20T08:33:00+00:00",
+      "categoria": "LITERATURA NEGRA",
+      "temas": [
+        "Literatura negra"
+      ],
+      "expedientes": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/consumoclaro/tu-mejor-yo/hdl-colesterol-bueno-quieres-suba-conseguirlo-ejercicio_1_13679375.html",
+          "fecha": "2026-11-20T08:33:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "704d4b26f14012e8",
+      "titular": "El rincón oscuro. Nuestra señora del abismo",
+      "fecha": "2026-11-20T07:30:00+00:00",
+      "actualizado": "2026-11-20T07:30:00+00:00",
+      "categoria": "LITERATURA NEGRA",
+      "temas": [
+        "Desapariciones",
+        "Literatura negra"
+      ],
+      "expedientes": [],
+      "fuentes": [
+        {
+          "medio": "Revista Calibre .38",
+          "url": "https://revistacalibre38.com/2026/11/20/el-rincon-oscuro-nuestra-senora-del-abismo",
+          "fecha": "2026-11-20T07:30:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "d02129056895378a",
+      "titular": "‘Amanecer en la cosecha’ es la mejor película de ‘Los juegos del hambre’ y un espectáculo de lucidez implacable",
+      "fecha": "2026-11-20T00:43:24+00:00",
+      "actualizado": "2026-11-20T00:43:24+00:00",
+      "categoria": "LITERATURA NEGRA",
+      "temas": [
+        "Juicios",
+        "Literatura negra"
+      ],
+      "expedientes": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/cultura/cine/amanecer-cosecha-mejor-pelicula-juegos-hambre-espectaculo-lucidez-implacable_129_13675821.html",
+          "fecha": "2026-11-20T00:43:24+00:00"
+        }
+      ]
+    },
+    {
+      "id": "b5f3c1dc393239f5",
+      "titular": "Romeo Castellucci presenta ‘Il Terzo Reich’, una inundación de palabras que ahoga el significado",
+      "fecha": "2026-11-20T00:43:24+00:00",
+      "actualizado": "2026-11-20T00:43:24+00:00",
+      "categoria": "TRUE CRIME",
+      "temas": [],
+      "expedientes": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/catalunya/romeo-castellucci-presenta-il-terzo-reich-inundacion-palabras-ahoga-significado_1_13677785.html",
+          "fecha": "2026-11-20T00:43:24+00:00"
+        }
+      ]
+    },
+    {
+      "id": "f1b7c613d94dbcaf",
+      "titular": "🎙 PODCAST | Visitar el cortijo de Queipo de Llano, encontrarte con su nieto y que te recite a Lorca",
+      "fecha": "2026-11-20T00:43:20+00:00",
+      "actualizado": "2026-11-20T00:43:20+00:00",
+      "categoria": "TRUE CRIME",
+      "temas": [],
+      "expedientes": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/un-tema-al-dia/podcast-quien-vive-en-el-cortijo-memoria_132_13678373.html",
+          "fecha": "2026-11-20T00:43:20+00:00"
+        }
+      ]
+    },
+    {
+      "id": "b3cf1d7792f86cb5",
+      "titular": "Un Sánchez contenido evita el choque contra un Feijóo al ataque",
+      "fecha": "2026-11-19T23:42:10+00:00",
+      "actualizado": "2026-11-19T23:42:10+00:00",
+      "categoria": "TRUE CRIME",
+      "temas": [
+        "Violencia en la pareja",
+        "Desapariciones"
+      ],
+      "expedientes": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/politica/sanchez-contenido-evita-choque-feijoo-ataque_1_13678837.html",
+          "fecha": "2026-11-19T23:42:10+00:00"
+        }
+      ]
+    },
+    {
+      "id": "29d81c5b67d6ab7a",
+      "titular": "Todas las mentiras del cara a cara entre Sánchez y Feijóo",
+      "fecha": "2026-11-19T22:45:22+00:00",
+      "actualizado": "2026-11-19T22:45:22+00:00",
+      "categoria": "TRUE CRIME",
+      "temas": [
+        "Narcotráfico",
+        "Crimen organizado",
+        "Desapariciones",
+        "Juicios"
+      ],
+      "expedientes": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/politica/mentiras-cara-cara_1_13678947.html",
+          "fecha": "2026-11-19T22:45:22+00:00"
+        }
+      ]
+    },
+    {
+      "id": "f444494aea0029a3",
+      "titular": "Los mejores planes culturales para el finde: qué ver, qué escuchar, dónde ir",
+      "fecha": "2026-11-19T22:00:07+00:00",
+      "actualizado": "2026-11-19T22:00:07+00:00",
+      "categoria": "LITERATURA NEGRA",
+      "temas": [
+        "Literatura negra",
+        "Juicios"
+      ],
+      "expedientes": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/cultura/cultura/mejores-planes-culturales-finde-ver-escuchar_132_13678265.html",
+          "fecha": "2026-11-19T22:00:07+00:00"
+        }
+      ]
+    },
+    {
+      "id": "bb682c465fc19da4",
+      "titular": "Cómo Deutsche Bank financió los negocios turbios de Eurofinsa, la constructora quebrada que debe 92 millones a Hacienda",
+      "fecha": "2026-11-19T06:01:49+00:00",
+      "actualizado": "2026-11-19T06:01:49+00:00",
+      "categoria": "LITERATURA NEGRA",
+      "temas": [
+        "Narcotráfico",
+        "Juicios",
+        "Literatura negra"
+      ],
+      "expedientes": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/economia/deutsche-bank-financio-negocios-turbios-eurofinsa-constructora-quebrada-debe-92-millones-hacienda_1_13674634.html",
+          "fecha": "2026-11-19T06:01:49+00:00"
+        }
+      ]
+    },
+    {
+      "id": "8d0512b9679bd9c6",
+      "titular": "Los análisis de \"riesgo reputacional\" de Deutsche Bank: negocios con armas sí, pero que no afectaran a la imagen del banco",
+      "fecha": "2026-11-18T21:11:52+00:00",
+      "actualizado": "2026-11-18T21:11:52+00:00",
+      "categoria": "LITERATURA NEGRA",
+      "temas": [
+        "Juicios",
+        "Literatura negra"
+      ],
+      "expedientes": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/internacional/analisis-riesgo-reputacional-deutsche-bank-negocios-armas-si-no-afectaran-imagen-banco_1_13673392.html",
+          "fecha": "2026-11-18T21:11:52+00:00"
+        }
+      ]
+    },
+    {
+      "id": "70b5527a80de2259",
+      "titular": "Cine: «Sacamantecas»",
+      "fecha": "2026-11-18T07:30:00+00:00",
+      "actualizado": "2026-11-18T07:30:00+00:00",
+      "categoria": "LITERATURA NEGRA",
+      "temas": [
+        "Literatura negra"
+      ],
+      "expedientes": [],
+      "fuentes": [
+        {
+          "medio": "Revista Calibre .38",
+          "url": "https://revistacalibre38.com/2026/11/18/cine-sacamantecas",
+          "fecha": "2026-11-18T07:30:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "6e3fc01993ba4e35",
+      "titular": "Un banco de Hungría con lazos con Orbán y la financiación de Vox prestó servicio a una supuesta red de blanqueo rusa",
+      "fecha": "2026-11-18T06:01:58+00:00",
+      "actualizado": "2026-11-18T06:01:58+00:00",
+      "categoria": "TRUE CRIME",
+      "temas": [
+        "Juicios"
+      ],
+      "expedientes": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/internacional/banco-hungria-lazos-orban-financiacion-vox-presto-servicio-supuesta-red-blanqueo-rusa_1_13671600.html",
+          "fecha": "2026-11-18T06:01:58+00:00"
+        }
+      ]
+    },
+    {
+      "id": "234966a23299053f",
+      "titular": "Cómo el Deutsche Bank financió tanques que Israel utiliza en el genocidio en Gaza",
+      "fecha": "2026-11-18T06:01:57+00:00",
+      "actualizado": "2026-11-18T06:01:57+00:00",
+      "categoria": "TRUE CRIME",
+      "temas": [
+        "Juicios"
+      ],
+      "expedientes": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/internacional/deutsche-bank-financio-tanques-israel-utiliza-genocidio-gaza_1_13670877.html",
+          "fecha": "2026-11-18T06:01:57+00:00"
+        }
+      ]
+    },
+    {
+      "id": "641d5ca663b0562b",
+      "titular": "Inmigración: dentro de la campaña, fuera de las urnas",
+      "fecha": "2026-11-17T15:11:44+00:00",
+      "actualizado": "2026-11-17T15:11:44+00:00",
+      "categoria": "LITERATURA NEGRA",
+      "temas": [
+        "Literatura negra"
+      ],
+      "expedientes": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/carnecruda/programas/inmigracion-campana-fuera-urnas-carne-cruda_132_13671493.html",
+          "fecha": "2026-11-17T15:11:44+00:00"
+        }
+      ]
+    },
+    {
+      "id": "709a007483557da6",
+      "titular": "El Deutsche Bank financió las operaciones de la lista negra de empresas españolas investigadas por corrupción",
+      "fecha": "2026-11-17T06:01:49+00:00",
+      "actualizado": "2026-11-17T06:01:49+00:00",
+      "categoria": "TRUE CRIME",
+      "temas": [
+        "Crimen organizado",
+        "Juicios"
+      ],
+      "expedientes": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/economia/deutsche-bank-financio-operaciones-lista-negra-empresas-espanolas-investigadas-corrupcion_1_13668563.html",
+          "fecha": "2026-11-17T06:01:49+00:00"
+        }
+      ]
+    },
+    {
+      "id": "d45e0074cdf53dcd",
+      "titular": "Inside Deutsche Bank: la filtración de 15 millones de archivos desvela los secretos y escándalos del gigante financiero mundial",
+      "fecha": "2026-11-17T06:01:45+00:00",
+      "actualizado": "2026-11-17T06:01:45+00:00",
+      "categoria": "TRUE CRIME",
+      "temas": [
+        "Narcotráfico",
+        "Crimen organizado",
+        "Juicios"
+      ],
+      "expedientes": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/economia/inside-deutsche-bank-filtracion-15-millones-archivos-desvela-secretos-escandalos-gigante-financiero-mundial_1_13669007.html",
+          "fecha": "2026-11-17T06:01:45+00:00"
+        }
+      ]
+    },
+    {
+      "id": "40e2ee467f0d3b5d",
+      "titular": "Cóctel sonoro de elDiario.es (IV): Lorca, ciencia y terror, una dosis de IA y un rodaje de cine increíble",
+      "fecha": "2026-11-15T08:00:18+00:00",
+      "actualizado": "2026-11-15T08:00:18+00:00",
+      "categoria": "LITERATURA NEGRA",
+      "temas": [
+        "Literatura negra"
+      ],
+      "expedientes": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/dale-al-play/coctel-sonoro-eldiario-iv-lorca-ciencia-terror-dosis-ia-rodaje-cine-increible_132_13651338.html",
+          "fecha": "2026-11-15T08:00:18+00:00"
+        }
+      ]
+    },
+    {
+      "id": "67b53f11b02cfbed",
+      "titular": "El rincón oscuro. El Lute, cine que crea realidades",
+      "fecha": "2026-11-13T07:30:00+00:00",
+      "actualizado": "2026-11-13T07:30:00+00:00",
+      "categoria": "LITERATURA NEGRA",
+      "temas": [
+        "Literatura negra"
+      ],
+      "expedientes": [],
+      "fuentes": [
+        {
+          "medio": "Revista Calibre .38",
+          "url": "https://revistacalibre38.com/2026/11/13/el-rincon-oscuro-el-lute-cine-que-crea-realidades",
+          "fecha": "2026-11-13T07:30:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "6f5961ef07cec512",
+      "titular": "Novela: «la opacidad de los cuerpos humanos», de Carlos Manzano",
+      "fecha": "2026-11-10T07:30:00+00:00",
+      "actualizado": "2026-11-10T07:30:00+00:00",
+      "categoria": "LITERATURA NEGRA",
+      "temas": [
+        "Literatura negra"
+      ],
+      "expedientes": [],
+      "fuentes": [
+        {
+          "medio": "Revista Calibre .38",
+          "url": "https://revistacalibre38.com/2026/11/10/novela-la-opacidad-de-los-cuerpos-humanos-de-carlos-manzano",
+          "fecha": "2026-11-10T07:30:00+00:00"
+        }
+      ]
+    }
+  ]
+}
