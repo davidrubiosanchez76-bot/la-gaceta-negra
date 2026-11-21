@@ -2,10 +2,22 @@
   "meses": [
     {
       "mes": "2026-11",
-      "total": 8,
+      "total": 77,
       "expedientes": [],
       "temas": [
-        "Literatura negra"
+        "Criminalística",
+        "Desapariciones",
+        "Juicios",
+        "Literatura negra",
+        "Narcotráfico",
+        "Violencia en la pareja"
+      ],
+      "regiones": [
+        "CATALUÑA",
+        "ESPAÑA",
+        "ESTADOS UNIDOS",
+        "EUROPA",
+        "MUNDO"
       ]
     }
   ]
