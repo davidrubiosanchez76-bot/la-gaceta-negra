@@ -126,5 +126,14 @@
     "region": "MUNDO",
     "activo": true,
     "idioma": "en"
+  },
+  {
+    "nombre": "Departamento de Justicia EE. UU. — Extremismo nihilista",
+    "url": "https://www.justice.gov/news/rss",
+    "categoria": "AUTO",
+    "region": "ESTADOS UNIDOS",
+    "activo": true,
+    "idioma": "en",
+    "solo_expediente": "extremismo-nihilista-violento"
   }
 ]

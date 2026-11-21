@@ -109,6 +109,22 @@ class TestGaceta(unittest.TestCase):
         self.assertEqual(g.category("Noves tècniques de digital forensics", "AUTO"), "CRIME SCENE")
         self.assertEqual(g.category("La ministra anuncia una rebaja de impuestos", "AUTO"), None)
 
+    def test_fuente_tematica_no_mete_noticias_ajenas(self):
+        from datetime import datetime, timezone
+        from email.utils import format_datetime
+        now = format_datetime(datetime.now(timezone.utc))
+        cfg = [{"id":"extremismo-nihilista-violento", "tipo":"tematico","detector":"nve"}]
+        feed = {"nombre":"DOJ", "categoria":"AUTO","idioma":"es",
+                "region":"ESTADOS UNIDOS","solo_expediente":"extremismo-nihilista-violento"}
+        other = {"title":"Enjuician un robo de coches en Nueva York",
+                 "url":"https://example.com/other","date":now,"summary":"","outlet":""}
+        linked = {"title":"Detenido un miembro violento de la red 764",
+                  "url":"https://example.com/nve","date":now,"summary":"El extremismo nihilista violento","outlet":""}
+        self.assertIsNone(g.make_story(other, feed, cfg))
+        made = g.make_story(linked, feed, cfg)
+        self.assertEqual(made["expedientes"],["extremismo-nihilista-violento"])
+        self.assertIn("Extremismo nihilista violento", made["temas"])
+
     def test_expediente_tematico_nihilista(self):
         from temas_expedientes import coincide
         self.assertTrue(coincide("El FBI alerta del extremismo violento nihilista"))

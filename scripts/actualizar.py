@@ -235,6 +235,9 @@ def make_story(item, feed, config, correcciones=None):
         return None
     full_text = title + " " + re.sub(r"<[^>]*>", " ", item["summary"])
     es_nve = es_extremismo_nihilista(title, item["summary"])
+    # Los RSS especializados en seguimiento no deben inundar la portada.
+    if feed.get("solo_expediente") and feed["solo_expediente"] not in cases_of(title, config, summary=item["summary"]):
+        return None
     cat = category(title, feed.get("categoria", "AUTO"))
     if not cat and es_nve:
         cat = "TRUE CRIME"
