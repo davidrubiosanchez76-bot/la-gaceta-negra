@@ -18,16 +18,13 @@ FUERTES = (
     r"\bviolencia nihilista\b",
     r"\bterrorismo nihilista\b",
     r"\bnihilistic terrorist\w*\b",
-    r"\b(?:grupo|red|organizacion|network|group) 764\b",
-    r"\b764 (?:network|group|members?|miembros?)\b",
-    r"\b(?:miembros? de|member of|linked to|affiliated with) (?:the )?764\b",
     r"\b(?:no lives matter|maniac murder cult)\b",
 )
 CONTEXTO = re.compile(
     r"\b(extremis\w*|nihilis\w*|violent\w*|violenc\w*|terroris\w*|"
     r"sextor\w*|explotaci\w*|exploitat\w*|child abuse|coerc\w*|"
     r"chantaj\w*|criminal\w*|amenaz\w*|threat\w*|"
-    r"network|red|grupo|miembro|member|gang|"
+    r"gang|"
     r"radicaliza\w*|detenid\w*|acusa\w*|charged|arrest\w*|sentenc\w*|conden\w*)\b"
 )
 AMBIGUO = (r"\b764\b", r"\bthe com\b", r"\bcom network\b")
