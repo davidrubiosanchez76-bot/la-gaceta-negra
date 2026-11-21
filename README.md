@@ -7,7 +7,7 @@ Agregador automático de titulares de TRUE CRIME, CRIME SCENE y LITERATURA NEGRA
 - Código y archivos de datos en este repositorio público.
 - `.github/workflows/actualizar.yml`: busca noticias a las 08:17 y 20:17, hora de Madrid, y permite ejecutar **Run workflow** manualmente.
 - `scripts/actualizar.py`: lee las fuentes RSS, clasifica y agrupa coincidencias conservadoras, conserva las noticias en `archivo/YYYY-MM.json` y actualiza `data/noticias.json`.
-- `config/fuentes.json`: fuentes RSS activas. Para añadir Google Alerts, configurar entrega como RSS y añadir su URL.
+- `config/fuentes.json`: **18 fuentes RSS configuradas (17 activas)**, incluyendo noticias catalanas, españolas, europeas, estadounidenses y mundiales. Para añadir Google Alerts, configurar entrega como RSS y añadir su URL.
 - `config/expedientes.json`: expedientes en seguimiento (Isak Andic y Lindsay Clancy). Las noticias se asignan por coincidencia con alias configurados.
 - `archivo/indice.json`: meses y filtros disponibles para hemeroteca.
 - `tests/test_actualizar.py`: pruebas básicas de lector y agrupación.
@@ -44,3 +44,12 @@ Las noticias del RSS se filtran por actualidad (últimos 15 días), los JSON de 
 - **Google Alerts aún no se ha conectado:** hace falta incorporar las URLs RSS concretas.
 
 El prototipo es una prueba técnica: conviene revisar la relevancia y los posibles falsos positivos durante las primeras ejecuciones.
+
+## Cobertura geográfica (21/11/2026)
+
+La Gaceta incorpora el campo `region`: CATALUÑA, ESPAÑA, EUROPA, ESTADOS UNIDOS y MUNDO. El país del periódico **no equivale** al lugar del acontecimiento: cuando el titular no permite determinarlo y el feed no está circunscrito a una zona, la noticia pasa a MUNDO para evitar clasificaciones arbitrarias. El selector España también incluye Cataluña.
+
+La nueva versión del HTML de Blogger incorpora el selector geográfico y abre la Hemeroteca con los resultados del último mes, sin exigir pulsar «Buscar». El HTML ya publicado en Blogger debe sustituirse por esa versión, porque modificar los datos en GitHub no altera la interfaz pegada en Blogger.
+
+Los expedientes de Andic y Clancy pueden seguir sin noticias hasta que alguna fuente publique novedades que identifiquen los nombres/alias; no se ha inventado un histórico retrospectivo.
+
