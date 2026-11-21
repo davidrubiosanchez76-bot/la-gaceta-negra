@@ -20,5 +20,22 @@
     "categorias": [
       "TRUE CRIME"
     ]
+  },
+  {
+    "id": "luigi-mangione",
+    "nombre": "CASO: LUIGI MANGIONE",
+    "alias": [
+      "luigi mangione",
+      "brian thompson"
+    ],
+    "inicio": "2024-12-04",
+    "activo": true,
+    "categorias": [
+      "TRUE CRIME"
+    ],
+    "temas": [
+      "Juicios",
+      "Asesinatos"
+    ]
   }
 ]

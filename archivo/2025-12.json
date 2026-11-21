@@ -1,0 +1,31 @@
+{
+  "mes": "2025-12",
+  "total": 1,
+  "noticias": [
+    {
+      "id": "lm-2025-12-09-10",
+      "titular": "La munición hallada en la mochila de Mangione centra la vista sobre la obtención de pruebas",
+      "titular_original": "Bullets in Luigi Mangione's bag convinced police that he was UnitedHealthcare CEO killing suspect",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2025-12-09T00:00:00+00:00",
+      "actualizado": "2025-12-09T00:00:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "temas": [
+        "Juicios",
+        "Investigación policial"
+      ],
+      "expedientes": [
+        "luigi-mangione"
+      ],
+      "fuentes": [
+        {
+          "medio": "PBS NewsHour",
+          "url": "https://www.pbs.org/newshour/nation/bullets-in-luigi-mangiones-bag-convinced-police-that-he-was-unitedhealthcare-ceo-killing-suspect",
+          "fecha": "2025-12-09T00:00:00+00:00"
+        }
+      ]
+    }
+  ]
+}

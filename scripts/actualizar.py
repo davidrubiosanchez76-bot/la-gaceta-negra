@@ -270,6 +270,10 @@ def main():
     folder = ROOT / "archivo"
     stories = []
     def review_old(old):
+        # Conservar intactos los titulares de hemeroteca seleccionados y verificados.
+        # Su fecha, fuente, categoría y texto ya fueron comprobados editorialmente.
+        if old.get("origen") == "hemeroteca_manual":
+            return old
         # A partir de 0.2, una palabra en el resumen de otro tema no basta.
         # Revalidar incluso las entradas ya publicadas para retirar falsos positivos.
         source = (old.get("fuentes") or [{}])[0].get("medio", "")

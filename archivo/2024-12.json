@@ -1,0 +1,127 @@
+{
+  "mes": "2024-12",
+  "total": 5,
+  "noticias": [
+    {
+      "id": "lm-2024-12-23-05",
+      "titular": "Luigi Mangione se declara no culpable de los cargos estatales por la muerte de Brian Thompson",
+      "titular_original": "Luigi Mangione pleads not guilty to state murder and other charges in UnitedHealthcare CEO’s death",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2024-12-23T00:00:00+00:00",
+      "actualizado": "2024-12-23T00:00:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "temas": [
+        "Juicios"
+      ],
+      "expedientes": [
+        "luigi-mangione"
+      ],
+      "fuentes": [
+        {
+          "medio": "Associated Press / Boston.com",
+          "url": "https://www.boston.com/news/new-york-city/2024/12/23/luigi-mangione-pleads-not-guilty-state-murder-charges-united-healthcare-ceo-death/",
+          "fecha": "2024-12-23T00:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "lm-2024-12-20-04",
+      "titular": "Mangione comparece ante la justicia federal tras su traslado de Pensilvania a Nueva York",
+      "titular_original": "What's next for the man charged with killing UnitedHealthcare's CEO?",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2024-12-20T00:00:00+00:00",
+      "actualizado": "2024-12-20T00:00:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "temas": [
+        "Juicios"
+      ],
+      "expedientes": [
+        "luigi-mangione"
+      ],
+      "fuentes": [
+        {
+          "medio": "Associated Press",
+          "url": "https://apnews.com/article/4cc18cfa71b96aaa39b321f60145d2f0",
+          "fecha": "2024-12-20T00:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "lm-2024-12-17-03",
+      "titular": "La Fiscalía de Manhattan imputa a Luigi Mangione por asesinato y delitos vinculados al terrorismo",
+      "titular_original": "D.A. Bragg Announces Murder Indictment Of Luigi Mangione",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2024-12-17T00:00:00+00:00",
+      "actualizado": "2024-12-17T00:00:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "temas": [
+        "Juicios"
+      ],
+      "expedientes": [
+        "luigi-mangione"
+      ],
+      "fuentes": [
+        {
+          "medio": "Fiscalía de Manhattan",
+          "url": "https://manhattanda.org/d-a-bragg-announces-murder-indictment-of-luigi-mangione/",
+          "fecha": "2024-12-17T00:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "lm-2024-12-09-02",
+      "titular": "Detienen a Luigi Mangione en Pensilvania tras cinco días de búsqueda por el asesinato de Thompson",
+      "titular_original": "UnitedHealthcare CEO shooting latest: Luigi Mangione has been charged with murder",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2024-12-09T00:00:00+00:00",
+      "actualizado": "2024-12-09T00:00:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "temas": [
+        "Asesinatos",
+        "Investigación policial"
+      ],
+      "expedientes": [
+        "luigi-mangione"
+      ],
+      "fuentes": [
+        {
+          "medio": "ABC News",
+          "url": "https://abcnews.com/US/unitedhealthcare-ceo-shooting-latest-net-closing-suspect-new/story?id=116591169",
+          "fecha": "2024-12-09T00:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "lm-2024-12-04-01",
+      "titular": "Asesinan a tiros en Manhattan a Brian Thompson, consejero delegado de UnitedHealthcare",
+      "titular_original": "UnitedHealthcare CEO kept a low public profile. Then he was shot to death in New York",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2024-12-04T00:00:00+00:00",
+      "actualizado": "2024-12-04T00:00:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "temas": [
+        "Asesinatos"
+      ],
+      "expedientes": [
+        "luigi-mangione"
+      ],
+      "fuentes": [
+        {
+          "medio": "Associated Press",
+          "url": "https://apnews.com/article/8a130e64bcab749d1a085f5a34ab8254",
+          "fecha": "2024-12-04T00:00:00+00:00"
+        }
+      ]
+    }
+  ]
+}

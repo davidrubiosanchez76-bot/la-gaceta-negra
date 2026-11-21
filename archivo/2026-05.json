@@ -1,0 +1,31 @@
+{
+  "mes": "2026-05",
+  "total": 1,
+  "noticias": [
+    {
+      "id": "lm-2026-05-18-14",
+      "titular": "El juez admite el arma y un cuaderno como pruebas en el proceso estatal contra Mangione",
+      "titular_original": "Judge allows gun and notebook as evidence in Luigi Mangione murder trial",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2026-05-18T00:00:00+00:00",
+      "actualizado": "2026-05-18T00:00:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "temas": [
+        "Juicios",
+        "Pruebas forenses"
+      ],
+      "expedientes": [
+        "luigi-mangione"
+      ],
+      "fuentes": [
+        {
+          "medio": "Associated Press / PBS NewsHour",
+          "url": "https://www.pbs.org/newshour/nation/judge-allows-gun-and-notebook-as-evidence-in-luigi-mangione-murder-trial",
+          "fecha": "2026-05-18T00:00:00+00:00"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "mes": "2026-08",
+  "total": 2,
+  "noticias": [
+    {
+      "id": "lm-2026-08-17-16",
+      "titular": "Nueva York aplaza el juicio estatal por asesinato contra Mangione ante un recurso por doble enjuiciamiento",
+      "titular_original": "Luigi Mangione’s state murder trial postponed indefinitely amid double jeopardy fight",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2026-08-17T00:00:00+00:00",
+      "actualizado": "2026-08-17T00:00:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "temas": [
+        "Juicios"
+      ],
+      "expedientes": [
+        "luigi-mangione"
+      ],
+      "fuentes": [
+        {
+          "medio": "Associated Press",
+          "url": "https://apnews.com/article/09c039f61c62d2c0e8815ea0189f0522",
+          "fecha": "2026-08-17T00:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "lm-2026-08-14-15",
+      "titular": "Luigi Mangione admite haber disparado contra Brian Thompson y se declara culpable de dos cargos federales de acoso",
+      "titular_original": "Luigi Mangione admits to shooting UnitedHealthcare CEO as he pleads guilty in federal case",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2026-08-14T00:00:00+00:00",
+      "actualizado": "2026-08-14T00:00:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "temas": [
+        "Juicios"
+      ],
+      "expedientes": [
+        "luigi-mangione"
+      ],
+      "fuentes": [
+        {
+          "medio": "ABC News",
+          "url": "https://abcnews.com/US/luigi-mangione-guilty-plea-expected-announced-friday-federal/story?id=135607454",
+          "fecha": "2026-08-14T00:00:00+00:00"
+        }
+      ]
+    }
+  ]
+}

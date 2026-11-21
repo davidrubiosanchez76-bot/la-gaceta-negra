@@ -19,6 +19,155 @@
         "EUROPA",
         "MUNDO"
       ]
+    },
+    {
+      "mes": "2026-10",
+      "total": 2,
+      "expedientes": [
+        "luigi-mangione"
+      ],
+      "temas": [
+        "Investigación policial",
+        "Juicios"
+      ],
+      "regiones": [
+        "ESTADOS UNIDOS"
+      ]
+    },
+    {
+      "mes": "2026-08",
+      "total": 2,
+      "expedientes": [
+        "luigi-mangione"
+      ],
+      "temas": [
+        "Juicios"
+      ],
+      "regiones": [
+        "ESTADOS UNIDOS"
+      ]
+    },
+    {
+      "mes": "2026-05",
+      "total": 1,
+      "expedientes": [
+        "luigi-mangione"
+      ],
+      "temas": [
+        "Juicios",
+        "Pruebas forenses"
+      ],
+      "regiones": [
+        "ESTADOS UNIDOS"
+      ]
+    },
+    {
+      "mes": "2026-04",
+      "total": 1,
+      "expedientes": [
+        "luigi-mangione"
+      ],
+      "temas": [
+        "Juicios"
+      ],
+      "regiones": [
+        "ESTADOS UNIDOS"
+      ]
+    },
+    {
+      "mes": "2026-02",
+      "total": 1,
+      "expedientes": [
+        "luigi-mangione"
+      ],
+      "temas": [
+        "Juicios"
+      ],
+      "regiones": [
+        "ESTADOS UNIDOS"
+      ]
+    },
+    {
+      "mes": "2026-01",
+      "total": 1,
+      "expedientes": [
+        "luigi-mangione"
+      ],
+      "temas": [
+        "Juicios"
+      ],
+      "regiones": [
+        "ESTADOS UNIDOS"
+      ]
+    },
+    {
+      "mes": "2025-12",
+      "total": 1,
+      "expedientes": [
+        "luigi-mangione"
+      ],
+      "temas": [
+        "Investigación policial",
+        "Juicios"
+      ],
+      "regiones": [
+        "ESTADOS UNIDOS"
+      ]
+    },
+    {
+      "mes": "2025-09",
+      "total": 1,
+      "expedientes": [
+        "luigi-mangione"
+      ],
+      "temas": [
+        "Juicios"
+      ],
+      "regiones": [
+        "ESTADOS UNIDOS"
+      ]
+    },
+    {
+      "mes": "2025-04",
+      "total": 2,
+      "expedientes": [
+        "luigi-mangione"
+      ],
+      "temas": [
+        "Juicios"
+      ],
+      "regiones": [
+        "ESTADOS UNIDOS"
+      ]
+    },
+    {
+      "mes": "2025-02",
+      "total": 1,
+      "expedientes": [
+        "luigi-mangione"
+      ],
+      "temas": [
+        "Investigación policial",
+        "Juicios"
+      ],
+      "regiones": [
+        "ESTADOS UNIDOS"
+      ]
+    },
+    {
+      "mes": "2024-12",
+      "total": 5,
+      "expedientes": [
+        "luigi-mangione"
+      ],
+      "temas": [
+        "Asesinatos",
+        "Investigación policial",
+        "Juicios"
+      ],
+      "regiones": [
+        "ESTADOS UNIDOS"
+      ]
     }
   ]
 }

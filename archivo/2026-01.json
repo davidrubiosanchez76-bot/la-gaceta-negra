@@ -1,0 +1,30 @@
+{
+  "mes": "2026-01",
+  "total": 1,
+  "noticias": [
+    {
+      "id": "lm-2026-01-30-11",
+      "titular": "Una jueza federal elimina los cargos que permitían solicitar la pena de muerte contra Luigi Mangione",
+      "titular_original": "Federal prosecutors can't seek death penalty against Luigi Mangione, judge rules",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2026-01-30T00:00:00+00:00",
+      "actualizado": "2026-01-30T00:00:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "temas": [
+        "Juicios"
+      ],
+      "expedientes": [
+        "luigi-mangione"
+      ],
+      "fuentes": [
+        {
+          "medio": "PBS NewsHour",
+          "url": "https://www.pbs.org/newshour/nation/federal-prosecutors-cant-seek-death-penalty-against-luigi-mangione-judge-rules",
+          "fecha": "2026-01-30T00:00:00+00:00"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "mes": "2026-02",
+  "total": 1,
+  "noticias": [
+    {
+      "id": "lm-2026-02-27-12",
+      "titular": "La Fiscalía federal renuncia a recurrir la decisión que excluye la pena de muerte para Mangione",
+      "titular_original": "Federal prosecutors in Luigi Mangione case won't appeal ruling barring death penalty",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2026-02-27T00:00:00+00:00",
+      "actualizado": "2026-02-27T00:00:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "temas": [
+        "Juicios"
+      ],
+      "expedientes": [
+        "luigi-mangione"
+      ],
+      "fuentes": [
+        {
+          "medio": "CBS News New York",
+          "url": "https://www.cbsnews.com/newyork/news/luigi-mangione-death-penalty-federal-prosecutors/",
+          "fecha": "2026-02-27T00:00:00+00:00"
+        }
+      ]
+    }
+  ]
+}

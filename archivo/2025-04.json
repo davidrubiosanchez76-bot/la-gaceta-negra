@@ -1,0 +1,54 @@
+{
+  "mes": "2025-04",
+  "total": 2,
+  "noticias": [
+    {
+      "id": "lm-2025-04-25-08",
+      "titular": "Mangione rechaza los cargos federales en una causa en la que la Fiscalía pide la pena capital",
+      "titular_original": "Luigi Mangione pleads not guilty to federal death penalty charge in killing of UnitedHealthcare CEO",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2025-04-25T00:00:00+00:00",
+      "actualizado": "2025-04-25T00:00:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "temas": [
+        "Juicios"
+      ],
+      "expedientes": [
+        "luigi-mangione"
+      ],
+      "fuentes": [
+        {
+          "medio": "PBS NewsHour",
+          "url": "https://www.pbs.org/newshour/nation/luigi-mangione-pleads-not-guilty-to-federal-death-penalty-charge-in-killing-of-unitedhealthcare-ceo",
+          "fecha": "2025-04-25T00:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "lm-2025-04-01-07",
+      "titular": "La fiscal general estadounidense ordena solicitar la pena de muerte contra Luigi Mangione",
+      "titular_original": "Bondi says prosecutors will seek death penalty against UnitedHealthcare killing suspect Luigi Mangione",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2025-04-01T00:00:00+00:00",
+      "actualizado": "2025-04-01T00:00:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "temas": [
+        "Juicios"
+      ],
+      "expedientes": [
+        "luigi-mangione"
+      ],
+      "fuentes": [
+        {
+          "medio": "PBS NewsHour",
+          "url": "https://www.pbs.org/newshour/nation/bondi-says-prosecutors-will-seek-death-penalty-against-unitedhealthcare-killing-suspect-luigi-mangione",
+          "fecha": "2025-04-01T00:00:00+00:00"
+        }
+      ]
+    }
+  ]
+}

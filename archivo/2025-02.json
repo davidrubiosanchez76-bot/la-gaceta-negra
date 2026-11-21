@@ -1,0 +1,31 @@
+{
+  "mes": "2025-02",
+  "total": 1,
+  "noticias": [
+    {
+      "id": "lm-2025-02-21-06",
+      "titular": "La defensa de Mangione cuestiona el acceso a pruebas en su primera vista estatal de 2025",
+      "titular_original": "Luigi Mangione appears in New York court in UnitedHealthcare CEO Brian Thompson murder case",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2025-02-21T00:00:00+00:00",
+      "actualizado": "2025-02-21T00:00:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "temas": [
+        "Juicios",
+        "Investigación policial"
+      ],
+      "expedientes": [
+        "luigi-mangione"
+      ],
+      "fuentes": [
+        {
+          "medio": "CBS News New York",
+          "url": "https://www.cbsnews.com/newyork/news/luigi-mangione-ceo-shooting-court-hearing/",
+          "fecha": "2025-02-21T00:00:00+00:00"
+        }
+      ]
+    }
+  ]
+}
