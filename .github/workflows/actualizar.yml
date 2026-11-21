@@ -1,0 +1,44 @@
+name: Actualizar La Gaceta Negra
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - 'config/**'
+      - 'tests/**'
+      - '.github/workflows/actualizar.yml'
+  schedule:
+    - cron: '17 8,20 * * *'
+      timezone: 'Europe/Madrid'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gaceta-actualizacion
+  cancel-in-progress: false
+
+jobs:
+  recopilar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Obtener repositorio
+        uses: actions/checkout@v4
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Comprobar funcionamiento
+        run: python -m unittest discover -s tests -v
+      - name: Recopilar y clasificar noticias
+        run: python scripts/actualizar.py
+      - name: Guardar nuevas noticias
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/noticias.json archivo/
+          if ! git diff --cached --quiet; then
+            git commit -m "Actualización automática de La Gaceta"
+            git push
+          fi
