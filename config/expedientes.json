@@ -1,0 +1,24 @@
+[
+  {
+    "id": "isak-andic",
+    "nombre": "Caso Isak Andic",
+    "alias": [
+      "isak andic"
+    ],
+    "activo": true,
+    "categorias": [
+      "TRUE CRIME"
+    ]
+  },
+  {
+    "id": "lindsay-clancy",
+    "nombre": "Caso Lindsay Clancy",
+    "alias": [
+      "lindsay clancy"
+    ],
+    "activo": true,
+    "categorias": [
+      "TRUE CRIME"
+    ]
+  }
+]
