@@ -6,6 +6,52 @@ import actualizar as g
 
 
 class TestGaceta(unittest.TestCase):
+    def test_titulares_especificos(self):
+        from titulares import reescribir_titular
+        cases = [
+            ("Detenido un hombre por presuntamente matar a su madre en Llívia este lunes",
+             ("Llívia", "madre", "presunta")),
+            ("Un hombre asesina a su pareja en Parla y se entrega a la policía",
+             ("Parla", "pareja", "policía")),
+            ("Detenidos dos pasajeros en el aeropuerto de El Prat con 316 bolas de cocaína en su cuerpo",
+             ("El Prat", "316", "cocaína")),
+            ("Man convicted of starting Palisades fire in Los Angeles",
+             ("Palisades", "Los Ángeles", "Condenado")),
+            ("French police officers sentenced for beating of music producer Michel Zecler",
+             ("Michel Zecler", "Condenados", "policías")),
+            ("Teenager allegedly organised arsons and kidnapping on Signal during Melbourne hospitality wars",
+             ("Melbourne", "habría", "Signal")),
+        ]
+        for original, requirements in cases:
+            with self.subTest(original=original):
+                title, method = reescribir_titular(original)
+                self.assertEqual(method, "regla")
+                self.assertNotEqual(title, original)
+                for fact in requirements:
+                    self.assertIn(fact, title)
+
+    def test_no_inventar(self):
+        from titulares import reescribir_titular
+        original = "Detenido un sospechoso en Barcelona"
+        new, method = reescribir_titular(original)
+        self.assertEqual(new, original)
+        self.assertEqual(method, "original")
+        # Sin fecha, lugar o parentesco no se puede inventar un apuñalamiento en Vic.
+        original2 = "Un hombre detenido tras un incidente"
+        self.assertEqual(reescribir_titular(original2)[0], original2)
+
+    def test_deduplicacion_segun_original(self):
+        d = "2026-11-21T08:00:00+00:00"
+        def s(title, orig, url):
+            return {"categoria":"TRUE CRIME","region":"CATALUÑA","fecha":d,
+                    "titular":title, "titular_original":orig,
+                    "fuentes":[{"url":url,"fecha":d}]}
+        a = s("Vic: detenido un hombre por un presunto delito",
+              "Detenido un hombre por el presunto apuñalamiento de su esposa en Vic", "https://a.es/1")
+        b = s("Detención por apuñalamiento de una mujer en Vic",
+              "Detenido en Vic un hombre por el presunto apuñalamiento de su esposa", "https://b.es/1")
+        self.assertTrue(g.same_event(a,b))
+
     def test_feed(self):
         xml = b'<rss><channel><item><title>Detenido el autor de un crimen</title><link>https://medio.es/noticia?utm_source=rss</link><pubDate>Fri, 20 Nov 2026 12:00:00 GMT</pubDate></item></channel></rss>'
         i = g.rss_items(xml)[0]
