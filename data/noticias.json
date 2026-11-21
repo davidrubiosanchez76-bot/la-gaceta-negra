@@ -1,7 +1,313 @@
 {
-  "actualizado": "2026-11-21T09:28:28+00:00",
-  "total": 76,
+  "actualizado": "2026-11-21T20:00:08+00:00",
+  "total": 91,
   "noticias": [
+    {
+      "id": "e86559286e7f7d3c",
+      "titular": "Hombre acusado de intento de asesinato después de que el concejal apuñaló en Bradford",
+      "titular_original": "Man charged with attempted murder after councillor stabbed in Bradford",
+      "metodo_titular": "traduccion_automatica",
+      "fecha": "2026-11-21T19:42:42+00:00",
+      "actualizado": "2026-11-21T19:42:42+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "EUROPA",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "The Guardian — UK",
+          "url": "https://www.theguardian.com/uk-news/2026/nov/21/man-charged-with-attempted-after-councillor-stabbed-in-bradford",
+          "fecha": "2026-11-21T19:42:42+00:00"
+        }
+      ]
+    },
+    {
+      "id": "e86559286e7f7d3c",
+      "titular": "Hombre acusado de intento de asesinato después de que el concejal apuñaló en Bradford",
+      "titular_original": "Man charged with attempted murder after councillor stabbed in Bradford",
+      "metodo_titular": "traduccion_automatica",
+      "fecha": "2026-11-21T19:42:42+00:00",
+      "actualizado": "2026-11-21T19:42:42+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "The Guardian — World",
+          "url": "https://www.theguardian.com/uk-news/2026/nov/21/man-charged-with-attempted-after-councillor-stabbed-in-bradford",
+          "fecha": "2026-11-21T19:42:42+00:00"
+        }
+      ]
+    },
+    {
+      "id": "9e934210805c2e86",
+      "titular": "Un detenido tras la muerte de una mujer de 37 años en Villarrobledo (Albacete)",
+      "titular_original": "Un detenido tras la muerte de una mujer de 37 años en Villarrobledo (Albacete)",
+      "metodo_titular": "original",
+      "fecha": "2026-11-21T19:29:02+00:00",
+      "actualizado": "2026-11-21T19:29:02+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "EL PAÍS — España",
+          "url": "https://elpais.com/espana/2026-11-21/un-detenido-tras-la-muerte-de-una-mujer-de-37-anos-en-villarrobledo-albacete.html",
+          "fecha": "2026-11-21T19:29:02+00:00"
+        }
+      ]
+    },
+    {
+      "id": "66b7d58d0a8ebef0",
+      "titular": "Detenido en Girona un hombre de 40 años como presunto autor de tres agresiones sexuales",
+      "titular_original": "Detenido en Girona un hombre de 40 años como presunto autor de tres agresiones sexuales",
+      "metodo_titular": "original",
+      "fecha": "2026-11-21T19:14:27+00:00",
+      "actualizado": "2026-11-21T19:14:27+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "20minutos",
+          "url": "https://www.20minutos.es/cataluna/girona/detenido-girona-un-hombre-40-anos-como-presunto-autor-tres-agresiones-sexuales_7064131_0.html",
+          "fecha": "2026-11-21T19:14:27+00:00"
+        }
+      ]
+    },
+    {
+      "id": "40deb8bbc3850f2e",
+      "titular": "Hackean la base de datos de información criminal del FBI por segunda vez en meses",
+      "titular_original": "Hackean la base de datos de información criminal del FBI por segunda vez en meses",
+      "metodo_titular": "original",
+      "fecha": "2026-11-21T19:11:33+00:00",
+      "actualizado": "2026-11-21T19:11:33+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "20minutos",
+          "url": "https://www.20minutos.es/internacional/hackean-base-datos-informacion-criminal-fbi-segunda-vez-pocos-meses_7064132_0.html",
+          "fecha": "2026-11-21T19:11:33+00:00"
+        }
+      ]
+    },
+    {
+      "id": "82afe3f79ffd164d",
+      "titular": "Louisiana hombre acusado de matar a mujer en el sendero de senderismo y asesinato co-trabajador con ballesta",
+      "titular_original": "Louisiana man charged with killing woman on hiking trail and murdering co-worker with crossbow",
+      "metodo_titular": "traduccion_automatica",
+      "fecha": "2026-11-21T18:50:00+00:00",
+      "actualizado": "2026-11-21T18:50:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "The Guardian — World",
+          "url": "https://www.theguardian.com/us-news/2026/nov/21/louisiana-mississippi-hiking-trail-crossbow-murder-charges",
+          "fecha": "2026-11-21T18:50:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "403c889cdf308d7c",
+      "titular": "El hombre que apuñaló novia a muerte en su dormitorio después de que ella lo llamó en video por ser un borracho se declara culpable",
+      "titular_original": "Man who stabbed girlfriend to death in their bedroom after she called him out on video for being a drunk pleads guilty",
+      "metodo_titular": "traduccion_automatica",
+      "fecha": "2026-11-21T18:15:16+00:00",
+      "actualizado": "2026-11-21T18:15:16+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "Law & Crime",
+          "url": "https://lawandcrime.com/crime/man-who-stabbed-girlfriend-to-death-in-their-bedroom-after-she-called-him-out-on-video-for-being-a-drunk-pleads-guilty",
+          "fecha": "2026-11-21T18:15:16+00:00"
+        }
+      ]
+    },
+    {
+      "id": "c6abd4603074f536",
+      "titular": "Alleged Mexican drug cartel boss ‘El Chapo Isidro’ arrested in special forces raid",
+      "titular_original": "Alleged Mexican drug cartel boss ‘El Chapo Isidro’ arrested in special forces raid",
+      "metodo_titular": "original",
+      "fecha": "2026-11-21T17:46:55+00:00",
+      "actualizado": "2026-11-21T17:46:55+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [
+        "Narcotráfico"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "The Guardian — World",
+          "url": "https://www.theguardian.com/world/2026/nov/21/alleged-mexican-drug-cartel-boss-el-chapo-isidro-meza-flores-arrested",
+          "fecha": "2026-11-21T17:46:55+00:00"
+        }
+      ]
+    },
+    {
+      "id": "c0ce1a7c1c675b7d",
+      "titular": "Adolescente que vivificó su júbilo en Land Rover robado antes de matar a una mujer de 73 años y dar a su hijo lesión cerebral aprende su destino",
+      "titular_original": "Teenager who livestreamed his joyride in stolen Land Rover before killing 73-year-old woman and giving her son brain injury learns his fate",
+      "metodo_titular": "traduccion_automatica",
+      "fecha": "2026-11-21T17:45:37+00:00",
+      "actualizado": "2026-11-21T17:45:37+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "Law & Crime",
+          "url": "https://lawandcrime.com/crime/teenager-who-livestreamed-his-joyride-in-stolen-land-rover-before-killing-73-year-old-woman-and-giving-her-son-brain-injury-learns-his-fate",
+          "fecha": "2026-11-21T17:45:37+00:00"
+        }
+      ]
+    },
+    {
+      "id": "08e388f4b198558e",
+      "titular": "Detenido por estafar más de 8.000 euros a una anciana haciéndose pasar por empleado de banco",
+      "titular_original": "Detenido por estafar más de 8.000 euros a una anciana haciéndose pasar por empleado de banco",
+      "metodo_titular": "original",
+      "fecha": "2026-11-21T17:08:24+00:00",
+      "actualizado": "2026-11-21T17:08:24+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "20minutos",
+          "url": "https://www.20minutos.es/comunidad-valenciana/alicante/detenido-orihuela-por-estafar-mas-8-000-euros-una-anciana-haciendose-pasar-por-empleado-un-banco_7064106_0.html",
+          "fecha": "2026-11-21T17:08:24+00:00"
+        }
+      ]
+    },
+    {
+      "id": "a1c0088fcde43ae5",
+      "titular": "FBI reportedly investigating apparent hack of its criminal database",
+      "titular_original": "FBI reportedly investigating apparent hack of its criminal database",
+      "metodo_titular": "original",
+      "fecha": "2026-11-21T16:35:15+00:00",
+      "actualizado": "2026-11-21T16:35:15+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "BBC News — World",
+          "url": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&at_campaign=rss",
+          "fecha": "2026-11-21T16:35:15+00:00"
+        }
+      ]
+    },
+    {
+      "id": "38f7479accba8177",
+      "titular": "Un equipo de científicos crea un \"planimal\" fusionando ADN de hámster y algas",
+      "titular_original": "Un equipo de científicos crea un \"planimal\" fusionando ADN de hámster y algas",
+      "metodo_titular": "original",
+      "fecha": "2026-11-21T14:59:21+00:00",
+      "actualizado": "2026-11-21T14:59:21+00:00",
+      "categoria": "CRIME SCENE",
+      "region": "MUNDO",
+      "temas": [
+        "Criminalística"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "20minutos",
+          "url": "https://www.20minutos.es/ciencia/un-equipo-cientificos-crea-un-planimal-fusionando-adn-hamster-algas_7064073_0.html",
+          "fecha": "2026-11-21T14:59:21+00:00"
+        }
+      ]
+    },
+    {
+      "id": "a632d1ccbc172c45",
+      "titular": "Papá solicitó el divorcio, buscó la custodia completa de niños 2 semanas antes de matar a mamá con niños en la casa, la policía dice",
+      "titular_original": "Dad filed for divorce, sought full custody of kids 2 weeks before killing mom with children in the home, police say",
+      "metodo_titular": "traduccion_automatica",
+      "fecha": "2026-11-21T14:30:15+00:00",
+      "actualizado": "2026-11-21T14:30:15+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "Law & Crime",
+          "url": "https://lawandcrime.com/crime/dad-filed-for-divorce-sought-full-custody-of-kids-2-weeks-before-killing-mom-with-children-in-the-home-police-say",
+          "fecha": "2026-11-21T14:30:15+00:00"
+        }
+      ]
+    },
+    {
+      "id": "0dd40c720f82acd8",
+      "titular": "El narcotraficante mexicano en la lista de 10 más buscados del FBI arrestado en tiroteo",
+      "titular_original": "Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out",
+      "metodo_titular": "traduccion_automatica",
+      "fecha": "2026-11-21T13:15:21+00:00",
+      "actualizado": "2026-11-21T13:15:21+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "BBC News — World",
+          "url": "https://www.bbc.co.uk/news/articles/ckz749ey0r75o?at_medium=RSS&at_campaign=rss",
+          "fecha": "2026-11-21T13:15:21+00:00"
+        }
+      ]
+    },
+    {
+      "id": "b8bd425eb4b7d356",
+      "titular": "Un exjefe de Policía italiana se suicida acorralado por la investigación del asesinato de un juez por la mafia en 1992",
+      "titular_original": "Un exjefe de Policía italiana se suicida acorralado por la investigación del asesinato de un juez por la mafia en 1992",
+      "metodo_titular": "original",
+      "fecha": "2026-11-21T12:27:46+00:00",
+      "actualizado": "2026-11-21T12:27:46+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [
+        "Crimen organizado"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/internacional/exjefe-policia-italiana-suicida-acorralado-investigacion-asesinato-juez-mafia-1992_1_13682765.html",
+          "fecha": "2026-11-21T12:27:46+00:00"
+        }
+      ]
+    },
     {
       "id": "a1b7cefc6c121e28",
       "titular": "La reacción de Zelenski después de que Trump llamase \"amigo\" a Putin: \"Para nosotros es un asesino\"",
@@ -150,7 +456,7 @@
       "id": "a0ed0f7023bd15ab",
       "titular": "Dinamarca acusa a Rusia de planear el asesinato de un rapero ucraniano-estadounidense",
       "fecha": "2026-11-20T21:57:07+00:00",
-      "actualizado": "2026-11-20T21:57:07+00:00",
+      "actualizado": "2026-11-21T10:26:36+00:00",
       "categoria": "TRUE CRIME",
       "region": "EUROPA",
       "temas": [],
