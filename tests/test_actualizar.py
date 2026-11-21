@@ -6,6 +6,20 @@ import actualizar as g
 
 
 class TestGaceta(unittest.TestCase):
+    def test_traduccion_sin_alucinaciones(self):
+        from traducir import validar, es_ingles, titulo_para_publicar
+        self.assertTrue(es_ingles("The Guardian — World", "en"))
+        self.assertFalse(es_ingles("La Vanguardia — Barcelona", "es"))
+        self.assertFalse(validar(
+            "Man accused of murdering his wife in Boston",
+            "Condenado por asesinar a su mujer en Boston"))
+        self.assertFalse(validar(
+            "Police find 316 packages of cocaine",
+            "La policía encuentra varios paquetes de cocaína"))
+        self.assertTrue(validar(
+            "Man accused of stabbing his wife in Boston",
+            "Un hombre acusado de apuñalar a su esposa en Boston"))
+
     def test_titulares_especificos(self):
         from titulares import reescribir_titular
         cases = [
