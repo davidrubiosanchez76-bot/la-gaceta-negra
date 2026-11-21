@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-11-21T07:54:57+00:00",
-  "total": 70,
+  "actualizado": "2026-11-21T08:00:07+00:00",
+  "total": 72,
   "noticias": [
     {
       "id": "87f4c2e829321f4b",
@@ -1383,6 +1383,55 @@
       "region": "MUNDO",
       "titular_original": "Novela: «la opacidad de los cuerpos humanos», de Carlos Manzano",
       "metodo_titular": "original"
+    },
+    {
+      "id": "lm-2026-10-31-18",
+      "titular": "La defensa de Mangione insiste en que el proceso estatal por asesinato vulneraría la prohibición de doble enjuiciamiento",
+      "titular_original": "Luigi Mangione's attorneys push double jeopardy claim in court filing",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2026-10-31T00:00:00+00:00",
+      "actualizado": "2026-10-31T00:00:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "temas": [
+        "Juicios"
+      ],
+      "expedientes": [
+        "luigi-mangione"
+      ],
+      "fuentes": [
+        {
+          "medio": "ABC News",
+          "url": "https://abcnews.com/US/luigi-mangiones-attorneys-push-double-jeopardy-claim-court/story?id=137733860",
+          "fecha": "2026-10-31T00:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "lm-2026-10-02-17",
+      "titular": "Publican las imágenes de las cámaras policiales de la detención de Mangione en Pensilvania",
+      "titular_original": "Police bodycam footage of Luigi Mangione’s arrest released",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2026-10-02T00:00:00+00:00",
+      "actualizado": "2026-10-02T00:00:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "temas": [
+        "Investigación policial",
+        "Juicios"
+      ],
+      "expedientes": [
+        "luigi-mangione"
+      ],
+      "fuentes": [
+        {
+          "medio": "Associated Press",
+          "url": "https://apnews.com/article/701b424d38c5c0fcfe5f82d296cf2548",
+          "fecha": "2026-10-02T00:00:00+00:00"
+        }
+      ]
     }
   ]
 }
