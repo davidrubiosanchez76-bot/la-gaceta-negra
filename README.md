@@ -53,3 +53,11 @@ La nueva versión del HTML de Blogger incorpora el selector geográfico y abre l
 
 Los expedientes de Andic y Clancy pueden seguir sin noticias hasta que alguna fuente publique novedades que identifiquen los nombres/alias; no se ha inventado un histórico retrospectivo.
 
+
+## Titulares de La Gaceta (21/11/2026)
+
+La página lee `titular`, que puede ser una **reformulación editorial conservadora** de `titular_original` cuando existe una regla suficientemente precisa. Se conserva `titular_original` para la deduplicación, clasificación, regiones y seguimiento. El campo `metodo_titular` indica `regla` u `original`.
+
+**Criterio:** nunca inventar delito, modo de comisión, lugar, parentesco, fechas ni identidad; conservar expresiones de presunción/acusación cuando no exista condena. Si una reformulación segura no es posible con las reglas actuales, se mantiene el titular original en lugar de inventar detalles o mostrar un titular genérico.
+
+**Alcance inicial comprobado:** 13 de las 70 noticias existentes reescritas mediante reglas; el resto permanecen con su título original. La reformulación general de noticias muy distintas o su traducción flexible requerirá integrar un modelo de lenguaje externo; no se han activado servicios de pago ni se han incorporado claves de API.
