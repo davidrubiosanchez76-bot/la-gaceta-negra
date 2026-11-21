@@ -1,25 +1,30 @@
 [
   {
     "id": "isak-andic",
-    "nombre": "Caso Isak Andic",
+    "nombre": "CASO: ISAK ANDIC",
     "alias": [
-      "isak andic"
+      "isak andic",
+      "jonathan andic"
     ],
     "activo": true,
     "categorias": [
       "TRUE CRIME"
-    ]
+    ],
+    "inicio": "2024-12-14",
+    "tipo": "caso"
   },
   {
     "id": "lindsay-clancy",
-    "nombre": "Caso Lindsay Clancy",
+    "nombre": "CASO: LINDSAY CLANCY",
     "alias": [
       "lindsay clancy"
     ],
     "activo": true,
     "categorias": [
       "TRUE CRIME"
-    ]
+    ],
+    "inicio": "2023-01-24",
+    "tipo": "caso"
   },
   {
     "id": "luigi-mangione",

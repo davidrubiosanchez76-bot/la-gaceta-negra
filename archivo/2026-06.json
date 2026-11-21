@@ -1,6 +1,6 @@
 {
   "mes": "2026-06",
-  "total": 2,
+  "total": 3,
   "noticias": [
     {
       "id": "nve-2026-06-30-06",
@@ -49,6 +49,30 @@
           "medio": "Lawfare",
           "url": "https://www.lawfaremedia.org/article/nihilistic-violent-extremism--isn-t-a-thing--and-i-m-tired-of-pretending-it-is",
           "fecha": "2026-06-28T00:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "hist-isak-andic-2026-06-12-19",
+      "titular": "La Fiscalía se opone a retirar las medidas cautelares a Jonathan Andic por la muerte de su padre",
+      "titular_original": "La Fiscalía mantiene que hay indicios sobre el hijo del fundador de Mango y descarta levantar las cautelares",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2026-06-12T12:00:00+00:00",
+      "actualizado": "2026-06-12T12:00:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [
+        "Juicios"
+      ],
+      "expedientes": [
+        "isak-andic"
+      ],
+      "fuentes": [
+        {
+          "medio": "RTVE",
+          "url": "https://www.rtve.es/noticias/20260612/fiscalia-indicios-hijo-fundador-mango-descarta-levantar-cautelares/17112977.shtml",
+          "fecha": "2026-06-12T12:00:00+00:00"
         }
       ]
     }

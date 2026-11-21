@@ -1,0 +1,30 @@
+{
+  "mes": "2025-05",
+  "total": 1,
+  "noticias": [
+    {
+      "id": "hist-isak-andic-2025-05-21-14",
+      "titular": "Nuevas pesquisas de los Mossos vuelven a apuntar a una posible caída accidental de Isak Andic",
+      "titular_original": "Las últimas pesquisas de los Mossos refuerzan la hipótesis de que Andic, dueño de Mango, murió de forma accidental",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2025-05-21T12:00:00+00:00",
+      "actualizado": "2025-05-21T12:00:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [
+        "Investigación policial"
+      ],
+      "expedientes": [
+        "isak-andic"
+      ],
+      "fuentes": [
+        {
+          "medio": "RTVE",
+          "url": "https://www.rtve.es/noticias/20250521/mossos-concluyen-muerte-andic-dueno-cadena-mango-fue-accidental/16590963.shtml",
+          "fecha": "2025-05-21T12:00:00+00:00"
+        }
+      ]
+    }
+  ]
+}

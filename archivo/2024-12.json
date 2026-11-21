@@ -1,6 +1,6 @@
 {
   "mes": "2024-12",
-  "total": 5,
+  "total": 6,
   "noticias": [
     {
       "id": "lm-2024-12-23-05",
@@ -71,6 +71,30 @@
           "medio": "Fiscalía de Manhattan",
           "url": "https://manhattanda.org/d-a-bragg-announces-murder-indictment-of-luigi-mangione/",
           "fecha": "2024-12-17T00:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "hist-isak-andic-2024-12-14-12",
+      "titular": "El fundador de Mango, Isak Andic, muere al caer por una montaña de Collbató durante una excursión",
+      "titular_original": "Muere el fundador de Mango, Isak Andic, en un accidente de montaña en Barcelona",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2024-12-14T12:00:00+00:00",
+      "actualizado": "2024-12-14T12:00:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [
+        "Investigación policial"
+      ],
+      "expedientes": [
+        "isak-andic"
+      ],
+      "fuentes": [
+        {
+          "medio": "RTVE",
+          "url": "https://www.rtve.es/noticias/20241214/muere-fundador-mango-isak-andic-accidente-montana-barcelona/16372523.shtml",
+          "fecha": "2024-12-14T12:00:00+00:00"
         }
       ]
     },

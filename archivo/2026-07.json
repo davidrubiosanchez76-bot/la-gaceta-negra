@@ -1,7 +1,55 @@
 {
   "mes": "2026-07",
-  "total": 1,
+  "total": 3,
   "noticias": [
+    {
+      "id": "hist-lindsay-clancy-2026-07-27-06",
+      "titular": "Comienza el juicio por triple asesinato contra Lindsay Clancy: la acusación y la defensa enfrentan sus versiones",
+      "titular_original": "Ex-husband testifies on first day of Lindsay Clancy trial",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2026-07-27T12:00:00+00:00",
+      "actualizado": "2026-07-27T12:00:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "temas": [
+        "Juicios"
+      ],
+      "expedientes": [
+        "lindsay-clancy"
+      ],
+      "fuentes": [
+        {
+          "medio": "NBC Boston / Associated Press",
+          "url": "https://www.nbcboston.com/news/local/opening-statements-begin-today-in-lindsay-clancy-trial/3987412/",
+          "fecha": "2026-07-27T12:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "hist-isak-andic-2026-07-22-20",
+      "titular": "Una testigo aporta información sobre el contexto de la excursión de Isak y Jonathan Andic a Montserrat",
+      "titular_original": "Una testigo revela que la terapia de los Andic incluía una situación extrema en un barranco",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2026-07-22T12:00:00+00:00",
+      "actualizado": "2026-07-22T12:00:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [
+        "Investigación policial"
+      ],
+      "expedientes": [
+        "isak-andic"
+      ],
+      "fuentes": [
+        {
+          "medio": "El País",
+          "url": "https://elpais.com/espana/catalunya/2026-07-22/una-testigo-revela-que-la-terapia-de-los-andic-incluia-una-situacion-extrema-en-un-barranco.html",
+          "fecha": "2026-07-22T12:00:00+00:00"
+        }
+      ]
+    },
     {
       "id": "nve-2026-07-08-07",
       "titular": "Condenan a 40 años de prisión en Texas a un miembro de una red extremista relacionada con 764",

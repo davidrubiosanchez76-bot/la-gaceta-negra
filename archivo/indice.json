@@ -2,13 +2,17 @@
   "meses": [
     {
       "mes": "2026-11",
-      "total": 62,
-      "expedientes": [],
+      "total": 69,
+      "expedientes": [
+        "isak-andic",
+        "lindsay-clancy"
+      ],
       "temas": [
         "Criminalística",
         "Desapariciones",
         "Ficción negrocriminal",
         "Juicios",
+        "Pruebas forenses",
         "Violencia en la pareja"
       ],
       "regiones": [
@@ -38,14 +42,17 @@
     },
     {
       "mes": "2026-09",
-      "total": 3,
+      "total": 5,
       "expedientes": [
-        "extremismo-nihilista-violento"
+        "extremismo-nihilista-violento",
+        "isak-andic",
+        "lindsay-clancy"
       ],
       "temas": [
         "Análisis criminológico",
         "Extremismo nihilista violento",
-        "Investigación policial"
+        "Investigación policial",
+        "Juicios"
       ],
       "regiones": [
         "ESPAÑA",
@@ -73,45 +80,56 @@
     },
     {
       "mes": "2026-07",
-      "total": 1,
+      "total": 3,
       "expedientes": [
-        "extremismo-nihilista-violento"
+        "extremismo-nihilista-violento",
+        "isak-andic",
+        "lindsay-clancy"
       ],
       "temas": [
         "Extremismo nihilista violento",
+        "Investigación policial",
+        "Juicios",
         "Justicia"
       ],
       "regiones": [
+        "ESPAÑA",
         "ESTADOS UNIDOS"
       ]
     },
     {
       "mes": "2026-06",
-      "total": 2,
+      "total": 3,
       "expedientes": [
-        "extremismo-nihilista-violento"
+        "extremismo-nihilista-violento",
+        "isak-andic"
       ],
       "temas": [
         "Análisis criminológico",
         "Extremismo nihilista violento",
+        "Juicios",
         "Justicia"
       ],
       "regiones": [
+        "ESPAÑA",
         "ESTADOS UNIDOS",
         "MUNDO"
       ]
     },
     {
       "mes": "2026-05",
-      "total": 1,
+      "total": 4,
       "expedientes": [
+        "isak-andic",
         "luigi-mangione"
       ],
       "temas": [
+        "Investigación policial",
         "Juicios",
         "Pruebas forenses"
       ],
       "regiones": [
+        "ESPAÑA",
         "ESTADOS UNIDOS"
       ]
     },
@@ -160,12 +178,14 @@
     },
     {
       "mes": "2026-01",
-      "total": 1,
+      "total": 2,
       "expedientes": [
+        "lindsay-clancy",
         "luigi-mangione"
       ],
       "temas": [
-        "Juicios"
+        "Juicios",
+        "Salud mental y responsabilidad penal"
       ],
       "regiones": [
         "ESTADOS UNIDOS"
@@ -200,6 +220,19 @@
       ]
     },
     {
+      "mes": "2025-10",
+      "total": 1,
+      "expedientes": [
+        "isak-andic"
+      ],
+      "temas": [
+        "Investigación policial"
+      ],
+      "regiones": [
+        "ESPAÑA"
+      ]
+    },
+    {
       "mes": "2025-09",
       "total": 1,
       "expedientes": [
@@ -210,6 +243,19 @@
       ],
       "regiones": [
         "ESTADOS UNIDOS"
+      ]
+    },
+    {
+      "mes": "2025-05",
+      "total": 1,
+      "expedientes": [
+        "isak-andic"
+      ],
+      "temas": [
+        "Investigación policial"
+      ],
+      "regiones": [
+        "ESPAÑA"
       ]
     },
     {
@@ -230,6 +276,19 @@
       ]
     },
     {
+      "mes": "2025-03",
+      "total": 1,
+      "expedientes": [
+        "isak-andic"
+      ],
+      "temas": [
+        "Juicios"
+      ],
+      "regiones": [
+        "ESPAÑA"
+      ]
+    },
+    {
       "mes": "2025-02",
       "total": 1,
       "expedientes": [
@@ -245,14 +304,68 @@
     },
     {
       "mes": "2024-12",
-      "total": 5,
+      "total": 6,
       "expedientes": [
+        "isak-andic",
         "luigi-mangione"
       ],
       "temas": [
         "Asesinatos",
         "Investigación policial",
         "Juicios"
+      ],
+      "regiones": [
+        "ESPAÑA",
+        "ESTADOS UNIDOS"
+      ]
+    },
+    {
+      "mes": "2024-10",
+      "total": 1,
+      "expedientes": [
+        "lindsay-clancy"
+      ],
+      "temas": [
+        "Salud mental y responsabilidad penal"
+      ],
+      "regiones": [
+        "ESTADOS UNIDOS"
+      ]
+    },
+    {
+      "mes": "2023-09",
+      "total": 1,
+      "expedientes": [
+        "lindsay-clancy"
+      ],
+      "temas": [
+        "Juicios"
+      ],
+      "regiones": [
+        "ESTADOS UNIDOS"
+      ]
+    },
+    {
+      "mes": "2023-02",
+      "total": 1,
+      "expedientes": [
+        "lindsay-clancy"
+      ],
+      "temas": [
+        "Juicios"
+      ],
+      "regiones": [
+        "ESTADOS UNIDOS"
+      ]
+    },
+    {
+      "mes": "2023-01",
+      "total": 1,
+      "expedientes": [
+        "lindsay-clancy"
+      ],
+      "temas": [
+        "Investigación policial"
       ],
       "regiones": [
         "ESTADOS UNIDOS"

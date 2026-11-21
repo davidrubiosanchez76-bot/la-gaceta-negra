@@ -1,0 +1,30 @@
+{
+  "mes": "2025-03",
+  "total": 1,
+  "noticias": [
+    {
+      "id": "hist-isak-andic-2025-03-04-13",
+      "titular": "La jueza reabre las diligencias para aclarar las circunstancias de la muerte de Isak Andic",
+      "titular_original": "La jueza reabre la investigación por la muerte del dueño de Mango Isak Andic",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2025-03-04T12:00:00+00:00",
+      "actualizado": "2025-03-04T12:00:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [
+        "Juicios"
+      ],
+      "expedientes": [
+        "isak-andic"
+      ],
+      "fuentes": [
+        {
+          "medio": "RTVE",
+          "url": "https://www.rtve.es/noticias/20250304/jueza-reabre-investigacion-muerte-dueno-mango-isak-andic/16475677.shtml",
+          "fecha": "2025-03-04T12:00:00+00:00"
+        }
+      ]
+    }
+  ]
+}

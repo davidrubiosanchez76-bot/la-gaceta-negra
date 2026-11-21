@@ -1,0 +1,30 @@
+{
+  "mes": "2024-10",
+  "total": 1,
+  "noticias": [
+    {
+      "id": "hist-lindsay-clancy-2024-10-14-04",
+      "titular": "Patrick Clancy relata cómo afronta la muerte de sus tres hijos y los problemas de salud mental de Lindsay",
+      "titular_original": "A Husband in the Aftermath of His Wife’s Unfathomable Act",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2024-10-14T12:00:00+00:00",
+      "actualizado": "2024-10-14T12:00:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "temas": [
+        "Salud mental y responsabilidad penal"
+      ],
+      "expedientes": [
+        "lindsay-clancy"
+      ],
+      "fuentes": [
+        {
+          "medio": "The New Yorker",
+          "url": "https://www.newyorker.com/science/annals-of-psychology/a-husband-in-the-aftermath-of-his-wifes-unfathomable-act",
+          "fecha": "2024-10-14T12:00:00+00:00"
+        }
+      ]
+    }
+  ]
+}

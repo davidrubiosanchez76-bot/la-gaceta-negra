@@ -1,7 +1,79 @@
 {
   "mes": "2026-05",
-  "total": 1,
+  "total": 4,
   "noticias": [
+    {
+      "id": "hist-isak-andic-2026-05-28-18",
+      "titular": "La defensa de Jonathan Andic recurre las medidas cautelares y rechaza los indicios de homicidio",
+      "titular_original": "Jonathan Andic pide anular las medidas cautelares y denuncia una “condena social anticipada”",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2026-05-28T12:00:00+00:00",
+      "actualizado": "2026-05-28T12:00:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [
+        "Juicios"
+      ],
+      "expedientes": [
+        "isak-andic"
+      ],
+      "fuentes": [
+        {
+          "medio": "El País",
+          "url": "https://elpais.com/espana/catalunya/2026-05-28/jonathan-andic-pide-anular-las-medidas-cautelares-acordadas-tras-su-detencion.html",
+          "fecha": "2026-05-28T12:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "hist-isak-andic-2026-05-22-17",
+      "titular": "Los Mossos analizan una ruta que Jonathan Andic habría realizado días antes de la muerte de su padre",
+      "titular_original": "Los Mossos concluyen que Jonathan Andic hizo, cuatro días antes de la muerte de su padre en Montserrat, una ruta casi exacta",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2026-05-22T12:00:00+00:00",
+      "actualizado": "2026-05-22T12:00:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [
+        "Investigación policial"
+      ],
+      "expedientes": [
+        "isak-andic"
+      ],
+      "fuentes": [
+        {
+          "medio": "El País",
+          "url": "https://elpais.com/espana/catalunya/2026-05-22/los-mossos-concluyen-que-jonathan-andic-hizo-cuatro-dias-antes-de-la-muerte-de-su-padre-en-montserrat-una-ruta-casi-exacta.html",
+          "fecha": "2026-05-22T12:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "hist-isak-andic-2026-05-19-16",
+      "titular": "Detienen a Jonathan Andic por el presunto homicidio de su padre; queda libre bajo fianza de un millón de euros",
+      "titular_original": "El hijo del fundador de Mango, detenido por su muerte, paga la fianza y evita la prisión provisional",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2026-05-19T12:00:00+00:00",
+      "actualizado": "2026-05-19T12:00:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [
+        "Juicios"
+      ],
+      "expedientes": [
+        "isak-andic"
+      ],
+      "fuentes": [
+        {
+          "medio": "RTVE",
+          "url": "https://www.rtve.es/noticias/20260519/mossos-detienen-a-jonathan-andic-acusado-muerte-su-padre-fundador-mango/17075069.shtml",
+          "fecha": "2026-05-19T12:00:00+00:00"
+        }
+      ]
+    },
     {
       "id": "lm-2026-05-18-14",
       "titular": "El juez admite el arma y un cuaderno como pruebas en el proceso estatal contra Mangione",

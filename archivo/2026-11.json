@@ -1,6 +1,6 @@
 {
   "mes": "2026-11",
-  "total": 62,
+  "total": 69,
   "noticias": [
     {
       "id": "87f4c2e829321f4b",
@@ -431,6 +431,30 @@
       "metodo_titular": "original"
     },
     {
+      "id": "hist-lindsay-clancy-2026-11-20-11",
+      "titular": "El Tribunal Supremo de Massachusetts acepta estudiar el recurso de Clancy contra la repetición del juicio",
+      "titular_original": "Massachusetts' top court to hear Lindsay Clancy's bid to toss murder charges",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2026-11-20T12:00:00+00:00",
+      "actualizado": "2026-11-20T12:00:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "temas": [
+        "Juicios"
+      ],
+      "expedientes": [
+        "lindsay-clancy"
+      ],
+      "fuentes": [
+        {
+          "medio": "Reuters",
+          "url": "https://www.reuters.com/legal/government/massachusetts-top-court-hear-lindsay-clancys-bid-toss-murder-charges-2026-11-20/",
+          "fecha": "2026-11-20T12:00:00+00:00"
+        }
+      ]
+    },
+    {
       "id": "de26cc8c733070f2",
       "titular": "Andréi Zviáguintsev reflexiona sobre el matrimonio, la mitología y la violencia familiar",
       "fecha": "2026-11-20T09:10:51+00:00",
@@ -648,6 +672,30 @@
       ],
       "titular_original": "Georg H. Jeitler: The Impact Of AI And Deepfakes On Digital Evidence Authentication",
       "metodo_titular": "revision_editorial"
+    },
+    {
+      "id": "hist-isak-andic-2026-11-19-24",
+      "titular": "La Audiencia de Barcelona ve indicios para seguir investigando la muerte de Isak Andic, sin descartar un accidente",
+      "titular_original": "‘Caso Andic’: las incoherencias sobre el terreno de Jonathan Andic sustentan la investigación",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2026-11-19T12:00:00+00:00",
+      "actualizado": "2026-11-19T12:00:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [
+        "Juicios"
+      ],
+      "expedientes": [
+        "isak-andic"
+      ],
+      "fuentes": [
+        {
+          "medio": "El País",
+          "url": "https://elpais.com/espana/catalunya/2026-11-19/caso-andic-las-incoherencias-sobre-el-terreno-de-jonathan-andic-que-sustentan-la-investigacion.html",
+          "fecha": "2026-11-19T12:00:00+00:00"
+        }
+      ]
     },
     {
       "id": "824ac21f1742efc6",
@@ -890,6 +938,30 @@
       "metodo_titular": "revision_editorial"
     },
     {
+      "id": "hist-isak-andic-2026-11-18-23",
+      "titular": "La Audiencia de Barcelona mantiene las cautelares de Jonathan Andic, investigado por la muerte de su padre",
+      "titular_original": "La Audiencia de Barcelona confirma las medidas cautelares contra Jonathan Andic: prisión eludible bajo fianza, sin pasaporte y visitas al juzgado",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2026-11-18T12:00:00+00:00",
+      "actualizado": "2026-11-18T12:00:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [
+        "Juicios"
+      ],
+      "expedientes": [
+        "isak-andic"
+      ],
+      "fuentes": [
+        {
+          "medio": "El País",
+          "url": "https://elpais.com/espana/catalunya/2026-11-18/la-audiencia-de-barcelona-confirma-las-medidas-cautelares-contra-jonathan-andic-sin-pasaporte-y-visitas-al-juzgado.html",
+          "fecha": "2026-11-18T12:00:00+00:00"
+        }
+      ]
+    },
+    {
       "id": "70b5527a80de2259",
       "titular": "Cine: «Sacamantecas»",
       "fecha": "2026-11-18T07:30:00+00:00",
@@ -1103,6 +1175,54 @@
       "metodo_titular": "revision_editorial"
     },
     {
+      "id": "hist-lindsay-clancy-2026-11-16-10",
+      "titular": "La justicia fija para el 29 de marzo de 2027 la repetición del juicio a Lindsay Clancy",
+      "titular_original": "Lindsay Clancy to face murder retrial in March over killing of her children",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2026-11-16T12:00:00+00:00",
+      "actualizado": "2026-11-16T12:00:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "temas": [
+        "Juicios"
+      ],
+      "expedientes": [
+        "lindsay-clancy"
+      ],
+      "fuentes": [
+        {
+          "medio": "Reuters",
+          "url": "https://www.reuters.com/legal/government/lindsay-clancy-returns-court-potential-murder-retrial-looms-2026-11-16/",
+          "fecha": "2026-11-16T12:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "hist-isak-andic-2026-11-16-22",
+      "titular": "Los investigadores realizaron siete inspecciones en Montserrat sin aclarar de forma concluyente la caída de Andic",
+      "titular_original": "Simulacros, huellas, planos y zapatillas: siete expediciones a Montserrat para aclarar la muerte de Isak Andic",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2026-11-16T12:00:00+00:00",
+      "actualizado": "2026-11-16T12:00:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [
+        "Pruebas forenses"
+      ],
+      "expedientes": [
+        "isak-andic"
+      ],
+      "fuentes": [
+        {
+          "medio": "El País",
+          "url": "https://elpais.com/espana/catalunya/2026-11-16/simulacros-huellas-planos-y-bambas-las-siete-expediciones-a-la-montana-de-montserrat-que-no-aclararon-la-muerte-de-isak-andic.html",
+          "fecha": "2026-11-16T12:00:00+00:00"
+        }
+      ]
+    },
+    {
       "id": "67b53f11b02cfbed",
       "titular": "El rincón oscuro. El Lute, cine que crea realidades",
       "fecha": "2026-11-13T07:30:00+00:00",
@@ -1227,6 +1347,54 @@
       "region": "MUNDO",
       "titular_original": "Novela: «la opacidad de los cuerpos humanos», de Carlos Manzano",
       "metodo_titular": "original"
+    },
+    {
+      "id": "hist-lindsay-clancy-2026-11-09-09",
+      "titular": "Un juez rechaza archivar la causa contra Clancy y permite que se celebre un segundo juicio",
+      "titular_original": "Lindsay Clancy loses bid to dismiss murder charges, retrial looms",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2026-11-09T12:00:00+00:00",
+      "actualizado": "2026-11-09T12:00:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "temas": [
+        "Juicios"
+      ],
+      "expedientes": [
+        "lindsay-clancy"
+      ],
+      "fuentes": [
+        {
+          "medio": "Reuters / Investing.com",
+          "url": "https://www.investing.com/news/world-news/lindsay-clancy-loses-bid-to-dismiss-murder-charges-retrial-looms-5013107",
+          "fecha": "2026-11-09T12:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "hist-lindsay-clancy-2026-11-02-08",
+      "titular": "Tras el juicio sin veredicto, la Fiscalía estudia un nuevo proceso contra Lindsay Clancy",
+      "titular_original": "Explainer-What’s next in the Lindsay Clancy murder case?",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2026-11-02T12:00:00+00:00",
+      "actualizado": "2026-11-02T12:00:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "temas": [
+        "Juicios"
+      ],
+      "expedientes": [
+        "lindsay-clancy"
+      ],
+      "fuentes": [
+        {
+          "medio": "Reuters / Investing.com",
+          "url": "https://www.investing.com/news/world-news/explainerwhats-next-in-the-lindsay-clancy-murder-case-4993011",
+          "fecha": "2026-11-02T12:00:00+00:00"
+        }
+      ]
     }
   ]
 }

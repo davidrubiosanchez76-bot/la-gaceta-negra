@@ -1,0 +1,30 @@
+{
+  "mes": "2025-10",
+  "total": 1,
+  "noticias": [
+    {
+      "id": "hist-isak-andic-2025-10-17-15",
+      "titular": "La investigación sobre la muerte de Isak Andic incorpora la hipótesis de un posible homicidio",
+      "titular_original": "Los Mossos investigan como posible homicidio la muerte del fundador de Mango, Isak Andic",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2025-10-17T12:00:00+00:00",
+      "actualizado": "2025-10-17T12:00:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [
+        "Investigación policial"
+      ],
+      "expedientes": [
+        "isak-andic"
+      ],
+      "fuentes": [
+        {
+          "medio": "RTVE",
+          "url": "https://www.rtve.es/noticias/20251017/mossos-posible-homicidio-muerte-fundador-mango-isak-andic/16774422.shtml",
+          "fecha": "2025-10-17T12:00:00+00:00"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "mes": "2023-02",
+  "total": 1,
+  "noticias": [
+    {
+      "id": "hist-lindsay-clancy-2023-02-07-02",
+      "titular": "Lindsay Clancy se declara no culpable en su primera comparecencia por la muerte de sus hijos",
+      "titular_original": "Duxbury Woman Arraigned In Murder Of Her Three Children",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2023-02-07T12:00:00+00:00",
+      "actualizado": "2023-02-07T12:00:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "temas": [
+        "Juicios"
+      ],
+      "expedientes": [
+        "lindsay-clancy"
+      ],
+      "fuentes": [
+        {
+          "medio": "Fiscalía del condado de Plymouth",
+          "url": "https://plymouthda.com/news/2023-press-releases/duxbury-woman-arraigned-in-murder-of-her-three-children/",
+          "fecha": "2023-02-07T12:00:00+00:00"
+        }
+      ]
+    }
+  ]
+}

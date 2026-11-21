@@ -1,6 +1,6 @@
 {
   "mes": "2026-01",
-  "total": 1,
+  "total": 2,
   "noticias": [
     {
       "id": "lm-2026-01-30-11",
@@ -23,6 +23,30 @@
           "medio": "PBS NewsHour",
           "url": "https://www.pbs.org/newshour/nation/federal-prosecutors-cant-seek-death-penalty-against-luigi-mangione-judge-rules",
           "fecha": "2026-01-30T00:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "hist-lindsay-clancy-2026-01-27-05",
+      "titular": "Lindsay Clancy demanda a varios profesionales sanitarios por presunta negligencia en su tratamiento psiquiátrico",
+      "titular_original": "Lindsay Clancy files malpractice lawsuit against medical providers",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2026-01-27T12:00:00+00:00",
+      "actualizado": "2026-01-27T12:00:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "temas": [
+        "Salud mental y responsabilidad penal"
+      ],
+      "expedientes": [
+        "lindsay-clancy"
+      ],
+      "fuentes": [
+        {
+          "medio": "Boston.com",
+          "url": "https://www.boston.com/news/crime/2026/01/27/lindsay-clancy-malpractice-lawsuit/",
+          "fecha": "2026-01-27T12:00:00+00:00"
         }
       ]
     }
