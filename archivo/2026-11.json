@@ -1,31 +1,14 @@
 {
   "mes": "2026-11",
-  "total": 77,
+  "total": 70,
   "noticias": [
-    {
-      "id": "5642806efa8d02e3",
-      "titular": "Zelensky says Putin is a 'killer' after Trump calls Russian leader a friend",
-      "fecha": "2026-11-21T07:24:45+00:00",
-      "actualizado": "2026-11-21T07:24:45+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "MUNDO",
-      "temas": [],
-      "expedientes": [],
-      "fuentes": [
-        {
-          "medio": "BBC News — World",
-          "url": "https://www.bbc.co.uk/news/articles/cxnv4zvmdy0jo?at_medium=RSS&at_campaign=rss",
-          "fecha": "2026-11-21T07:24:45+00:00"
-        }
-      ]
-    },
     {
       "id": "87f4c2e829321f4b",
       "titular": "Skylar Deleon: la historia real tras el supuesto Power Ranger rojo condenado por asesinato",
       "fecha": "2026-11-21T07:08:29+00:00",
       "actualizado": "2026-11-21T07:08:29+00:00",
       "categoria": "TRUE CRIME",
-      "region": "ESPAÑA",
+      "region": "MUNDO",
       "temas": [
         "Juicios"
       ],
@@ -73,29 +56,12 @@
       ]
     },
     {
-      "id": "861051cea9c9aef0",
-      "titular": "GTA VI ya tiene su primer gran atraco, pero ¿quién se llevará el botín en Bolsa?",
-      "fecha": "2026-11-21T04:00:00+00:00",
-      "actualizado": "2026-11-21T04:00:00+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "ESPAÑA",
-      "temas": [],
-      "expedientes": [],
-      "fuentes": [
-        {
-          "medio": "20minutos",
-          "url": "https://www.20minutos.es/lainformacion/empresas/gta-vi-ya-tiene-su-primer-gran-atraco-pero-quien-se-llevara-botin-bolsa_7063682_0.html",
-          "fecha": "2026-11-21T04:00:00+00:00"
-        }
-      ]
-    },
-    {
       "id": "67cf8eacf6797810",
       "titular": "French police officers sentenced for beating of music producer Michel Zecler",
       "fecha": "2026-11-20T22:37:09+00:00",
       "actualizado": "2026-11-20T22:37:09+00:00",
       "categoria": "TRUE CRIME",
-      "region": "MUNDO",
+      "region": "EUROPA",
       "temas": [],
       "expedientes": [],
       "fuentes": [
@@ -146,7 +112,7 @@
       "fecha": "2026-11-20T20:39:51+00:00",
       "actualizado": "2026-11-20T20:39:51+00:00",
       "categoria": "TRUE CRIME",
-      "region": "CATALUÑA",
+      "region": "MUNDO",
       "temas": [
         "Narcotráfico"
       ],
@@ -191,7 +157,7 @@
           "fecha": "2026-11-20T20:15:17+00:00"
         }
       ],
-      "region": "ESPAÑA"
+      "region": "MUNDO"
     },
     {
       "id": "749da00a3952582c",
@@ -247,29 +213,12 @@
       ]
     },
     {
-      "id": "5798c01cfbeebdfc",
-      "titular": "Two men killed after glider crashes into Loch Leven in Scotland",
-      "fecha": "2026-11-20T18:20:09+00:00",
-      "actualizado": "2026-11-20T18:20:09+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "EUROPA",
-      "temas": [],
-      "expedientes": [],
-      "fuentes": [
-        {
-          "medio": "The Guardian — UK",
-          "url": "https://www.theguardian.com/uk-news/2026/nov/20/glider-crash-loch-leven-scotland",
-          "fecha": "2026-11-20T18:20:09+00:00"
-        }
-      ]
-    },
-    {
       "id": "e874b92691e9d1fe",
       "titular": "En llibertat el milionari nord-americà Fergie Chambers, l'activista propalestí detingut a Eivissa",
       "fecha": "2026-11-20T18:05:29+00:00",
       "actualizado": "2026-11-20T18:05:29+00:00",
       "categoria": "TRUE CRIME",
-      "region": "CATALUÑA",
+      "region": "ESPAÑA",
       "temas": [],
       "expedientes": [],
       "fuentes": [
@@ -286,7 +235,7 @@
       "fecha": "2026-11-20T17:46:54+00:00",
       "actualizado": "2026-11-20T17:46:54+00:00",
       "categoria": "TRUE CRIME",
-      "region": "ESPAÑA",
+      "region": "MUNDO",
       "temas": [
         "Desapariciones"
       ],
@@ -305,7 +254,7 @@
       "fecha": "2026-11-20T17:12:03+00:00",
       "actualizado": "2026-11-20T17:12:03+00:00",
       "categoria": "TRUE CRIME",
-      "region": "ESPAÑA",
+      "region": "CATALUÑA",
       "temas": [],
       "expedientes": [],
       "fuentes": [
@@ -392,7 +341,7 @@
       "fecha": "2026-11-20T14:42:48+00:00",
       "actualizado": "2026-11-20T14:42:48+00:00",
       "categoria": "TRUE CRIME",
-      "region": "CATALUÑA",
+      "region": "MUNDO",
       "temas": [],
       "expedientes": [],
       "fuentes": [
@@ -437,7 +386,7 @@
           "fecha": "2026-11-20T13:20:31+00:00"
         }
       ],
-      "region": "ESPAÑA"
+      "region": "MUNDO"
     },
     {
       "id": "471527244c8410c2",
@@ -471,7 +420,7 @@
           "fecha": "2026-11-20T12:55:03+00:00"
         }
       ],
-      "region": "ESPAÑA"
+      "region": "MUNDO"
     },
     {
       "id": "21134463fe40c1e7",
@@ -487,25 +436,6 @@
           "medio": "20minutos",
           "url": "https://www.20minutos.es/castilla-y-leon/burgos/policia-nacional-frustra-implantacion-espana-un-grupo-ciberterrorista-prorruso-detiene-un-hombre-burgos_7063638_0.html",
           "fecha": "2026-11-20T12:42:24+00:00"
-        }
-      ]
-    },
-    {
-      "id": "bbc69e319c1e713a",
-      "titular": "Forensic Focus Digest, 20 Nov 2026",
-      "fecha": "2026-11-20T11:52:25+00:00",
-      "actualizado": "2026-11-20T11:52:25+00:00",
-      "categoria": "CRIME SCENE",
-      "region": "MUNDO",
-      "temas": [
-        "Criminalística"
-      ],
-      "expedientes": [],
-      "fuentes": [
-        {
-          "medio": "Forensic Focus",
-          "url": "https://www.forensicfocus.com/news/forensic-focus-digest-20-nov-2026",
-          "fecha": "2026-11-20T11:52:25+00:00"
         }
       ]
     },
@@ -564,7 +494,7 @@
           "fecha": "2026-11-20T07:30:00+00:00"
         }
       ],
-      "region": "ESPAÑA"
+      "region": "MUNDO"
     },
     {
       "id": "2c0c0f72d29ba274",
@@ -654,31 +584,12 @@
       ]
     },
     {
-      "id": "aac28f86f822b5e5",
-      "titular": "Registration Opens For Magnet Virtual Summit 2027, Featuring 50+ Digital Forensics Presentations",
-      "fecha": "2026-11-19T17:28:28+00:00",
-      "actualizado": "2026-11-19T17:28:28+00:00",
-      "categoria": "CRIME SCENE",
-      "region": "MUNDO",
-      "temas": [
-        "Criminalística"
-      ],
-      "expedientes": [],
-      "fuentes": [
-        {
-          "medio": "Forensic Focus",
-          "url": "https://www.forensicfocus.com/news/registration-opens-for-magnet-virtual-summit-2027-featuring-50-digital-forensics-presentations",
-          "fecha": "2026-11-19T17:28:28+00:00"
-        }
-      ]
-    },
-    {
       "id": "102a2cb17f108c75",
       "titular": "JPMorgan Chase informa de un ciberataque: se habrían filtrado datos de clientes y sus correos electrónicos",
       "fecha": "2026-11-19T17:12:58+00:00",
       "actualizado": "2026-11-19T17:12:58+00:00",
       "categoria": "TRUE CRIME",
-      "region": "ESPAÑA",
+      "region": "MUNDO",
       "temas": [],
       "expedientes": [],
       "fuentes": [
@@ -1011,7 +922,7 @@
           "fecha": "2026-11-18T07:30:00+00:00"
         }
       ],
-      "region": "ESPAÑA"
+      "region": "MUNDO"
     },
     {
       "id": "6e3fc01993ba4e35",
@@ -1220,25 +1131,6 @@
       ]
     },
     {
-      "id": "46ef38c088bd45a3",
-      "titular": "Forensic Focus Digest, 13 Nov 2026",
-      "fecha": "2026-11-13T11:53:17+00:00",
-      "actualizado": "2026-11-13T11:53:17+00:00",
-      "categoria": "CRIME SCENE",
-      "region": "MUNDO",
-      "temas": [
-        "Criminalística"
-      ],
-      "expedientes": [],
-      "fuentes": [
-        {
-          "medio": "Forensic Focus",
-          "url": "https://www.forensicfocus.com/news/forensic-focus-digest-13-nov-2026",
-          "fecha": "2026-11-13T11:53:17+00:00"
-        }
-      ]
-    },
-    {
       "id": "67b53f11b02cfbed",
       "titular": "El rincón oscuro. El Lute, cine que crea realidades",
       "fecha": "2026-11-13T07:30:00+00:00",
@@ -1255,7 +1147,7 @@
           "fecha": "2026-11-13T07:30:00+00:00"
         }
       ],
-      "region": "ESPAÑA"
+      "region": "MUNDO"
     },
     {
       "id": "98225044e5707d12",
@@ -1350,26 +1242,7 @@
           "fecha": "2026-11-10T07:30:00+00:00"
         }
       ],
-      "region": "ESPAÑA"
-    },
-    {
-      "id": "7faa665cee0b8e20",
-      "titular": "Forensic Focus Digest, 06 Nov 2026",
-      "fecha": "2026-11-06T14:21:09+00:00",
-      "actualizado": "2026-11-06T14:21:09+00:00",
-      "categoria": "CRIME SCENE",
-      "region": "MUNDO",
-      "temas": [
-        "Criminalística"
-      ],
-      "expedientes": [],
-      "fuentes": [
-        {
-          "medio": "Forensic Focus",
-          "url": "https://www.forensicfocus.com/news/forensic-focus-digest-06-nov-2026",
-          "fecha": "2026-11-06T14:21:09+00:00"
-        }
-      ]
+      "region": "MUNDO"
     }
   ]
 }
