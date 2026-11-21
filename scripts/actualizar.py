@@ -3,6 +3,7 @@
 
 Sin dependencias externas. La agrupación de acontecimientos es heurística y conservadora:
 combina URLs iguales y titulares muy parecidos en ventanas de 72 horas.
+Los títulos originales se conservan internamente para no distorsionar filtros y duplicados.
 """
 from __future__ import annotations
 
@@ -19,6 +20,7 @@ from datetime import datetime, timedelta, timezone
 from difflib import SequenceMatcher
 from email.utils import parsedate_to_datetime
 from pathlib import Path
+from titulares import reescribir_titular
 
 ROOT = Path(__file__).resolve().parents[1]
 UTC = timezone.utc
@@ -175,16 +177,17 @@ def same_event(a, b):
             return True
     if abs((date_parse(a["fecha"]) - date_parse(b["fecha"])).total_seconds()) > 72 * 3600:
         return False
-    loc_a, loc_b = location_marker(a["titular"]), location_marker(b["titular"])
+    title_a, title_b = a.get("titular_original", a["titular"]), b.get("titular_original", b["titular"])
+    loc_a, loc_b = location_marker(title_a), location_marker(title_b)
     if loc_a and loc_b and loc_a != loc_b:
         return False
-    left, right = tokens(a["titular"]), tokens(b["titular"])
+    left, right = tokens(title_a), tokens(title_b)
     if min(len(left), len(right)) < 4:
         return False
     common = len(left & right)
     jaccard = common / len(left | right)
     coverage = common / min(len(left), len(right))
-    text_sim = SequenceMatcher(None, normalize(a["titular"]), normalize(b["titular"])).ratio()
+    text_sim = SequenceMatcher(None, normalize(title_a), normalize(title_b)).ratio()
     return common >= 4 and (jaccard >= .68 or (coverage >= .80 and text_sim >= .66))
 
 
@@ -224,9 +227,10 @@ def make_story(item, feed, config):
     if not cat:
         return None
     dt = date.isoformat(timespec="seconds")
+    editorial, metodo = reescribir_titular(title, cat)
     return {
         "id": hashlib.sha1((normalize(title) + "|" + date.strftime("%Y-%m-%d")).encode()).hexdigest()[:16],
-        "titular": title[:260], "fecha": dt, "actualizado": dt,
+        "titular": editorial[:260], "titular_original": title[:260], "metodo_titular": metodo, "fecha": dt, "actualizado": dt,
         "categoria": cat, "region": region_of(title, feed.get("region", "MUNDO")), "temas": topics_of(title, cat),
         "expedientes": cases_of(title, config),
         "fuentes": [{"medio": item.get("outlet") or (urllib.parse.urlsplit(url).hostname.removeprefix("www.") if "Google Alerts" in feed["nombre"] else feed["nombre"]), "url": url, "fecha": dt}],
@@ -275,13 +279,16 @@ def main():
             hint = "LITERATURA NEGRA"
         if hint == "AUTO" and source.startswith("ScienceDaily"):
             hint = "CRIME SCENE"
-        cat = category(old.get("titular", ""), hint)
+        original = old.get("titular_original") or old.get("titular", "")
+        cat = category(original, hint)
         if not cat:
             return None
         old["categoria"] = cat
-        old["region"] = region_of(old.get("titular", ""), origin.get("region", "MUNDO"))
-        old["temas"] = topics_of(old["titular"], cat)
-        old["expedientes"] = cases_of(old["titular"], watch)
+        old["titular_original"] = original[:260]
+        old["titular"], old["metodo_titular"] = reescribir_titular(original, cat)
+        old["region"] = region_of(original, origin.get("region", "MUNDO"))
+        old["temas"] = topics_of(original, cat)
+        old["expedientes"] = cases_of(original, watch)
         return old
 
     for month_file in sorted(folder.glob("????-??.json")):
