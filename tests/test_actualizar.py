@@ -22,6 +22,17 @@ class TestGaceta(unittest.TestCase):
         self.assertTrue(g.same_event(a, b))
         self.assertFalse(g.same_event(a, c))
 
+    def test_regions(self):
+        self.assertEqual(g.region_of("Un homicidio en Barcelona", "ESPAÑA"), "CATALUÑA")
+        self.assertEqual(g.region_of("Murder trial in Massachusetts", "MUNDO"), "ESTADOS UNIDOS")
+        self.assertEqual(g.region_of("Crime in London", "MUNDO"), "EUROPA")
+        self.assertEqual(g.region_of("A murder case without a location", "MUNDO"), "MUNDO")
+
+    def test_multilingual_categories(self):
+        self.assertEqual(g.category("Police arrest suspect in double murder in Texas", "AUTO"), "TRUE CRIME")
+        self.assertEqual(g.category("Noves tècniques de digital forensics", "AUTO"), "CRIME SCENE")
+        self.assertEqual(g.category("La ministra anuncia una rebaja de impuestos", "AUTO"), None)
+
     def test_cases(self):
         self.assertEqual(g.cases_of("Novedades en el caso de Lindsay Clancy", [{"id": "lindsay-clancy", "alias": ["Lindsay Clancy"]}]), ["lindsay-clancy"])
         self.assertEqual(g.cases_of("Novedades de Lindsay Johnson", [{"id": "lindsay-clancy", "alias": ["Lindsay Clancy"]}]), [])
