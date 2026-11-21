@@ -109,6 +109,23 @@ class TestGaceta(unittest.TestCase):
         self.assertEqual(g.category("Noves tècniques de digital forensics", "AUTO"), "CRIME SCENE")
         self.assertEqual(g.category("La ministra anuncia una rebaja de impuestos", "AUTO"), None)
 
+    def test_expediente_tematico_nihilista(self):
+        from temas_expedientes import coincide
+        self.assertTrue(coincide("El FBI alerta del extremismo violento nihilista"))
+        self.assertTrue(coincide("Detenido un miembro de la red 764"))
+        self.assertTrue(coincide("Com Network linked to nihilistic violent extremism"))
+        self.assertTrue(coincide("The Com amenaza a menores", "red criminal nihilista"))
+        self.assertFalse(coincide("El nihilismo en la literatura del siglo XIX"))
+        self.assertFalse(coincide("Terrorismo yihadista: últimas noticias"))
+        self.assertFalse(coincide("Una carretera registra 764 vehículos"))
+        self.assertFalse(coincide("Informe sobre el grupo 764 de peces", "ecología submarina"))
+
+        cases = [{"id":"extremismo-nihilista-violento","tipo":"tematico","detector":"nve","alias":["764"]},
+                 {"id":"luigi-mangione","alias":["luigi mangione"]}]
+        self.assertEqual(g.cases_of("La fiscalía investiga a un miembro de la red 764", cases), ["extremismo-nihilista-violento"])
+        self.assertEqual(g.cases_of("La biografía de Luigi Mangione", cases), ["luigi-mangione"])
+        self.assertEqual(g.cases_of("Un filósofo escribe sobre nihilismo", cases), [])
+
     def test_cases(self):
         self.assertEqual(g.cases_of("Novedades en el caso de Lindsay Clancy", [{"id": "lindsay-clancy", "alias": ["Lindsay Clancy"]}]), ["lindsay-clancy"])
         self.assertEqual(g.cases_of("Novedades de Lindsay Johnson", [{"id": "lindsay-clancy", "alias": ["Lindsay Clancy"]}]), [])

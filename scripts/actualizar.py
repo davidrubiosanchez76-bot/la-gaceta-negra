@@ -22,6 +22,7 @@ from email.utils import parsedate_to_datetime
 from pathlib import Path
 from titulares import reescribir_titular
 from traducir import titulo_para_publicar, es_ingles
+from temas_expedientes import coincide as es_extremismo_nihilista
 
 ROOT = Path(__file__).resolve().parents[1]
 UTC = timezone.utc
@@ -155,9 +156,18 @@ def topics_of(text, cat):
     return found
 
 
-def cases_of(text, config):
+def cases_of(text, config, summary=""):
     s = " " + normalize(text) + " "
-    return [x["id"] for x in config if x.get("activo", True) and any(" " + normalize(alias) + " " in s for alias in x.get("alias", []))]
+    results = []
+    for item in config:
+        if item.get("activo") is False:
+            continue
+        if item.get("tipo") == "tematico":
+            if item.get("detector") == "nve" and es_extremismo_nihilista(text, summary):
+                results.append(item["id"])
+        elif any(" " + normalize(alias) + " " in s for alias in item.get("alias", [])):
+            results.append(item["id"])
+    return results
 
 
 def location_marker(title):
@@ -224,7 +234,10 @@ def make_story(item, feed, config, correcciones=None):
     if not (NOW - timedelta(days=DAYS_ACCEPT_FEED) <= date <= NOW + timedelta(hours=8)):
         return None
     full_text = title + " " + re.sub(r"<[^>]*>", " ", item["summary"])
+    es_nve = es_extremismo_nihilista(title, item["summary"])
     cat = category(title, feed.get("categoria", "AUTO"))
+    if not cat and es_nve:
+        cat = "TRUE CRIME"
     if not cat:
         return None
     dt = date.isoformat(timespec="seconds")
@@ -236,8 +249,10 @@ def make_story(item, feed, config, correcciones=None):
     return {
         "id": sid,
         "titular": editorial[:260], "titular_original": title[:260], "metodo_titular": metodo, "fecha": dt, "actualizado": dt,
-        "categoria": cat, "region": region_of(title, feed.get("region", "MUNDO")), "temas": topics_of(title, cat),
-        "expedientes": cases_of(title, config),
+        "categoria": cat, "region": region_of(title, feed.get("region", "MUNDO")),
+        "temas": sorted(set(topics_of(title, cat) + (["Extremismo nihilista violento"] if es_nve else []))),
+        "expedientes": cases_of(title, config, summary=item["summary"]),
+        "etiquetas_de_deteccion": ["nve"] if es_nve else [],
         "fuentes": [{"medio": item.get("outlet") or (urllib.parse.urlsplit(url).hostname.removeprefix("www.") if "Google Alerts" in feed["nombre"] else feed["nombre"]), "url": url, "fecha": dt}],
     }
 
@@ -294,7 +309,10 @@ def main():
         if hint == "AUTO" and source.startswith("ScienceDaily"):
             hint = "CRIME SCENE"
         original = old.get("titular_original") or old.get("titular", "")
+        es_nve = ("nve" in old.get("etiquetas_de_deteccion", [])) or es_extremismo_nihilista(original)
         cat = category(original, hint)
+        if not cat and es_nve:
+            cat = "TRUE CRIME"
         if not cat:
             return None
         old["categoria"] = cat
@@ -305,8 +323,9 @@ def main():
         else:
             old["titular"], old["metodo_titular"] = titulo_para_publicar(original, cat, idioma)
         old["region"] = region_of(original, origin.get("region", "MUNDO"))
-        old["temas"] = topics_of(original, cat)
-        old["expedientes"] = cases_of(original, watch)
+        old["temas"] = sorted(set(topics_of(original, cat) + (["Extremismo nihilista violento"] if es_nve else [])))
+        old["expedientes"] = sorted(set(cases_of(original, watch) + (["extremismo-nihilista-violento"] if es_nve and any(c.get("id") == "extremismo-nihilista-violento" and c.get("activo", True) for c in watch) else [])))
+        old["etiquetas_de_deteccion"] = ["nve"] if es_nve else []
         return old
 
     for month_file in sorted(folder.glob("????-??.json")):

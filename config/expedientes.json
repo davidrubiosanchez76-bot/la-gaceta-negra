@@ -37,5 +37,31 @@
       "Juicios",
       "Asesinatos"
     ]
+  },
+  {
+    "id": "extremismo-nihilista-violento",
+    "nombre": "EXTREMISMO VIOLENTO NIHILISTA",
+    "tipo": "tematico",
+    "detector": "nve",
+    "descripcion": "Fenómeno criminal emergente; incluye investigación, redes, actuaciones judiciales y debate sobre la definición de terrorismo.",
+    "alias": [
+      "extremismo violento nihilista",
+      "terrorismo nihilista",
+      "nihilistic violent extremism",
+      "764",
+      "The Com",
+      "No Lives Matter",
+      "Maniac Murder Cult"
+    ],
+    "inicio": "2025-04-30",
+    "activo": true,
+    "categorias": [
+      "TRUE CRIME"
+    ],
+    "temas": [
+      "Extremismo nihilista violento",
+      "Terrorismo",
+      "Ciberdelincuencia"
+    ]
   }
 ]
