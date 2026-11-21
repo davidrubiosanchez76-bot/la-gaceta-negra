@@ -1,7 +1,32 @@
 {
   "mes": "2025-04",
-  "total": 2,
+  "total": 3,
   "noticias": [
+    {
+      "id": "nve-2025-04-30-01",
+      "titular": "EE. UU. acusa a dos presuntos dirigentes de la red 764 de explotación sexual de menores a escala internacional",
+      "titular_original": "Leaders of 764 Arrested and Charged for Operating Global Child Exploitation Enterprise",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2025-04-30T00:00:00+00:00",
+      "actualizado": "2025-04-30T00:00:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [
+        "Extremismo nihilista violento",
+        "Justicia"
+      ],
+      "expedientes": [
+        "extremismo-nihilista-violento"
+      ],
+      "fuentes": [
+        {
+          "medio": "Departamento de Justicia de EE. UU.",
+          "url": "https://www.justice.gov/usao-dc/pr/leaders-764-arrested-and-charged-operating-global-child-exploitation-enterprise",
+          "fecha": "2025-04-30T00:00:00+00:00"
+        }
+      ]
+    },
     {
       "id": "lm-2025-04-25-08",
       "titular": "Mangione rechaza los cargos federales en una causa en la que la Fiscalía pide la pena capital",

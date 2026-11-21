@@ -1,0 +1,81 @@
+{
+  "mes": "2026-09",
+  "total": 3,
+  "noticias": [
+    {
+      "id": "nve-2026-09-23-12",
+      "titular": "El FBI de Filadelfia advierte sobre las redes extremistas nihilistas que captan menores por internet",
+      "titular_original": "FBI Philadelphia Warns of Violent Online Networks Targeting Children and Vulnerable Populations",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2026-09-23T00:00:00+00:00",
+      "actualizado": "2026-09-23T00:00:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "temas": [
+        "Extremismo nihilista violento",
+        "Investigación policial"
+      ],
+      "expedientes": [
+        "extremismo-nihilista-violento"
+      ],
+      "fuentes": [
+        {
+          "medio": "FBI — Filadelfia",
+          "url": "https://www.fbi.gov/contact-us/field-offices/philadelphia/news/fbi-philadelphia-warns-of-violent-online-networks-targeting-children-and-vulnerable-populations",
+          "fecha": "2026-09-23T00:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "nve-2026-09-14-11",
+      "titular": "Un hombre ingresa en prisión preventiva en Avilés acusado de delitos contra menores vinculados a «The Com»",
+      "titular_original": "Un detenido en Avilés por pertenecer a una comunidad ultraviolenta",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2026-09-14T00:00:00+00:00",
+      "actualizado": "2026-09-14T00:00:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [
+        "Extremismo nihilista violento",
+        "Investigación policial"
+      ],
+      "expedientes": [
+        "extremismo-nihilista-violento"
+      ],
+      "fuentes": [
+        {
+          "medio": "Agencia EFE",
+          "url": "https://efe.com/principado-de-asturias/2026-09-14/detenido-asturias-pertenecer-comunidad-ultraviolenta/",
+          "fecha": "2026-09-14T00:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "nve-2026-09-08-10",
+      "titular": "La Unión Europea alerta de nuevas formas de violencia nihilista promovidas desde comunidades digitales",
+      "titular_original": "EU warns of a chilling new terror menace 25 years after 9/11 as online youths seek violent thrills",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2026-09-08T00:00:00+00:00",
+      "actualizado": "2026-09-08T00:00:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "EUROPA",
+      "temas": [
+        "Extremismo nihilista violento",
+        "Análisis criminológico"
+      ],
+      "expedientes": [
+        "extremismo-nihilista-violento"
+      ],
+      "fuentes": [
+        {
+          "medio": "Associated Press",
+          "url": "https://apnews.com/article/662ea092c50b808542d7a1cc2f480ce6",
+          "fecha": "2026-09-08T00:00:00+00:00"
+        }
+      ]
+    }
+  ]
+}

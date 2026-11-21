@@ -1,6 +1,6 @@
 {
   "actualizado": "2026-11-21T08:14:00+00:00",
-  "total": 64,
+  "total": 66,
   "noticias": [
     {
       "id": "87f4c2e829321f4b",
@@ -1274,6 +1274,56 @@
           "medio": "Associated Press",
           "url": "https://apnews.com/article/701b424d38c5c0fcfe5f82d296cf2548",
           "fecha": "2026-10-02T00:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "nve-2026-10-01-13",
+      "titular": "Un estudio del IEEE analiza el auge del extremismo nihilista violento y sus comunidades digitales",
+      "titular_original": "El auge del extremismo nihilista violento en la era digital",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2026-10-01T00:00:00+00:00",
+      "actualizado": "2026-10-01T00:00:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [
+        "Extremismo nihilista violento",
+        "Análisis criminológico"
+      ],
+      "expedientes": [
+        "extremismo-nihilista-violento"
+      ],
+      "fuentes": [
+        {
+          "medio": "IEEE / Ministerio de Defensa",
+          "url": "https://www.defensa.gob.es/ceseden/-/ieee-2026-auge-extremismo-nihilista-violento-en-era-digital",
+          "fecha": "2026-10-01T00:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "nve-2026-09-23-12",
+      "titular": "El FBI de Filadelfia advierte sobre las redes extremistas nihilistas que captan menores por internet",
+      "titular_original": "FBI Philadelphia Warns of Violent Online Networks Targeting Children and Vulnerable Populations",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2026-09-23T00:00:00+00:00",
+      "actualizado": "2026-09-23T00:00:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "temas": [
+        "Extremismo nihilista violento",
+        "Investigación policial"
+      ],
+      "expedientes": [
+        "extremismo-nihilista-violento"
+      ],
+      "fuentes": [
+        {
+          "medio": "FBI — Filadelfia",
+          "url": "https://www.fbi.gov/contact-us/field-offices/philadelphia/news/fbi-philadelphia-warns-of-violent-online-networks-targeting-children-and-vulnerable-populations",
+          "fecha": "2026-09-23T00:00:00+00:00"
         }
       ]
     }

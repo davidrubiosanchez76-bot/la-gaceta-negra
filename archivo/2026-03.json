@@ -1,0 +1,31 @@
+{
+  "mes": "2026-03",
+  "total": 1,
+  "noticias": [
+    {
+      "id": "nve-2026-03-25-04",
+      "titular": "Un miembro de la red 764 se declara culpable de explotar sexualmente a menores y de ciberacoso",
+      "titular_original": "Violent Extremist Network “764” Member Pleads Guilty to Sexually Exploiting Minors and Cyberstalking",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2026-03-25T00:00:00+00:00",
+      "actualizado": "2026-03-25T00:00:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "temas": [
+        "Extremismo nihilista violento",
+        "Justicia"
+      ],
+      "expedientes": [
+        "extremismo-nihilista-violento"
+      ],
+      "fuentes": [
+        {
+          "medio": "Departamento de Justicia de EE. UU.",
+          "url": "https://www.justice.gov/usao-md/pr/violent-extremist-network-764-member-pleads-guilty-sexually-exploiting-minors-and",
+          "fecha": "2026-03-25T00:00:00+00:00"
+        }
+      ]
+    }
+  ]
+}

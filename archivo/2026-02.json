@@ -1,6 +1,6 @@
 {
   "mes": "2026-02",
-  "total": 1,
+  "total": 2,
   "noticias": [
     {
       "id": "lm-2026-02-27-12",
@@ -23,6 +23,31 @@
           "medio": "CBS News New York",
           "url": "https://www.cbsnews.com/newyork/news/luigi-mangione-death-penalty-federal-prosecutors/",
           "fecha": "2026-02-27T00:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "nve-2026-02-19-03",
+      "titular": "El FBI advierte del aumento de redes como 764 dedicadas a captar y explotar a menores por internet",
+      "titular_original": "FBI Boston Warns of Nihilistic Violent Extremists Targeting Children and Vulnerable Victims Online",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2026-02-19T00:00:00+00:00",
+      "actualizado": "2026-02-19T00:00:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "temas": [
+        "Extremismo nihilista violento",
+        "Investigación policial"
+      ],
+      "expedientes": [
+        "extremismo-nihilista-violento"
+      ],
+      "fuentes": [
+        {
+          "medio": "FBI — Boston",
+          "url": "https://www.fbi.gov/contact-us/field-offices/boston/news/fbi-boston-warns-of-nihilistic-violent-extremists-targeting-children-and-vulnerable-victims-online",
+          "fecha": "2026-02-19T00:00:00+00:00"
         }
       ]
     }

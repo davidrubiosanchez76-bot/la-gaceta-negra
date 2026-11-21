@@ -1,0 +1,56 @@
+{
+  "mes": "2026-06",
+  "total": 2,
+  "noticias": [
+    {
+      "id": "nve-2026-06-30-06",
+      "titular": "Acusan a un presunto integrante de 764 de planear el asesinato de dos agentes del FBI y un fiscal federal",
+      "titular_original": "764 Member Charged with Plot to Kill Two FBI Special Agents and a Federal Prosecutor and to Steal Incriminating Evidence from FBI",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2026-06-30T00:00:00+00:00",
+      "actualizado": "2026-06-30T00:00:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "temas": [
+        "Extremismo nihilista violento",
+        "Justicia"
+      ],
+      "expedientes": [
+        "extremismo-nihilista-violento"
+      ],
+      "fuentes": [
+        {
+          "medio": "Departamento de Justicia de EE. UU.",
+          "url": "https://www.justice.gov/usao-ndny/pr/764-member-charged-plot-kill-two-fbi-special-agents-and-federal-prosecutor-and-steal",
+          "fecha": "2026-06-30T00:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "nve-2026-06-28-05",
+      "titular": "Un analista cuestiona que «extremismo nihilista violento» sea una categoría suficientemente precisa",
+      "titular_original": "‘Nihilistic Violent Extremism’ Isn’t a Thing, and I’m Tired of Pretending It Is",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2026-06-28T00:00:00+00:00",
+      "actualizado": "2026-06-28T00:00:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [
+        "Extremismo nihilista violento",
+        "Análisis criminológico"
+      ],
+      "expedientes": [
+        "extremismo-nihilista-violento"
+      ],
+      "fuentes": [
+        {
+          "medio": "Lawfare",
+          "url": "https://www.lawfaremedia.org/article/nihilistic-violent-extremism--isn-t-a-thing--and-i-m-tired-of-pretending-it-is",
+          "fecha": "2026-06-28T00:00:00+00:00"
+        }
+      ]
+    }
+  ]
+}

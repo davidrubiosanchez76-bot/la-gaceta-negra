@@ -1,7 +1,32 @@
 {
   "mes": "2026-08",
-  "total": 2,
+  "total": 4,
   "noticias": [
+    {
+      "id": "nve-2026-08-19-09",
+      "titular": "Condenan a 77 años de prisión a un miembro de 764 por delitos de explotación de menores y maltrato animal",
+      "titular_original": "‘764’ Extremist Group Member Sentenced For Production Of Child Pornography And Distribution Of Animal Crushing Videos",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2026-08-19T00:00:00+00:00",
+      "actualizado": "2026-08-19T00:00:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "temas": [
+        "Extremismo nihilista violento",
+        "Justicia"
+      ],
+      "expedientes": [
+        "extremismo-nihilista-violento"
+      ],
+      "fuentes": [
+        {
+          "medio": "Departamento de Justicia de EE. UU.",
+          "url": "https://www.justice.gov/usao-edtn/pr/764-extremist-group-member-sentenced-production-child-pornography-and-distribution",
+          "fecha": "2026-08-19T00:00:00+00:00"
+        }
+      ]
+    },
     {
       "id": "lm-2026-08-17-16",
       "titular": "Nueva York aplaza el juicio estatal por asesinato contra Mangione ante un recurso por doble enjuiciamiento",
@@ -47,6 +72,31 @@
           "medio": "ABC News",
           "url": "https://abcnews.com/US/luigi-mangione-guilty-plea-expected-announced-friday-federal/story?id=135607454",
           "fecha": "2026-08-14T00:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "nve-2026-08-02-08",
+      "titular": "Detenido en Gipuzkoa un menor acusado de amenazar de muerte a Irene Montero y de vinculación con la red 764",
+      "titular_original": "Detenido un menor del grupo ultraviolento 764 acusado de amenazar de muerte a Irene Montero",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2026-08-02T00:00:00+00:00",
+      "actualizado": "2026-08-02T00:00:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [
+        "Extremismo nihilista violento",
+        "Investigación policial"
+      ],
+      "expedientes": [
+        "extremismo-nihilista-violento"
+      ],
+      "fuentes": [
+        {
+          "medio": "El País",
+          "url": "https://elpais.com/espana/2026-08-02/detenido-un-menor-del-grupo-ultraviolento-764-acusado-de-amenazar-de-muerte-a-irene-montero.html",
+          "fecha": "2026-08-02T00:00:00+00:00"
         }
       ]
     }
