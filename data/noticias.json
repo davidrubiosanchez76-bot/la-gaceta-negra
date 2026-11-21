@@ -1,7 +1,27 @@
 {
-  "actualizado": "2026-11-21T08:14:00+00:00",
-  "total": 73,
+  "actualizado": "2026-11-21T09:28:28+00:00",
+  "total": 76,
   "noticias": [
+    {
+      "id": "a1b7cefc6c121e28",
+      "titular": "La reacción de Zelenski después de que Trump llamase \"amigo\" a Putin: \"Para nosotros es un asesino\"",
+      "titular_original": "La reacción de Zelenski después de que Trump llamase \"amigo\" a Putin: \"Para nosotros es un asesino\"",
+      "metodo_titular": "original",
+      "fecha": "2026-11-21T08:50:52+00:00",
+      "actualizado": "2026-11-21T08:50:52+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "20minutos",
+          "url": "https://www.20minutos.es/internacional/reaccion-zelenski-despues-que-trump-llamase-amigo-putin-para-nosotros-es-un-asesino_7063972_0.html",
+          "fecha": "2026-11-21T08:50:52+00:00"
+        }
+      ]
+    },
     {
       "id": "87f4c2e829321f4b",
       "titular": "Skylar Deleon: la historia real tras el supuesto Power Ranger rojo condenado por asesinato",
@@ -21,7 +41,50 @@
         }
       ],
       "titular_original": "Skylar Deleon: la historia real tras el supuesto Power Ranger rojo condenado por asesinato",
-      "metodo_titular": "original"
+      "metodo_titular": "original",
+      "etiquetas_de_deteccion": []
+    },
+    {
+      "id": "ccac139a0ec3d993",
+      "titular": "El FBI investiga un nuevo ciberataque a su red de datos criminales",
+      "titular_original": "El FBI investiga un nuevo ciberataque a su red de datos criminales",
+      "metodo_titular": "original",
+      "fecha": "2026-11-21T05:46:53+00:00",
+      "actualizado": "2026-11-21T05:46:53+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "Europa Press — Internacional",
+          "url": "https://www.europapress.es/internacional/noticia-fbi-investiga-nuevo-ciberataque-red-datos-criminales-20261121064653.html",
+          "fecha": "2026-11-21T05:46:53+00:00"
+        }
+      ]
+    },
+    {
+      "id": "c1dfdbc74e70ecb0",
+      "titular": "Capturan a alias 'Candelo', presunto sicario del exsecretario de Gobierno de Cúcuta, en Colombia",
+      "titular_original": "Capturan a alias 'Candelo', presunto sicario del exsecretario de Gobierno de Cúcuta, en Colombia",
+      "metodo_titular": "original",
+      "fecha": "2026-11-21T05:27:31+00:00",
+      "actualizado": "2026-11-21T05:27:31+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [
+        "Crimen organizado"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "Europa Press — Internacional",
+          "url": "https://www.europapress.es/internacional/noticia-capturan-alias-candelo-presunto-sicario-exsecretario-gobierno-cucuta-colombia-20261121062731.html",
+          "fecha": "2026-11-21T05:27:31+00:00"
+        }
+      ]
     },
     {
       "id": "eb6c5587a3fdc10c",
@@ -40,7 +103,8 @@
         }
       ],
       "titular_original": "Teenager allegedly organised arsons and kidnapping on Signal during Melbourne hospitality wars",
-      "metodo_titular": "regla"
+      "metodo_titular": "regla",
+      "etiquetas_de_deteccion": []
     },
     {
       "id": "2e521abdaa09c571",
@@ -59,7 +123,8 @@
         }
       ],
       "titular_original": "Man convicted of starting Palisades fire in Los Angeles",
-      "metodo_titular": "regla"
+      "metodo_titular": "regla",
+      "etiquetas_de_deteccion": []
     },
     {
       "id": "67cf8eacf6797810",
@@ -78,7 +143,8 @@
         }
       ],
       "titular_original": "French police officers sentenced for beating of music producer Michel Zecler",
-      "metodo_titular": "regla"
+      "metodo_titular": "regla",
+      "etiquetas_de_deteccion": []
     },
     {
       "id": "a0ed0f7023bd15ab",
@@ -97,7 +163,8 @@
         }
       ],
       "titular_original": "Denmark accuses Russia of plotting to assassinate US-Ukrainian rapper",
-      "metodo_titular": "regla"
+      "metodo_titular": "regla",
+      "etiquetas_de_deteccion": []
     },
     {
       "id": "30fd1e22474cd7ec",
@@ -116,7 +183,8 @@
         }
       ],
       "titular_original": "Mom convicted of stabbing husband in the neck while he fed their baby claims self-inflicted sledgehammer bruises were for fibromyalgia",
-      "metodo_titular": "revision_editorial"
+      "metodo_titular": "revision_editorial",
+      "etiquetas_de_deteccion": []
     },
     {
       "id": "6983a6e5b1b7c67b",
@@ -135,7 +203,8 @@
         }
       ],
       "titular_original": "Man staged his suicide after killing his ex-wife and hiding her body in a barrel that he buried on his property",
-      "metodo_titular": "revision_editorial"
+      "metodo_titular": "revision_editorial",
+      "etiquetas_de_deteccion": []
     },
     {
       "id": "e534520c22e68f02",
@@ -154,7 +223,8 @@
       ],
       "region": "MUNDO",
       "titular_original": "La parafernalia nazi en casa del asesino de Guillem Agulló: 110 esvásticas, cartuchos, una espada o un busto de Adolf Hitler",
-      "metodo_titular": "original"
+      "metodo_titular": "original",
+      "etiquetas_de_deteccion": []
     },
     {
       "id": "749da00a3952582c",
@@ -175,7 +245,8 @@
         }
       ],
       "titular_original": "The top five Watsons (read: “often impressed best friend narrators”) in crime fiction",
-      "metodo_titular": "revision_editorial"
+      "metodo_titular": "revision_editorial",
+      "etiquetas_de_deteccion": []
     },
     {
       "id": "a627c7e538f29abb",
@@ -194,7 +265,8 @@
         }
       ],
       "titular_original": "Indian man sentenced to 19-plus years in plot to assassinate US-based Sikh separatist leader",
-      "metodo_titular": "revision_editorial"
+      "metodo_titular": "revision_editorial",
+      "etiquetas_de_deteccion": []
     },
     {
       "id": "5677aa318e0f1bc8",
@@ -213,7 +285,8 @@
         }
       ],
       "titular_original": "Florida mechanic found guilty of murdering British woman who attorney says came to US to die",
-      "metodo_titular": "revision_editorial"
+      "metodo_titular": "revision_editorial",
+      "etiquetas_de_deteccion": []
     },
     {
       "id": "8e140ac271640ed8",
@@ -234,7 +307,8 @@
         }
       ],
       "titular_original": "Localizada en un camino una mujer de avanzada edad desaparecida de una residencia de mayores",
-      "metodo_titular": "original"
+      "metodo_titular": "original",
+      "etiquetas_de_deteccion": []
     },
     {
       "id": "1c4c955f54b6741d",
@@ -253,7 +327,8 @@
         }
       ],
       "titular_original": "Detenido un hombre por presuntamente matar a su madre en Llívia este lunes",
-      "metodo_titular": "regla"
+      "metodo_titular": "regla",
+      "etiquetas_de_deteccion": []
     },
     {
       "id": "7f1d37052adb6d6a",
@@ -272,7 +347,8 @@
         }
       ],
       "titular_original": "Dinamarca expulsa a un agregado ruso por una conspiración para asesinar a un músico ucraniano",
-      "metodo_titular": "original"
+      "metodo_titular": "original",
+      "etiquetas_de_deteccion": []
     },
     {
       "id": "d6dab070fb5fd0cb",
@@ -291,7 +367,8 @@
         }
       ],
       "titular_original": "Court doubts letter dropping mom's domestic abuse case was in 'Petitioner's handwriting' before she is found dead at home, records show",
-      "metodo_titular": "revision_editorial"
+      "metodo_titular": "revision_editorial",
+      "etiquetas_de_deteccion": []
     },
     {
       "id": "e98fcb4fe395b9c3",
@@ -310,7 +387,8 @@
         }
       ],
       "titular_original": "Nearly 600 women killed in South Africa within three months",
-      "metodo_titular": "revision_editorial"
+      "metodo_titular": "revision_editorial",
+      "etiquetas_de_deteccion": []
     },
     {
       "id": "f59209d27d0e83bc",
@@ -331,7 +409,8 @@
         }
       ],
       "titular_original": "Detenido en Granada al hombre acusado de disparar contra su expareja y su excuñada en octubre",
-      "metodo_titular": "regla"
+      "metodo_titular": "regla",
+      "etiquetas_de_deteccion": []
     },
     {
       "id": "f0581694fcafa3ab",
@@ -352,7 +431,8 @@
         }
       ],
       "titular_original": "Beyond Lupin: The Brazen Gentlemen Thieves of Fiction",
-      "metodo_titular": "revision_editorial"
+      "metodo_titular": "revision_editorial",
+      "etiquetas_de_deteccion": []
     },
     {
       "id": "492beb76ef4a1529",
@@ -371,7 +451,8 @@
       ],
       "region": "MUNDO",
       "titular_original": "Renfe urge a sus clientes a cambiar las contraseñas tras un ciberataque que pudo robar también DNIs e historial de viajes",
-      "metodo_titular": "original"
+      "metodo_titular": "original",
+      "etiquetas_de_deteccion": []
     },
     {
       "id": "471527244c8410c2",
@@ -390,7 +471,8 @@
         }
       ],
       "titular_original": "Francia solicita una reunión del Consejo de Seguridad de la ONU para tratar los \"crímenes\" rusos en Kiev",
-      "metodo_titular": "original"
+      "metodo_titular": "original",
+      "etiquetas_de_deteccion": []
     },
     {
       "id": "38916c034b47a9a2",
@@ -409,7 +491,8 @@
       ],
       "region": "MUNDO",
       "titular_original": "La Unió de Periodistes Valencians condena la agresión del asesino de Guillem Agulló a un equipo de La Sexta",
-      "metodo_titular": "original"
+      "metodo_titular": "original",
+      "etiquetas_de_deteccion": []
     },
     {
       "id": "21134463fe40c1e7",
@@ -428,7 +511,8 @@
         }
       ],
       "titular_original": "La Policía Nacional frustra la implantación en España de un grupo ciberterrorista prorruso y detiene a su presunto líder en Burgos",
-      "metodo_titular": "original"
+      "metodo_titular": "original",
+      "etiquetas_de_deteccion": []
     },
     {
       "id": "hist-lindsay-clancy-2026-11-20-11",
@@ -473,7 +557,8 @@
         }
       ],
       "titular_original": "Andrey Zvyagintsev on Marriage, Mythology, and the Violence of Family Life",
-      "metodo_titular": "revision_editorial"
+      "metodo_titular": "revision_editorial",
+      "etiquetas_de_deteccion": []
     },
     {
       "id": "e6c3f7174a791636",
@@ -494,7 +579,8 @@
         }
       ],
       "titular_original": "8 nonfiction books that delve into the darkest parts of sports",
-      "metodo_titular": "revision_editorial"
+      "metodo_titular": "revision_editorial",
+      "etiquetas_de_deteccion": []
     },
     {
       "id": "704d4b26f14012e8",
@@ -515,7 +601,8 @@
       ],
       "region": "MUNDO",
       "titular_original": "El rincón oscuro. Nuestra señora del abismo",
-      "metodo_titular": "original"
+      "metodo_titular": "original",
+      "etiquetas_de_deteccion": []
     },
     {
       "id": "2c0c0f72d29ba274",
@@ -536,7 +623,8 @@
         }
       ],
       "titular_original": "There’s a new cozy mystery TV series called The Loch Ness Mysteries",
-      "metodo_titular": "revision_editorial"
+      "metodo_titular": "revision_editorial",
+      "etiquetas_de_deteccion": []
     },
     {
       "id": "19ac5e67a5d70ef5",
@@ -555,7 +643,8 @@
         }
       ],
       "titular_original": "Man convinced his ex was cheating 'stomped' on her alleged lover's head for 15 minutes, stopped to catch breath before delivering more blows — killing him, cops say",
-      "metodo_titular": "revision_editorial"
+      "metodo_titular": "revision_editorial",
+      "etiquetas_de_deteccion": []
     },
     {
       "id": "266635ac6bb4b021",
@@ -574,7 +663,8 @@
         }
       ],
       "titular_original": "Man who hugged 14-year-old ex-girlfriend after slitting her throat, stabbing her 53 times and fleeing on scooter is convicted",
-      "metodo_titular": "revision_editorial"
+      "metodo_titular": "revision_editorial",
+      "etiquetas_de_deteccion": []
     },
     {
       "id": "a13b581c882c21fa",
@@ -593,7 +683,8 @@
         }
       ],
       "titular_original": "Child who 'didn't want to come off the bus' found murdered by his mom, who also killed her other kid and then called 911 to confess: Police",
-      "metodo_titular": "revision_editorial"
+      "metodo_titular": "revision_editorial",
+      "etiquetas_de_deteccion": []
     },
     {
       "id": "3a51cc59b8a43e02",
@@ -612,7 +703,8 @@
         }
       ],
       "titular_original": "Dad let his little boy die in flaming car he 'knowingly' set ablaze after killing the child's mom, just days after protection order was served on him: Docs",
-      "metodo_titular": "revision_editorial"
+      "metodo_titular": "revision_editorial",
+      "etiquetas_de_deteccion": []
     },
     {
       "id": "102a2cb17f108c75",
@@ -631,7 +723,8 @@
         }
       ],
       "titular_original": "JPMorgan Chase informa de un ciberataque: se habrían filtrado datos de clientes y sus correos electrónicos",
-      "metodo_titular": "original"
+      "metodo_titular": "original",
+      "etiquetas_de_deteccion": []
     },
     {
       "id": "31d5f5b42c02bd2b",
@@ -650,7 +743,8 @@
         }
       ],
       "titular_original": "Woman living in the same hotel for 15 years is found dead under a blanket, man draped it over her after watching her have medical emergency: Police",
-      "metodo_titular": "revision_editorial"
+      "metodo_titular": "revision_editorial",
+      "etiquetas_de_deteccion": []
     },
     {
       "id": "8e4611fb24d610e9",
@@ -671,7 +765,8 @@
         }
       ],
       "titular_original": "Georg H. Jeitler: The Impact Of AI And Deepfakes On Digital Evidence Authentication",
-      "metodo_titular": "revision_editorial"
+      "metodo_titular": "revision_editorial",
+      "etiquetas_de_deteccion": []
     },
     {
       "id": "hist-isak-andic-2026-11-19-24",
@@ -714,7 +809,8 @@
         }
       ],
       "titular_original": "Bruselas llama la atención a España por la lucha contra el fraude de fondos europeos",
-      "metodo_titular": "original"
+      "metodo_titular": "original",
+      "etiquetas_de_deteccion": []
     },
     {
       "id": "87e0db5c9ecfdb82",
@@ -735,7 +831,8 @@
         }
       ],
       "titular_original": "Medieval Settings Are Back In These Mysteries, Thrillers, and Horror Novels",
-      "metodo_titular": "revision_editorial"
+      "metodo_titular": "revision_editorial",
+      "etiquetas_de_deteccion": []
     },
     {
       "id": "2c61c2c944d0e286",
@@ -756,7 +853,8 @@
         }
       ],
       "titular_original": "Sacha Naspini on the human stories behind Italy’s tomb-raider subculture.",
-      "metodo_titular": "revision_editorial"
+      "metodo_titular": "revision_editorial",
+      "etiquetas_de_deteccion": []
     },
     {
       "id": "7322a5e1363734a0",
@@ -777,7 +875,8 @@
         }
       ],
       "titular_original": "5 gloriously unhinged speculative mysteries and thrillers",
-      "metodo_titular": "revision_editorial"
+      "metodo_titular": "revision_editorial",
+      "etiquetas_de_deteccion": []
     },
     {
       "id": "42c928ba84d5865a",
@@ -798,7 +897,8 @@
         }
       ],
       "titular_original": "Chuck Thompson on the mysterious deaths of two Bigfoot hunters in Washington",
-      "metodo_titular": "revision_editorial"
+      "metodo_titular": "revision_editorial",
+      "etiquetas_de_deteccion": []
     },
     {
       "id": "55d09293990ecb74",
@@ -819,7 +919,8 @@
         }
       ],
       "titular_original": "Un hombre asesina a su pareja en Parla y se entrega a la policía",
-      "metodo_titular": "regla"
+      "metodo_titular": "regla",
+      "etiquetas_de_deteccion": []
     },
     {
       "id": "e13e3e5a13bf8def",
@@ -838,7 +939,8 @@
         }
       ],
       "titular_original": "Florida pastor found guilty over 2021 assassination of Haitian president",
-      "metodo_titular": "regla"
+      "metodo_titular": "regla",
+      "etiquetas_de_deteccion": []
     },
     {
       "id": "1f8f5deda50030bf",
@@ -857,7 +959,8 @@
         }
       ],
       "titular_original": "'I don't get a f—ing break': Drunk single mom was taking kids to grandparents for personal time when she crashed in swampy ditch and killed baby, now she learns her fate",
-      "metodo_titular": "revision_editorial"
+      "metodo_titular": "revision_editorial",
+      "etiquetas_de_deteccion": []
     },
     {
       "id": "42d0901ba60ff14a",
@@ -876,7 +979,8 @@
         }
       ],
       "titular_original": "Son hearing bangs on his front door shoots blindly and empties magazine — before realizing he killed his mother: Cops",
-      "metodo_titular": "revision_editorial"
+      "metodo_titular": "revision_editorial",
+      "etiquetas_de_deteccion": []
     },
     {
       "id": "3e6739656b3619cf",
@@ -895,7 +999,8 @@
         }
       ],
       "titular_original": "'I will behead you Donald J Trump': Man who told president he would feel his 'wrath' in barrage of assassination threats that had even his own mom worried learns his fate",
-      "metodo_titular": "revision_editorial"
+      "metodo_titular": "revision_editorial",
+      "etiquetas_de_deteccion": []
     },
     {
       "id": "014d54439a307e80",
@@ -914,7 +1019,8 @@
         }
       ],
       "titular_original": "Woman still wearing glow stick from 'rave' where she drank 'everything' before crashing her Wrangler and killing a man is sentenced",
-      "metodo_titular": "revision_editorial"
+      "metodo_titular": "revision_editorial",
+      "etiquetas_de_deteccion": []
     },
     {
       "id": "a2c14cf42509f166",
@@ -935,7 +1041,8 @@
         }
       ],
       "titular_original": "5 Books About Small Town Crime, from ‘Baby Queen’ Author Ty Landers",
-      "metodo_titular": "revision_editorial"
+      "metodo_titular": "revision_editorial",
+      "etiquetas_de_deteccion": []
     },
     {
       "id": "hist-isak-andic-2026-11-18-23",
@@ -980,7 +1087,8 @@
       ],
       "region": "MUNDO",
       "titular_original": "Cine: «Sacamantecas»",
-      "metodo_titular": "original"
+      "metodo_titular": "original",
+      "etiquetas_de_deteccion": []
     },
     {
       "id": "6e3fc01993ba4e35",
@@ -999,7 +1107,8 @@
       ],
       "region": "EUROPA",
       "titular_original": "Un banco de Hungría con lazos con Orbán y la financiación de Vox prestó servicio a una supuesta red de blanqueo rusa",
-      "metodo_titular": "original"
+      "metodo_titular": "original",
+      "etiquetas_de_deteccion": []
     },
     {
       "id": "d1bb5b3f8da5cf7e",
@@ -1018,7 +1127,8 @@
         }
       ],
       "titular_original": "Paralyzed military vet found dead with towel over his face, beaten to a pulp with wooden log — and now the killer learns his fate",
-      "metodo_titular": "revision_editorial"
+      "metodo_titular": "revision_editorial",
+      "etiquetas_de_deteccion": []
     },
     {
       "id": "9d5a26bc3003a171",
@@ -1037,7 +1147,8 @@
         }
       ],
       "titular_original": "Woman who is 9 months pregnant blasted in head on the street by shooter in muscle car, killing her and baby: Cops",
-      "metodo_titular": "revision_editorial"
+      "metodo_titular": "revision_editorial",
+      "etiquetas_de_deteccion": []
     },
     {
       "id": "5d40aa85af8d66e4",
@@ -1056,7 +1167,8 @@
         }
       ],
       "titular_original": "Man who was speeding in his SUV when he slammed into the back of a car stalled on the road, killing a 5-year-old girl learns his fate",
-      "metodo_titular": "revision_editorial"
+      "metodo_titular": "revision_editorial",
+      "etiquetas_de_deteccion": []
     },
     {
       "id": "5cb401abddc820b1",
@@ -1075,7 +1187,8 @@
         }
       ],
       "titular_original": "Beloved street vendors who gave free hot dogs to hungry neighbors mowed down and killed by drunk driver: Cops",
-      "metodo_titular": "revision_editorial"
+      "metodo_titular": "revision_editorial",
+      "etiquetas_de_deteccion": []
     },
     {
       "id": "d17b94cf849f577a",
@@ -1094,7 +1207,8 @@
         }
       ],
       "titular_original": "Student killed and another burned on over 70% of his body after 'very cheap' van that school used to save money crashes and bursts into flames, suit says",
-      "metodo_titular": "revision_editorial"
+      "metodo_titular": "revision_editorial",
+      "etiquetas_de_deteccion": []
     },
     {
       "id": "b38369927fe9462d",
@@ -1113,7 +1227,8 @@
         }
       ],
       "titular_original": "Dad playing 'Overwatch' got fed up with baby's crying, 'aggressively rocked' infant then put 'all his body weight' on boy, killing him: Police",
-      "metodo_titular": "revision_editorial"
+      "metodo_titular": "revision_editorial",
+      "etiquetas_de_deteccion": []
     },
     {
       "id": "e009f54d7f3e7d4a",
@@ -1132,7 +1247,8 @@
         }
       ],
       "titular_original": "Dog sitter and college student found dead in entryway and bedroom closet after homeowner spots Ring camera activity: Cops",
-      "metodo_titular": "revision_editorial"
+      "metodo_titular": "revision_editorial",
+      "etiquetas_de_deteccion": []
     },
     {
       "id": "55ce5b48b3f17130",
@@ -1151,7 +1267,8 @@
         }
       ],
       "titular_original": "'Dad is in the White River': Son accused of killing dad, stuffing body in trash bin and claiming lid 'wasn't going to open'",
-      "metodo_titular": "revision_editorial"
+      "metodo_titular": "revision_editorial",
+      "etiquetas_de_deteccion": []
     },
     {
       "id": "0fb6ea7472fd0a55",
@@ -1172,7 +1289,8 @@
         }
       ],
       "titular_original": "Why A US Ruling On AI Child Abuse Images Would Not Survive In Britain",
-      "metodo_titular": "revision_editorial"
+      "metodo_titular": "revision_editorial",
+      "etiquetas_de_deteccion": []
     },
     {
       "id": "hist-lindsay-clancy-2026-11-16-10",
@@ -1241,7 +1359,8 @@
       ],
       "region": "MUNDO",
       "titular_original": "El rincón oscuro. El Lute, cine que crea realidades",
-      "metodo_titular": "original"
+      "metodo_titular": "original",
+      "etiquetas_de_deteccion": []
     },
     {
       "id": "98225044e5707d12",
@@ -1262,7 +1381,8 @@
         }
       ],
       "titular_original": "Cyber Unpacked S3:E2 // IR Beyond Malware: Investigating Business Email Compromise And Fraud",
-      "metodo_titular": "revision_editorial"
+      "metodo_titular": "revision_editorial",
+      "etiquetas_de_deteccion": []
     },
     {
       "id": "982844bfff2e8f5f",
@@ -1283,7 +1403,8 @@
         }
       ],
       "titular_original": "Belkasoft X v2.13 Arrives With Amplified BelkaGPT And MFT-Based File Recovery",
-      "metodo_titular": "revision_editorial"
+      "metodo_titular": "revision_editorial",
+      "etiquetas_de_deteccion": []
     },
     {
       "id": "e26b9753c2ed0782",
@@ -1304,7 +1425,8 @@
         }
       ],
       "titular_original": "Android FCM Push Notification Artifacts: What Can Remain After An App Is Deleted",
-      "metodo_titular": "revision_editorial"
+      "metodo_titular": "revision_editorial",
+      "etiquetas_de_deteccion": []
     },
     {
       "id": "a08b9730ffd74544",
@@ -1325,7 +1447,8 @@
         }
       ],
       "titular_original": "New Magnet Forensics Report Highlights Challenges Shaping Public Sector Digital Investigations",
-      "metodo_titular": "revision_editorial"
+      "metodo_titular": "revision_editorial",
+      "etiquetas_de_deteccion": []
     },
     {
       "id": "6f5961ef07cec512",
@@ -1346,7 +1469,8 @@
       ],
       "region": "MUNDO",
       "titular_original": "Novela: «la opacidad de los cuerpos humanos», de Carlos Manzano",
-      "metodo_titular": "original"
+      "metodo_titular": "original",
+      "etiquetas_de_deteccion": []
     },
     {
       "id": "hist-lindsay-clancy-2026-11-09-09",
