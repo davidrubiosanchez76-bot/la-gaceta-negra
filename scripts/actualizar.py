@@ -21,6 +21,7 @@ from difflib import SequenceMatcher
 from email.utils import parsedate_to_datetime
 from pathlib import Path
 from titulares import reescribir_titular
+from traducir import titulo_para_publicar, es_ingles
 
 ROOT = Path(__file__).resolve().parents[1]
 UTC = timezone.utc
@@ -227,7 +228,8 @@ def make_story(item, feed, config):
     if not cat:
         return None
     dt = date.isoformat(timespec="seconds")
-    editorial, metodo = reescribir_titular(title, cat)
+    idioma = 'en' if es_ingles(feed['nombre'], feed.get('idioma','')) else 'es'
+    editorial, metodo = titulo_para_publicar(title, cat, idioma)
     return {
         "id": hashlib.sha1((normalize(title) + "|" + date.strftime("%Y-%m-%d")).encode()).hexdigest()[:16],
         "titular": editorial[:260], "titular_original": title[:260], "metodo_titular": metodo, "fecha": dt, "actualizado": dt,
@@ -289,7 +291,8 @@ def main():
             return None
         old["categoria"] = cat
         old["titular_original"] = original[:260]
-        old["titular"], old["metodo_titular"] = reescribir_titular(original, cat)
+        idioma = "en" if es_ingles(source, origin.get("idioma","")) else "es"
+        old["titular"], old["metodo_titular"] = titulo_para_publicar(original, cat, idioma)
         old["region"] = region_of(original, origin.get("region", "MUNDO"))
         old["temas"] = topics_of(original, cat)
         old["expedientes"] = cases_of(original, watch)
