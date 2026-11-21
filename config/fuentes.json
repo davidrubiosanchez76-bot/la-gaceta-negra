@@ -4,125 +4,143 @@
     "url": "https://revistacalibre38.com/feed/",
     "categoria": "LITERATURA NEGRA",
     "region": "MUNDO",
-    "activo": true
+    "activo": true,
+    "idioma": "es"
   },
   {
     "nombre": "elDiario.es",
     "url": "https://www.eldiario.es/rss/",
     "categoria": "AUTO",
     "region": "MUNDO",
-    "activo": true
+    "activo": true,
+    "idioma": "es"
   },
   {
     "nombre": "EL PAÍS — España",
     "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/espana/portada",
     "categoria": "AUTO",
     "region": "ESPAÑA",
-    "activo": true
+    "activo": true,
+    "idioma": "es"
   },
   {
     "nombre": "EL PAÍS — Sociedad",
     "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/sociedad/portada",
     "categoria": "AUTO",
     "region": "ESPAÑA",
-    "activo": true
+    "activo": true,
+    "idioma": "es"
   },
   {
     "nombre": "El Periódico",
     "url": "https://www.elperiodico.com/es/rss/rss_portada.xml",
     "categoria": "AUTO",
     "region": "ESPAÑA",
-    "activo": false
+    "activo": false,
+    "idioma": "es"
   },
   {
     "nombre": "La Vanguardia — Barcelona",
     "url": "https://www.lavanguardia.com/rss/local/barcelona.xml",
     "categoria": "AUTO",
     "region": "CATALUÑA",
-    "activo": true
+    "activo": true,
+    "idioma": "es"
   },
   {
     "nombre": "3CatInfo",
     "url": "https://api.ccma.cat/noticies?_format=rss&origen=frontal&frontal=n324-portada-noticia&version=2.0",
     "categoria": "AUTO",
     "region": "MUNDO",
-    "activo": true
+    "activo": true,
+    "idioma": "ca"
   },
   {
     "nombre": "Europa Press — España",
     "url": "https://www.europapress.es/rss/rss.aspx?ch=66",
     "categoria": "AUTO",
     "region": "ESPAÑA",
-    "activo": true
+    "activo": true,
+    "idioma": "es"
   },
   {
     "nombre": "Europa Press — Internacional",
     "url": "https://www.europapress.es/rss/rss.aspx?ch=69",
     "categoria": "AUTO",
     "region": "MUNDO",
-    "activo": true
+    "activo": true,
+    "idioma": "es"
   },
   {
     "nombre": "20minutos",
     "url": "https://www.20minutos.es/rss/",
     "categoria": "AUTO",
     "region": "MUNDO",
-    "activo": true
+    "activo": true,
+    "idioma": "es"
   },
   {
     "nombre": "Law & Crime",
     "url": "https://lawandcrime.com/feed/",
     "categoria": "AUTO",
     "region": "ESTADOS UNIDOS",
-    "activo": true
+    "activo": true,
+    "idioma": "en"
   },
   {
     "nombre": "NPR — Noticias",
     "url": "https://feeds.npr.org/1001/rss.xml",
     "categoria": "AUTO",
     "region": "ESTADOS UNIDOS",
-    "activo": true
+    "activo": true,
+    "idioma": "en"
   },
   {
     "nombre": "BBC News — World",
     "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
     "categoria": "AUTO",
     "region": "MUNDO",
-    "activo": true
+    "activo": true,
+    "idioma": "en"
   },
   {
     "nombre": "The Guardian — UK",
     "url": "https://www.theguardian.com/uk-news/rss",
     "categoria": "AUTO",
     "region": "EUROPA",
-    "activo": true
+    "activo": true,
+    "idioma": "en"
   },
   {
     "nombre": "The Guardian — World",
     "url": "https://www.theguardian.com/world/rss",
     "categoria": "AUTO",
     "region": "MUNDO",
-    "activo": true
+    "activo": true,
+    "idioma": "en"
   },
   {
     "nombre": "CrimeReads",
     "url": "https://crimereads.com/feed/",
     "categoria": "LITERATURA NEGRA",
     "region": "MUNDO",
-    "activo": true
+    "activo": true,
+    "idioma": "en"
   },
   {
     "nombre": "Forensic Focus",
     "url": "https://www.forensicfocus.com/feed",
     "categoria": "CRIME SCENE",
     "region": "MUNDO",
-    "activo": true
+    "activo": true,
+    "idioma": "en"
   },
   {
     "nombre": "ScienceDaily — Forensic Research",
     "url": "https://www.sciencedaily.com/rss/health_medicine/forensics.xml",
     "categoria": "CRIME SCENE",
     "region": "MUNDO",
-    "activo": true
+    "activo": true,
+    "idioma": "en"
   }
 ]
