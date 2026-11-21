@@ -39,8 +39,8 @@ TOPICS = {
     "Juicios": ("tribunal", "juicio", "sentencia", "juzgado", "acusacion", "veredicto", "condenad"),
 }
 CRIME_SCENE = ("adn", "ciencia forense", "tecnica forense", "medicina forense", "criminalistica", "antropologia forense", "balistica", "huellas dactilares", "genetica forense", "identificacion genetica", "restos humanos", "prueba pericial")
-LITERARY = ("novela negra", "novela policiaca", "literatura criminal", "literatura negra", "ficcion criminal", "thriller", "escritor", "escritora", "editorial", "premio edgar", "detective literario", "festival de novela negra", "novela de misterio", "libro", "novela")
-CRIME = ("asesinat", "homicid", "crimen", "criminal", "detenid", "desaparec", "desaparicion", "secuestro", "narcotraf", "violencia machista", "violencia de genero", "feminicidio", "robo con violencia", "atraco", "sicario", "estafa millonaria", "policia investiga", "presunto asesino", "procesad", "condena por", "asesino en serie", "terrorismo", "trata de personas")
+LITERARY = ("novela negra", "novela policiaca", "literatura criminal", "literatura negra", "ficcion criminal", "thriller policiac", "premio edgar", "premio hammett", "festival de novela negra", "novela de misterio", "novela policial", "cine negro", "ficcion noir")
+CRIME = ("asesinat", "asesino", "asesina", "homicid", "crimen", "criminal", "detenid", "detien", "blanqueo", "ciberataque", "desaparec", "desaparicion", "secuestro", "narcotraf", "violencia machista", "violencia de genero", "feminicidio", "robo con violencia", "atraco", "sicario", "estafa millonaria", "policia investiga", "presunto asesino", "procesad", "condena por", "asesino en serie", "terrorismo", "trata de personas")
 EXCLUDE = ("accidente de trafico", "colision entre", "incendio forestal", "terremoto", "atropello accidental", "fenomeno meteorologico")
 
 
@@ -194,14 +194,14 @@ def make_story(item, feed, config):
     if not (NOW - timedelta(days=DAYS_ACCEPT_FEED) <= date <= NOW + timedelta(hours=8)):
         return None
     full_text = title + " " + re.sub(r"<[^>]*>", " ", item["summary"])
-    cat = category(full_text, feed.get("categoria", "AUTO"))
+    cat = category(title, feed.get("categoria", "AUTO"))
     if not cat:
         return None
     dt = date.isoformat(timespec="seconds")
     return {
         "id": hashlib.sha1((normalize(title) + "|" + date.strftime("%Y-%m-%d")).encode()).hexdigest()[:16],
         "titular": title[:260], "fecha": dt, "actualizado": dt,
-        "categoria": cat, "temas": topics_of(full_text, cat),
+        "categoria": cat, "temas": topics_of(title, cat),
         "expedientes": cases_of(title, config),
         "fuentes": [{"medio": item.get("outlet") or (urllib.parse.urlsplit(url).hostname.removeprefix("www.") if "Google Alerts" in feed["nombre"] else feed["nombre"]), "url": url, "fecha": dt}],
     }
@@ -237,12 +237,28 @@ def main():
     watch = read_json(ROOT / "config/expedientes.json", [])
     folder = ROOT / "archivo"
     stories = []
+    def review_old(old):
+        # A partir de 0.2, una palabra en el resumen de otro tema no basta.
+        # Revalidar incluso las entradas ya publicadas para retirar falsos positivos.
+        source = (old.get("fuentes") or [{}])[0].get("medio", "")
+        hint = "LITERATURA NEGRA" if source.startswith("Revista Calibre") else "CRIME SCENE" if source.startswith("ScienceDaily") else "AUTO"
+        cat = category(old.get("titular", ""), hint)
+        if not cat:
+            return None
+        old["categoria"] = cat
+        old["temas"] = topics_of(old["titular"], cat)
+        old["expedientes"] = cases_of(old["titular"], watch)
+        return old
+
     for month_file in sorted(folder.glob("????-??.json")):
-        for old in read_json(month_file, {}).get("noticias", []):
-            stories.append(old)
+        for raw in read_json(month_file, {}).get("noticias", []):
+            old = review_old(raw)
+            if old:
+                stories.append(old)
     # Compatible con una instalación nueva que aún no tenga archivos históricos.
-    for old in read_json(ROOT / "data/noticias.json", {}).get("noticias", []):
-        if not any(x["id"] == old["id"] for x in stories):
+    for raw in read_json(ROOT / "data/noticias.json", {}).get("noticias", []):
+        old = review_old(raw)
+        if old and not any(x["id"] == old["id"] for x in stories):
             stories.append(old)
     success = found = new_count = 0
     for f in feeds:
