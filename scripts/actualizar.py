@@ -38,9 +38,9 @@ TOPICS = {
     "Literatura negra": ("novela negra", "novela policiaca", "literatura negra", "thriller", "premio edgar", "detective literario"),
     "Juicios": ("tribunal", "juicio", "sentencia", "juzgado", "acusacion", "veredicto", "condenad"),
 }
-CRIME_SCENE = ("adn", "ciencia forense", "tecnica forense", "medicina forense", "criminalistica", "antropologia forense", "balistica", "huellas dactilares", "genetica forense", "identificacion genetica", "restos humanos", "prueba pericial")
-LITERARY = ("novela negra", "novela policiaca", "literatura criminal", "literatura negra", "ficcion criminal", "thriller policiac", "premio edgar", "premio hammett", "festival de novela negra", "novela de misterio", "novela policial", "cine negro", "ficcion noir")
-CRIME = ("asesinat", "asesino", "asesina", "homicid", "crimen", "criminal", "detenid", "detien", "blanqueo", "ciberataque", "desaparec", "desaparicion", "secuestro", "narcotraf", "violencia machista", "violencia de genero", "feminicidio", "robo con violencia", "atraco", "sicario", "estafa millonaria", "policia investiga", "presunto asesino", "procesad", "condena por", "asesino en serie", "terrorismo", "trata de personas")
+CRIME_SCENE = ("adn", "ciencia forense", "tecnica forense", "medicina forense", "criminalistica", "antropologia forense", "balistica", "huellas dactilares", "genetica forense", "identificacion genetica", "restos humanos", "prueba pericial", "forensic", "dna evidence", "forensic dna", "forensic science", "fingerprint analysis", "forensic genealogy", "digital forensics", "crime scene analysis", "evidence testing", "forensic investigation", "forensic technology", "pericia forense", "pericial informatica")
+LITERARY = ("novela negra", "novela policiaca", "literatura criminal", "literatura negra", "ficcion criminal", "thriller policiac", "premio edgar", "premio hammett", "festival de novela negra", "novela de misterio", "novela policial", "cine negro", "ficcion noir", "crime fiction", "noir fiction", "mystery novel", "thriller novel", "detective novel", "crime novel", "mystery fiction", "novela negra", "novel·la negra", "novel·la policíaca")
+CRIME = ("asesinat", "asesino", "asesina", "homicid", "crimen", "criminal", "detenid", "detien", "blanqueo", "ciberataque", "desaparec", "desaparicion", "secuestro", "narcotraf", "violencia machista", "violencia de genero", "feminicidio", "robo con violencia", "atraco", "sicario", "estafa millonaria", "policia investiga", "presunto asesino", "procesad", "condena por", "asesino en serie", "terrorismo", "trata de personas", "murder", "homicide", "killed", "killing", "killer", "slain", "stabbed", "stabbing", "arrested", "rape", "rapist", "sexual assault", "kidnapped", "kidnapping", "fraud", "shooting", "shot dead", "found dead", "missing girl", "missing woman", "missing person", "convicted", "sentenced to prison", "sentenced for", "pleads guilty", "pleaded guilty", "charged with murder", "criminal trial", "death penalty", "crime scene", "assassinat", "assassinat", "homicidi", "detingut", "detinguda", "detenen", "segrest", "narcotrafic", "violencia masclista", "feminicidi", "crim organitzat", "assassi", "desaparicio", "robatori violent")
 EXCLUDE = ("accidente de trafico", "colision entre", "incendio forestal", "terremoto", "atropello accidental", "fenomeno meteorologico")
 
 
@@ -167,6 +167,9 @@ def same_event(a, b):
     # Mismo acontecimiento solo si hay indicios fuertes y fecha próxima.
     if a["categoria"] != b["categoria"]:
         return False
+    regions = {story_region(a), story_region(b)}
+    if len(regions) > 1 and regions != {"CATALUÑA", "ESPAÑA"}:
+        return False
     for x in a["fuentes"]:
         if any(x["url"] == y["url"] for y in b["fuentes"]):
             return True
@@ -185,6 +188,29 @@ def same_event(a, b):
     return common >= 4 and (jaccard >= .68 or (coverage >= .80 and text_sim >= .66))
 
 
+
+# Ámbito del SUCESO, no país de la redacción. La falta de datos se refleja
+# como MUNDO, salvo RSS específicamente regionales/nacionales.
+GEOGRAFIA = [
+    ("CATALUÑA", ("barcelona", "badalona", "terrassa", "sabadell", "hospitalet", "girona", "gerona", "lleida", "lerida", "tarragona", "mataro", "granollers", "manresa", "catalunya", "cataluna", "catalonia", "mossos", "baix llobregat", "maresme", "barcelones", "valles")),
+    ("ESTADOS UNIDOS", ("estados unidos", "eeuu", "ee.uu", "united states", "usa", "u.s.", "california", "texas", "florida", "massachusetts", "connecticut", "new york", "nueva york", "washington dc", "los angeles", "chicago", "boston", "arizona", "kentucky", "idaho", "ohio", "minnesota", "tennessee", "georgia usa", "new jersey", "pennsylvania")),
+    ("ESPAÑA", ("espana", "spain", "madrid", "valencia", "sevilla", "seville", "andalucia", "galicia", "murcia", "bilbao", "zaragoza", "malaga", "alicante", "canarias", "burgos", "castilla", "granada", "asturias", "navarra", "cadiz", "baleares", "pamplona", "vitoria", "policia nacional", "guardia civil")),
+    ("EUROPA", ("reino unido", "united kingdom", "britain", "british", "england", "scotland", "london", "france", "francia", "paris", "italia", "italy", "rome", "roma", "germany", "alemania", "berlin", "polonia", "poland", "portugal", "lisbon", "lisboa", "bruselas", "brussels", "belgica", "belgium", "ukraine", "ucrania", "russia", "rusia", "suiza", "switzerland", "netherlands", "paises bajos", "noruega", "norway", "sweden", "suecia", "dinamarca", "ireland", "irlanda", "austria", "grecia", "greece", "hungria", "hungary", "prague", "praga")),
+]
+
+
+def region_of(text, fallback="MUNDO"):
+    text = " " + normalize(text) + " "
+    for label, names in GEOGRAFIA:
+        if any(re.search(r"(?<![a-z])" + re.escape(n) + r"(?![a-z])", text) for n in names):
+            return label
+    return fallback if fallback in ("CATALUÑA", "ESPAÑA", "EUROPA", "ESTADOS UNIDOS", "MUNDO") else "MUNDO"
+
+
+def story_region(story):
+    return story.get("region", "MUNDO")
+
+
 def make_story(item, feed, config):
     title = html.unescape(re.sub(r"<[^>]+>", "", item["title"])).strip()
     url = clean_url(item["url"])
@@ -201,7 +227,7 @@ def make_story(item, feed, config):
     return {
         "id": hashlib.sha1((normalize(title) + "|" + date.strftime("%Y-%m-%d")).encode()).hexdigest()[:16],
         "titular": title[:260], "fecha": dt, "actualizado": dt,
-        "categoria": cat, "temas": topics_of(title, cat),
+        "categoria": cat, "region": region_of(title, feed.get("region", "MUNDO")), "temas": topics_of(title, cat),
         "expedientes": cases_of(title, config),
         "fuentes": [{"medio": item.get("outlet") or (urllib.parse.urlsplit(url).hostname.removeprefix("www.") if "Google Alerts" in feed["nombre"] else feed["nombre"]), "url": url, "fecha": dt}],
     }
@@ -214,6 +240,8 @@ def merge_into(stories, new):
             for source in new["fuentes"]:
                 if source["url"] not in urls:
                     old["fuentes"].append(source)
+            if new["region"] == "CATALUÑA" and old["region"] == "ESPAÑA":
+                old["region"] = "CATALUÑA"
             old["temas"] = sorted(set(old["temas"]) | set(new["temas"]))
             old["expedientes"] = sorted(set(old["expedientes"]) | set(new["expedientes"]))
             old["actualizado"] = max(old["actualizado"], new["actualizado"])
@@ -241,11 +269,17 @@ def main():
         # A partir de 0.2, una palabra en el resumen de otro tema no basta.
         # Revalidar incluso las entradas ya publicadas para retirar falsos positivos.
         source = (old.get("fuentes") or [{}])[0].get("medio", "")
-        hint = "LITERATURA NEGRA" if source.startswith("Revista Calibre") else "CRIME SCENE" if source.startswith("ScienceDaily") else "AUTO"
+        origin = next((f for f in feeds if f["nombre"] == source), {})
+        hint = origin.get("categoria", "AUTO")
+        if hint == "AUTO" and source.startswith("Revista Calibre"):
+            hint = "LITERATURA NEGRA"
+        if hint == "AUTO" and source.startswith("ScienceDaily"):
+            hint = "CRIME SCENE"
         cat = category(old.get("titular", ""), hint)
         if not cat:
             return None
         old["categoria"] = cat
+        old["region"] = region_of(old.get("titular", ""), origin.get("region", "MUNDO"))
         old["temas"] = topics_of(old["titular"], cat)
         old["expedientes"] = cases_of(old["titular"], watch)
         return old
@@ -300,7 +334,7 @@ def main():
         month_doc = {"mes": month, "total": len(items), "noticias": items}
         if read_json(path, None) != month_doc:
             write_json(path, month_doc)
-        manifest.append({"mes": month, "total": len(items), "expedientes": sorted({c for s in items for c in s["expedientes"]}), "temas": sorted({t for s in items for t in s["temas"]})})
+        manifest.append({"mes": month, "total": len(items), "expedientes": sorted({c for s in items for c in s["expedientes"]}), "temas": sorted({t for s in items for t in s["temas"]}), "regiones": sorted({story_region(s) for s in items})})
     manifest_doc = {"meses": manifest}
     if read_json(folder / "indice.json", None) != manifest_doc:
         write_json(folder / "indice.json", manifest_doc)
