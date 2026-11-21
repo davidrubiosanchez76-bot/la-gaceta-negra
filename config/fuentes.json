@@ -1,0 +1,32 @@
+[
+  {
+    "nombre": "Revista Calibre .38",
+    "url": "https://revistacalibre38.com/feed/",
+    "categoria": "LITERATURA NEGRA",
+    "activo": true
+  },
+  {
+    "nombre": "elDiario.es",
+    "url": "https://www.eldiario.es/rss/",
+    "categoria": "AUTO",
+    "activo": true
+  },
+  {
+    "nombre": "EL PAÍS — España",
+    "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/espana/portada",
+    "categoria": "AUTO",
+    "activo": true
+  },
+  {
+    "nombre": "El Periódico",
+    "url": "https://www.elperiodico.com/es/rss/rss_portada.xml",
+    "categoria": "AUTO",
+    "activo": true
+  },
+  {
+    "nombre": "ScienceDaily — Forensic Research",
+    "url": "https://www.sciencedaily.com/rss/health_medicine/forensics.xml",
+    "categoria": "CRIME SCENE",
+    "activo": true
+  }
+]
