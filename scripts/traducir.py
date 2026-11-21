@@ -39,6 +39,21 @@ def validar(original, traducido):
     new=set(re.findall(r"\b\d+(?:[.,]\d+)?\b",traducido))
     if not old.issubset(new):
         return False
+    # Rechazar residuos ingleses y calcos habituales que Argos puede producir.
+    # Ante una duda, la edición manual prevalece sobre publicar un titular ininteligible.
+    sospechosos = (
+        r"\b(?:alleged|reportedly|charged|arrested|killing|murdering|stabbing|"
+        r"pleads|guilty|before|after|with|without)\b",
+        r"\bco-trabajador\b",
+        r"\bsendero de senderismo\b",
+        r"\baprende su destino\b",
+        r"\bvivifico su jubilo\b",
+        r"\b(?:louisiana|florida|texas) hombre\b",
+        r"\bapunal[oó] novia\b",
+    )
+    for patron in sospechosos:
+        if re.search(patron, sin_acentos(traducido)):
+            return False
     a=sin_acentos(original)
     b=sin_acentos(traducido)
     # Estas palabras obligan a una atribución de la sospecha al traducir.

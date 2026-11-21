@@ -1,12 +1,12 @@
 {
   "actualizado": "2026-11-21T20:00:08+00:00",
-  "total": 91,
+  "total": 90,
   "noticias": [
     {
       "id": "e86559286e7f7d3c",
-      "titular": "Hombre acusado de intento de asesinato después de que el concejal apuñaló en Bradford",
+      "titular": "Acusan a un hombre de intento de asesinato tras el apuñalamiento de un concejal en Bradford",
       "titular_original": "Man charged with attempted murder after councillor stabbed in Bradford",
-      "metodo_titular": "traduccion_automatica",
+      "metodo_titular": "revision_editorial",
       "fecha": "2026-11-21T19:42:42+00:00",
       "actualizado": "2026-11-21T19:42:42+00:00",
       "categoria": "TRUE CRIME",
@@ -17,26 +17,6 @@
       "fuentes": [
         {
           "medio": "The Guardian — UK",
-          "url": "https://www.theguardian.com/uk-news/2026/nov/21/man-charged-with-attempted-after-councillor-stabbed-in-bradford",
-          "fecha": "2026-11-21T19:42:42+00:00"
-        }
-      ]
-    },
-    {
-      "id": "e86559286e7f7d3c",
-      "titular": "Hombre acusado de intento de asesinato después de que el concejal apuñaló en Bradford",
-      "titular_original": "Man charged with attempted murder after councillor stabbed in Bradford",
-      "metodo_titular": "traduccion_automatica",
-      "fecha": "2026-11-21T19:42:42+00:00",
-      "actualizado": "2026-11-21T19:42:42+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "MUNDO",
-      "temas": [],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "The Guardian — World",
           "url": "https://www.theguardian.com/uk-news/2026/nov/21/man-charged-with-attempted-after-councillor-stabbed-in-bradford",
           "fecha": "2026-11-21T19:42:42+00:00"
         }
@@ -104,9 +84,9 @@
     },
     {
       "id": "82afe3f79ffd164d",
-      "titular": "Louisiana hombre acusado de matar a mujer en el sendero de senderismo y asesinato co-trabajador con ballesta",
+      "titular": "Acusan a un hombre de Luisiana de matar a una mujer en una ruta de senderismo y a un compañero de trabajo con una ballesta",
       "titular_original": "Louisiana man charged with killing woman on hiking trail and murdering co-worker with crossbow",
-      "metodo_titular": "traduccion_automatica",
+      "metodo_titular": "revision_editorial",
       "fecha": "2026-11-21T18:50:00+00:00",
       "actualizado": "2026-11-21T18:50:00+00:00",
       "categoria": "TRUE CRIME",
@@ -124,9 +104,9 @@
     },
     {
       "id": "403c889cdf308d7c",
-      "titular": "El hombre que apuñaló novia a muerte en su dormitorio después de que ella lo llamó en video por ser un borracho se declara culpable",
+      "titular": "Se declara culpable de matar a puñaladas a su novia en su dormitorio tras reprocharle ella por vídeo que estaba borracho",
       "titular_original": "Man who stabbed girlfriend to death in their bedroom after she called him out on video for being a drunk pleads guilty",
-      "metodo_titular": "traduccion_automatica",
+      "metodo_titular": "revision_editorial",
       "fecha": "2026-11-21T18:15:16+00:00",
       "actualizado": "2026-11-21T18:15:16+00:00",
       "categoria": "TRUE CRIME",
@@ -144,9 +124,9 @@
     },
     {
       "id": "c6abd4603074f536",
-      "titular": "Alleged Mexican drug cartel boss ‘El Chapo Isidro’ arrested in special forces raid",
+      "titular": "Detienen a «El Chapo Isidro», presunto jefe de un cártel mexicano, en una operación de fuerzas especiales",
       "titular_original": "Alleged Mexican drug cartel boss ‘El Chapo Isidro’ arrested in special forces raid",
-      "metodo_titular": "original",
+      "metodo_titular": "revision_editorial",
       "fecha": "2026-11-21T17:46:55+00:00",
       "actualizado": "2026-11-21T17:46:55+00:00",
       "categoria": "TRUE CRIME",
@@ -166,9 +146,9 @@
     },
     {
       "id": "c0ce1a7c1c675b7d",
-      "titular": "Adolescente que vivificó su júbilo en Land Rover robado antes de matar a una mujer de 73 años y dar a su hijo lesión cerebral aprende su destino",
+      "titular": "La justicia decide sobre el caso del adolescente que, al conducir un Land Rover robado, mató a una mujer de 73 años y causó lesiones cerebrales a su hijo",
       "titular_original": "Teenager who livestreamed his joyride in stolen Land Rover before killing 73-year-old woman and giving her son brain injury learns his fate",
-      "metodo_titular": "traduccion_automatica",
+      "metodo_titular": "revision_editorial",
       "fecha": "2026-11-21T17:45:37+00:00",
       "actualizado": "2026-11-21T17:45:37+00:00",
       "categoria": "TRUE CRIME",
@@ -206,9 +186,9 @@
     },
     {
       "id": "a1c0088fcde43ae5",
-      "titular": "FBI reportedly investigating apparent hack of its criminal database",
+      "titular": "El FBI estaría investigando un posible ataque informático contra su base de datos criminales",
       "titular_original": "FBI reportedly investigating apparent hack of its criminal database",
-      "metodo_titular": "original",
+      "metodo_titular": "revision_editorial",
       "fecha": "2026-11-21T16:35:15+00:00",
       "actualizado": "2026-11-21T16:35:15+00:00",
       "categoria": "TRUE CRIME",
@@ -248,9 +228,9 @@
     },
     {
       "id": "a632d1ccbc172c45",
-      "titular": "Papá solicitó el divorcio, buscó la custodia completa de niños 2 semanas antes de matar a mamá con niños en la casa, la policía dice",
+      "titular": "Según la policía, un padre solicitó el divorcio y la custodia completa de sus hijos dos semanas antes de matar a la madre con los niños en casa",
       "titular_original": "Dad filed for divorce, sought full custody of kids 2 weeks before killing mom with children in the home, police say",
-      "metodo_titular": "traduccion_automatica",
+      "metodo_titular": "revision_editorial",
       "fecha": "2026-11-21T14:30:15+00:00",
       "actualizado": "2026-11-21T14:30:15+00:00",
       "categoria": "TRUE CRIME",
@@ -268,9 +248,9 @@
     },
     {
       "id": "0dd40c720f82acd8",
-      "titular": "El narcotraficante mexicano en la lista de 10 más buscados del FBI arrestado en tiroteo",
+      "titular": "Detienen durante un tiroteo a un narcotraficante mexicano incluido en la lista de los diez fugitivos más buscados por el FBI",
       "titular_original": "Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out",
-      "metodo_titular": "traduccion_automatica",
+      "metodo_titular": "revision_editorial",
       "fecha": "2026-11-21T13:15:21+00:00",
       "actualizado": "2026-11-21T13:15:21+00:00",
       "categoria": "TRUE CRIME",

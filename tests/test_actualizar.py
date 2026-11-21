@@ -20,6 +20,43 @@ class TestGaceta(unittest.TestCase):
             "Man accused of stabbing his wife in Boston",
             "Un hombre acusado de apuñalar a su esposa en Boston"))
 
+    def test_traduccion_calidad_y_no_publicar_ingles(self):
+        from traducir import validar
+        self.assertFalse(validar(
+            "Louisiana man charged with killing woman",
+            "Louisiana hombre acusado de matar a mujer"))
+        self.assertFalse(validar(
+            "Teenager learns his fate after fatal joyride",
+            "Adolescente aprende su destino tras accidente mortal"))
+        self.assertFalse(validar(
+            "Alleged cartel boss arrested in raid",
+            "Alleged jefe de cartel detenido"))
+        from datetime import datetime, timezone
+        from email.utils import format_datetime
+        from unittest.mock import patch
+        feed = {"nombre":"The Guardian — World","idioma":"en","categoria":"AUTO","region":"MUNDO"}
+        item = {"title":"Man charged with murder in Bradford",
+                "url":"https://example.com/b","date":format_datetime(datetime.now(timezone.utc)),
+                "summary":"","outlet":""}
+        with patch.object(g, "titulo_para_publicar", return_value=(item["title"],"original")):
+            self.assertIsNone(g.make_story(item,feed,[]))
+        with patch.object(g, "titulo_para_publicar", return_value=(item["title"],"original")):
+            sid = __import__("hashlib").sha1((g.normalize(item["title"])+"|"+
+                  datetime.now(timezone.utc).strftime("%Y-%m-%d")).encode()).hexdigest()[:16]
+            self.assertEqual(g.make_story(item,feed,[],{sid:"Acusan a un hombre de asesinato en Bradford"})["metodo_titular"],"revision_editorial")
+
+    def test_dedupe_mismo_id_distinta_region(self):
+        date = "2026-11-21T18:00:00+00:00"
+        def item(region, url):
+            return {"id":"test-id","categoria":"TRUE CRIME","region":region,"fecha":date,
+                    "actualizado":date,"titular":"Prueba","titular_original":"Prueba",
+                    "temas":[],"expedientes":[],"fuentes":[{"url":url,"fecha":date}]}
+        noticias = [item("MUNDO","https://a.test/a")]
+        self.assertFalse(g.merge_into(noticias,item("EUROPA","https://b.test/b")))
+        self.assertEqual(len(noticias),1)
+        self.assertEqual(len(noticias[0]["fuentes"]),2)
+        self.assertEqual(noticias[0]["region"],"EUROPA")
+
     def test_titulares_especificos(self):
         from titulares import reescribir_titular
         cases = [

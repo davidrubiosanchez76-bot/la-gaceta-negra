@@ -249,6 +249,10 @@ def make_story(item, feed, config, correcciones=None):
     sid = hashlib.sha1((normalize(title) + "|" + date.strftime("%Y-%m-%d")).encode()).hexdigest()[:16]
     if sid in (correcciones or {}):
         editorial, metodo = correcciones[sid], "revision_editorial"
+    if idioma == "en" and metodo == "original":
+        # No incorporar titulares en inglés sin una traducción revisable al español.
+        print(f"TRADUCCION PENDIENTE: {title[:130]}", file=sys.stderr)
+        return None
     return {
         "id": sid,
         "titular": editorial[:260], "titular_original": title[:260], "metodo_titular": metodo, "fecha": dt, "actualizado": dt,
@@ -262,7 +266,7 @@ def make_story(item, feed, config, correcciones=None):
 
 def merge_into(stories, new):
     for old in stories:
-        if same_event(old, new):
+        if old.get("id") == new.get("id") or same_event(old, new):
             urls = {x["url"] for x in old["fuentes"]}
             for source in new["fuentes"]:
                 if source["url"] not in urls:
@@ -270,6 +274,8 @@ def merge_into(stories, new):
             old["temas"] = sorted(set(old["temas"]) | set(new["temas"]))
             old["expedientes"] = sorted(set(old["expedientes"]) | set(new["expedientes"]))
             old["actualizado"] = max(old["actualizado"], new["actualizado"])
+            if old.get("region") == "MUNDO" and new.get("region") not in ("MUNDO", None):
+                old["region"] = new["region"]
             # Conservar primer titular escogido (URL estable) y fuentes por orden de llegada.
             return False
     stories.append(new)
@@ -324,7 +330,12 @@ def main():
         if old.get("id") in correcciones:
             old["titular"], old["metodo_titular"] = correcciones[old["id"]], "revision_editorial"
         else:
-            old["titular"], old["metodo_titular"] = titulo_para_publicar(original, cat, idioma)
+            candidato, metodo = titulo_para_publicar(original, cat, idioma)
+            # Si falla temporalmente el motor, no destruir una traducción previa válida.
+            if not (idioma == "en" and metodo == "original"
+                    and old.get("metodo_titular") in ("traduccion_automatica", "regla", "revision_editorial")
+                    and old.get("titular") and old["titular"] != original):
+                old["titular"], old["metodo_titular"] = candidato, metodo
         old["region"] = region_of(original, origin.get("region", "MUNDO"))
         old["temas"] = sorted(set(topics_of(original, cat) + (["Extremismo nihilista violento"] if es_nve else [])))
         old["expedientes"] = sorted(set(cases_of(original, watch) + (["extremismo-nihilista-violento"] if es_nve and any(c.get("id") == "extremismo-nihilista-violento" and c.get("activo", True) for c in watch) else [])))
@@ -341,6 +352,26 @@ def main():
         old = review_old(raw)
         if old and not any(x["id"] == old["id"] for x in stories):
             stories.append(old)
+    # Dos RSS pueden contener exactamente la misma noticia pero regiones distintas;
+    # unificar por ID antes de recopilar, sin borrar sus fuentes ni su hemeroteca.
+    unicas, por_id = [], {}
+    for noticia in stories:
+        anterior = por_id.get(noticia["id"])
+        if anterior is None:
+            por_id[noticia["id"]] = noticia
+            unicas.append(noticia)
+        else:
+            urls = {f["url"] for f in anterior.get("fuentes", [])}
+            for fuente in noticia.get("fuentes", []):
+                if fuente["url"] not in urls:
+                    anterior["fuentes"].append(fuente)
+                    urls.add(fuente["url"])
+            anterior["temas"] = sorted(set(anterior.get("temas", [])) | set(noticia.get("temas", [])))
+            anterior["expedientes"] = sorted(set(anterior.get("expedientes", [])) | set(noticia.get("expedientes", [])))
+            anterior["actualizado"] = max(anterior.get("actualizado", anterior["fecha"]), noticia.get("actualizado", noticia["fecha"]))
+            if anterior.get("region") == "MUNDO" and noticia.get("region") not in ("MUNDO", None):
+                anterior["region"] = noticia["region"]
+    stories = unicas
     success = found = new_count = 0
     for f in feeds:
         if not f.get("activo", True):
