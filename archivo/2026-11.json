@@ -1,7 +1,135 @@
 {
   "mes": "2026-11",
-  "total": 86,
+  "total": 93,
   "noticias": [
+    {
+      "id": "0260c8f4ca1697d2",
+      "medio_titular": "20minutos",
+      "titular": "El rey Carlos III de Inglaterra contactó con Meghan Markle después de que su padre fuera detenido por pornografía infantil",
+      "titular_original": "El rey Carlos III de Inglaterra contactó con Meghan Markle después de que su padre fuera detenido por pornografía infantil",
+      "metodo_titular": "original",
+      "fecha": "2026-11-22T19:29:39+00:00",
+      "actualizado": "2026-11-22T19:29:39+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "20minutos",
+          "url": "https://www.20minutos.es/gente/rey-carlos-iii-inglaterra-contacto-meghan-markle-despues-padre-fuera-detenido-pornografia-infantil_7064321_0.html",
+          "fecha": "2026-11-22T19:29:39+00:00"
+        }
+      ]
+    },
+    {
+      "id": "21f1ed8df58e7d02",
+      "medio_titular": "Law & Crime",
+      "titular": "La mujer secuestró a la niña del parque mientras fingía ser su madre y la convirtió en una milla antes de que la niña escapara de su alcance:",
+      "titular_original": "Woman kidnapped child from park while pretending to be her mother and made it a mile before girl escaped her grasp: Cops",
+      "metodo_titular": "traduccion_automatica",
+      "fecha": "2026-11-22T19:06:24+00:00",
+      "actualizado": "2026-11-22T19:06:24+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "Law & Crime",
+          "url": "https://lawandcrime.com/crime/woman-kidnapped-child-from-park-while-pretending-to-be-her-mother-and-made-it-a-mile-before-girl-escaped-her-grasp-cops",
+          "fecha": "2026-11-22T19:06:24+00:00"
+        }
+      ]
+    },
+    {
+      "id": "9b7074c6b25ea3ac",
+      "medio_titular": "EL PAÍS — Sociedad",
+      "titular": "La Guardia Civil apunta a la violencia machista en la muerte de una joven de 37 años en Albacete",
+      "titular_original": "La Guardia Civil apunta a la violencia machista en la muerte de una joven de 37 años en Albacete",
+      "metodo_titular": "original",
+      "fecha": "2026-11-22T18:34:33+00:00",
+      "actualizado": "2026-11-22T18:34:33+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [
+        "Violencia en la pareja"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "EL PAÍS — Sociedad",
+          "url": "https://elpais.com/sociedad/2026-11-22/la-guardia-civil-no-descarta-la-violencia-de-genero-en-la-muerte-de-una-joven-de-37-anos-en-albacete.html",
+          "fecha": "2026-11-22T18:34:33+00:00"
+        }
+      ]
+    },
+    {
+      "id": "c3399d9229642599",
+      "medio_titular": "elDiario.es",
+      "titular": "Ciberataques, el boom de la IA y teorías de la conspiración: qué se esconde detrás del colapso de sistemas por todo el mundo",
+      "titular_original": "Ciberataques, el boom de la IA y teorías de la conspiración: qué se esconde detrás del colapso de sistemas por todo el mundo",
+      "metodo_titular": "original",
+      "fecha": "2026-11-22T17:54:59+00:00",
+      "actualizado": "2026-11-22T17:54:59+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/tecnologia/ciberataques-boom-ia-teorias-conspiracion-esconde-detras-colapso-sistemas-mundo_1_13684598.html",
+          "fecha": "2026-11-22T17:54:59+00:00"
+        }
+      ]
+    },
+    {
+      "id": "4a63dd41e0c53812",
+      "medio_titular": "The Guardian — UK",
+      "titular": "Hombre que mató a tres durante el episodio psicótico ‘había sido liberado después del catálogo de fracasos’",
+      "titular_original": "Man who killed three during psychotic episode ‘had been released after catalogue of failures’",
+      "metodo_titular": "traduccion_automatica",
+      "fecha": "2026-11-22T13:24:10+00:00",
+      "actualizado": "2026-11-22T13:24:10+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "EUROPA",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "The Guardian — UK",
+          "url": "https://www.theguardian.com/uk-news/2026/nov/22/man-who-killed-three-during-psychotic-episode-had-been-released-after-catalogue-of-failures-investigation-finds-alexander-lewis-ranwell",
+          "fecha": "2026-11-22T13:24:10+00:00"
+        }
+      ]
+    },
+    {
+      "id": "7e84bfea0adfe5b2",
+      "medio_titular": "elDiario.es",
+      "titular": "\"Va a saltar a la vista que lleva un enchufe como un demonio\": los indicios del fraude en las oposiciones a Policía de Granada",
+      "titular_original": "\"Va a saltar a la vista que lleva un enchufe como un demonio\": los indicios del fraude en las oposiciones a Policía de Granada",
+      "metodo_titular": "original",
+      "fecha": "2026-11-22T12:29:31+00:00",
+      "actualizado": "2026-11-22T12:29:31+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/andalucia/granada/saltar-vista-lleva-enchufe-demonio-indicios-fraude-oposiciones-policia-granada_1_13683782.html",
+          "fecha": "2026-11-22T12:29:31+00:00"
+        }
+      ]
+    },
     {
       "id": "869bc0bb47a2b222",
       "medio_titular": "20minutos",
@@ -22,6 +150,27 @@
           "medio": "20minutos",
           "url": "https://www.20minutos.es/internacional/un-ataque-ruso-derrumba-parte-un-edificio-ucrania-zelenski-alerta-14-personas-desaparecidas-bajo-los-escombros_7064185_0.html",
           "fecha": "2026-11-22T09:43:14+00:00"
+        }
+      ]
+    },
+    {
+      "id": "ac3ef45ccb1e7022",
+      "medio_titular": "elDiario.es",
+      "titular": "Agentes del ICE encapuchados detienen a dos personas al embarcar en Seattle: \"Se están llevando a mi papá, tenemos permiso de trabajo\"",
+      "titular_original": "Agentes del ICE encapuchados detienen a dos personas al embarcar en Seattle: \"Se están llevando a mi papá, tenemos permiso de trabajo\"",
+      "metodo_titular": "original",
+      "fecha": "2026-11-22T09:16:11+00:00",
+      "actualizado": "2026-11-22T09:16:11+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/desalambre/agentes-ice-encapuchados-detienen-personas-embarcar-seattle-llevando-papa-permiso-trabajo_1_13683637.html",
+          "fecha": "2026-11-22T09:16:11+00:00"
         }
       ]
     },
@@ -73,7 +222,7 @@
       "titular_original": "México confirma once muertos y ocho detenidos en la operación de captura de 'El Chapo Isidro'",
       "metodo_titular": "original",
       "fecha": "2026-11-22T01:24:41+00:00",
-      "actualizado": "2026-11-22T01:24:41+00:00",
+      "actualizado": "2026-11-22T09:45:37+00:00",
       "categoria": "TRUE CRIME",
       "region": "MUNDO",
       "temas": [],
@@ -84,6 +233,11 @@
           "medio": "Europa Press — Internacional",
           "url": "https://www.europapress.es/internacional/noticia-mexico-confirma-once-muertos-ocho-detenidos-operacion-captura-chapo-isidro-20261122022441.html",
           "fecha": "2026-11-22T01:24:41+00:00"
+        },
+        {
+          "medio": "20minutos",
+          "url": "https://www.20minutos.es/internacional/operacion-captura-chapo-isidro-mexico-muertos-detenidos_7064189_0.html",
+          "fecha": "2026-11-22T09:45:37+00:00"
         }
       ],
       "medio_titular": "Europa Press — Internacional"
@@ -180,13 +334,23 @@
       "titular_original": "Un detenido tras la muerte de una mujer de 37 años en Villarrobledo (Albacete)",
       "metodo_titular": "original",
       "fecha": "2026-11-21T19:29:02+00:00",
-      "actualizado": "2026-11-21T19:29:02+00:00",
+      "actualizado": "2026-11-22T16:42:37+00:00",
       "categoria": "TRUE CRIME",
       "region": "ESPAÑA",
       "temas": [],
       "expedientes": [],
       "etiquetas_de_deteccion": [],
       "fuentes": [
+        {
+          "medio": "20minutos",
+          "url": "https://www.20minutos.es/castilla-la-mancha/albacete/detenido-un-hombre-46-anos-tras-muerte-una-mujer-37-villarrobledo_7064283_0.html",
+          "fecha": "2026-11-22T16:37:51+00:00"
+        },
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/castilla-la-mancha/provincias/albacete/detenido-hombre-muerte-mujer-37-anos-villarrobledo_1_13684591.html",
+          "fecha": "2026-11-22T16:42:37+00:00"
+        },
         {
           "medio": "EL PAÍS — España",
           "url": "https://elpais.com/espana/2026-11-21/un-detenido-tras-la-muerte-de-una-mujer-de-37-anos-en-villarrobledo-albacete.html",
