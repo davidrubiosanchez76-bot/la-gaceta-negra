@@ -1,6 +1,6 @@
 {
   "mes": "2026-11",
-  "total": 89,
+  "total": 85,
   "noticias": [
     {
       "id": "3d270717231f6571",
@@ -39,6 +39,26 @@
           "medio": "The Guardian — World",
           "url": "https://www.theguardian.com/australia-news/2026/nov/22/man-found-dead-on-flinders-island-linked-to-shooting-of-police-officer-tasmanian-authorities-say",
           "fecha": "2026-11-22T02:44:01+00:00"
+        }
+      ]
+    },
+    {
+      "id": "47ad5f613fd7c774",
+      "titular": "México confirma once muertos y ocho detenidos en la operación de captura de 'El Chapo Isidro'",
+      "titular_original": "México confirma once muertos y ocho detenidos en la operación de captura de 'El Chapo Isidro'",
+      "metodo_titular": "original",
+      "fecha": "2026-11-22T01:24:41+00:00",
+      "actualizado": "2026-11-22T01:24:41+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "Europa Press — Internacional",
+          "url": "https://www.europapress.es/internacional/noticia-mexico-confirma-once-muertos-ocho-detenidos-operacion-captura-chapo-isidro-20261122022441.html",
+          "fecha": "2026-11-22T01:24:41+00:00"
         }
       ]
     },
@@ -1093,28 +1113,6 @@
       "etiquetas_de_deteccion": []
     },
     {
-      "id": "8e4611fb24d610e9",
-      "titular": "Georg H. Jeitler analiza el impacto de la IA y los deepfakes en la autenticación de pruebas digitales",
-      "fecha": "2026-11-19T12:57:24+00:00",
-      "actualizado": "2026-11-19T12:57:24+00:00",
-      "categoria": "CRIME SCENE",
-      "region": "MUNDO",
-      "temas": [
-        "Criminalística"
-      ],
-      "expedientes": [],
-      "fuentes": [
-        {
-          "medio": "Forensic Focus",
-          "url": "https://www.forensicfocus.com/interviews/georg-h-jeitler-the-impact-of-ai-and-deepfakes-on-digital-evidence-authentication",
-          "fecha": "2026-11-19T12:57:24+00:00"
-        }
-      ],
-      "titular_original": "Georg H. Jeitler: The Impact Of AI And Deepfakes On Digital Evidence Authentication",
-      "metodo_titular": "revision_editorial",
-      "etiquetas_de_deteccion": []
-    },
-    {
       "id": "hist-isak-andic-2026-11-19-24",
       "titular": "La Audiencia de Barcelona ve indicios para seguir investigando la muerte de Isak Andic, sin descartar un accidente",
       "titular_original": "‘Caso Andic’: las incoherencias sobre el terreno de Jonathan Andic sustentan la investigación",
@@ -1617,28 +1615,6 @@
       "etiquetas_de_deteccion": []
     },
     {
-      "id": "0fb6ea7472fd0a55",
-      "titular": "Por qué una sentencia estadounidense sobre imágenes de abuso infantil generadas con IA no sería aplicable en Reino Unido",
-      "fecha": "2026-11-16T16:12:51+00:00",
-      "actualizado": "2026-11-16T16:12:51+00:00",
-      "categoria": "CRIME SCENE",
-      "region": "EUROPA",
-      "temas": [
-        "Criminalística"
-      ],
-      "expedientes": [],
-      "fuentes": [
-        {
-          "medio": "Forensic Focus",
-          "url": "https://www.forensicfocus.com/articles/why-a-us-ruling-on-ai-child-abuse-images-would-not-survive-in-britain",
-          "fecha": "2026-11-16T16:12:51+00:00"
-        }
-      ],
-      "titular_original": "Why A US Ruling On AI Child Abuse Images Would Not Survive In Britain",
-      "metodo_titular": "revision_editorial",
-      "etiquetas_de_deteccion": []
-    },
-    {
       "id": "hist-lindsay-clancy-2026-11-16-10",
       "titular": "La justicia fija para el 29 de marzo de 2027 la repetición del juicio a Lindsay Clancy",
       "titular_original": "Lindsay Clancy to face murder retrial in March over killing of her children",
@@ -1706,72 +1682,6 @@
       "region": "MUNDO",
       "titular_original": "El rincón oscuro. El Lute, cine que crea realidades",
       "metodo_titular": "original",
-      "etiquetas_de_deteccion": []
-    },
-    {
-      "id": "98225044e5707d12",
-      "titular": "Investigación forense del fraude por correo empresarial: un episodio de «Cyber Unpacked»",
-      "fecha": "2026-11-12T13:46:07+00:00",
-      "actualizado": "2026-11-12T13:46:07+00:00",
-      "categoria": "CRIME SCENE",
-      "region": "MUNDO",
-      "temas": [
-        "Criminalística"
-      ],
-      "expedientes": [],
-      "fuentes": [
-        {
-          "medio": "Forensic Focus",
-          "url": "https://www.forensicfocus.com/webinars/cyber-unpacked-s3e2-ir-beyond-malware-investigating-business-email-compromise-and-fraud",
-          "fecha": "2026-11-12T13:46:07+00:00"
-        }
-      ],
-      "titular_original": "Cyber Unpacked S3:E2 // IR Beyond Malware: Investigating Business Email Compromise And Fraud",
-      "metodo_titular": "revision_editorial",
-      "etiquetas_de_deteccion": []
-    },
-    {
-      "id": "982844bfff2e8f5f",
-      "titular": "Belkasoft X 2.13 incorpora mejoras en BelkaGPT y recuperación de archivos mediante MFT",
-      "fecha": "2026-11-12T13:09:52+00:00",
-      "actualizado": "2026-11-12T13:09:52+00:00",
-      "categoria": "CRIME SCENE",
-      "region": "MUNDO",
-      "temas": [
-        "Criminalística"
-      ],
-      "expedientes": [],
-      "fuentes": [
-        {
-          "medio": "Forensic Focus",
-          "url": "https://www.forensicfocus.com/news/belkasoft-x-v2-13-arrives-with-amplified-belkagpt-and-mft-based-file-recovery",
-          "fecha": "2026-11-12T13:09:52+00:00"
-        }
-      ],
-      "titular_original": "Belkasoft X v2.13 Arrives With Amplified BelkaGPT And MFT-Based File Recovery",
-      "metodo_titular": "revision_editorial",
-      "etiquetas_de_deteccion": []
-    },
-    {
-      "id": "e26b9753c2ed0782",
-      "titular": "Qué rastros dejan en Android las notificaciones FCM después de borrar una aplicación",
-      "fecha": "2026-11-11T13:21:48+00:00",
-      "actualizado": "2026-11-11T13:21:48+00:00",
-      "categoria": "CRIME SCENE",
-      "region": "MUNDO",
-      "temas": [
-        "Criminalística"
-      ],
-      "expedientes": [],
-      "fuentes": [
-        {
-          "medio": "Forensic Focus",
-          "url": "https://www.forensicfocus.com/news/android-fcm-push-notification-artifacts-what-can-remain-after-an-app-is-deleted",
-          "fecha": "2026-11-11T13:21:48+00:00"
-        }
-      ],
-      "titular_original": "Android FCM Push Notification Artifacts: What Can Remain After An App Is Deleted",
-      "metodo_titular": "revision_editorial",
       "etiquetas_de_deteccion": []
     },
     {
