@@ -1,7 +1,149 @@
 {
   "mes": "2026-11",
-  "total": 87,
+  "total": 94,
   "noticias": [
+    {
+      "id": "cbd8150bf898c418",
+      "titular": "¿Por qué desaparecieron los neandertales? Un estudio señala el papel decisivo que tuvo el Homo sapiens",
+      "titular_original": "¿Por qué desaparecieron los neandertales? Un estudio señala el papel decisivo que tuvo el Homo sapiens",
+      "metodo_titular": "original",
+      "fecha": "2026-11-22T06:31:00+00:00",
+      "actualizado": "2026-11-22T06:31:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/spin/desaparecieron-neandertales-estudio-senala-papel-decisivo-tuvo-homo-sapiens-pm_1_13680336.html",
+          "fecha": "2026-11-22T06:31:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "9285181208d7cd6d",
+      "titular": "Tres muertos y decenas desaparecidos después del incendio en la fábrica de Indonesia",
+      "titular_original": "Three killed and dozens missing after fire at Indonesian factory",
+      "metodo_titular": "traduccion_automatica",
+      "fecha": "2026-11-22T06:05:00+00:00",
+      "actualizado": "2026-11-22T06:05:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "BBC News — World",
+          "url": "https://www.bbc.co.uk/news/articles/cw8dvg5pgm0eo?at_medium=RSS&at_campaign=rss",
+          "fecha": "2026-11-22T06:05:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "3d270717231f6571",
+      "titular": "Este documental de Disney+ recuerda el año en que temimos que un payaso nos asesinara",
+      "titular_original": "Este documental de Disney+ recuerda el año en que temimos que un payaso nos asesinara",
+      "metodo_titular": "original",
+      "fecha": "2026-11-22T04:00:00+00:00",
+      "actualizado": "2026-11-22T04:00:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "20minutos",
+          "url": "https://www.20minutos.es/cinemania/noticias/quien-tiene-miedo-payasos-disney-84-minutos_7063024_0.html",
+          "fecha": "2026-11-22T04:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "48a4443627c6ff2e",
+      "titular": "Hombre encontrado muerto en la Isla Flinders creía haber sido disparado por el oficial, dice la policía",
+      "titular_original": "Man found dead on Flinders Island believed to have been shot by officer, police say",
+      "metodo_titular": "traduccion_automatica",
+      "fecha": "2026-11-22T02:44:01+00:00",
+      "actualizado": "2026-11-22T02:44:01+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "The Guardian — World",
+          "url": "https://www.theguardian.com/australia-news/2026/nov/22/man-found-dead-on-flinders-island-linked-to-shooting-of-police-officer-tasmanian-authorities-say",
+          "fecha": "2026-11-22T02:44:01+00:00"
+        }
+      ]
+    },
+    {
+      "id": "d52a3b0c23cf16ac",
+      "titular": "Cómo un jugador adolescente y su madre ayudaron a rescatar a una chica desaparecida",
+      "titular_original": "How a teen gamer and his mother helped rescue a missing girl",
+      "metodo_titular": "traduccion_automatica",
+      "fecha": "2026-11-22T00:09:58+00:00",
+      "actualizado": "2026-11-22T00:09:58+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "BBC News — World",
+          "url": "https://www.bbc.co.uk/news/articles/cmq8lyv8lkjwo?at_medium=RSS&at_campaign=rss",
+          "fecha": "2026-11-22T00:09:58+00:00"
+        }
+      ]
+    },
+    {
+      "id": "90bac946f74094dd",
+      "titular": "Abatidos en la frontera de Argelia dos presuntos narcotraficantes marroquíes",
+      "titular_original": "Abatidos en la frontera de Argelia dos presuntos narcotraficantes marroquíes",
+      "metodo_titular": "original",
+      "fecha": "2026-11-21T21:25:39+00:00",
+      "actualizado": "2026-11-21T21:25:39+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [
+        "Narcotráfico"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "Europa Press — Internacional",
+          "url": "https://www.europapress.es/internacional/noticia-abatidos-frontera-argelia-dos-presuntos-narcotraficantes-marroquies-20261121222539.html",
+          "fecha": "2026-11-21T21:25:39+00:00"
+        }
+      ]
+    },
+    {
+      "id": "b8921ba48370e0cb",
+      "titular": "Cuatro militares mexicanos y siete criminales murieron en la captura de ‘El Chapo Isidro’",
+      "titular_original": "Cuatro militares mexicanos y siete criminales murieron en la captura de ‘El Chapo Isidro’",
+      "metodo_titular": "original",
+      "fecha": "2026-11-21T21:23:40+00:00",
+      "actualizado": "2026-11-21T21:23:40+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/internacional/cuatro-militares-mexicanos-siete-criminales-murieron-captura-chapo-isidro_1_13683472.html",
+          "fecha": "2026-11-21T21:23:40+00:00"
+        }
+      ]
+    },
     {
       "id": "e86559286e7f7d3c",
       "titular": "Acusan a un hombre de intento de asesinato tras el apuñalamiento de un concejal en Bradford",
@@ -274,7 +416,7 @@
       "titular_original": "Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out",
       "metodo_titular": "revision_editorial",
       "fecha": "2026-11-21T13:15:21+00:00",
-      "actualizado": "2026-11-21T21:05:29+00:00",
+      "actualizado": "2026-11-22T01:25:03+00:00",
       "categoria": "TRUE CRIME",
       "region": "MUNDO",
       "temas": [],
