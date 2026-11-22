@@ -204,6 +204,44 @@ class TestGaceta(unittest.TestCase):
                  "date":format_datetime(datetime.now(timezone.utc)),"summary":"","outlet":""}
         self.assertIsNone(g.make_story(noticia,{"nombre":"elDiario.es","categoria":"AUTO","idioma":"es"},[],excluidas=excluidas))
 
+    def test_preferencia_lectura_publica(self):
+        import json
+        cfg=json.loads((Path(__file__).resolve().parents[1] / "config" / "acceso_medios.json").read_text(encoding="utf-8"))
+        pago={"medio":"EL PAÍS — España","url":"https://elpais.com/espana/noticia"}
+        libre={"medio":"20minutos","url":"https://www.20minutos.es/noticia/1"}
+        neutra={"medio":"Medio sin política","url":"https://example.org/noticia"}
+        caso={"fuentes":[pago,neutra,libre]}
+        g.ordenar_fuentes(caso,cfg)
+        self.assertEqual(caso["fuentes"],[libre,neutra,pago])
+        self.assertEqual(g.prioridad_fuente(dict(pago,acceso="abierto"),cfg),0)
+        self.assertEqual(g.prioridad_fuente({"medio":"EL PAÍS","url":"https://example.org/test"},cfg),1)
+        sola={"fuentes":[pago]}
+        g.ordenar_fuentes(sola,cfg)
+        self.assertEqual(sola["fuentes"],[pago])
+        en={"medio":"The Guardian — World","url":"https://www.theguardian.com/world/test"}
+        castellano={"fuentes":[en,libre]}
+        g.ordenar_fuentes(castellano,cfg)
+        self.assertEqual(castellano["fuentes"][0],libre)
+
+    def test_alternativas_de_mismo_suceso(self):
+        import json
+        cfg=json.loads((Path(__file__).resolve().parents[1] / "config" / "acceso_medios.json").read_text(encoding="utf-8"))
+        fecha="2026-11-22T08:00:00+00:00"
+        def caso(medio,url):
+            return {"id":"identico","categoria":"TRUE CRIME","region":"ESPAÑA",
+                    "fecha":fecha,"actualizado":fecha,"titular":"Un suceso",
+                    "titular_original":"Un suceso","medio_titular":medio,
+                    "temas":[],"expedientes":[],"fuentes":[{"medio":medio,"url":url,"fecha":fecha}]}
+        pago=caso("EL PAÍS — España","https://elpais.com/test")
+        libre=caso("Europa Press — España","https://www.europapress.es/test")
+        lista=[pago]
+        self.assertFalse(g.merge_into(lista,libre))
+        g.ordenar_fuentes(lista[0],cfg)
+        self.assertEqual(len(lista),1)
+        self.assertEqual(lista[0]["fuentes"][0]["medio"],"Europa Press — España")
+        self.assertEqual(lista[0]["fuentes"][1]["medio"],"EL PAÍS — España")
+        self.assertEqual(lista[0]["medio_titular"],"EL PAÍS — España")
+
     def test_cases(self):
         self.assertEqual(g.cases_of("Novedades en el caso de Lindsay Clancy", [{"id": "lindsay-clancy", "alias": ["Lindsay Clancy"]}]), ["lindsay-clancy"])
         self.assertEqual(g.cases_of("Novedades de Lindsay Johnson", [{"id": "lindsay-clancy", "alias": ["Lindsay Clancy"]}]), [])

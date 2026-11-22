@@ -215,12 +215,12 @@ def same_event(a, b):
     # Mismo acontecimiento solo si hay indicios fuertes y fecha próxima.
     if a["categoria"] != b["categoria"]:
         return False
-    regions = {story_region(a), story_region(b)}
-    if len(regions) > 1:
-        return False
     for x in a["fuentes"]:
         if any(x["url"] == y["url"] for y in b["fuentes"]):
             return True
+    regions = {story_region(a), story_region(b)}
+    if len(regions) > 1 and "MUNDO" not in regions:
+        return False
     if abs((date_parse(a["fecha"]) - date_parse(b["fecha"])).total_seconds()) > 72 * 3600:
         return False
     title_a, title_b = a.get("titular_original", a["titular"]), b.get("titular_original", b["titular"])
@@ -259,6 +259,33 @@ def story_region(story):
     return story.get("region", "MUNDO")
 
 
+
+PREFERENCIAS_ACCESO = {"habitualmente_abierto": 0, "acceso_variable": 1,
+                       "suscripcion_frecuente": 2}
+ACCESO_EXPLICITO = {"abierto": 0, "libre": 0, "variable": 1,
+                   "restringido": 2, "suscripcion": 2}
+
+
+def prioridad_fuente(fuente, politica):
+    """Preferencia orientativa, no garantía de acceso al artículo."""
+    declarado = fuente.get("acceso")
+    if declarado in ACCESO_EXPLICITO:
+        return ACCESO_EXPLICITO[declarado]
+    host = (urllib.parse.urlsplit(fuente.get("url") or "").hostname or "").lower()
+    for clase, valor in PREFERENCIAS_ACCESO.items():
+        if any(host == d or host.endswith("." + d) for d in politica.get(clase, [])):
+            return valor
+    return 1
+
+
+def ordenar_fuentes(noticia, politica):
+    """La primera fuente es el enlace principal de Blogger."""
+    noticia["fuentes"] = sorted(noticia.get("fuentes", []), key=lambda f: (
+        prioridad_fuente(f, politica),
+        int(es_ingles(f.get("medio", ""))),
+    ))
+
+
 def make_story(item, feed, config, correcciones=None, excluidas=None):
     title = html.unescape(re.sub(r"<[^>]+>", "", item["title"])).strip()
     url = clean_url(item["url"])
@@ -290,7 +317,7 @@ def make_story(item, feed, config, correcciones=None, excluidas=None):
         print(f"TRADUCCION PENDIENTE: {title[:130]}", file=sys.stderr)
         return None
     return {
-        "id": sid,
+        "id": sid, "medio_titular": item.get("outlet") or feed["nombre"],
         "titular": editorial[:260], "titular_original": title[:260], "metodo_titular": metodo, "fecha": dt, "actualizado": dt,
         "categoria": cat, "region": region_of(title, feed.get("region", "MUNDO")),
         "temas": sorted(set(topics_of(title, cat) + (["Extremismo nihilista violento"] if es_nve else []))),
@@ -312,7 +339,7 @@ def merge_into(stories, new):
             old["actualizado"] = max(old["actualizado"], new["actualizado"])
             if old.get("region") == "MUNDO" and new.get("region") not in ("MUNDO", None):
                 old["region"] = new["region"]
-            # Conservar primer titular escogido (URL estable) y fuentes por orden de llegada.
+            # El titular de origen no cambia al reordenar enlaces de lectura.
             return False
     stories.append(new)
     return True
@@ -332,6 +359,7 @@ def main():
     watch = read_json(ROOT / "config/expedientes.json", [])
     correcciones = read_json(ROOT / "config/titulares_revisados.json", {})
     excluidas = {x["id"] for x in read_json(ROOT / "config/noticias_excluidas.json", {}).get("noticias", [])}
+    politica_acceso = read_json(ROOT / "config/acceso_medios.json", {})
     folder = ROOT / "archivo"
     stories = []
     def review_old(old):
@@ -349,7 +377,7 @@ def main():
             return old
         # A partir de 0.2, una palabra en el resumen de otro tema no basta.
         # Revalidar incluso las entradas ya publicadas para retirar falsos positivos.
-        source = (old.get("fuentes") or [{}])[0].get("medio", "")
+        source = old.setdefault("medio_titular", (old.get("fuentes") or [{}])[0].get("medio", ""))
         origin = next((f for f in feeds if f["nombre"] == source), {})
         hint = origin.get("categoria", "AUTO")
         if hint == "AUTO" and source.startswith("Revista Calibre"):
@@ -432,6 +460,8 @@ def main():
     if success == 0:
         print("ERROR: ninguna fuente respondió. Se mantienen intactos los JSON.", file=sys.stderr)
         sys.exit(1)
+    for noticia in stories:
+        ordenar_fuentes(noticia, politica_acceso)
     stories.sort(key=lambda s: (s["fecha"], s["id"]), reverse=True)
     cutoff = NOW - timedelta(days=DAYS_KEEP_FRONTPAGE)
     current = [x for x in stories if date_parse(x["fecha"]) >= cutoff]

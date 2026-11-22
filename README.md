@@ -78,3 +78,7 @@ El expediente **EXTREMISMO VIOLENTO NIHILISTA** incorpora una hemeroteca inicial
 La Hemeroteca general sigue siendo independiente; el archivo aparece en **Expedientes → True Crime → EXTREMISMO VIOLENTO NIHILISTA**. El HTML vigente lee la lista de expedientes desde GitHub, por lo que no requiere añadir manualmente una nueva tarjeta. No se guardan ni reproducen imágenes o textos de explotación ni otro material gráfico sensible.
 
 Los titulares históricos se conservarán durante las siguientes actualizaciones al tener `origen: "hemeroteca_manual"`. Cualquier información de carácter judicial distingue la acusación de la condena. El concepto académico y policial de extremismo nihilista violento es debatido y no todos los delitos relacionados constituyen jurídicamente terrorismo.
+
+## Enlaces de lectura pública (noviembre de 2026)
+
+Cuando varias fuentes cubren el mismo acontecimiento, el primer enlace favorece a medios habitualmente abiertos. Se conservan las demás referencias en «Más fuentes»; si sólo existe una fuente de suscripción, se mantiene. La regla utiliza el dominio del medio y no garantiza que cada artículo individual sea gratuito. Puede señalarse el acceso contrastado de una fuente con `acceso: "abierto"` o `acceso: "restringido"`. La política editable está en `config/acceso_medios.json`. Se guarda `medio_titular` para preservar la procedencia del titular original al ordenar enlaces.

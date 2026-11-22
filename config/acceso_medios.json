@@ -1,0 +1,30 @@
+{
+  "nota": "Preferencia estimada por medio, no comprobación individual de cada artículo.",
+  "habitualmente_abierto": [
+    "20minutos.es",
+    "europapress.es",
+    "rtve.es",
+    "theguardian.com",
+    "bbc.com",
+    "bbc.co.uk",
+    "npr.org",
+    "apnews.com",
+    "justice.gov",
+    "theconversation.com"
+  ],
+  "acceso_variable": [
+    "eldiario.es",
+    "elperiodico.com",
+    "reuters.com",
+    "lawandcrime.com",
+    "crimereads.com",
+    "forensicfocus.com",
+    "sciencedaily.com"
+  ],
+  "suscripcion_frecuente": [
+    "elpais.com",
+    "elmundo.es",
+    "lavanguardia.com",
+    "elconfidencial.com"
+  ]
+}
