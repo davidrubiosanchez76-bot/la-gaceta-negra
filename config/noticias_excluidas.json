@@ -1,0 +1,24 @@
+{
+  "noticias": [
+    {
+      "id": "cbd8150bf898c418",
+      "motivo": "Paleontología: desaparición de los neandertales, no un crimen documentado"
+    },
+    {
+      "id": "38f7479accba8177",
+      "motivo": "Biotecnología: ADN de hámster y algas sin aplicación forense"
+    },
+    {
+      "id": "9285181208d7cd6d",
+      "motivo": "Accidente industrial: sin indicios de investigación penal en el titular"
+    },
+    {
+      "id": "a0460a74bd7882bc",
+      "motivo": "Anécdota de celebridad: supuesto robo de un objeto de atrezo sin interés negrocriminal"
+    },
+    {
+      "id": "a1b7cefc6c121e28",
+      "motivo": "Declaración política: no informa de un suceso criminal concreto"
+    }
+  ]
+}

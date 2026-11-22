@@ -179,6 +179,31 @@ class TestGaceta(unittest.TestCase):
         self.assertEqual(g.cases_of("La biografía de Luigi Mangione", cases), ["luigi-mangione"])
         self.assertEqual(g.cases_of("Un filósofo escribe sobre nihilismo", cases), [])
 
+    def test_relevancia_noir_estricta(self):
+        self.assertIsNone(g.category("¿Por qué desaparecieron los neandertales? Un estudio señala el papel decisivo que tuvo el Homo sapiens", "AUTO"))
+        self.assertIsNone(g.category("Un equipo de científicos crea un planimal fusionando ADN de hámster y algas", "AUTO"))
+        self.assertIsNone(g.category("Tres muertos y decenas desaparecidos después del incendio en la fábrica de Indonesia", "AUTO"))
+        self.assertIsNone(g.category("Jennifer Lawrence lamenta la desaparición del arco de Katniss", "AUTO"))
+        self.assertIsNone(g.category("Un genoma de dinosaurio permite nuevos estudios genéticos", "AUTO"))
+        self.assertEqual(g.category("Hallan indicios de homicidio prehistórico en Atapuerca", "AUTO"), "TRUE CRIME")
+        self.assertEqual(g.category("Una mujer desaparecida es localizada en Girona por la policía", "AUTO"), "TRUE CRIME")
+        self.assertEqual(g.category("Investigan la desaparición de una niña en Barcelona", "AUTO"), "TRUE CRIME")
+        self.assertEqual(g.category("La prueba de ADN forense permite identificar a un sospechoso", "AUTO"), "CRIME SCENE")
+        self.assertEqual(g.category("Nuevas técnicas de análisis forense", "CRIME SCENE"), "CRIME SCENE")
+        self.assertIsNone(g.category("Ciencia general sobre hámsteres", "CRIME SCENE"))
+
+    def test_exclusion_editorial_persistente(self):
+        import json
+        from datetime import datetime, timezone
+        from email.utils import format_datetime
+        registros=json.loads((Path(__file__).resolve().parents[1] / "config" / "noticias_excluidas.json").read_text(encoding="utf-8"))
+        excluidas={x["id"] for x in registros["noticias"]}
+        self.assertIn("cbd8150bf898c418", excluidas)
+        titulo="¿Por qué desaparecieron los neandertales? Un estudio señala el papel decisivo que tuvo el Homo sapiens"
+        noticia={"title":titulo, "url":"https://example.org/neandertales",
+                 "date":format_datetime(datetime.now(timezone.utc)),"summary":"","outlet":""}
+        self.assertIsNone(g.make_story(noticia,{"nombre":"elDiario.es","categoria":"AUTO","idioma":"es"},[],excluidas=excluidas))
+
     def test_cases(self):
         self.assertEqual(g.cases_of("Novedades en el caso de Lindsay Clancy", [{"id": "lindsay-clancy", "alias": ["Lindsay Clancy"]}]), ["lindsay-clancy"])
         self.assertEqual(g.cases_of("Novedades de Lindsay Johnson", [{"id": "lindsay-clancy", "alias": ["Lindsay Clancy"]}]), [])

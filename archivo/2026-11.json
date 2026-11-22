@@ -1,47 +1,7 @@
 {
   "mes": "2026-11",
-  "total": 94,
+  "total": 89,
   "noticias": [
-    {
-      "id": "cbd8150bf898c418",
-      "titular": "¿Por qué desaparecieron los neandertales? Un estudio señala el papel decisivo que tuvo el Homo sapiens",
-      "titular_original": "¿Por qué desaparecieron los neandertales? Un estudio señala el papel decisivo que tuvo el Homo sapiens",
-      "metodo_titular": "original",
-      "fecha": "2026-11-22T06:31:00+00:00",
-      "actualizado": "2026-11-22T06:31:00+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "MUNDO",
-      "temas": [],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "elDiario.es",
-          "url": "https://www.eldiario.es/spin/desaparecieron-neandertales-estudio-senala-papel-decisivo-tuvo-homo-sapiens-pm_1_13680336.html",
-          "fecha": "2026-11-22T06:31:00+00:00"
-        }
-      ]
-    },
-    {
-      "id": "9285181208d7cd6d",
-      "titular": "Tres muertos y decenas desaparecidos después del incendio en la fábrica de Indonesia",
-      "titular_original": "Three killed and dozens missing after fire at Indonesian factory",
-      "metodo_titular": "traduccion_automatica",
-      "fecha": "2026-11-22T06:05:00+00:00",
-      "actualizado": "2026-11-22T06:05:00+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "MUNDO",
-      "temas": [],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "BBC News — World",
-          "url": "https://www.bbc.co.uk/news/articles/cw8dvg5pgm0eo?at_medium=RSS&at_campaign=rss",
-          "fecha": "2026-11-22T06:05:00+00:00"
-        }
-      ]
-    },
     {
       "id": "3d270717231f6571",
       "titular": "Este documental de Disney+ recuerda el año en que temimos que un payaso nos asesinara",
@@ -347,50 +307,6 @@
       ]
     },
     {
-      "id": "a0460a74bd7882bc",
-      "titular": "Jennifer Lawrence, en shock por la desaparición del arco de Katniss que guardaba de 'Los juegos del hambre': \"Me lo robaron\"",
-      "titular_original": "Jennifer Lawrence, en shock por la desaparición del arco de Katniss que guardaba de 'Los juegos del hambre': \"Me lo robaron\"",
-      "metodo_titular": "original",
-      "fecha": "2026-11-21T15:00:00+00:00",
-      "actualizado": "2026-11-21T15:00:00+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "MUNDO",
-      "temas": [
-        "Desapariciones"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "20minutos",
-          "url": "https://www.20minutos.es/cinemania/noticias/jennifer-lawrence-desaparicion-arco-katniss-juegos-hambre_7063546_0.html",
-          "fecha": "2026-11-21T15:00:00+00:00"
-        }
-      ]
-    },
-    {
-      "id": "38f7479accba8177",
-      "titular": "Un equipo de científicos crea un \"planimal\" fusionando ADN de hámster y algas",
-      "titular_original": "Un equipo de científicos crea un \"planimal\" fusionando ADN de hámster y algas",
-      "metodo_titular": "original",
-      "fecha": "2026-11-21T14:59:21+00:00",
-      "actualizado": "2026-11-21T14:59:21+00:00",
-      "categoria": "CRIME SCENE",
-      "region": "MUNDO",
-      "temas": [
-        "Criminalística"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "20minutos",
-          "url": "https://www.20minutos.es/ciencia/un-equipo-cientificos-crea-un-planimal-fusionando-adn-hamster-algas_7064073_0.html",
-          "fecha": "2026-11-21T14:59:21+00:00"
-        }
-      ]
-    },
-    {
       "id": "a632d1ccbc172c45",
       "titular": "Según la policía, un padre solicitó el divorcio y la custodia completa de sus hijos dos semanas antes de matar a la madre con los niños en casa",
       "titular_original": "Dad filed for divorce, sought full custody of kids 2 weeks before killing mom with children in the home, police say",
@@ -449,26 +365,6 @@
           "medio": "elDiario.es",
           "url": "https://www.eldiario.es/internacional/exjefe-policia-italiana-suicida-acorralado-investigacion-asesinato-juez-mafia-1992_1_13682765.html",
           "fecha": "2026-11-21T12:27:46+00:00"
-        }
-      ]
-    },
-    {
-      "id": "a1b7cefc6c121e28",
-      "titular": "La reacción de Zelenski después de que Trump llamase \"amigo\" a Putin: \"Para nosotros es un asesino\"",
-      "titular_original": "La reacción de Zelenski después de que Trump llamase \"amigo\" a Putin: \"Para nosotros es un asesino\"",
-      "metodo_titular": "original",
-      "fecha": "2026-11-21T08:50:52+00:00",
-      "actualizado": "2026-11-21T08:50:52+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "MUNDO",
-      "temas": [],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "20minutos",
-          "url": "https://www.20minutos.es/internacional/reaccion-zelenski-despues-que-trump-llamase-amigo-putin-para-nosotros-es-un-asesino_7063972_0.html",
-          "fecha": "2026-11-21T08:50:52+00:00"
         }
       ]
     },

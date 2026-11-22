@@ -42,9 +42,9 @@ TOPICS = {
     "Ficción negrocriminal": ("novela negra", "novela policiaca", "literatura negra", "thriller", "premio edgar", "detective literario"),
     "Juicios": ("tribunal", "juicio", "sentencia", "juzgado", "acusacion", "veredicto", "condenad"),
 }
-CRIME_SCENE = ("adn", "ciencia forense", "tecnica forense", "medicina forense", "criminalistica", "antropologia forense", "balistica", "huellas dactilares", "genetica forense", "identificacion genetica", "restos humanos", "prueba pericial", "forensic", "dna evidence", "forensic dna", "forensic science", "fingerprint analysis", "forensic genealogy", "digital forensics", "crime scene analysis", "evidence testing", "forensic investigation", "forensic technology", "pericia forense", "pericial informatica")
+CRIME_SCENE = ("ciencia forense", "forense", "tecnica forense", "medicina forense", "criminalistica", "antropologia forense", "balistica", "huellas dactilares", "genetica forense", "identificacion genetica", "restos humanos", "prueba pericial", "forensic", "dna evidence", "forensic dna", "forensic science", "fingerprint analysis", "forensic genealogy", "digital forensics", "crime scene analysis", "evidence testing", "forensic investigation", "forensic technology", "pericia forense", "pericial informatica")
 LITERARY = ("novela negra", "novela policiaca", "literatura criminal", "literatura negra", "ficcion criminal", "thriller policiac", "premio edgar", "premio hammett", "festival de novela negra", "novela de misterio", "novela policial", "cine negro", "ficcion noir", "crime fiction", "noir fiction", "mystery novel", "thriller novel", "detective novel", "crime novel", "mystery fiction", "novela negra", "novel·la negra", "novel·la policíaca")
-CRIME = ("asesinat", "asesino", "asesina", "homicid", "crimen", "criminal", "detenid", "detien", "blanqueo", "ciberataque", "desaparec", "desaparicion", "secuestro", "narcotraf", "violencia machista", "violencia de genero", "feminicidio", "robo con violencia", "atraco", "sicario", "estafa millonaria", "policia investiga", "presunto asesino", "procesad", "condena por", "asesino en serie", "terrorismo", "trata de personas", "murder", "homicide", "killed", "killing", "slain", "stabbed", "stabbing", "arrested", "rape", "rapist", "sexual assault", "kidnapped", "kidnapping", "fraud", "shooting", "shot dead", "found dead", "missing girl", "missing woman", "missing person", "convicted", "sentenced to prison", "sentenced for", "pleads guilty", "pleaded guilty", "charged with murder", "criminal trial", "death penalty", "crime scene", "assassinat", "assassinat", "homicidi", "detingut", "detinguda", "detenen", "segrest", "narcotrafic", "violencia masclista", "feminicidi", "crim organitzat", "assassi", "desaparicio", "robatori violent", "arson", "murdered", "throat slit")
+CRIME = ("asesinat", "asesino", "asesina", "homicid", "crimen", "criminal", "detenid", "detien", "blanqueo", "ciberataque", "secuestro", "narcotraf", "violencia machista", "violencia de genero", "feminicidio", "robo con violencia", "atraco", "sicario", "estafa millonaria", "policia investiga", "presunto asesino", "procesad", "condena por", "asesino en serie", "terrorismo", "trata de personas", "murder", "homicide", "killed", "killing", "slain", "stabbed", "stabbing", "arrested", "rape", "rapist", "sexual assault", "kidnapped", "kidnapping", "fraud", "shooting", "shot dead", "found dead", "missing girl", "missing woman", "missing person", "convicted", "sentenced to prison", "sentenced for", "pleads guilty", "pleaded guilty", "charged with murder", "criminal trial", "death penalty", "crime scene", "assassinat", "assassinat", "homicidi", "detingut", "detinguda", "detenen", "segrest", "narcotrafic", "violencia masclista", "feminicidi", "crim organitzat", "assassi", "desaparicio", "robatori violent", "arson", "murdered", "throat slit")
 EXCLUDE = ("accidente de trafico", "colision entre", "incendio forestal", "terremoto", "atropello accidental", "fenomeno meteorologico", "gta vi", "video game", "glider crash", "crashes into", "road accident", "car crash", "plane crash", "forensic focus digest", "registration opens for", "virtual summit", "climate summit")
 FUENTES_EXCLUIDAS = {"3CatInfo", "La Vanguardia — Barcelona"}
 
@@ -131,17 +131,51 @@ def rss_items(raw):
     return found
 
 
+def desaparicion_de_persona(s):
+    """Exigir un contexto humano real; no una especie extinguida o una catástrofe."""
+    if not re.search(r"\bdesaparec\w*|\bdesaparicion\w*|\bdesaparecid\w*", s):
+        return False
+    desastres = ("incendio", "terremoto", "inundacion", "naufragio", "catastrofe",
+                 "derrumbe", "avion siniestrado", "desastre natural", "huracan")
+    if any(palabra in s for palabra in desastres):
+        return False
+    personas = ("mujer", "hombre", "persona", "menor", "nino", "nina", "joven",
+                "chica", "chico", "adolescente", "anciana", "anciano", "turista",
+                "estudiante", "familia", "policia", "guardia civil", "mossos",
+                "buscan a", "busqueda de", "desaparecida", "desaparecido")
+    return any(palabra in s for palabra in personas)
+
+
+def adn_forense(s):
+    """La biología molecular general no es investigación criminal."""
+    if not re.search(r"\badn\b", s):
+        return False
+    contexto = ("forens", "criminal", "polici", "investiga", "homicid", "asesinat",
+                "asesino", "prueba", "delito", "sospechos", "cadaver", "victima",
+                "escena del crimen", "identificacion humana", "identificacion de")
+    return any(p in s for p in contexto)
+
+
 def category(text, src):
     s = normalize(text)
     if any(w in s for w in EXCLUDE):
         return None
-    if src in ("FICCIÓN NEGROCRIMINAL", "CRIME SCENE"):
+    # Prehistoria y genética general no implican violencia criminal.
+    prehistoria = ("neandertal", "neanderthal", "homo sapiens", "planimal")
+    delito_antiguo = ("homicid", "asesinat", "asesino", "muerte violenta", "forense",
+                     "herida mortal", "crimen", "violencia intencional")
+    if any(p in s for p in prehistoria) and not any(p in s for p in delito_antiguo):
+        return None
+    if src == "FICCIÓN NEGROCRIMINAL":
         return src
-    if any(w in s for w in CRIME_SCENE):
+    if any(w in s for w in CRIME_SCENE) or adn_forense(s):
         return "CRIME SCENE"
+    # Las fuentes especializadas tampoco eximen de demostrar un tema forense.
+    if src == "CRIME SCENE":
+        return None
     if any(w in s for w in LITERARY):
         return "FICCIÓN NEGROCRIMINAL"
-    if any(w in s for w in CRIME):
+    if any(w in s for w in CRIME) or desaparicion_de_persona(s):
         return "TRUE CRIME"
     return None
 
@@ -225,7 +259,7 @@ def story_region(story):
     return story.get("region", "MUNDO")
 
 
-def make_story(item, feed, config, correcciones=None):
+def make_story(item, feed, config, correcciones=None, excluidas=None):
     title = html.unescape(re.sub(r"<[^>]+>", "", item["title"])).strip()
     url = clean_url(item["url"])
     date = date_parse(item["date"])
@@ -238,6 +272,9 @@ def make_story(item, feed, config, correcciones=None):
     # Los RSS especializados en seguimiento no deben inundar la portada.
     if feed.get("solo_expediente") and feed["solo_expediente"] not in cases_of(title, config, summary=item["summary"]):
         return None
+    sid = hashlib.sha1((normalize(title) + "|" + date.strftime("%Y-%m-%d")).encode()).hexdigest()[:16]
+    if sid in (excluidas or set()):
+        return None
     cat = category(title, feed.get("categoria", "AUTO"))
     if not cat and es_nve:
         cat = "TRUE CRIME"
@@ -246,7 +283,6 @@ def make_story(item, feed, config, correcciones=None):
     dt = date.isoformat(timespec="seconds")
     idioma = 'en' if es_ingles(feed['nombre'], feed.get('idioma','')) else 'es'
     editorial, metodo = titulo_para_publicar(title, cat, idioma)
-    sid = hashlib.sha1((normalize(title) + "|" + date.strftime("%Y-%m-%d")).encode()).hexdigest()[:16]
     if sid in (correcciones or {}):
         editorial, metodo = correcciones[sid], "revision_editorial"
     if idioma == "en" and metodo == "original":
@@ -295,9 +331,12 @@ def main():
     feeds = read_json(ROOT / "config/fuentes.json", [])
     watch = read_json(ROOT / "config/expedientes.json", [])
     correcciones = read_json(ROOT / "config/titulares_revisados.json", {})
+    excluidas = {x["id"] for x in read_json(ROOT / "config/noticias_excluidas.json", {}).get("noticias", [])}
     folder = ROOT / "archivo"
     stories = []
     def review_old(old):
+        if old.get("id") in excluidas:
+            return None
         # Eliminar de portada y archivo todas las fuentes excluidas, también en fichas agrupadas.
         old["fuentes"] = [f for f in old.get("fuentes", []) if f.get("medio") not in FUENTES_EXCLUIDAS]
         if not old["fuentes"]:
@@ -381,7 +420,7 @@ def main():
             success += 1
             count = 0
             for article in items:
-                story = make_story(article, f, watch, correcciones)
+                story = make_story(article, f, watch, correcciones, excluidas)
                 if story:
                     found += 1
                     if merge_into(stories, story):
