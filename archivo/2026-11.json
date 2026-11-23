@@ -1,7 +1,135 @@
 {
   "mes": "2026-11",
-  "total": 93,
+  "total": 99,
   "noticias": [
+    {
+      "id": "f47bca55e94b1adf",
+      "medio_titular": "The Guardian — World",
+      "titular": "Al menos 24 muertos y docenas desaparecidos en el fuego de fábrica de confitería en Indonesia",
+      "titular_original": "At least 24 killed and dozens missing in confectionery factory fire in Indonesia",
+      "metodo_titular": "traduccion_automatica",
+      "fecha": "2026-11-23T05:45:12+00:00",
+      "actualizado": "2026-11-23T05:45:12+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "The Guardian — World",
+          "url": "https://www.theguardian.com/world/2026/nov/22/fire-confectionary-factory-indonesia-jakarta",
+          "fecha": "2026-11-23T05:45:12+00:00"
+        }
+      ]
+    },
+    {
+      "id": "84cde718517c078d",
+      "medio_titular": "The Guardian — World",
+      "titular": "El amor hizo un tonto de Beau Lamarre-Condon pero no lo hizo un asesino, la defensa argumenta",
+      "titular_original": "Love made a fool of Beau Lamarre-Condon but did not make him a murderer, defence argues",
+      "metodo_titular": "traduccion_automatica",
+      "fecha": "2026-11-23T04:34:11+00:00",
+      "actualizado": "2026-11-23T04:34:11+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "The Guardian — World",
+          "url": "https://www.theguardian.com/australia-news/2026/nov/23/beau-lamarre-condon-trail-executed-jesse-baird-prosecution-argues-ntwnfb",
+          "fecha": "2026-11-23T04:34:11+00:00"
+        }
+      ]
+    },
+    {
+      "id": "e4817d397067ec5e",
+      "medio_titular": "EL PAÍS — Sociedad",
+      "titular": "El feminismo reivindica el fin de la violencia machista por toda España: horarios y puntos de partida para las movilizaciones del 25N",
+      "titular_original": "El feminismo reivindica el fin de la violencia machista por toda España: horarios y puntos de partida para las movilizaciones del 25N",
+      "metodo_titular": "original",
+      "fecha": "2026-11-23T04:30:01+00:00",
+      "actualizado": "2026-11-23T04:30:01+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [
+        "Violencia en la pareja"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "EL PAÍS — Sociedad",
+          "url": "https://elpais.com/sociedad/2026-11-23/el-feminismo-reivindica-el-fin-de-la-violencia-machista-por-toda-espana-horarios-y-puntos-de-partida-para-las-movilizaciones-del-25n.html",
+          "fecha": "2026-11-23T04:30:01+00:00"
+        }
+      ]
+    },
+    {
+      "id": "b4b7cecc75b72093",
+      "medio_titular": "Law & Crime",
+      "titular": "Mujer que gastó $120 en filet mignon y camarones por su 'final comida' antes de que le disparó a su marido estradado muerto después de que dejó a sus hijos fuera es condenado",
+      "titular_original": "Woman who spent $120 on filet mignon and shrimp for her 'final meal' before she shot her estranged husband dead after he dropped their kids off is convicted",
+      "metodo_titular": "traduccion_automatica",
+      "fecha": "2026-11-22T22:59:09+00:00",
+      "actualizado": "2026-11-22T22:59:09+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "Law & Crime",
+          "url": "https://lawandcrime.com/crime/woman-who-spent-120-on-filet-mignon-and-shrimp-for-her-final-meal-before-she-shot-her-estranged-husband-dead-after-he-dropped-their-kids-off-is-convicted",
+          "fecha": "2026-11-22T22:59:09+00:00"
+        }
+      ]
+    },
+    {
+      "id": "c7fc866d88fbdb0b",
+      "medio_titular": "Law & Crime",
+      "titular": "El hombre apuñaló a su madre varias veces, luego cogió un cuchillo más grande para terminar el trabajo después de haber estado pensando en matarla durante 6 meses: Policías",
+      "titular_original": "Man stabbed his mother several times, then grabbed a bigger knife to finish the job after he'd been thinking about killing her for 6 months: Cops",
+      "metodo_titular": "traduccion_automatica",
+      "fecha": "2026-11-22T20:57:17+00:00",
+      "actualizado": "2026-11-22T20:57:17+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "Law & Crime",
+          "url": "https://lawandcrime.com/crime/man-stabbed-his-mother-several-times-then-grabbed-a-bigger-knife-to-finish-the-job-after-hed-been-thinking-about-killing-her-for-6-months-cops",
+          "fecha": "2026-11-22T20:57:17+00:00"
+        }
+      ]
+    },
+    {
+      "id": "748684c75e39d8ae",
+      "medio_titular": "elDiario.es",
+      "titular": "La joven de Alcorcón que estuvo dos meses en prisión acusada de terrorismo: \"No me desmoroné porque era inocente\"",
+      "titular_original": "La joven de Alcorcón que estuvo dos meses en prisión acusada de terrorismo: \"No me desmoroné porque era inocente\"",
+      "metodo_titular": "original",
+      "fecha": "2026-11-22T20:39:40+00:00",
+      "actualizado": "2026-11-22T20:39:40+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/politica/joven-alcorcon-estuvo-meses-prision-acusada-terrorismo-no-desmorone-inocente_1_13660640.html",
+          "fecha": "2026-11-22T20:39:40+00:00"
+        }
+      ]
+    },
     {
       "id": "0260c8f4ca1697d2",
       "medio_titular": "20minutos",
