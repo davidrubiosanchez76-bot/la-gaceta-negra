@@ -1,11 +1,298 @@
 {
   "mes": "2026-11",
-  "total": 99,
+  "total": 112,
   "noticias": [
+    {
+      "id": "e15554845eac88d1",
+      "medio_titular": "EL PAÍS — Sociedad",
+      "titular": "El acusado de asesinar a Elena, la última víctima de la violencia machista, intentó atribuir la muerte a causas naturales",
+      "titular_original": "El acusado de asesinar a Elena, la última víctima de la violencia machista, intentó atribuir la muerte a causas naturales",
+      "metodo_titular": "original",
+      "fecha": "2026-11-23T19:13:34+00:00",
+      "actualizado": "2026-11-23T19:13:34+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [
+        "Violencia en la pareja"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "EL PAÍS — Sociedad",
+          "url": "https://elpais.com/sociedad/2026-11-23/el-acusado-de-asesinar-a-elena-la-ultima-victima-de-la-violencia-machista-intento-atribuir-la-muerte-a-causas-naturales.html",
+          "fecha": "2026-11-23T19:13:34+00:00"
+        }
+      ]
+    },
+    {
+      "id": "95af17db593fb907",
+      "medio_titular": "Law & Crime",
+      "titular": "La abuela despierta pensando que la niña de 3 años tiene una pesadilla — entra para encontrar a mamá apuñalando a su exnovio dormido:",
+      "titular_original": "Grandmother wakes up thinking 3-year-old is having a nightmare — walks in to find mom stabbing sleeping ex-boyfriend: Cops",
+      "metodo_titular": "traduccion_automatica",
+      "fecha": "2026-11-23T18:43:00+00:00",
+      "actualizado": "2026-11-23T18:43:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "Law & Crime",
+          "url": "https://lawandcrime.com/crime/grandmother-wakes-up-thinking-3-year-old-is-having-a-nightmare-walks-in-to-find-mom-stabbing-sleeping-ex-boyfriend-cops",
+          "fecha": "2026-11-23T18:43:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "1d2d67e46893a552",
+      "medio_titular": "elDiario.es",
+      "titular": "Hallan muerto al pie de una pared de 200 metros en el Posets a un joven montañero italiano desaparecido desde el viernes",
+      "titular_original": "Hallan muerto al pie de una pared de 200 metros en el Posets a un joven montañero italiano desaparecido desde el viernes",
+      "metodo_titular": "original",
+      "fecha": "2026-11-23T17:27:18+00:00",
+      "actualizado": "2026-11-23T17:27:18+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [
+        "Desapariciones"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/aragon/sociedad/hallan-muerto-pie-pared-200-metros-posets-joven-montanero-italiano-desaparecido-viernes_1_13687133.html",
+          "fecha": "2026-11-23T17:27:18+00:00"
+        }
+      ]
+    },
+    {
+      "id": "01fa5cd306dcc208",
+      "medio_titular": "20minutos",
+      "titular": "El ICE detiene a un joven catalán de 22 años que estudiaba en Estados Unidos",
+      "titular_original": "El ICE detiene a un joven catalán de 22 años que estudiaba en Estados Unidos",
+      "metodo_titular": "original",
+      "fecha": "2026-11-23T16:44:58+00:00",
+      "actualizado": "2026-11-23T16:44:58+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "20minutos",
+          "url": "https://www.20minutos.es/cataluna/ice-detiene-un-joven-catalan-22-anos-que-estudiaba-estados-unidos_7064747_0.html",
+          "fecha": "2026-11-23T16:44:58+00:00"
+        }
+      ]
+    },
+    {
+      "id": "0c261645ede0370a",
+      "medio_titular": "20minutos",
+      "titular": "Condenado a 21 años por asesinar a su pareja a puñaladas en A Coruña",
+      "titular_original": "Condenado a 21 años por asesinar a su pareja a puñaladas en A Coruña",
+      "metodo_titular": "original",
+      "fecha": "2026-11-23T16:33:17+00:00",
+      "actualizado": "2026-11-23T16:33:17+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [
+        "Juicios",
+        "Violencia en la pareja"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "20minutos",
+          "url": "https://www.20minutos.es/galicia/coruna/condenado-21-anos-un-hombre-por-asesinar-su-pareja-punaladas-coruna_7064696_0.html",
+          "fecha": "2026-11-23T16:33:17+00:00"
+        }
+      ]
+    },
+    {
+      "id": "e9282082d58fa128",
+      "medio_titular": "The Guardian — UK",
+      "titular": "El joven adolescente apuñaló a una niña de 14 años 55 veces en el parque en el sur de Gales, dijo el jurado",
+      "titular_original": "Teenage boy stabbed 14-year-old girl 55 times in park in south Wales, jury told",
+      "metodo_titular": "traduccion_automatica",
+      "fecha": "2026-11-23T16:19:06+00:00",
+      "actualizado": "2026-11-23T16:19:06+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "EUROPA",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "The Guardian — UK",
+          "url": "https://www.theguardian.com/uk-news/2026/nov/23/lilly-jones-stabbing-park-south-wales-trial",
+          "fecha": "2026-11-23T16:19:06+00:00"
+        }
+      ]
+    },
+    {
+      "id": "76bedff1acd280e7",
+      "medio_titular": "20minutos",
+      "titular": "Detenidos cuatro miembros de una familia por disparar a un hombre y matar a su perro en Alcalá de Henares",
+      "titular_original": "Detenidos cuatro miembros de una familia por disparar a un hombre y matar a su perro en Alcalá de Henares",
+      "metodo_titular": "original",
+      "fecha": "2026-11-23T15:21:29+00:00",
+      "actualizado": "2026-11-23T15:21:29+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "20minutos",
+          "url": "https://www.20minutos.es/madrid/detenidos-cuatro-miembros-una-familia-por-disparar-un-hombre-matar-punaladas-su-perro-alcala_7064686_0.html",
+          "fecha": "2026-11-23T15:21:29+00:00"
+        }
+      ]
+    },
+    {
+      "id": "32dd6ec164d6e665",
+      "medio_titular": "20minutos",
+      "titular": "Condenado a 20 años de prisión tras reconocer haber asesinado a su pareja a golpes en Utrera",
+      "titular_original": "Condenado a 20 años de prisión tras reconocer haber asesinado a su pareja a golpes en Utrera",
+      "metodo_titular": "original",
+      "fecha": "2026-11-23T15:06:23+00:00",
+      "actualizado": "2026-11-23T15:06:23+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [
+        "Juicios",
+        "Violencia en la pareja"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "20minutos",
+          "url": "https://www.20minutos.es/andalucia/sevilla/condenado-20-anos-prision-tras-reconocer-haber-asesinado-su-pareja-golpes-utrera_7064603_0.html",
+          "fecha": "2026-11-23T15:06:23+00:00"
+        }
+      ]
+    },
+    {
+      "id": "f53360194652c61d",
+      "medio_titular": "BBC News — World",
+      "titular": "Prominente predicador de Zimbabwe arrestado por acusaciones de agresión sexual",
+      "titular_original": "Prominent Zimbabwean preacher arrested on sexual assault allegations",
+      "metodo_titular": "traduccion_automatica",
+      "fecha": "2026-11-23T14:55:14+00:00",
+      "actualizado": "2026-11-23T14:55:14+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "BBC News — World",
+          "url": "https://www.bbc.co.uk/news/articles/cxyvdmjr893zo?at_medium=RSS&at_campaign=rss",
+          "fecha": "2026-11-23T14:55:14+00:00"
+        }
+      ]
+    },
+    {
+      "id": "e098f0514d5b8be7",
+      "medio_titular": "20minutos",
+      "titular": "Detenido un hombre tras huir por el techo de una casa en la que se incautaron 941 plantas de marihuana",
+      "titular_original": "Detenido un hombre tras huir por el techo de una casa en la que se incautaron 941 plantas de marihuana",
+      "metodo_titular": "original",
+      "fecha": "2026-11-23T11:28:21+00:00",
+      "actualizado": "2026-11-23T11:28:21+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "20minutos",
+          "url": "https://www.20minutos.es/andalucia/almeria/guardia-civil-detiene-almeria-un-hombre-tras-huir-por-techo-una-vivienda-con-941-plantas-marihuana_7064550_0.html",
+          "fecha": "2026-11-23T11:28:21+00:00"
+        }
+      ]
+    },
+    {
+      "id": "7ed94bb31ebbc3f2",
+      "medio_titular": "Europa Press — España",
+      "titular": "Feijóo acusa a Sánchez de hacer \"una trampa\" con la 'ley de nietos': \"Está confirmado que ha habido un fraude electoral\"",
+      "titular_original": "Feijóo acusa a Sánchez de hacer \"una trampa\" con la 'ley de nietos': \"Está confirmado que ha habido un fraude electoral\"",
+      "metodo_titular": "original",
+      "fecha": "2026-11-23T09:49:47+00:00",
+      "actualizado": "2026-11-23T09:49:47+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "Europa Press — España",
+          "url": "https://www.europapress.es/nacional/noticia-feijoo-acusa-sanchez-hacer-trampa-ley-nietos-confirmado-habido-fraude-electoral-20261123104947.html",
+          "fecha": "2026-11-23T09:49:47+00:00"
+        }
+      ]
+    },
+    {
+      "id": "c2be82935a685047",
+      "medio_titular": "CrimeReads",
+      "titular": "Marisa de los Santos en John Green, detectives y géneros de cambio como escritor",
+      "titular_original": "Marisa de los Santos on John Green, detectives, and switching genres as a writer",
+      "metodo_titular": "traduccion_automatica",
+      "fecha": "2026-11-23T09:10:28+00:00",
+      "actualizado": "2026-11-23T09:10:28+00:00",
+      "categoria": "FICCIÓN NEGROCRIMINAL",
+      "region": "MUNDO",
+      "temas": [
+        "Ficción negrocriminal"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "CrimeReads",
+          "url": "https://crimereads.com/marisa-de-los-santos-on-john-green-detectives-and-switching-genres-as-a-writer",
+          "fecha": "2026-11-23T09:10:28+00:00"
+        }
+      ]
+    },
+    {
+      "id": "6bca7cd3efc630a7",
+      "medio_titular": "CrimeReads",
+      "titular": "Sara Paretsky en idiomas inventando y sintiendo parentesco con personajes mayores",
+      "titular_original": "Sara Paretsky on inventing languages and feeling kinship with older characters",
+      "metodo_titular": "traduccion_automatica",
+      "fecha": "2026-11-23T09:09:20+00:00",
+      "actualizado": "2026-11-23T09:09:20+00:00",
+      "categoria": "FICCIÓN NEGROCRIMINAL",
+      "region": "MUNDO",
+      "temas": [
+        "Ficción negrocriminal"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "CrimeReads",
+          "url": "https://crimereads.com/sara-paretsky-on-inventing-languages-and-feeling-kinship-with-older-characters",
+          "fecha": "2026-11-23T09:09:20+00:00"
+        }
+      ]
+    },
     {
       "id": "f47bca55e94b1adf",
       "medio_titular": "The Guardian — World",
-      "titular": "Al menos 24 muertos y docenas desaparecidos en el fuego de fábrica de confitería en Indonesia",
+      "titular": "Al menos 24 muertos y decenas desaparecidos en el fuego de fábrica de confitería en Indonesia",
       "titular_original": "At least 24 killed and dozens missing in confectionery factory fire in Indonesia",
       "metodo_titular": "traduccion_automatica",
       "fecha": "2026-11-23T05:45:12+00:00",
@@ -26,7 +313,7 @@
     {
       "id": "84cde718517c078d",
       "medio_titular": "The Guardian — World",
-      "titular": "El amor hizo un tonto de Beau Lamarre-Condon pero no lo hizo un asesino, la defensa argumenta",
+      "titular": "El amor hizo un tonto de Beau Lamarre-Condon pero no lo convirtió en un asesino, la defensa argumenta",
       "titular_original": "Love made a fool of Beau Lamarre-Condon but did not make him a murderer, defence argues",
       "metodo_titular": "traduccion_automatica",
       "fecha": "2026-11-23T04:34:11+00:00",
