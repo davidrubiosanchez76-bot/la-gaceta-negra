@@ -242,6 +242,37 @@ class TestGaceta(unittest.TestCase):
         self.assertEqual(lista[0]["fuentes"][1]["medio"],"EL PAÍS — España")
         self.assertEqual(lista[0]["medio_titular"],"EL PAÍS — España")
 
+    def test_noticias_blogs_de_novela_negra(self):
+        self.assertTrue(g.es_noticia_negrocriminal("Pedro Feijoo gana el premio de novela Cartagena Negra"))
+        self.assertTrue(g.es_noticia_negrocriminal("Presentación del festival Getafe Negro"))
+        self.assertTrue(g.es_noticia_negrocriminal("Convocatoria del premio Hammett"))
+        self.assertTrue(g.es_noticia_negrocriminal("Novedades editoriales de novela negra"))
+        self.assertFalse(g.es_noticia_negrocriminal("La ciudad como coartada por Roberto R. Díaz Blanco"))
+        self.assertFalse(g.es_noticia_negrocriminal("Reseña de la novela Las huellas"))
+        self.assertFalse(g.es_noticia_negrocriminal("Los cinco detectives favoritos del autor"))
+        from datetime import datetime, timezone
+        from email.utils import format_datetime
+        feed = {"nombre":"Solo Novela Negra","categoria":"FICCIÓN NEGROCRIMINAL",
+                "idioma":"es","region":"MUNDO","solo_noticias_genero":True}
+        def item(title):
+            return {"title":title,"url":"https://example.com/post",
+                    "date":format_datetime(datetime.now(timezone.utc)),"summary":"","outlet":""}
+        self.assertIsNone(g.make_story(item("Reseña: una novela policiaca muy interesante"),feed,[]))
+        accepted = g.make_story(item("El festival Getafe Negro presenta su programación"),feed,[])
+        self.assertEqual(accepted["categoria"],"FICCIÓN NEGROCRIMINAL")
+
+    def test_fuentes_nuevos_medios_y_blogs(self):
+        import json
+        feeds=json.loads((Path(__file__).resolve().parents[1] / "config" / "fuentes.json").read_text(encoding="utf-8"))
+        index={f["nombre"]:f for f in feeds}
+        for name in ("OKDIARIO — España","THE OBJECTIVE — España","El Debate — Portada",
+                     "ABC — Última hora","El Confidencial — España","EL MUNDO — España",
+                     "Solo Novela Negra","Inmisericordes","Interrobang","Zenda — Novela Negra"):
+            self.assertIn(name,index)
+            self.assertTrue(index[name]["activo"])
+        for name in ("Solo Novela Negra","Inmisericordes","Interrobang","Zenda — Novela Negra"):
+            self.assertTrue(index[name]["solo_noticias_genero"])
+
     def test_cases(self):
         self.assertEqual(g.cases_of("Novedades en el caso de Lindsay Clancy", [{"id": "lindsay-clancy", "alias": ["Lindsay Clancy"]}]), ["lindsay-clancy"])
         self.assertEqual(g.cases_of("Novedades de Lindsay Johnson", [{"id": "lindsay-clancy", "alias": ["Lindsay Clancy"]}]), [])

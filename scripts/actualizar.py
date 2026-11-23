@@ -286,6 +286,37 @@ def ordenar_fuentes(noticia, politica):
     ))
 
 
+
+SEÑALES_ACTUALIDAD_NEGRA = (
+    r"\bpremios?\b", r"\bganad(?:or|ora|ores|oras)\b",
+    r"\bgalardonad[oa]s?\b", r"\bfina?listas?\b",
+    r"\bgana\b", r"\bgan[oó]\b", r"\bfallec(?:e|i[oó]|imiento)\b",
+    r"\bfestival(?:es)?\b", r"\bcertamen(?:es)?\b",
+    r"\bconcursos?\b", r"\bconvocatori(?:a|as)\b",
+    r"\bcongresos?\b", r"\bjornadas?\b", r"\bferia del libro\b",
+    r"\bpresentaci[oó]n\b", r"\bpresent(?:a|an|ar[aá])\b",
+    r"\bpublicaci[oó]n\b", r"\bpublica(?:n|r[aá])?\b",
+    r"\bnovedades? editoriales?\b", r"\bnueva novela\b",
+    r"\bnueva serie\b", r"\bnuevo libro\b",
+    r"\blanzamiento\b", r"\breedici[oó]n\b",
+    r"\badaptaci[oó]n\b", r"\bse estrena\b", r"\bestreno\b",
+    r"\binaugura(?:n|ci[oó]n)?\b", r"\babr(?:e|en)\b.{0,30}\binscrip",
+    r"\bprogramaci[oó]n\b", r"\bcartagena negra\b",
+    r"\bgetafe negro\b", r"\bsemana negra\b",
+)
+SEÑALES_NO_ACTUALIDAD = (
+    r"^rese[ñn]a\b", r"^cr[ií]tica(?: literaria)?\b",
+    r"^opini[oó]n\b", r"^mis lecturas\b",
+)
+
+def es_noticia_negrocriminal(titulo):
+    """Las fuentes literarias incorporan novedades y eventos, no todas sus reseñas."""
+    t = normalize(titulo)
+    if any(re.search(p, t) for p in SEÑALES_NO_ACTUALIDAD):
+        return False
+    return any(re.search(p, t) for p in SEÑALES_ACTUALIDAD_NEGRA)
+
+
 def make_story(item, feed, config, correcciones=None, excluidas=None):
     title = html.unescape(re.sub(r"<[^>]+>", "", item["title"])).strip()
     url = clean_url(item["url"])
@@ -293,6 +324,8 @@ def make_story(item, feed, config, correcciones=None, excluidas=None):
     if not title or not url or not date:
         return None
     if not (NOW - timedelta(days=DAYS_ACCEPT_FEED) <= date <= NOW + timedelta(hours=8)):
+        return None
+    if feed.get("solo_noticias_genero") and not es_noticia_negrocriminal(title):
         return None
     full_text = title + " " + re.sub(r"<[^>]*>", " ", item["summary"])
     es_nve = es_extremismo_nihilista(title, item["summary"])

@@ -10,7 +10,13 @@
     "npr.org",
     "apnews.com",
     "justice.gov",
-    "theconversation.com"
+    "theconversation.com",
+    "okdiario.com",
+    "eldebate.com",
+    "solonovelanegra.es",
+    "vicentegonzalez-escritor.com",
+    "jordivalerointerrobang.blogspot.com",
+    "zendalibros.com"
   ],
   "acceso_variable": [
     "eldiario.es",
@@ -19,12 +25,14 @@
     "lawandcrime.com",
     "crimereads.com",
     "forensicfocus.com",
-    "sciencedaily.com"
+    "sciencedaily.com",
+    "theobjective.com"
   ],
   "suscripcion_frecuente": [
     "elpais.com",
     "elmundo.es",
     "lavanguardia.com",
-    "elconfidencial.com"
+    "elconfidencial.com",
+    "abc.es"
   ]
 }

@@ -82,3 +82,11 @@ Los titulares históricos se conservarán durante las siguientes actualizaciones
 ## Enlaces de lectura pública (noviembre de 2026)
 
 Cuando varias fuentes cubren el mismo acontecimiento, el primer enlace favorece a medios habitualmente abiertos. Se conservan las demás referencias en «Más fuentes»; si sólo existe una fuente de suscripción, se mantiene. La regla utiliza el dominio del medio y no garantiza que cada artículo individual sea gratuito. Puede señalarse el acceso contrastado de una fuente con `acceso: "abierto"` o `acceso: "restringido"`. La política editable está en `config/acceso_medios.json`. Se guarda `medio_titular` para preservar la procedencia del titular original al ordenar enlaces.
+
+## Ampliación de fuentes españolas y especializados (23/11/2026)
+
+Se añaden **OKDIARIO, THE OBJECTIVE, El Debate, ABC, El Confidencial y EL MUNDO** para ampliar la cobertura de sucesos y tribunales. También se consultan **Solo Novela Negra, Inmisericordes, Interrobang y Zenda (etiqueta novela negra)**, utilizando sus RSS públicos.
+
+Los cuatro medios literarios llevan `solo_noticias_genero: true`: únicamente se incorporan titulares con indicios claros de actualidad (premios, festivales, presentaciones, convocatorias, reediciones, novedades, etc.). No se importa indiscriminadamente su archivo de reseñas, artículos o listas. El filtro es deliberadamente conservador, y algunas noticias pueden quedar fuera si su titular no contiene esas señales.
+
+La disponibilidad del RSS se comprueba en GitHub Actions: los canales inaccesibles se registran como aviso sin bloquear el resto del agregado. Los enlaces de medios con modelos de suscripción mantienen la preferencia de lectura pública configurada en `config/acceso_medios.json`.

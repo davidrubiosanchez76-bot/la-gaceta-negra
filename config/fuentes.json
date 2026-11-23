@@ -135,5 +135,89 @@
     "activo": true,
     "idioma": "en",
     "solo_expediente": "extremismo-nihilista-violento"
+  },
+  {
+    "nombre": "OKDIARIO — España",
+    "url": "https://okdiario.com/espana/feed",
+    "categoria": "AUTO",
+    "region": "ESPAÑA",
+    "activo": true,
+    "idioma": "es"
+  },
+  {
+    "nombre": "THE OBJECTIVE — España",
+    "url": "https://theobjective.com/espana/feed",
+    "categoria": "AUTO",
+    "region": "ESPAÑA",
+    "activo": true,
+    "idioma": "es"
+  },
+  {
+    "nombre": "El Debate — Portada",
+    "url": "https://www.eldebate.com/rss/home.xml",
+    "categoria": "AUTO",
+    "region": "MUNDO",
+    "activo": true,
+    "idioma": "es"
+  },
+  {
+    "nombre": "ABC — Última hora",
+    "url": "https://www.abc.es/rss/feeds/abc_ultima.xml",
+    "categoria": "AUTO",
+    "region": "MUNDO",
+    "activo": true,
+    "idioma": "es"
+  },
+  {
+    "nombre": "El Confidencial — España",
+    "url": "https://rss.elconfidencial.com/espana/",
+    "categoria": "AUTO",
+    "region": "ESPAÑA",
+    "activo": true,
+    "idioma": "es"
+  },
+  {
+    "nombre": "EL MUNDO — España",
+    "url": "https://e00-elmundo.uecdn.es/elmundo/rss/espana.xml",
+    "categoria": "AUTO",
+    "region": "ESPAÑA",
+    "activo": true,
+    "idioma": "es"
+  },
+  {
+    "nombre": "Solo Novela Negra",
+    "url": "https://www.solonovelanegra.es/feed/",
+    "categoria": "FICCIÓN NEGROCRIMINAL",
+    "region": "MUNDO",
+    "activo": true,
+    "idioma": "es",
+    "solo_noticias_genero": true
+  },
+  {
+    "nombre": "Inmisericordes",
+    "url": "https://www.vicentegonzalez-escritor.com/feed/",
+    "categoria": "FICCIÓN NEGROCRIMINAL",
+    "region": "MUNDO",
+    "activo": true,
+    "idioma": "es",
+    "solo_noticias_genero": true
+  },
+  {
+    "nombre": "Interrobang",
+    "url": "https://jordivalerointerrobang.blogspot.com/feeds/posts/default?alt=rss",
+    "categoria": "FICCIÓN NEGROCRIMINAL",
+    "region": "MUNDO",
+    "activo": true,
+    "idioma": "es",
+    "solo_noticias_genero": true
+  },
+  {
+    "nombre": "Zenda — Novela Negra",
+    "url": "https://www.zendalibros.com/tag/novela-negra/feed/",
+    "categoria": "FICCIÓN NEGROCRIMINAL",
+    "region": "MUNDO",
+    "activo": true,
+    "idioma": "es",
+    "solo_noticias_genero": true
   }
 ]
