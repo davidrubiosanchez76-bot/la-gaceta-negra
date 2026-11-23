@@ -1,7 +1,28 @@
 {
-  "actualizado": "2026-11-23T20:15:51+00:00",
-  "total": 115,
+  "actualizado": "2026-11-23T21:21:03+00:00",
+  "total": 126,
   "noticias": [
+    {
+      "id": "ba63b5818f5ab21d",
+      "medio_titular": "ABC — Última hora",
+      "titular": "Vox sobre los siete empadronados en una casa de Marbella: «Este es el fraude para amañar las elecciones»",
+      "titular_original": "Vox sobre los siete empadronados en una casa de Marbella: «Este es el fraude para amañar las elecciones»",
+      "metodo_titular": "original",
+      "fecha": "2026-11-23T20:25:03+00:00",
+      "actualizado": "2026-11-23T20:25:03+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "ABC — Última hora",
+          "url": "https://www.abc.es/espana/andalucia/malaga/vox-sobre-siete-empadronados-casa-marbella-fraude-20261123212429-nts.html",
+          "fecha": "2026-11-23T20:25:03+00:00"
+        }
+      ]
+    },
     {
       "id": "e15554845eac88d1",
       "medio_titular": "EL PAÍS — Sociedad",
@@ -28,7 +49,7 @@
     {
       "id": "95af17db593fb907",
       "medio_titular": "Law & Crime",
-      "titular": "La abuela despierta pensando que la niña de 3 años tiene una pesadilla — entra para encontrar a mamá apuñalando a su exnovio dormido:",
+      "titular": "La abuela despierta pensando que la niña de 3 años tiene una pesadilla — entra para encontrar a mamá apuñalando a ex-novio dormido:",
       "titular_original": "Grandmother wakes up thinking 3-year-old is having a nightmare — walks in to find mom stabbing sleeping ex-boyfriend: Cops",
       "metodo_titular": "traduccion_automatica",
       "fecha": "2026-11-23T18:43:00+00:00",
@@ -91,6 +112,29 @@
       ]
     },
     {
+      "id": "20d7bcabcef83a91",
+      "medio_titular": "El Debate — Portada",
+      "titular": "Mañueco pide «no dar ni un paso atrás» en la lucha contra la violencia de género y reclama su «erradicación total»",
+      "titular_original": "Mañueco pide «no dar ni un paso atrás» en la lucha contra la violencia de género y reclama su «erradicación total»",
+      "metodo_titular": "original",
+      "fecha": "2026-11-23T16:33:43+00:00",
+      "actualizado": "2026-11-23T16:33:43+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [
+        "Violencia en la pareja"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "El Debate — Portada",
+          "url": "https://www.eldebate.com/espana/castilla-y-leon/20261123/manueco-pide-no-dar-paso-atras-lucha-contra-violencia-genero-reclama-erradicacion-total_484111.html",
+          "fecha": "2026-11-23T16:33:43+00:00"
+        }
+      ]
+    },
+    {
       "id": "0c261645ede0370a",
       "medio_titular": "20minutos",
       "titular": "Condenado a 21 años por asesinar a su pareja a puñaladas en A Coruña",
@@ -132,6 +176,27 @@
           "medio": "The Guardian — UK",
           "url": "https://www.theguardian.com/uk-news/2026/nov/23/lilly-jones-stabbing-park-south-wales-trial",
           "fecha": "2026-11-23T16:19:06+00:00"
+        }
+      ]
+    },
+    {
+      "id": "8f6ece5e03c5527e",
+      "medio_titular": "El Confidencial — España",
+      "titular": "Las autoridades han pedido datos de 1,2 millones de personas o entidades al órgano notarial de prevención del blanqueo desde 2006",
+      "titular_original": "Las autoridades han pedido datos de 1,2 millones de personas o entidades al órgano notarial de prevención del blanqueo desde 2006",
+      "metodo_titular": "original",
+      "fecha": "2026-11-23T16:01:00+00:00",
+      "actualizado": "2026-11-23T16:01:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "El Confidencial — España",
+          "url": "https://www.elconfidencial.com/espana/2026-11-23/autoridades-piden-datos-1-2-millones-personas-o-entidades-a-prevencion-de-blanqueo-desde-2006-1hsm_4470921",
+          "fecha": "2026-11-23T16:01:00+00:00"
         }
       ]
     },
@@ -202,6 +267,119 @@
       ]
     },
     {
+      "id": "9d299e280854d075",
+      "medio_titular": "El Confidencial — España",
+      "titular": "Muere 'El Coletas', el narcotraficante colombiano tiroteado en la cabeza en un garaje de Valdebebas",
+      "titular_original": "Muere 'El Coletas', el narcotraficante colombiano tiroteado en la cabeza en un garaje de Valdebebas",
+      "metodo_titular": "original",
+      "fecha": "2026-11-23T14:00:00+00:00",
+      "actualizado": "2026-11-23T14:00:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [
+        "Narcotráfico"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "El Confidencial — España",
+          "url": "https://www.elconfidencial.com/espana/2026-11-23/disparo-cabeza-garaje-gimnasio-valdebebas-1tna-1tps_4470778",
+          "fecha": "2026-11-23T14:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "63c8df35af226130",
+      "medio_titular": "El Confidencial — España",
+      "titular": "Dos detenidos por propinar una paliza a otro sin motivo aparente en Manacor",
+      "titular_original": "Dos detenidos por propinar una paliza a otro sin motivo aparente en Manacor",
+      "metodo_titular": "original",
+      "fecha": "2026-11-23T13:34:00+00:00",
+      "actualizado": "2026-11-23T13:34:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "El Confidencial — España",
+          "url": "https://www.elconfidencial.com/espana/2026-11-23/detenidos-manacor-paliza-fractura-nariz-1tps_4470760",
+          "fecha": "2026-11-23T13:34:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "edbac0dc6f6514b2",
+      "medio_titular": "El Debate — Portada",
+      "titular": "Detienen a un hombre en Lérida por intentar agredir a su pareja con un martillo",
+      "titular_original": "Detienen a un hombre en Lérida por intentar agredir a su pareja con un martillo",
+      "metodo_titular": "original",
+      "fecha": "2026-11-23T12:51:34+00:00",
+      "actualizado": "2026-11-23T12:51:34+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [
+        "Violencia en la pareja"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "El Debate — Portada",
+          "url": "https://www.eldebate.com/espana/cataluna/lerida/20261123/detienen-hombre-lerida-intentar-agredir-pareja-martillo_484161.html",
+          "fecha": "2026-11-23T12:51:34+00:00"
+        }
+      ]
+    },
+    {
+      "id": "606ae52bcc891a8c",
+      "medio_titular": "El Debate — Portada",
+      "titular": "El ecuatoriano que asesinó a su pareja en Utrera acepta 20 años de prisión y evita el jurado popular",
+      "titular_original": "El ecuatoriano que asesinó a su pareja en Utrera acepta 20 años de prisión y evita el jurado popular",
+      "metodo_titular": "original",
+      "fecha": "2026-11-23T12:29:27+00:00",
+      "actualizado": "2026-11-23T12:29:27+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [
+        "Violencia en la pareja"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "El Debate — Portada",
+          "url": "https://www.eldebate.com/espana/andalucia/sevilla/20261123/ecuatoriano-asesino-pareja-utrera-acepta-20-anos-prision-evita-jurado-popular_484139.html",
+          "fecha": "2026-11-23T12:29:27+00:00"
+        }
+      ]
+    },
+    {
+      "id": "48eaa990ad373267",
+      "medio_titular": "El Debate — Portada",
+      "titular": "El líder de la banda criminal de los Tiguerones llega a Ecuador tras ser expulsado de España",
+      "titular_original": "El líder de la banda criminal de los Tiguerones llega a Ecuador tras ser expulsado de España",
+      "metodo_titular": "original",
+      "fecha": "2026-11-23T12:22:20+00:00",
+      "actualizado": "2026-11-23T12:22:20+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [
+        "Crimen organizado"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "El Debate — Portada",
+          "url": "https://www.eldebate.com/internacional/20261123/lider-banda-criminal-tiguerones-llega-ecuador-expulsado-espana_484129.html",
+          "fecha": "2026-11-23T12:22:20+00:00"
+        }
+      ]
+    },
+    {
       "id": "e098f0514d5b8be7",
       "medio_titular": "20minutos",
       "titular": "Detenido un hombre tras huir por el techo de una casa en la que se incautaron 941 plantas de marihuana",
@@ -219,6 +397,27 @@
           "medio": "20minutos",
           "url": "https://www.20minutos.es/andalucia/almeria/guardia-civil-detiene-almeria-un-hombre-tras-huir-por-techo-una-vivienda-con-941-plantas-marihuana_7064550_0.html",
           "fecha": "2026-11-23T11:28:21+00:00"
+        }
+      ]
+    },
+    {
+      "id": "eb0a25ef1f90aac3",
+      "medio_titular": "OKDIARIO — España",
+      "titular": "Denuncian ciberataques desde Rusia e Irán contra Corrupción Censal, el portal que vigila el censo del 29-N",
+      "titular_original": "Denuncian ciberataques desde Rusia e Irán contra Corrupción Censal, el portal que vigila el censo del 29-N",
+      "metodo_titular": "original",
+      "fecha": "2026-11-23T11:05:32+00:00",
+      "actualizado": "2026-11-23T11:05:32+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "EUROPA",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "OKDIARIO — España",
+          "url": "https://okdiario.com/espana/denuncian-ciberataques-desde-rusia-iran-contra-corrupcion-censal-portal-que-vigila-censo-del-29-n-21247955",
+          "fecha": "2026-11-23T11:05:32+00:00"
         }
       ]
     },
@@ -292,7 +491,7 @@
     {
       "id": "f47bca55e94b1adf",
       "medio_titular": "The Guardian — World",
-      "titular": "Al menos 24 muertos y decenas desaparecidos en el fuego de fábrica de confitería en Indonesia",
+      "titular": "Al menos 24 muertos y docenas desaparecidos en el fuego de fábrica de confitería en Indonesia",
       "titular_original": "At least 24 killed and dozens missing in confectionery factory fire in Indonesia",
       "metodo_titular": "traduccion_automatica",
       "fecha": "2026-11-23T05:45:12+00:00",
@@ -313,7 +512,7 @@
     {
       "id": "84cde718517c078d",
       "medio_titular": "The Guardian — World",
-      "titular": "El amor hizo un tonto de Beau Lamarre-Condon pero no lo convirtió en un asesino, la defensa argumenta",
+      "titular": "El amor hizo un tonto de Beau Lamarre-Condon pero no lo hizo un asesino, la defensa argumenta",
       "titular_original": "Love made a fool of Beau Lamarre-Condon but did not make him a murderer, defence argues",
       "metodo_titular": "traduccion_automatica",
       "fecha": "2026-11-23T04:34:11+00:00",
@@ -1526,6 +1725,29 @@
       "medio_titular": "20minutos"
     },
     {
+      "id": "77aafc4de90cfb4c",
+      "medio_titular": "EL MUNDO — España",
+      "titular": "Uno de los menores condenados por el asesinato de la educadora de Badajoz intenta estrangular a un vigilante de seguridad del centro donde está recluido",
+      "titular_original": "Uno de los menores condenados por el asesinato de la educadora de Badajoz intenta estrangular a un vigilante de seguridad del centro donde está recluido",
+      "metodo_titular": "original",
+      "fecha": "2026-11-20T12:02:05+00:00",
+      "actualizado": "2026-11-20T12:02:05+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [
+        "Juicios"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "EL MUNDO — España",
+          "url": "https://www.elmundo.es/espana/extremadura/2026/11/20/6b00338afc6c83a60f8b4591.html",
+          "fecha": "2026-11-20T12:02:05+00:00"
+        }
+      ]
+    },
+    {
       "id": "hist-lindsay-clancy-2026-11-20-11",
       "titular": "El Tribunal Supremo de Massachusetts acepta estudiar el recurso de Clancy contra la repetición del juicio",
       "titular_original": "Massachusetts' top court to hear Lindsay Clancy's bid to toss murder charges",
@@ -2336,6 +2558,29 @@
           "medio": "El País",
           "url": "https://elpais.com/espana/catalunya/2026-11-16/simulacros-huellas-planos-y-bambas-las-siete-expediciones-a-la-montana-de-montserrat-que-no-aclararon-la-muerte-de-isak-andic.html",
           "fecha": "2026-11-16T12:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "b4cf404a2db55892",
+      "medio_titular": "Solo Novela Negra",
+      "titular": "GETAFE NEGRO cierra con éxito la XIX edición",
+      "titular_original": "GETAFE NEGRO cierra con éxito la XIX edición",
+      "metodo_titular": "original",
+      "fecha": "2026-11-16T05:27:10+00:00",
+      "actualizado": "2026-11-16T05:27:10+00:00",
+      "categoria": "FICCIÓN NEGROCRIMINAL",
+      "region": "MUNDO",
+      "temas": [
+        "Ficción negrocriminal"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "Solo Novela Negra",
+          "url": "https://www.solonovelanegra.es/getafe-negro-cierra-con-exito-la-xix-edicion",
+          "fecha": "2026-11-16T05:27:10+00:00"
         }
       ]
     },
