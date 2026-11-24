@@ -1,7 +1,848 @@
 {
   "mes": "2026-11",
-  "total": 139,
+  "total": 178,
   "noticias": [
+    {
+      "id": "04946e284a3f2652",
+      "medio_titular": "ABC — Última hora",
+      "titular": "Isabel Rodríguez pide el voto a las mujeres para defender las leyes contra la violencia machista",
+      "titular_original": "Isabel Rodríguez pide el voto a las mujeres para defender las leyes contra la violencia machista",
+      "metodo_titular": "original",
+      "fecha": "2026-11-24T19:59:01+00:00",
+      "actualizado": "2026-11-24T19:59:01+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [
+        "Violencia en la pareja"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "ABC — Última hora",
+          "url": "https://www.abc.es/espana/castilla-la-mancha/isabel-rodriguez-pide-voto-mujeres-defender-leyes-20261124205900-nt.html",
+          "fecha": "2026-11-24T19:59:01+00:00"
+        }
+      ]
+    },
+    {
+      "id": "3c86c127911a7aa6",
+      "medio_titular": "El Confidencial — España",
+      "titular": "La Policía Local de Cartagena detiene a un prófugo de la justicia que intentó robar a una pareja mayor",
+      "titular_original": "La Policía Local de Cartagena detiene a un prófugo de la justicia que intentó robar a una pareja mayor",
+      "metodo_titular": "original",
+      "fecha": "2026-11-24T19:56:00+00:00",
+      "actualizado": "2026-11-24T19:56:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [
+        "Violencia en la pareja"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "El Confidencial — España",
+          "url": "https://www.elconfidencial.com/espana/2026-11-24/policia-local-cartagena-detencion-robo-1tna-1tps_4471937",
+          "fecha": "2026-11-24T19:56:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "e4a6a47bc8d35cb6",
+      "medio_titular": "20minutos",
+      "titular": "Detienen al presunto autor del ataque con explosivos a la Comisaría de Policía Nacional de Palencia",
+      "titular_original": "Detienen al presunto autor del ataque con explosivos a la Comisaría de Policía Nacional de Palencia",
+      "metodo_titular": "original",
+      "fecha": "2026-11-24T19:43:44+00:00",
+      "actualizado": "2026-11-24T19:43:44+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "20minutos",
+          "url": "https://www.20minutos.es/castilla-y-leon/palencia/detienen-presunto-autor-ataque-con-explosivos-comisaria-palencia_7065373_0.html",
+          "fecha": "2026-11-24T19:43:44+00:00"
+        }
+      ]
+    },
+    {
+      "id": "9a226f7f500b78a3",
+      "medio_titular": "OKDIARIO — España",
+      "titular": "El blanqueo de dinero procedente de delitos cometidos en España alcanzó hasta 32.200 millones en 2022 y 2023",
+      "titular_original": "El blanqueo de dinero procedente de delitos cometidos en España alcanzó hasta 32.200 millones en 2022 y 2023",
+      "metodo_titular": "original",
+      "fecha": "2026-11-24T19:39:09+00:00",
+      "actualizado": "2026-11-24T19:39:09+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "OKDIARIO — España",
+          "url": "https://okdiario.com/espana/blanqueo-dinero-procedente-delitos-cometidos-espana-alcanzo-hasta-32-200-millones-2022-2023-21262599",
+          "fecha": "2026-11-24T19:39:09+00:00"
+        }
+      ]
+    },
+    {
+      "id": "817ef94731ba23e4",
+      "medio_titular": "El Debate — Portada",
+      "titular": "El alegato contra Bildu de la vicealcaldesa de Madrid que ha puesto en pie a Almeida: «Son los herederos de los asesinos»",
+      "titular_original": "El alegato contra Bildu de la vicealcaldesa de Madrid que ha puesto en pie a Almeida: «Son los herederos de los asesinos»",
+      "metodo_titular": "original",
+      "fecha": "2026-11-24T19:31:35+00:00",
+      "actualizado": "2026-11-24T19:31:35+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "El Debate — Portada",
+          "url": "https://www.eldebate.com/espana/madrid/20261124/alegato-contra-bildu-vicealcaldesa-madrid-puesto-pie-almeida-son-herederos-asesinos_484799.html",
+          "fecha": "2026-11-24T19:31:35+00:00"
+        }
+      ]
+    },
+    {
+      "id": "17b0fef368da8dc9",
+      "medio_titular": "Law & Crime",
+      "titular": "Mujer en control de las decisiones médicas de la madre de 85 años rechazó repetidamente la atención mientras su madre se sentaba en su propia suciedad y desarrolló lemas que la mataron: Policía",
+      "titular_original": "Woman in control of 85-year-old mother's medical decisions repeatedly rejected care as her mom sat in her own filth and developed bedsores that killed her: Police",
+      "metodo_titular": "traduccion_automatica",
+      "fecha": "2026-11-24T19:25:12+00:00",
+      "actualizado": "2026-11-24T19:25:12+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "Law & Crime",
+          "url": "https://lawandcrime.com/crime/woman-in-control-of-85-year-old-mothers-medical-decisions-repeatedly-rejected-care-as-her-mom-sat-in-her-own-filth-and-developed-bedsores-that-killed-her-police",
+          "fecha": "2026-11-24T19:25:12+00:00"
+        }
+      ]
+    },
+    {
+      "id": "aeec013351031791",
+      "medio_titular": "20minutos",
+      "titular": "Detenido un conductor tras huir de un control, casi atropellar a un guardia civil y estrellarse en Ourense",
+      "titular_original": "Detenido un conductor tras huir de un control, casi atropellar a un guardia civil y estrellarse en Ourense",
+      "metodo_titular": "original",
+      "fecha": "2026-11-24T19:21:16+00:00",
+      "actualizado": "2026-11-24T19:21:16+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "20minutos",
+          "url": "https://www.20minutos.es/galicia/detenido-un-conductor-tras-huir-un-control-alcoholemia-casi-atropellar-un-guardia-civil-estrellarse-ourense_7065372_0.html",
+          "fecha": "2026-11-24T19:21:16+00:00"
+        }
+      ]
+    },
+    {
+      "id": "c7bd0dcd52ff1ed8",
+      "medio_titular": "20minutos",
+      "titular": "Dimite el vicepresidente del partido de Erdogan al verse implicado su hijo en un fraude multimillonario",
+      "titular_original": "Dimite el vicepresidente del partido de Erdogan al verse implicado su hijo en un fraude multimillonario",
+      "metodo_titular": "original",
+      "fecha": "2026-11-24T19:13:33+00:00",
+      "actualizado": "2026-11-24T19:13:33+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "20minutos",
+          "url": "https://www.20minutos.es/internacional/dimite-vicepresidente-partido-erdogan-verse-implicado-su-hijo-un-fraude-bursatil-multimillonario_7065368_0.html",
+          "fecha": "2026-11-24T19:13:33+00:00"
+        }
+      ]
+    },
+    {
+      "id": "0b1a737d01c40079",
+      "medio_titular": "OKDIARIO — España",
+      "titular": "El ridículo del presidente de las Cortes de Castilla-La Mancha: pide con gafas y gorra hacer «los discursos rapeando, bro»",
+      "titular_original": "El ridículo del presidente de las Cortes de Castilla-La Mancha: pide con gafas y gorra hacer «los discursos rapeando, bro»",
+      "metodo_titular": "original",
+      "fecha": "2026-11-24T18:09:38+00:00",
+      "actualizado": "2026-11-24T18:09:38+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "OKDIARIO — España",
+          "url": "https://okdiario.com/espana/ridiculo-del-presidente-cortes-castilla-mancha-pide-gafas-gorra-hacer-discursos-rapeando-bro-21261410",
+          "fecha": "2026-11-24T18:09:38+00:00"
+        }
+      ]
+    },
+    {
+      "id": "c53c22d281b4a24b",
+      "medio_titular": "EL MUNDO — España",
+      "titular": "El presidente de las Cortes de Castilla-La Mancha rapea por la infancia con gorra y gafas: \"Hagamos los discursos rapeando, bro\"",
+      "titular_original": "El presidente de las Cortes de Castilla-La Mancha rapea por la infancia con gorra y gafas: \"Hagamos los discursos rapeando, bro\"",
+      "metodo_titular": "original",
+      "fecha": "2026-11-24T18:03:33+00:00",
+      "actualizado": "2026-11-24T18:03:33+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "EL MUNDO — España",
+          "url": "https://www.elmundo.es/espana/2026/11/24/6b05cacde85ece1c448b456d.html",
+          "fecha": "2026-11-24T18:03:33+00:00"
+        }
+      ]
+    },
+    {
+      "id": "8287e96d5b12ec86",
+      "medio_titular": "BBC News — World",
+      "titular": "Zimbabuense condenado en Sudáfrica por tratar de luchar en Ucrania",
+      "titular_original": "Zimbabwean convicted in South Africa of trying to fight in Ukraine",
+      "metodo_titular": "traduccion_automatica",
+      "fecha": "2026-11-24T17:04:00+00:00",
+      "actualizado": "2026-11-24T17:04:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "EUROPA",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "BBC News — World",
+          "url": "https://www.bbc.co.uk/news/articles/cmqj5qlj5yz9o?at_medium=RSS&at_campaign=rss",
+          "fecha": "2026-11-24T17:04:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "a9402efe05672ca1",
+      "medio_titular": "20minutos",
+      "titular": "Hallan el cuerpo sin vida de un hombre de 90 años desaparecido este lunes en Vilagarcía de Arousa",
+      "titular_original": "Hallan el cuerpo sin vida de un hombre de 90 años desaparecido este lunes en Vilagarcía de Arousa",
+      "metodo_titular": "original",
+      "fecha": "2026-11-24T16:51:48+00:00",
+      "actualizado": "2026-11-24T16:51:48+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [
+        "Desapariciones"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "20minutos",
+          "url": "https://www.20minutos.es/galicia/hallan-cuerpo-sin-vida-un-hombre-90-anos-desaparecido-este-lunes-vilagarcia-arousa_7065255_0.html",
+          "fecha": "2026-11-24T16:51:48+00:00"
+        }
+      ]
+    },
+    {
+      "id": "11edbed17d6e5cb5",
+      "medio_titular": "elDiario.es",
+      "titular": "El tesoro oculto bajo un polígono: una cueva con restos humanos y fósiles de especies extinguidas hace miles de años",
+      "titular_original": "El tesoro oculto bajo un polígono: una cueva con restos humanos y fósiles de especies extinguidas hace miles de años",
+      "metodo_titular": "original",
+      "fecha": "2026-11-24T16:49:14+00:00",
+      "actualizado": "2026-11-24T16:49:14+00:00",
+      "categoria": "CRIME SCENE",
+      "region": "MUNDO",
+      "temas": [
+        "Criminalística"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/illes-balears/sociedad/tesoro-oculto-poligono-cueva-restos-humanos-fosiles-especies-extinguidas-miles-anos_1_13689359.html",
+          "fecha": "2026-11-24T16:49:14+00:00"
+        }
+      ]
+    },
+    {
+      "id": "f503d757a233a69c",
+      "medio_titular": "El Debate — Portada",
+      "titular": "Hallan sin vida a Jesús G., el vecino de Villagarcía de 90 años desaparecido desde el lunes",
+      "titular_original": "Hallan sin vida a Jesús G., el vecino de Villagarcía de 90 años desaparecido desde el lunes",
+      "metodo_titular": "original",
+      "fecha": "2026-11-24T16:44:16+00:00",
+      "actualizado": "2026-11-24T16:44:16+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [
+        "Desapariciones"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "El Debate — Portada",
+          "url": "https://www.eldebate.com/espana/galicia/20261124/hallan-vida-jesus-g-vecino-villagarcia-90-anos-desaparecido-desde-lunes_484705.html",
+          "fecha": "2026-11-24T16:44:16+00:00"
+        }
+      ]
+    },
+    {
+      "id": "ff822ce0630c17d3",
+      "medio_titular": "Law & Crime",
+      "titular": "Motorcyclist go 80 in 25-mph zone killed 15-year-old on e-bike, send teen nearly 40 feet from impact: Police",
+      "titular_original": "Motorcyclist going 80 in 25-mph zone killed 15-year-old on e-bike, sending teen nearly 40 feet from impact: Police",
+      "metodo_titular": "traduccion_automatica",
+      "fecha": "2026-11-24T16:42:53+00:00",
+      "actualizado": "2026-11-24T16:42:53+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "Law & Crime",
+          "url": "https://lawandcrime.com/crime/motorcyclist-going-80-in-25-mph-zone-killed-15-year-old-on-e-bike-sending-teen-nearly-40-feet-from-impact-police",
+          "fecha": "2026-11-24T16:42:53+00:00"
+        }
+      ]
+    },
+    {
+      "id": "b744d951b90ddfbe",
+      "medio_titular": "elDiario.es",
+      "titular": "Un vaso de hace 2.000 años decorado con gladiadores escondía algo mucho menos apetitoso que vino: restos humanos",
+      "titular_original": "Un vaso de hace 2.000 años decorado con gladiadores escondía algo mucho menos apetitoso que vino: restos humanos",
+      "metodo_titular": "original",
+      "fecha": "2026-11-24T16:15:43+00:00",
+      "actualizado": "2026-11-24T16:15:43+00:00",
+      "categoria": "CRIME SCENE",
+      "region": "MUNDO",
+      "temas": [
+        "Criminalística"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/spin/vaso-2-000-anos-decorado-gladiadores-escondia-apetitoso-vino-restos-humanos-pm_1_13689353.html",
+          "fecha": "2026-11-24T16:15:43+00:00"
+        }
+      ]
+    },
+    {
+      "id": "7ff4a9237cf1b313",
+      "medio_titular": "20minutos",
+      "titular": "¿Qué se sabe del estudiante español de 22 años detenido por el ICE? Estados Unidos alega problemas en el visado",
+      "titular_original": "¿Qué se sabe del estudiante español de 22 años detenido por el ICE? Estados Unidos alega problemas en el visado",
+      "metodo_titular": "original",
+      "fecha": "2026-11-24T16:08:15+00:00",
+      "actualizado": "2026-11-24T16:08:15+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "20minutos",
+          "url": "https://www.20minutos.es/cataluna/barcelona/que-se-sabe-estudiante-espanol-detenido-por-ice-eeuu-alega-problemas-con-visado-su-abogada-denuncia-trato-criminal_7065064_0.html",
+          "fecha": "2026-11-24T16:08:15+00:00"
+        }
+      ]
+    },
+    {
+      "id": "a5484296cdc36e1b",
+      "medio_titular": "OKDIARIO — España",
+      "titular": "El PP celebrará el día contra la violencia de género en el parador de Teruel, el de la juerga de Ábalos y Koldo con prostitutas",
+      "titular_original": "El PP celebrará el día contra la violencia de género en el parador de Teruel, el de la juerga de Ábalos y Koldo con prostitutas",
+      "metodo_titular": "original",
+      "fecha": "2026-11-24T16:06:59+00:00",
+      "actualizado": "2026-11-24T16:06:59+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [
+        "Violencia en la pareja"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "OKDIARIO — España",
+          "url": "https://okdiario.com/espana/pp-celebrara-dia-contra-violencia-genero-parador-teruel-juerga-abalos-koldo-prostitutas-21260643",
+          "fecha": "2026-11-24T16:06:59+00:00"
+        }
+      ]
+    },
+    {
+      "id": "ed26cb0571852814",
+      "medio_titular": "OKDIARIO — España",
+      "titular": "El sanchista Benjamín Prado ataca a Aznar frivolizando con el terrorismo de ETA: «Y dicen que la bomba no le dejó secuelas»",
+      "titular_original": "El sanchista Benjamín Prado ataca a Aznar frivolizando con el terrorismo de ETA: «Y dicen que la bomba no le dejó secuelas»",
+      "metodo_titular": "original",
+      "fecha": "2026-11-24T16:03:47+00:00",
+      "actualizado": "2026-11-24T16:03:47+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "OKDIARIO — España",
+          "url": "https://okdiario.com/espana/sanchista-benjamin-prado-ataca-aznar-frivolizando-terrorismo-eta-dicen-que-bomba-no-dejo-secuelas-21260783",
+          "fecha": "2026-11-24T16:03:47+00:00"
+        }
+      ]
+    },
+    {
+      "id": "ab91bd983ee0974c",
+      "medio_titular": "The Guardian — World",
+      "titular": "Más de 300 rusos asesinados mientras Moscú impulsa la junta de Malí, los datos filtrados revelan",
+      "titular_original": "More than 300 Russians killed as Moscow props up Mali’s junta, leaked data reveals",
+      "metodo_titular": "traduccion_automatica",
+      "fecha": "2026-11-24T16:00:50+00:00",
+      "actualizado": "2026-11-24T16:00:50+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "The Guardian — World",
+          "url": "https://www.theguardian.com/world/2026/nov/24/russian-fighters-killed-in-mali-africa-leaked-data",
+          "fecha": "2026-11-24T16:00:50+00:00"
+        }
+      ]
+    },
+    {
+      "id": "17784998fd4d157d",
+      "medio_titular": "The Guardian — UK",
+      "titular": "Dos detenidos después de presuntos robos en casa de Prince y Princess of Wales",
+      "titular_original": "Two arrested after suspected burglary at home of Prince and Princess of Wales",
+      "metodo_titular": "traduccion_automatica",
+      "fecha": "2026-11-24T15:43:25+00:00",
+      "actualizado": "2026-11-24T15:43:25+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "EUROPA",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "The Guardian — UK",
+          "url": "https://www.theguardian.com/uk-news/2026/nov/24/two-arrested-after-suspected-burglary-prince-princess-of-wales-sandringham",
+          "fecha": "2026-11-24T15:43:25+00:00"
+        }
+      ]
+    },
+    {
+      "id": "3f37bd93bce475c4",
+      "medio_titular": "El Confidencial — España",
+      "titular": "Detenida por estafar más de 50.000 euros a tres amigos mediante inversiones en criptomonedas en Palma",
+      "titular_original": "Detenida por estafar más de 50.000 euros a tres amigos mediante inversiones en criptomonedas en Palma",
+      "metodo_titular": "original",
+      "fecha": "2026-11-24T15:23:00+00:00",
+      "actualizado": "2026-11-24T15:23:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "El Confidencial — España",
+          "url": "https://www.elconfidencial.com/espana/2026-11-24/estafa-criptomonedas-falso-inversor-1tna-1tps_4471702",
+          "fecha": "2026-11-24T15:23:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "a4e6f9706fb593de",
+      "medio_titular": "El Confidencial — España",
+      "titular": "Agrede a un hombre que tocó el culo de su pareja en un local de ocio de Palma y ambos acaban detenidos",
+      "titular_original": "Agrede a un hombre que tocó el culo de su pareja en un local de ocio de Palma y ambos acaban detenidos",
+      "metodo_titular": "original",
+      "fecha": "2026-11-24T15:18:00+00:00",
+      "actualizado": "2026-11-24T15:18:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [
+        "Violencia en la pareja"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "El Confidencial — España",
+          "url": "https://www.elconfidencial.com/espana/2026-11-24/detenidos-agresion-sexual-lesiones-palma-1tna-1tps_4471689",
+          "fecha": "2026-11-24T15:18:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "4f7ef16fa1b49fef",
+      "medio_titular": "20minutos",
+      "titular": "Para ver después de 'El crimen de Pazos': el documental que explica el caso que conmocionó al país",
+      "titular_original": "Para ver después de 'El crimen de Pazos': el documental que explica el caso que conmocionó al país",
+      "metodo_titular": "original",
+      "fecha": "2026-11-24T15:17:04+00:00",
+      "actualizado": "2026-11-24T15:17:04+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "20minutos",
+          "url": "https://www.20minutos.es/cinemania/noticias/crimen-pazos-ver-despues-documental-desprotexida-netflix-true-crime_7054613_0.html",
+          "fecha": "2026-11-24T15:17:04+00:00"
+        }
+      ]
+    },
+    {
+      "id": "c0779cac2882a55e",
+      "medio_titular": "EL MUNDO — España",
+      "titular": "El hijo de Tomás y Valiente, el día de la libertad de su etarra asesino: \"Ni se ha arrepentido... Sánchez traiciona la memoria democrática\"",
+      "titular_original": "El hijo de Tomás y Valiente, el día de la libertad de su etarra asesino: \"Ni se ha arrepentido... Sánchez traiciona la memoria democrática\"",
+      "metodo_titular": "original",
+      "fecha": "2026-11-24T14:40:25+00:00",
+      "actualizado": "2026-11-24T14:40:25+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "EL MUNDO — España",
+          "url": "https://www.elmundo.es/espana/2026/11/24/6b058de621efa0c3348b45a0.html",
+          "fecha": "2026-11-24T14:40:25+00:00"
+        }
+      ]
+    },
+    {
+      "id": "c7d24433a1acf4af",
+      "medio_titular": "20minutos",
+      "titular": "El presidente de las Cortes de Castilla-La Mancha se arranca a rapear con gorra y gafas de sol: \"Hagamos los discursos de esta manera\"",
+      "titular_original": "El presidente de las Cortes de Castilla-La Mancha se arranca a rapear con gorra y gafas de sol: \"Hagamos los discursos de esta manera\"",
+      "metodo_titular": "original",
+      "fecha": "2026-11-24T14:15:55+00:00",
+      "actualizado": "2026-11-24T14:15:55+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "20minutos",
+          "url": "https://www.20minutos.es/castilla-la-mancha/presidente-las-cortes-castilla-mancha-se-arranca-rapear-con-gorra-gafas-sol-hagamos-los-discursos-rapeando_7065201_0.html",
+          "fecha": "2026-11-24T14:15:55+00:00"
+        }
+      ]
+    },
+    {
+      "id": "301b2896526a05ba",
+      "medio_titular": "elDiario.es",
+      "titular": "Un ciberataque con IA a Quirónsalud roba correos de pacientes de la sanidad pública",
+      "titular_original": "Un ciberataque con IA a Quirónsalud roba correos de pacientes de la sanidad pública",
+      "metodo_titular": "original",
+      "fecha": "2026-11-24T13:43:55+00:00",
+      "actualizado": "2026-11-24T13:43:55+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/tecnologia/ciberataque-ia-quironsalud-roba-correos-pacientes-sanidad-publica_1_13689349.html",
+          "fecha": "2026-11-24T13:43:55+00:00"
+        }
+      ]
+    },
+    {
+      "id": "768803e1122327fd",
+      "medio_titular": "El Confidencial — España",
+      "titular": "Heridos siete policías en una operación antidroga en Melilla con seis detenidos",
+      "titular_original": "Heridos siete policías en una operación antidroga en Melilla con seis detenidos",
+      "metodo_titular": "original",
+      "fecha": "2026-11-24T13:03:00+00:00",
+      "actualizado": "2026-11-24T13:03:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "El Confidencial — España",
+          "url": "https://www.elconfidencial.com/espana/2026-11-24/trafico-drogas-melilla-agentes-heridos-detenidos-1tna-1tps_4471531",
+          "fecha": "2026-11-24T13:03:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "e404eeb0f436d71e",
+      "medio_titular": "OKDIARIO — España",
+      "titular": "Detenido un joven hondureño por arrojar un adoquín de 13 kilos a la cabeza de otro hombre en Torrent (Valencia)",
+      "titular_original": "Detenido un joven hondureño por arrojar un adoquín de 13 kilos a la cabeza de otro hombre en Torrent (Valencia)",
+      "metodo_titular": "original",
+      "fecha": "2026-11-24T12:58:51+00:00",
+      "actualizado": "2026-11-24T12:58:51+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "OKDIARIO — España",
+          "url": "https://okdiario.com/comunidad-valenciana/detenido-joven-hondureno-arrojar-adoquin-13-kilos-cabeza-otro-hombre-torrent-valencia-21258648",
+          "fecha": "2026-11-24T12:58:51+00:00"
+        }
+      ]
+    },
+    {
+      "id": "5ba75dc0870658d3",
+      "medio_titular": "elDiario.es",
+      "titular": "Covite incorpora como víctima del terrorismo a Salvador Sampedro, el taxista de Valladolid asesinado por un comando de extrema derecha",
+      "titular_original": "Covite incorpora como víctima del terrorismo a Salvador Sampedro, el taxista de Valladolid asesinado por un comando de extrema derecha",
+      "metodo_titular": "original",
+      "fecha": "2026-11-24T12:31:58+00:00",
+      "actualizado": "2026-11-24T12:31:58+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/castilla-y-leon/politica/covite-incorpora-victima-terrorismo-salvador-sampedro-taxista-valladolid-asesinado-comando-extrema-derecha_1_13688830.html",
+          "fecha": "2026-11-24T12:31:58+00:00"
+        }
+      ]
+    },
+    {
+      "id": "c0880b7b66921e96",
+      "medio_titular": "EL PAÍS — España",
+      "titular": "Dos detenidos en Barcelona vinculados a la red de financiación de Hamás",
+      "titular_original": "Dos detenidos en Barcelona vinculados a la red de financiación de Hamás",
+      "metodo_titular": "original",
+      "fecha": "2026-11-24T11:36:49+00:00",
+      "actualizado": "2026-11-24T11:36:49+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "EL PAÍS — España",
+          "url": "https://elpais.com/espana/2026-11-24/detenidas-dos-personas-en-barcelona-vinculadas-a-la-red-de-financiacion-de-hamas.html",
+          "fecha": "2026-11-24T11:36:49+00:00"
+        }
+      ]
+    },
+    {
+      "id": "6d9407d785270be9",
+      "medio_titular": "El Debate — Portada",
+      "titular": "El ICE detiene a un estudiante español de 22 años tras perder su permiso de residencia en EE.UU.",
+      "titular_original": "El ICE detiene a un estudiante español de 22 años tras perder su permiso de residencia en EE.UU.",
+      "metodo_titular": "original",
+      "fecha": "2026-11-24T10:39:34+00:00",
+      "actualizado": "2026-11-24T10:39:34+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "El Debate — Portada",
+          "url": "https://www.eldebate.com/internacional/20261124/ice-detiene-estudiante-espanol-22-anos-perder-permiso-residencia-eeuu_484497.html",
+          "fecha": "2026-11-24T10:39:34+00:00"
+        }
+      ]
+    },
+    {
+      "id": "28386fa1d8743ed3",
+      "medio_titular": "EL MUNDO — España",
+      "titular": "El etarra Jon Bienzobas, asesino de Tomás y Valiente, en libertad tras cumplir 27 años de un total de 266 años de prisión por varios atentados",
+      "titular_original": "El etarra Jon Bienzobas, asesino de Tomás y Valiente, en libertad tras cumplir 27 años de un total de 266 años de prisión por varios atentados",
+      "metodo_titular": "original",
+      "fecha": "2026-11-24T10:31:59+00:00",
+      "actualizado": "2026-11-24T10:31:59+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "EL MUNDO — España",
+          "url": "https://www.elmundo.es/espana/2026/11/24/6b056492fdddffe3308b4583.html",
+          "fecha": "2026-11-24T10:31:59+00:00"
+        }
+      ]
+    },
+    {
+      "id": "859cb742d52af88c",
+      "medio_titular": "EL PAÍS — España",
+      "titular": "Feijóo y Ayuso alimentan el fantasma del fraude el 29-N: “Sánchez y la limpieza electoral son dos conceptos contradictorios”",
+      "titular_original": "Feijóo y Ayuso alimentan el fantasma del fraude el 29-N: “Sánchez y la limpieza electoral son dos conceptos contradictorios”",
+      "metodo_titular": "original",
+      "fecha": "2026-11-24T09:54:09+00:00",
+      "actualizado": "2026-11-24T09:54:09+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "EL PAÍS — España",
+          "url": "https://elpais.com/espana/elecciones-generales/2026-11-24/feijoo-y-ayuso-alimentan-el-fantasma-del-fraude-el-29-n-sanchez-y-la-limpieza-electoral-son-dos-conceptos-contradictorios.html",
+          "fecha": "2026-11-24T09:54:09+00:00"
+        }
+      ]
+    },
+    {
+      "id": "a3384d8e81d9041c",
+      "medio_titular": "elDiario.es",
+      "titular": "El ICE de EEUU detiene a un estudiante catalán de 22 años que, según su abogada, tenía el visado en vigor",
+      "titular_original": "El ICE de EEUU detiene a un estudiante catalán de 22 años que, según su abogada, tenía el visado en vigor",
+      "metodo_titular": "original",
+      "fecha": "2026-11-24T09:14:30+00:00",
+      "actualizado": "2026-11-24T09:14:30+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/catalunya/policia-migratoria-eeuu-detiene-estudiante-catalan-22-anos-abogada-tenia-visado-vigor_1_13688163.html",
+          "fecha": "2026-11-24T09:14:30+00:00"
+        }
+      ]
+    },
+    {
+      "id": "125fa1e24f359878",
+      "medio_titular": "CrimeReads",
+      "titular": "La Mejor Ficción Internacional del Mes: Noviembre 2026",
+      "titular_original": "The Best International Fiction of the Month: November 2026",
+      "metodo_titular": "traduccion_automatica",
+      "fecha": "2026-11-24T09:10:29+00:00",
+      "actualizado": "2026-11-24T09:10:29+00:00",
+      "categoria": "FICCIÓN NEGROCRIMINAL",
+      "region": "MUNDO",
+      "temas": [
+        "Ficción negrocriminal"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "CrimeReads",
+          "url": "https://crimereads.com/the-best-international-fiction-of-the-month-november-2026",
+          "fecha": "2026-11-24T09:10:29+00:00"
+        }
+      ]
+    },
+    {
+      "id": "7b5dd75eb2b1df9c",
+      "medio_titular": "CrimeReads",
+      "titular": "Quinn Connor sobre horror corporal, queerness, academia y novelas góticas del sur",
+      "titular_original": "Quinn Connor on body horror, queerness, academia, and southern gothic novels",
+      "metodo_titular": "traduccion_automatica",
+      "fecha": "2026-11-24T09:09:44+00:00",
+      "actualizado": "2026-11-24T09:09:44+00:00",
+      "categoria": "FICCIÓN NEGROCRIMINAL",
+      "region": "MUNDO",
+      "temas": [
+        "Ficción negrocriminal"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "CrimeReads",
+          "url": "https://crimereads.com/quinn-connor-on-body-horror-queerness-academia-and-southern-gothic-novels",
+          "fecha": "2026-11-24T09:09:44+00:00"
+        }
+      ]
+    },
+    {
+      "id": "53ec4817cd42548b",
+      "medio_titular": "CrimeReads",
+      "titular": "Un estudio en rojo, blanco y azul: Sir Arthur Conan Doyle en los Estados Unidos",
+      "titular_original": "A Study In Red, White and Blue: Sir Arthur Conan Doyle in the USA",
+      "metodo_titular": "traduccion_automatica",
+      "fecha": "2026-11-24T09:08:22+00:00",
+      "actualizado": "2026-11-24T09:08:22+00:00",
+      "categoria": "FICCIÓN NEGROCRIMINAL",
+      "region": "ESTADOS UNIDOS",
+      "temas": [
+        "Ficción negrocriminal"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "CrimeReads",
+          "url": "https://crimereads.com/arthur-conan-doyle-america",
+          "fecha": "2026-11-24T09:08:22+00:00"
+        }
+      ]
+    },
+    {
+      "id": "6670866f15cff272",
+      "medio_titular": "EL MUNDO — España",
+      "titular": "La Generalitat y el Gobierno activan una ofensiva diplomática para liberar al catalán detenido por el ICE en EEUU",
+      "titular_original": "La Generalitat y el Gobierno activan una ofensiva diplomática para liberar al catalán detenido por el ICE en EEUU",
+      "metodo_titular": "original",
+      "fecha": "2026-11-24T09:02:20+00:00",
+      "actualizado": "2026-11-24T09:02:20+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "EL MUNDO — España",
+          "url": "https://www.elmundo.es/cataluna/2026/11/24/6b054813fc6c831d0e8b45a3.html",
+          "fecha": "2026-11-24T09:02:20+00:00"
+        }
+      ]
+    },
     {
       "id": "58584db13721db49",
       "medio_titular": "El Confidencial — España",
