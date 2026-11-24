@@ -1,7 +1,311 @@
 {
   "mes": "2026-11",
-  "total": 123,
+  "total": 139,
   "noticias": [
+    {
+      "id": "58584db13721db49",
+      "medio_titular": "El Confidencial — España",
+      "titular": "Detenidos dos estibadores en Algeciras cuando sacaban 53,8 kilos de cocaína de un contenedor",
+      "titular_original": "Detenidos dos estibadores en Algeciras cuando sacaban 53,8 kilos de cocaína de un contenedor",
+      "metodo_titular": "original",
+      "fecha": "2026-11-24T08:21:00+00:00",
+      "actualizado": "2026-11-24T08:21:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [
+        "Narcotráfico"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "El Confidencial — España",
+          "url": "https://www.elconfidencial.com/espana/andalucia/2026-11-24/detenidos-trabajadores-portuarios-cocaina-algeciras-1tna-1tps_4471156",
+          "fecha": "2026-11-24T08:21:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "aefeb280b18a23ed",
+      "medio_titular": "20minutos",
+      "titular": "Cinco mujeres fueron asesinadas cada hora por su pareja o un familiar en el mundo durante 2025",
+      "titular_original": "Cinco mujeres fueron asesinadas cada hora por su pareja o un familiar en el mundo durante 2025",
+      "metodo_titular": "original",
+      "fecha": "2026-11-24T08:15:51+00:00",
+      "actualizado": "2026-11-24T08:15:51+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [
+        "Violencia en la pareja"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "20minutos",
+          "url": "https://www.20minutos.es/internacional/cinco-mujeres-fueron-asesinadas-cada-hora-por-su-pareja-un-familiar-mundo-2025-segun-onu_7064919_0.html",
+          "fecha": "2026-11-24T08:15:51+00:00"
+        }
+      ]
+    },
+    {
+      "id": "96df46937521dd0e",
+      "medio_titular": "20minutos",
+      "titular": "La Comisión Europea confirma que el ciberataque asistido por IA robó nombres y correos de usuarios",
+      "titular_original": "La Comisión Europea confirma que el ciberataque asistido por IA robó nombres y correos de usuarios",
+      "metodo_titular": "original",
+      "fecha": "2026-11-24T07:32:57+00:00",
+      "actualizado": "2026-11-24T07:32:57+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "20minutos",
+          "url": "https://www.20minutos.es/tecnologia/ciberseguridad/comision-europea-confirma-ciberataque-asistido-ia-robo-nombres-correos-usuarios_7064891_0.html",
+          "fecha": "2026-11-24T07:32:57+00:00"
+        }
+      ]
+    },
+    {
+      "id": "c02d497ddeee5673",
+      "medio_titular": "elDiario.es",
+      "titular": "La guerra de la mafia turca se libra en España: drogas, venganza, tiroteos y asesinatos",
+      "titular_original": "La guerra de la mafia turca se libra en España: drogas, venganza, tiroteos y asesinatos",
+      "metodo_titular": "original",
+      "fecha": "2026-11-24T06:59:49+00:00",
+      "actualizado": "2026-11-24T06:59:49+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [
+        "Crimen organizado"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/internacional/la-semana-internacional/guerra-mafia-turca-libra-espana-drogas-venganza-tiroteos-asesinatos_132_13687350.html",
+          "fecha": "2026-11-24T06:59:49+00:00"
+        }
+      ]
+    },
+    {
+      "id": "328a1aeff81f6d85",
+      "medio_titular": "El Debate — Portada",
+      "titular": "La matriarca de Los Rocho declara por primera vez ante el juez por el intento de las cloacas de convertirlos en 'sicarios' de la jueza Biedma",
+      "titular_original": "La matriarca de Los Rocho declara por primera vez ante el juez por el intento de las cloacas de convertirlos en 'sicarios' de la jueza Biedma",
+      "metodo_titular": "original",
+      "fecha": "2026-11-24T05:30:23+00:00",
+      "actualizado": "2026-11-24T05:30:23+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [
+        "Crimen organizado"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "El Debate — Portada",
+          "url": "https://www.eldebate.com/espana/20261124/matriarca-rocho-declara-primera-vez-ante-juez-intento-cloacas-convertirlos-sicarios-jueza-biedma_484387.html",
+          "fecha": "2026-11-24T05:30:23+00:00"
+        }
+      ]
+    },
+    {
+      "id": "17b96da1db3a4426",
+      "medio_titular": "20minutos",
+      "titular": "Más allá de 'El crimen de Pazos': la miniserie polaca de 4 episodios que se cuela en el top de lo más visto de Netflix",
+      "titular_original": "Más allá de 'El crimen de Pazos': la miniserie polaca de 4 episodios que se cuela en el top de lo más visto de Netflix",
+      "metodo_titular": "original",
+      "fecha": "2026-11-24T04:00:00+00:00",
+      "actualizado": "2026-11-24T04:00:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "20minutos",
+          "url": "https://www.20minutos.es/cinemania/series/crimen-pazos-miniserie-polaca-4-episodios-top-netflix_7064679_0.html",
+          "fecha": "2026-11-24T04:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "39618e054c727796",
+      "medio_titular": "El Debate — Portada",
+      "titular": "El trágico pasado de Adamuz y Urda: los asesinatos y la persecución religiosa durante la Guerra Civil",
+      "titular_original": "El trágico pasado de Adamuz y Urda: los asesinatos y la persecución religiosa durante la Guerra Civil",
+      "metodo_titular": "original",
+      "fecha": "2026-11-24T03:30:00+00:00",
+      "actualizado": "2026-11-24T03:30:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "El Debate — Portada",
+          "url": "https://www.eldebate.com/historia/20261124/tragico-pasado-adamuz-urda-asesinatos-persecucion-religiosa-durante-guerra-civil_484156.html",
+          "fecha": "2026-11-24T03:30:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "dc43e7c40de1ccd1",
+      "medio_titular": "El Debate — Portada",
+      "titular": "Fraude sin pudor",
+      "titular_original": "Fraude sin pudor",
+      "metodo_titular": "original",
+      "fecha": "2026-11-24T00:30:00+00:00",
+      "actualizado": "2026-11-24T00:30:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "El Debate — Portada",
+          "url": "https://www.eldebate.com/opinion/20261124/fraude-pudor_484300.html",
+          "fecha": "2026-11-24T00:30:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "b7b1a6262ebe0d74",
+      "medio_titular": "BBC News — World",
+      "titular": "Papá que descubrió el asesinato de hija en Facebook se siente ignorado por la policía sudafricana",
+      "titular_original": "Dad who discovered daughter's murder on Facebook feels ignored by South African police",
+      "metodo_titular": "traduccion_automatica",
+      "fecha": "2026-11-24T00:02:15+00:00",
+      "actualizado": "2026-11-24T00:02:15+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "BBC News — World",
+          "url": "https://www.bbc.co.uk/news/articles/cqglr0d5jejxo?at_medium=RSS&at_campaign=rss",
+          "fecha": "2026-11-24T00:02:15+00:00"
+        }
+      ]
+    },
+    {
+      "id": "e41f91d600397179",
+      "medio_titular": "elDiario.es",
+      "titular": "Trump dispara contra todo: \"No nos doblegaremos ante comunistas, criminales ni personas despreciables que desean destruir EEUU\"",
+      "titular_original": "Trump dispara contra todo: \"No nos doblegaremos ante comunistas, criminales ni personas despreciables que desean destruir EEUU\"",
+      "metodo_titular": "original",
+      "fecha": "2026-11-23T23:42:40+00:00",
+      "actualizado": "2026-11-23T23:42:40+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/internacional/trump-dispara-no-doblegaremos-comunistas-criminales-personas-despreciables-desean-destruir-eeuu_1_13687811.html",
+          "fecha": "2026-11-23T23:42:40+00:00"
+        }
+      ]
+    },
+    {
+      "id": "85bff9928c30247c",
+      "medio_titular": "Law & Crime",
+      "titular": "Nuevo padre que le disparó a un hombre por enfrentarlo sobre cortar la línea Starbucks drive-thru es condenado",
+      "titular_original": "New dad who shot man in back for confronting him about cutting Starbucks drive-thru line is convicted",
+      "metodo_titular": "traduccion_automatica",
+      "fecha": "2026-11-23T22:34:57+00:00",
+      "actualizado": "2026-11-23T22:34:57+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "Law & Crime",
+          "url": "https://lawandcrime.com/crime/new-dad-who-shot-man-in-back-for-confronting-him-about-cutting-starbucks-drive-thru-line-is-convicted",
+          "fecha": "2026-11-23T22:34:57+00:00"
+        }
+      ]
+    },
+    {
+      "id": "b6575168b5805f47",
+      "medio_titular": "Europa Press — Internacional",
+      "titular": "Trump ordenará al Departamento de Justicia que solicite la pena de muerte para asesinos de niños y violadores",
+      "titular_original": "Trump ordenará al Departamento de Justicia que solicite la pena de muerte para asesinos de niños y violadores",
+      "metodo_titular": "original",
+      "fecha": "2026-11-23T22:30:20+00:00",
+      "actualizado": "2026-11-23T22:30:20+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "Europa Press — Internacional",
+          "url": "https://www.europapress.es/internacional/noticia-trump-ordenara-departamento-justicia-solicite-pena-muerte-asesinos-ninos-violadores-20261123233020.html",
+          "fecha": "2026-11-23T22:30:20+00:00"
+        }
+      ]
+    },
+    {
+      "id": "eff70de64cc01d19",
+      "medio_titular": "Law & Crime",
+      "titular": "Padre a ser aparece hasta la ducha de bebé sin invitación, le dispara al padre de su novia hasta la muerte antes de que él y un espectador sean asesinados en un tiroteo, los policías dicen",
+      "titular_original": "Father-to-be shows up to baby shower uninvited, shoots his girlfriend's father to death before he and a bystander are killed in a shootout, cops say",
+      "metodo_titular": "traduccion_automatica",
+      "fecha": "2026-11-23T22:24:10+00:00",
+      "actualizado": "2026-11-23T22:24:10+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "Law & Crime",
+          "url": "https://lawandcrime.com/crime/father-to-be-shows-up-to-baby-shower-uninvited-shoots-his-girlfriends-father-to-death-before-he-and-a-bystander-are-killed-in-a-shootout-cops-say",
+          "fecha": "2026-11-23T22:24:10+00:00"
+        }
+      ]
+    },
+    {
+      "id": "b1af2fddae24e083",
+      "medio_titular": "elDiario.es",
+      "titular": "Las ideas (y ausencias) de los programas de PP y Vox sobre violencia machista: derogar leyes o dar competencias a Interior",
+      "titular_original": "Las ideas (y ausencias) de los programas de PP y Vox sobre violencia machista: derogar leyes o dar competencias a Interior",
+      "metodo_titular": "original",
+      "fecha": "2026-11-23T21:55:21+00:00",
+      "actualizado": "2026-11-23T21:55:21+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [
+        "Violencia en la pareja"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/sociedad/ideas-ausencias-programas-pp-vox-violencia-machista-derogar-leyes-dar-competencias-interior_1_13667689.html",
+          "fecha": "2026-11-23T21:55:21+00:00"
+        }
+      ]
+    },
     {
       "id": "ba63b5818f5ab21d",
       "medio_titular": "ABC — Última hora",
@@ -20,6 +324,29 @@
           "medio": "ABC — Última hora",
           "url": "https://www.abc.es/espana/andalucia/malaga/vox-sobre-siete-empadronados-casa-marbella-fraude-20261123212429-nts.html",
           "fecha": "2026-11-23T20:25:03+00:00"
+        }
+      ]
+    },
+    {
+      "id": "55e79a401bfd51d2",
+      "medio_titular": "CrimeReads",
+      "titular": "Caballos lentos se ha renovado bien en el futuro",
+      "titular_original": "Slow Horses has been renewed well into the future",
+      "metodo_titular": "traduccion_automatica",
+      "fecha": "2026-11-23T20:14:22+00:00",
+      "actualizado": "2026-11-23T20:14:22+00:00",
+      "categoria": "FICCIÓN NEGROCRIMINAL",
+      "region": "MUNDO",
+      "temas": [
+        "Ficción negrocriminal"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "CrimeReads",
+          "url": "https://crimereads.com/slow-horses-renewed",
+          "fecha": "2026-11-23T20:14:22+00:00"
         }
       ]
     },
@@ -49,7 +376,7 @@
     {
       "id": "95af17db593fb907",
       "medio_titular": "Law & Crime",
-      "titular": "La abuela despierta pensando que la niña de 3 años tiene una pesadilla — entra para encontrar a mamá apuñalando a ex-novio dormido:",
+      "titular": "La abuela despierta pensando que la niña de 3 años tiene una pesadilla — entra para encontrar a mamá apuñalando a su exnovio dormido:",
       "titular_original": "Grandmother wakes up thinking 3-year-old is having a nightmare — walks in to find mom stabbing sleeping ex-boyfriend: Cops",
       "metodo_titular": "traduccion_automatica",
       "fecha": "2026-11-23T18:43:00+00:00",
@@ -468,7 +795,7 @@
     {
       "id": "6bca7cd3efc630a7",
       "medio_titular": "CrimeReads",
-      "titular": "Sara Paretsky en idiomas inventando y sintiendo parentesco con personajes mayores",
+      "titular": "Sara Paretsky en el invento de idiomas y el sentimiento de parentesco con personajes mayores",
       "titular_original": "Sara Paretsky on inventing languages and feeling kinship with older characters",
       "metodo_titular": "traduccion_automatica",
       "fecha": "2026-11-23T09:09:20+00:00",
@@ -512,7 +839,7 @@
     {
       "id": "84cde718517c078d",
       "medio_titular": "The Guardian — World",
-      "titular": "El amor hizo un tonto de Beau Lamarre-Condon pero no lo hizo un asesino, la defensa argumenta",
+      "titular": "El amor hizo un tonto de Beau Lamarre-Condon pero no lo convirtió en un asesino, la defensa argumenta",
       "titular_original": "Love made a fool of Beau Lamarre-Condon but did not make him a murderer, defence argues",
       "metodo_titular": "traduccion_automatica",
       "fecha": "2026-11-23T04:34:11+00:00",
@@ -2253,6 +2580,29 @@
       "metodo_titular": "revision_editorial",
       "etiquetas_de_deteccion": [],
       "medio_titular": "Law & Crime"
+    },
+    {
+      "id": "21e17b77d1171c52",
+      "medio_titular": "elDiario.es",
+      "titular": "Salud mental y violencia machista, una doble vulnerabilidad que sigue invisibilizada",
+      "titular_original": "Salud mental y violencia machista, una doble vulnerabilidad que sigue invisibilizada",
+      "metodo_titular": "original",
+      "fecha": "2026-11-18T15:47:23+00:00",
+      "actualizado": "2026-11-18T15:47:23+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [
+        "Violencia en la pareja"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/edcreativo/salud-mental-violencia-machista-doble-vulnerabilidad-sigue-invisibilizada_1_13674549.html",
+          "fecha": "2026-11-18T15:47:23+00:00"
+        }
+      ]
     },
     {
       "id": "a2c14cf42509f166",
