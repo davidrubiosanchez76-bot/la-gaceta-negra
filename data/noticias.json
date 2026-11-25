@@ -1,7 +1,252 @@
 {
-  "actualizado": "2026-11-24T20:16:13+00:00",
-  "total": 181,
+  "actualizado": "2026-11-25T08:42:50+00:00",
+  "total": 193,
   "noticias": [
+    {
+      "id": "f2d55c94357119a1",
+      "medio_titular": "El Debate — Portada",
+      "titular": "Detienen al autor del ataque con cócteles molotov a la comisaría de Palencia y descartan el móvil terrorista",
+      "titular_original": "Detienen al autor del ataque con cócteles molotov a la comisaría de Palencia y descartan el móvil terrorista",
+      "metodo_titular": "original",
+      "fecha": "2026-11-25T08:25:13+00:00",
+      "actualizado": "2026-11-25T08:25:13+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "El Debate — Portada",
+          "url": "https://www.eldebate.com/espana/castilla-y-leon/20261125/detienen-autor-ataque-cocteles-molotov-comisaria-palencia-descartan-movil-terrorista_484844.html",
+          "fecha": "2026-11-25T08:25:13+00:00"
+        }
+      ]
+    },
+    {
+      "id": "485edf5676953298",
+      "medio_titular": "20minutos",
+      "titular": "Cinco detenidos por una plantación de marihuana oculta bajo un parque infantil en Granada",
+      "titular_original": "Cinco detenidos por una plantación de marihuana oculta bajo un parque infantil en Granada",
+      "metodo_titular": "original",
+      "fecha": "2026-11-25T08:20:42+00:00",
+      "actualizado": "2026-11-25T08:20:42+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "20minutos",
+          "url": "https://www.20minutos.es/andalucia/granada/cinco-detenidos-por-una-plantacion-marihuana-oculta-bajo-un-parque-infantil-las-gabias-granada_7065470_0.html",
+          "fecha": "2026-11-25T08:20:42+00:00"
+        }
+      ]
+    },
+    {
+      "id": "18d4f71e831f8c11",
+      "medio_titular": "THE OBJECTIVE — España",
+      "titular": "Nacho Cano denuncia una persecución del Gobierno: «Actúa como una banda criminal»",
+      "titular_original": "Nacho Cano denuncia una persecución del Gobierno: «Actúa como una banda criminal»",
+      "metodo_titular": "original",
+      "fecha": "2026-11-25T08:03:58+00:00",
+      "actualizado": "2026-11-25T08:03:58+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [
+        "Crimen organizado"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "THE OBJECTIVE — España",
+          "url": "https://theobjective.com/espana/politica/2026-11-25/nacho-cano-persecucion-gobierno-banda-criminal",
+          "fecha": "2026-11-25T08:03:58+00:00"
+        }
+      ]
+    },
+    {
+      "id": "e551ee294ac1303a",
+      "medio_titular": "Revista Calibre .38",
+      "titular": "Cine: «Ganglang», de Vincent Grashaw",
+      "titular_original": "Cine: «Ganglang», de Vincent Grashaw",
+      "metodo_titular": "original",
+      "fecha": "2026-11-25T07:30:00+00:00",
+      "actualizado": "2026-11-25T07:30:00+00:00",
+      "categoria": "FICCIÓN NEGROCRIMINAL",
+      "region": "MUNDO",
+      "temas": [
+        "Ficción negrocriminal"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "Revista Calibre .38",
+          "url": "https://revistacalibre38.com/2026/11/25/cine-ganglang-de-vincent-grashaw",
+          "fecha": "2026-11-25T07:30:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "56461177841ea487",
+      "medio_titular": "EL PAÍS — Sociedad",
+      "titular": "La crisis de vivienda golpea el doble a las víctimas de violencia machista: “No quería volver a mi casa, pero no tenía dónde ir”",
+      "titular_original": "La crisis de vivienda golpea el doble a las víctimas de violencia machista: “No quería volver a mi casa, pero no tenía dónde ir”",
+      "metodo_titular": "original",
+      "fecha": "2026-11-25T04:30:01+00:00",
+      "actualizado": "2026-11-25T04:30:01+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [
+        "Violencia en la pareja"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "EL PAÍS — Sociedad",
+          "url": "https://elpais.com/sociedad/2026-11-25/la-crisis-de-vivienda-golpea-el-doble-a-las-victimas-de-violencia-machista-no-queria-volver-a-mi-casa-pero-no-tenia-donde-ir.html",
+          "fecha": "2026-11-25T04:30:01+00:00"
+        }
+      ]
+    },
+    {
+      "id": "8e7260c204ad10e5",
+      "medio_titular": "20minutos",
+      "titular": "Ibrahimović se pasa al crimen: será uno de los villanos de la temporada 3 de 'Tierra de mafiosos'",
+      "titular_original": "Ibrahimović se pasa al crimen: será uno de los villanos de la temporada 3 de 'Tierra de mafiosos'",
+      "metodo_titular": "original",
+      "fecha": "2026-11-25T04:00:00+00:00",
+      "actualizado": "2026-11-25T04:00:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "20minutos",
+          "url": "https://www.20minutos.es/cinemania/series/zlatan-ibrahimovic-leyenda-futbol-temporada-3-tierra-mafiosos_7065135_0.html",
+          "fecha": "2026-11-25T04:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "3ae7c113aaf06a0c",
+      "medio_titular": "20minutos",
+      "titular": "Más de 100.000 mujeres viven bajo el radar policial por maltrato y solo es la punta del iceberg de la violencia machista en España",
+      "titular_original": "Más de 100.000 mujeres viven bajo el radar policial por maltrato y solo es la punta del iceberg de la violencia machista en España",
+      "metodo_titular": "original",
+      "fecha": "2026-11-25T04:00:00+00:00",
+      "actualizado": "2026-11-25T04:00:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [
+        "Violencia en la pareja"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "20minutos",
+          "url": "https://www.20minutos.es/nacional/mas-100-000-mujeres-viven-bajo-radar-policial-por-maltrato-solo-es-punta-iceberg-violencia-machista-espana_7063659_0.html",
+          "fecha": "2026-11-25T04:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "8bba7ca7c0cbe446",
+      "medio_titular": "El Debate — Portada",
+      "titular": "¿Quiénes son los hijos de los nietos que pueden votar sin haber registrado nunca sus huellas dactilares?",
+      "titular_original": "¿Quiénes son los hijos de los nietos que pueden votar sin haber registrado nunca sus huellas dactilares?",
+      "metodo_titular": "original",
+      "fecha": "2026-11-25T03:30:00+00:00",
+      "actualizado": "2026-11-25T03:30:00+00:00",
+      "categoria": "CRIME SCENE",
+      "region": "MUNDO",
+      "temas": [
+        "Criminalística"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "El Debate — Portada",
+          "url": "https://www.eldebate.com/espana/20261125/quienes-son-hijos-nietos-pueden-votar-haber-registrado-nunca-huellas-dactilares_484825.html",
+          "fecha": "2026-11-25T03:30:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "0dd6e1cdb53ecacf",
+      "medio_titular": "BBC News — World",
+      "titular": "Lies, un disfraz y bolsas de surf: cómo un policía celoso de Sydney trató de encubrir el doble asesinato",
+      "titular_original": "Lies, a disguise and surfboard bags: how a jealous Sydney policeman tried to cover up double murder",
+      "metodo_titular": "traduccion_automatica",
+      "fecha": "2026-11-25T01:51:43+00:00",
+      "actualizado": "2026-11-25T01:51:43+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "BBC News — World",
+          "url": "https://www.bbc.co.uk/news/articles/cmrrg749d02do?at_medium=RSS&at_campaign=rss",
+          "fecha": "2026-11-25T01:51:43+00:00"
+        }
+      ]
+    },
+    {
+      "id": "8e9c790a528c5870",
+      "medio_titular": "CrimeReads",
+      "titular": "La Marina de los Estados Unidos retira el pavo real, el tipo que Robert Redford llevaba en tres días del Cóndor",
+      "titular_original": "The U.S. Navy is retiring the peacoat—the kind that Robert Redford wore in Three Days of the Condor",
+      "metodo_titular": "traduccion_automatica",
+      "fecha": "2026-11-24T22:50:48+00:00",
+      "actualizado": "2026-11-24T22:50:48+00:00",
+      "categoria": "FICCIÓN NEGROCRIMINAL",
+      "region": "ESTADOS UNIDOS",
+      "temas": [
+        "Ficción negrocriminal"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "CrimeReads",
+          "url": "https://crimereads.com/the-u-s-navy-is-retiring-the-peacoat-the-kind-that-robert-redford-wore-in-three-days-of-the-condor",
+          "fecha": "2026-11-24T22:50:48+00:00"
+        }
+      ]
+    },
+    {
+      "id": "9d1a334c1ec65e71",
+      "medio_titular": "elDiario.es",
+      "titular": "Expertos en “denuncias falsas” y streamers ultra: la red que sostiene el negacionismo de la violencia machista",
+      "titular_original": "Expertos en “denuncias falsas” y streamers ultra: la red que sostiene el negacionismo de la violencia machista",
+      "metodo_titular": "original",
+      "fecha": "2026-11-24T21:12:55+00:00",
+      "actualizado": "2026-11-24T21:12:55+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [
+        "Violencia en la pareja"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/sociedad/expertos-denuncias-falsas-streamers-ultra-red-sostiene-negacionismo-violencia-machista_1_13685955.html",
+          "fecha": "2026-11-24T21:12:55+00:00"
+        }
+      ]
+    },
     {
       "id": "04946e284a3f2652",
       "medio_titular": "ABC — Última hora",
@@ -213,6 +458,27 @@
           "medio": "EL MUNDO — España",
           "url": "https://www.elmundo.es/espana/2026/11/24/6b05cacde85ece1c448b456d.html",
           "fecha": "2026-11-24T18:03:33+00:00"
+        }
+      ]
+    },
+    {
+      "id": "87e7acca3bfcc29f",
+      "medio_titular": "20minutos",
+      "titular": "Conmoción en Colombia: un grupo de hombres armados secuestran a decenas de personas en un súper tras un atraco fallido",
+      "titular_original": "Conmoción en Colombia: un grupo de hombres armados secuestran a decenas de personas en un súper tras un atraco fallido",
+      "metodo_titular": "original",
+      "fecha": "2026-11-24T17:29:14+00:00",
+      "actualizado": "2026-11-24T17:29:14+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "20minutos",
+          "url": "https://www.20minutos.es/internacional/hombres-armados-toman-un-supermercado-cartagena-tras-atentado-con-coche-bomba-que-dejo-23-heridos-villavicencio_7065325_0.html",
+          "fecha": "2026-11-24T17:29:14+00:00"
         }
       ]
     },
@@ -439,7 +705,7 @@
     {
       "id": "17784998fd4d157d",
       "medio_titular": "The Guardian — UK",
-      "titular": "Dos detenidos después de presuntos robos en casa de Prince y Princess of Wales",
+      "titular": "Dos detenidos después del presunto robo en casa de Prince y Princess of Wales",
       "titular_original": "Two arrested after suspected burglary at home of Prince and Princess of Wales",
       "metodo_titular": "traduccion_automatica",
       "fecha": "2026-11-24T15:43:25+00:00",
@@ -1064,7 +1330,7 @@
     {
       "id": "85bff9928c30247c",
       "medio_titular": "Law & Crime",
-      "titular": "Nuevo padre que le disparó a un hombre por enfrentarlo sobre cortar la línea Starbucks drive-thru es condenado",
+      "titular": "Nuevo padre que le disparó a un hombre atrás por enfrentarse a él sobre cortar la línea Starbucks drive-thru es condenado",
       "titular_original": "New dad who shot man in back for confronting him about cutting Starbucks drive-thru line is convicted",
       "metodo_titular": "traduccion_automatica",
       "fecha": "2026-11-23T22:34:57+00:00",
@@ -1106,7 +1372,7 @@
     {
       "id": "eff70de64cc01d19",
       "medio_titular": "Law & Crime",
-      "titular": "Padre a ser aparece hasta la ducha de bebé sin invitación, le dispara al padre de su novia hasta la muerte antes de que él y un espectador sean asesinados en un tiroteo, los policías dicen",
+      "titular": "Padre-a-ser aparece hasta la ducha de bebé sin invitación, dispara al padre de su novia hasta la muerte antes de que él y un espectador sean asesinados en un tiroteo, los policías dicen",
       "titular_original": "Father-to-be shows up to baby shower uninvited, shoots his girlfriend's father to death before he and a bystander are killed in a shootout, cops say",
       "metodo_titular": "traduccion_automatica",
       "fecha": "2026-11-23T22:24:10+00:00",
@@ -1217,7 +1483,7 @@
     {
       "id": "95af17db593fb907",
       "medio_titular": "Law & Crime",
-      "titular": "La abuela despierta pensando que la niña de 3 años tiene una pesadilla — entra para encontrar a mamá apuñalando a su exnovio dormido:",
+      "titular": "La abuela despierta pensando que la niña de 3 años tiene una pesadilla — entra para encontrar a mamá apuñalando a ex-novio dormido:",
       "titular_original": "Grandmother wakes up thinking 3-year-old is having a nightmare — walks in to find mom stabbing sleeping ex-boyfriend: Cops",
       "metodo_titular": "traduccion_automatica",
       "fecha": "2026-11-23T18:43:00+00:00",
@@ -1636,7 +1902,7 @@
     {
       "id": "6bca7cd3efc630a7",
       "medio_titular": "CrimeReads",
-      "titular": "Sara Paretsky en el invento de idiomas y el sentimiento de parentesco con personajes mayores",
+      "titular": "Sara Paretsky en idiomas inventando y sintiendo parentesco con personajes mayores",
       "titular_original": "Sara Paretsky on inventing languages and feeling kinship with older characters",
       "metodo_titular": "traduccion_automatica",
       "fecha": "2026-11-23T09:09:20+00:00",
@@ -1680,7 +1946,7 @@
     {
       "id": "84cde718517c078d",
       "medio_titular": "The Guardian — World",
-      "titular": "El amor hizo un tonto de Beau Lamarre-Condon pero no lo convirtió en un asesino, la defensa argumenta",
+      "titular": "El amor hizo un tonto de Beau Lamarre-Condon pero no lo hizo un asesino, la defensa argumenta",
       "titular_original": "Love made a fool of Beau Lamarre-Condon but did not make him a murderer, defence argues",
       "metodo_titular": "traduccion_automatica",
       "fecha": "2026-11-23T04:34:11+00:00",
