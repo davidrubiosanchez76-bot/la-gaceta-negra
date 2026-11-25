@@ -1,7 +1,840 @@
 {
   "mes": "2026-11",
-  "total": 190,
+  "total": 230,
   "noticias": [
+    {
+      "id": "43bdce750a8f4b00",
+      "medio_titular": "ABC — Última hora",
+      "titular": "EE.UU. detiene su colaboración con Ecuador tras la muerte de tres personas en una operación antidroga",
+      "titular_original": "EE.UU. detiene su colaboración con Ecuador tras la muerte de tres personas en una operación antidroga",
+      "metodo_titular": "original",
+      "fecha": "2026-11-25T19:46:43+00:00",
+      "actualizado": "2026-11-25T19:46:43+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "ABC — Última hora",
+          "url": "https://www.abc.es/internacional/eeuu-detiene-colaboracion-ecuador-tras-muerte-tres-20261125204611-nt.html",
+          "fecha": "2026-11-25T19:46:43+00:00"
+        }
+      ]
+    },
+    {
+      "id": "8a834618f81c9b06",
+      "medio_titular": "Law & Crime",
+      "titular": "Mujer muerta hombre visto por última vez traer 24 paquetes de cerveza en el apartamento, cuerpo abandonado en barranco con la ayuda de su madre: Policía",
+      "titular_original": "Woman killed man last seen bringing 24-pack of beer into apartment, dumped body in ravine with help from her mom: Police",
+      "metodo_titular": "traduccion_automatica",
+      "fecha": "2026-11-25T18:35:43+00:00",
+      "actualizado": "2026-11-25T18:35:43+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "Law & Crime",
+          "url": "https://lawandcrime.com/crime/woman-killed-man-last-seen-bringing-24-pack-of-beer-into-apartment-dumped-body-in-ravine-with-help-from-her-mom-police",
+          "fecha": "2026-11-25T18:35:43+00:00"
+        }
+      ]
+    },
+    {
+      "id": "75b7d57537fd4970",
+      "medio_titular": "El Debate — Portada",
+      "titular": "Una actriz se encierra 23 horas en silencio en una cabina de Zamora para recordar a las mujeres asesinadas",
+      "titular_original": "Una actriz se encierra 23 horas en silencio en una cabina de Zamora para recordar a las mujeres asesinadas",
+      "metodo_titular": "original",
+      "fecha": "2026-11-25T17:45:44+00:00",
+      "actualizado": "2026-11-25T17:45:44+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "El Debate — Portada",
+          "url": "https://www.eldebate.com/espana/castilla-y-leon/20261125/actriz-encierra-23-horas-silencio-cabina-zamora-recordar-mujeres-asesinadas_485213.html",
+          "fecha": "2026-11-25T17:45:44+00:00"
+        }
+      ]
+    },
+    {
+      "id": "dc9c23cb641fd3e8",
+      "medio_titular": "THE OBJECTIVE — España",
+      "titular": "La sospecha de fraude se instala en España",
+      "titular_original": "La sospecha de fraude se instala en España",
+      "metodo_titular": "original",
+      "fecha": "2026-11-25T17:42:16+00:00",
+      "actualizado": "2026-11-25T17:42:16+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "THE OBJECTIVE — España",
+          "url": "https://theobjective.com/espana/2026-11-25/objetivo-directo-sospecha-fraude-electoral",
+          "fecha": "2026-11-25T17:42:16+00:00"
+        }
+      ]
+    },
+    {
+      "id": "3b241921416952d5",
+      "medio_titular": "The Guardian — UK",
+      "titular": "Mujer no creía que marido la hubiera drogado por violación por extraños, el juicio de Manchester dijo",
+      "titular_original": "Woman did not believe husband had drugged her for rape by strangers, Manchester trial told",
+      "metodo_titular": "traduccion_automatica",
+      "fecha": "2026-11-25T17:36:42+00:00",
+      "actualizado": "2026-11-25T17:36:42+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "EUROPA",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "The Guardian — UK",
+          "url": "https://www.theguardian.com/uk-news/2026/nov/25/woman-did-not-believe-husband-drugged-her-for-rape-by-strangers-manchester-trial",
+          "fecha": "2026-11-25T17:36:42+00:00"
+        }
+      ]
+    },
+    {
+      "id": "1529fd95971b7588",
+      "medio_titular": "EL MUNDO — España",
+      "titular": "Varios detenidos en una operación contra la explotación laboral en Nava del Rey, Valladolid",
+      "titular_original": "Varios detenidos en una operación contra la explotación laboral en Nava del Rey, Valladolid",
+      "metodo_titular": "original",
+      "fecha": "2026-11-25T16:48:41+00:00",
+      "actualizado": "2026-11-25T16:48:41+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "EL MUNDO — España",
+          "url": "https://www.elmundo.es/espana/2026/11/25/6b070fd5e9cf4a2b148b456e.html",
+          "fecha": "2026-11-25T16:48:41+00:00"
+        }
+      ]
+    },
+    {
+      "id": "2eee4a3826ad6e7a",
+      "medio_titular": "EL PAÍS — Sociedad",
+      "titular": "La Guardia Civil busca a un hombre por asesinar a su novia de 32 años en un pueblo de Murcia este 25N",
+      "titular_original": "La Guardia Civil busca a un hombre por asesinar a su novia de 32 años en un pueblo de Murcia este 25N",
+      "metodo_titular": "original",
+      "fecha": "2026-11-25T16:37:36+00:00",
+      "actualizado": "2026-11-25T16:37:36+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "EL PAÍS — Sociedad",
+          "url": "https://elpais.com/sociedad/2026-11-25/la-guardia-civil-investiga-como-violencia-machista-el-asesinato-de-una-mujer-de-32-anos-en-murcia.html",
+          "fecha": "2026-11-25T16:37:36+00:00"
+        }
+      ]
+    },
+    {
+      "id": "f1fb73e9c32dc5ea",
+      "medio_titular": "El Confidencial — España",
+      "titular": "Detenido por entrar a robar en una vivienda de Eivissa",
+      "titular_original": "Detenido por entrar a robar en una vivienda de Eivissa",
+      "metodo_titular": "original",
+      "fecha": "2026-11-25T16:36:00+00:00",
+      "actualizado": "2026-11-25T16:36:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "El Confidencial — España",
+          "url": "https://www.elconfidencial.com/espana/2026-11-25/detenido-robo-vivienda-eivissa-1tna-1tps_4472643",
+          "fecha": "2026-11-25T16:36:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "5bb21f1992d194fa",
+      "medio_titular": "20minutos",
+      "titular": "La Guardia Civil detiene a dos 'mulas' en el Puerto de Almería con 200 bellotas de hachís en sus cuerpos",
+      "titular_original": "La Guardia Civil detiene a dos 'mulas' en el Puerto de Almería con 200 bellotas de hachís en sus cuerpos",
+      "metodo_titular": "original",
+      "fecha": "2026-11-25T16:35:40+00:00",
+      "actualizado": "2026-11-25T16:35:40+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "20minutos",
+          "url": "https://www.20minutos.es/andalucia/almeria/guardia-civil-detiene-dos-mulas-puerto-almeria-con-200-bellotas-hachis-sus-cuerpos_7065821_0.html",
+          "fecha": "2026-11-25T16:35:40+00:00"
+        }
+      ]
+    },
+    {
+      "id": "37411bb786b4e0eb",
+      "medio_titular": "El Confidencial — España",
+      "titular": "Desarticulado un grupo criminal dedicado a la venta de cocaína en Gijón",
+      "titular_original": "Desarticulado un grupo criminal dedicado a la venta de cocaína en Gijón",
+      "metodo_titular": "original",
+      "fecha": "2026-11-25T16:20:00+00:00",
+      "actualizado": "2026-11-25T16:20:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [
+        "Narcotráfico"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "El Confidencial — España",
+          "url": "https://www.elconfidencial.com/espana/2026-11-25/detenidos-trafico-drogas-gijon-1tna-1tps_4472622",
+          "fecha": "2026-11-25T16:20:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "8f46c811ad2722c5",
+      "medio_titular": "elDiario.es",
+      "titular": "La presidenta conservadora del Parlamento alemán pone de ejemplo a España por su lucha contra la violencia machista",
+      "titular_original": "La presidenta conservadora del Parlamento alemán pone de ejemplo a España por su lucha contra la violencia machista",
+      "metodo_titular": "original",
+      "fecha": "2026-11-25T16:14:36+00:00",
+      "actualizado": "2026-11-25T16:14:36+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [
+        "Violencia en la pareja"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/internacional/presidenta-conservadora-parlamento-aleman-pone-ejemplo-espana-lucha-violencia-machista_1_13693103.html",
+          "fecha": "2026-11-25T16:14:36+00:00"
+        }
+      ]
+    },
+    {
+      "id": "03676223b203fb06",
+      "medio_titular": "El Debate — Portada",
+      "titular": "Almeida da voz a una víctima de violencia de género que reconoce que no comparte su ideología: «No somos sectarios»",
+      "titular_original": "Almeida da voz a una víctima de violencia de género que reconoce que no comparte su ideología: «No somos sectarios»",
+      "metodo_titular": "original",
+      "fecha": "2026-11-25T16:14:34+00:00",
+      "actualizado": "2026-11-25T16:14:34+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [
+        "Violencia en la pareja"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "El Debate — Portada",
+          "url": "https://www.eldebate.com/espana/madrid/20261125/almeida-da-voz-victima-violencia-genero-reconoce-no-comparte-ideologia-no-somos-sectarios_485143.html",
+          "fecha": "2026-11-25T16:14:34+00:00"
+        }
+      ]
+    },
+    {
+      "id": "ad1b81a3a12cbc1e",
+      "medio_titular": "EL MUNDO — España",
+      "titular": "Detienen a una mujer en Zamora por la sustracción de sus dos hijos menores durante una visita regulada en Alicante",
+      "titular_original": "Detienen a una mujer en Zamora por la sustracción de sus dos hijos menores durante una visita regulada en Alicante",
+      "metodo_titular": "original",
+      "fecha": "2026-11-25T15:57:03+00:00",
+      "actualizado": "2026-11-25T15:57:03+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "EL MUNDO — España",
+          "url": "https://www.elmundo.es/espana/2026/11/25/6b070124e9cf4a9b788b45a0.html",
+          "fecha": "2026-11-25T15:57:03+00:00"
+        }
+      ]
+    },
+    {
+      "id": "969e3d4733bdd0bf",
+      "medio_titular": "elDiario.es",
+      "titular": "Una víctima de violencia machista, ante Almeida el 25N: \"Vuestras políticas no me representan y menos aún vuestros aliados\"",
+      "titular_original": "Una víctima de violencia machista, ante Almeida el 25N: \"Vuestras políticas no me representan y menos aún vuestros aliados\"",
+      "metodo_titular": "original",
+      "fecha": "2026-11-25T15:14:07+00:00",
+      "actualizado": "2026-11-25T15:14:07+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [
+        "Violencia en la pareja"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/madrid/somos/victima-violencia-machista-almeida-25n-politicas-no-representan-aliados_1_13692799.html",
+          "fecha": "2026-11-25T15:14:07+00:00"
+        }
+      ]
+    },
+    {
+      "id": "d1a8f2060cefc773",
+      "medio_titular": "El Debate — Portada",
+      "titular": "«Cuando salgas de aquí te crujo el cuello»: detenido por amenazar a un médico que denegó la baja a su mujer",
+      "titular_original": "«Cuando salgas de aquí te crujo el cuello»: detenido por amenazar a un médico que denegó la baja a su mujer",
+      "metodo_titular": "original",
+      "fecha": "2026-11-25T15:11:41+00:00",
+      "actualizado": "2026-11-25T15:11:41+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "El Debate — Portada",
+          "url": "https://www.eldebate.com/espana/baleares/20261125/cuando-salgas-aqui-te-crujo-cuello-detenido-amenazar-medico-denego-baja-mujer_485098.html",
+          "fecha": "2026-11-25T15:11:41+00:00"
+        }
+      ]
+    },
+    {
+      "id": "03fa84603262d6b4",
+      "medio_titular": "El Confidencial — España",
+      "titular": "Detenido por amenazar a un sanitario que no quiso darle la baja a su mujer en Palma",
+      "titular_original": "Detenido por amenazar a un sanitario que no quiso darle la baja a su mujer en Palma",
+      "metodo_titular": "original",
+      "fecha": "2026-11-25T14:54:00+00:00",
+      "actualizado": "2026-11-25T14:54:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "El Confidencial — España",
+          "url": "https://www.elconfidencial.com/espana/2026-11-25/detenido-amenazas-sanitario-danos-palma-1tna-1tps_4472481",
+          "fecha": "2026-11-25T14:54:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "1192f18675718360",
+      "medio_titular": "CrimeReads",
+      "titular": "Wesley King: Escribí un Tractor Romántico Sangriento... y ni siquiera lo siento",
+      "titular_original": "Wesley King: I wrote a Bloody Romantic Thriller…and I’m not even sorry",
+      "metodo_titular": "traduccion_automatica",
+      "fecha": "2026-11-25T14:41:26+00:00",
+      "actualizado": "2026-11-25T14:41:26+00:00",
+      "categoria": "FICCIÓN NEGROCRIMINAL",
+      "region": "MUNDO",
+      "temas": [
+        "Ficción negrocriminal"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "CrimeReads",
+          "url": "https://crimereads.com/wesley-king-i-wrote-a-bloody-romantic-thrillerand-im-not-even-sorry",
+          "fecha": "2026-11-25T14:41:26+00:00"
+        }
+      ]
+    },
+    {
+      "id": "6a589a1801aa82b5",
+      "medio_titular": "20minutos",
+      "titular": "Un exconcejal de Vox plantea propone fusilar a quien mate a su pareja: \"El castigo más brutal posible a los asesinos\"",
+      "titular_original": "Un exconcejal de Vox plantea propone fusilar a quien mate a su pareja: \"El castigo más brutal posible a los asesinos\"",
+      "metodo_titular": "original",
+      "fecha": "2026-11-25T14:37:31+00:00",
+      "actualizado": "2026-11-25T14:37:31+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [
+        "Violencia en la pareja"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "20minutos",
+          "url": "https://www.20minutos.es/castilla-la-mancha/albacete/un-exconcejal-vox-albacete-propone-fusilar-quienes-maten-sus-parejas-niega-violencia-machista_7065733_0.html",
+          "fecha": "2026-11-25T14:37:31+00:00"
+        }
+      ]
+    },
+    {
+      "id": "24240379bd0f6714",
+      "medio_titular": "elDiario.es",
+      "titular": "El PP utiliza el día contra la violencia machista para cargar contra el Gobierno: \"Le pusieron un piso a una puta\"",
+      "titular_original": "El PP utiliza el día contra la violencia machista para cargar contra el Gobierno: \"Le pusieron un piso a una puta\"",
+      "metodo_titular": "original",
+      "fecha": "2026-11-25T14:34:01+00:00",
+      "actualizado": "2026-11-25T14:34:01+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [
+        "Violencia en la pareja"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/politica/pp-utiliza-dia-violencia-machista-cargar-gobierno-le-pusieron-piso-puta_1_13692754.html",
+          "fecha": "2026-11-25T14:34:01+00:00"
+        }
+      ]
+    },
+    {
+      "id": "202c616863c3aa3a",
+      "medio_titular": "20minutos",
+      "titular": "Detenida una mujer en Zamora cuando se fugaba con sus dos hijos, cuya custodia es del padre",
+      "titular_original": "Detenida una mujer en Zamora cuando se fugaba con sus dos hijos, cuya custodia es del padre",
+      "metodo_titular": "original",
+      "fecha": "2026-11-25T14:05:38+00:00",
+      "actualizado": "2026-11-25T14:05:38+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "20minutos",
+          "url": "https://www.20minutos.es/castilla-y-leon/zamora/detenida-una-mujer-zamora-cuando-se-fugaba-con-sus-dos-hijos-cuya-custodia-es-padre_7065701_0.html",
+          "fecha": "2026-11-25T14:05:38+00:00"
+        }
+      ]
+    },
+    {
+      "id": "5c5850aadf3f9341",
+      "medio_titular": "The Guardian — UK",
+      "titular": "Turista suizo asesinado y británicos y estadounidenses heridos por elefantes en Camerún",
+      "titular_original": "Swiss tourist killed and British and Americans injured by elephants in Cameroon",
+      "metodo_titular": "traduccion_automatica",
+      "fecha": "2026-11-25T14:03:18+00:00",
+      "actualizado": "2026-11-25T14:03:18+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "EUROPA",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "The Guardian — UK",
+          "url": "https://www.theguardian.com/environment/2026/nov/25/swiss-tourist-killed-british-americans-injured-elephants-cameroon",
+          "fecha": "2026-11-25T14:03:18+00:00"
+        }
+      ]
+    },
+    {
+      "id": "f1ef09b3d88a7679",
+      "medio_titular": "The Guardian — World",
+      "titular": "Número de mujeres asesinadas por hombres en Irlanda casi se duplican en un año",
+      "titular_original": "Number of women killed by men in Ireland almost doubles in a year",
+      "metodo_titular": "traduccion_automatica",
+      "fecha": "2026-11-25T13:28:39+00:00",
+      "actualizado": "2026-11-25T13:28:39+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "EUROPA",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "The Guardian — World",
+          "url": "https://www.theguardian.com/society/2026/nov/25/number-of-women-killed-by-men-in-ireland-almost-doubles-in-a-year",
+          "fecha": "2026-11-25T13:28:39+00:00"
+        }
+      ]
+    },
+    {
+      "id": "453aaffe121c80ea",
+      "medio_titular": "EL MUNDO — España",
+      "titular": "Una juez cita a declarar como imputados a Leire Díez y al ex presidente de Correos por fraude, prevaricación, malversación y tráfico de influencias",
+      "titular_original": "Una juez cita a declarar como imputados a Leire Díez y al ex presidente de Correos por fraude, prevaricación, malversación y tráfico de influencias",
+      "metodo_titular": "original",
+      "fecha": "2026-11-25T13:23:11+00:00",
+      "actualizado": "2026-11-25T13:23:11+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "EL MUNDO — España",
+          "url": "https://www.elmundo.es/espana/2026/11/25/6b06dd84e85ece0e448b45af.html",
+          "fecha": "2026-11-25T13:23:11+00:00"
+        }
+      ]
+    },
+    {
+      "id": "0f6ce033d3e218fa",
+      "medio_titular": "20minutos",
+      "titular": "Investigan como violencia machista el asesinato a navajazos de una mujer en Murcia: buscan a su novio",
+      "titular_original": "Investigan como violencia machista el asesinato a navajazos de una mujer en Murcia: buscan a su novio",
+      "metodo_titular": "original",
+      "fecha": "2026-11-25T13:03:23+00:00",
+      "actualizado": "2026-11-25T13:03:23+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [
+        "Violencia en la pareja"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "20minutos",
+          "url": "https://www.20minutos.es/murcia/asesinan-navajazos-una-mujer-32-anos-murcia-pleno-25-n-buscan-su-novio_7065673_0.html",
+          "fecha": "2026-11-25T13:03:23+00:00"
+        }
+      ]
+    },
+    {
+      "id": "eaf1580def9be8e8",
+      "medio_titular": "EL PAÍS — Sociedad",
+      "titular": "Detenido en Chiclana un hombre por el asesinato de su pareja, que fue hallada semienterrada en una playa el pasado octubre",
+      "titular_original": "Detenido en Chiclana un hombre por el asesinato de su pareja, que fue hallada semienterrada en una playa el pasado octubre",
+      "metodo_titular": "original",
+      "fecha": "2026-11-25T13:01:52+00:00",
+      "actualizado": "2026-11-25T13:01:52+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [
+        "Violencia en la pareja"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "EL PAÍS — Sociedad",
+          "url": "https://elpais.com/sociedad/2026-11-25/detenido-en-chiclana-un-hombre-por-la-muerte-de-su-pareja-que-fue-hallada-semienterrada-en-una-playa.html",
+          "fecha": "2026-11-25T13:01:52+00:00"
+        }
+      ]
+    },
+    {
+      "id": "a868eb295d4b5a73",
+      "medio_titular": "elDiario.es",
+      "titular": "La Audiencia Nacional revoca el tercer grado del exdirigente de ETA Henri Parot, condenado por 39 asesinatos",
+      "titular_original": "La Audiencia Nacional revoca el tercer grado del exdirigente de ETA Henri Parot, condenado por 39 asesinatos",
+      "metodo_titular": "original",
+      "fecha": "2026-11-25T13:00:53+00:00",
+      "actualizado": "2026-11-25T13:00:53+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [
+        "Juicios"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/euskadi/audiencia-nacional-revoca-tercer-grado-exdirigente-eta-henri-parot-condenado-39-asesinatos_1_13692418.html",
+          "fecha": "2026-11-25T13:00:53+00:00"
+        }
+      ]
+    },
+    {
+      "id": "8fee59f5520ddd71",
+      "medio_titular": "elDiario.es",
+      "titular": "La Policía busca al presunto autor de un crimen machista en Bullas este 25N",
+      "titular_original": "La Policía busca al presunto autor de un crimen machista en Bullas este 25N",
+      "metodo_titular": "original",
+      "fecha": "2026-11-25T12:54:52+00:00",
+      "actualizado": "2026-11-25T12:54:52+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/murcia/sociedad/buscan-presunto-autor-crimen-machista-bullas-25n_1_13692363.html",
+          "fecha": "2026-11-25T12:54:52+00:00"
+        }
+      ]
+    },
+    {
+      "id": "e170bc1564977adb",
+      "medio_titular": "El Confidencial — España",
+      "titular": "Investigan el asesinato de una mujer de 32 años en Bullas (Murcia): buscan a su novio",
+      "titular_original": "Investigan el asesinato de una mujer de 32 años en Bullas (Murcia): buscan a su novio",
+      "metodo_titular": "original",
+      "fecha": "2026-11-25T12:53:00+00:00",
+      "actualizado": "2026-11-25T12:53:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "El Confidencial — España",
+          "url": "https://www.elconfidencial.com/espana/2026-11-25/asesinato-mujer-bullas-violencia-machista-1tna-1tps_4472340",
+          "fecha": "2026-11-25T12:53:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "bc9f09866fd8a4b6",
+      "medio_titular": "elDiario.es",
+      "titular": "25N en directo: Miles de mujeres salen a la calle para luchar contra la “ola antifeminista” y la violencia machista",
+      "titular_original": "25N en directo: Miles de mujeres salen a la calle para luchar contra la “ola antifeminista” y la violencia machista",
+      "metodo_titular": "original",
+      "fecha": "2026-11-25T12:07:05+00:00",
+      "actualizado": "2026-11-25T12:07:05+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [
+        "Violencia en la pareja"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/sociedad/25n-directo-ultima-hora-dia-internacional-eliminacion-violencia-mujer_133_13691831.html",
+          "fecha": "2026-11-25T12:07:05+00:00"
+        }
+      ]
+    },
+    {
+      "id": "660243ade2c7650e",
+      "medio_titular": "The Guardian — World",
+      "titular": "Embajada del Reino Unido en Japón advierte de aumento en el arpismo de bebidas y fraude de tarjetas de crédito en los bares de Tokio",
+      "titular_original": "UK embassy in Japan warns of rise in drink spiking and credit card fraud at Tokyo bars",
+      "metodo_titular": "traduccion_automatica",
+      "fecha": "2026-11-25T11:59:22+00:00",
+      "actualizado": "2026-11-25T11:59:22+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "The Guardian — World",
+          "url": "https://www.theguardian.com/world/2026/nov/25/british-embassy-tokyo-warning-tourists-drink-spiking-credit-card-fraud",
+          "fecha": "2026-11-25T11:59:22+00:00"
+        }
+      ]
+    },
+    {
+      "id": "94a8684aec0f3421",
+      "medio_titular": "El Debate — Portada",
+      "titular": "Un exconcejal de Vox en Albacete propone el «castigo más brutal» para los asesinos de mujeres: «Yo los fusilaba»",
+      "titular_original": "Un exconcejal de Vox en Albacete propone el «castigo más brutal» para los asesinos de mujeres: «Yo los fusilaba»",
+      "metodo_titular": "original",
+      "fecha": "2026-11-25T11:51:34+00:00",
+      "actualizado": "2026-11-25T11:51:34+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "El Debate — Portada",
+          "url": "https://www.eldebate.com/espana/castilla-la-mancha/20261125/exconcejal-vox-albacete-propone-castigo-brutal-asesinos-mujeres-fusilaba_484971.html",
+          "fecha": "2026-11-25T11:51:34+00:00"
+        }
+      ]
+    },
+    {
+      "id": "8aa1a0b3c15cdeda",
+      "medio_titular": "20minutos",
+      "titular": "Detenido un hombre por la muerte de su pareja, hallada en octubre semienterrada en una duna en Chiclana",
+      "titular_original": "Detenido un hombre por la muerte de su pareja, hallada en octubre semienterrada en una duna en Chiclana",
+      "metodo_titular": "original",
+      "fecha": "2026-11-25T11:37:06+00:00",
+      "actualizado": "2026-11-25T11:37:06+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [
+        "Violencia en la pareja"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "20minutos",
+          "url": "https://www.20minutos.es/andalucia/cadiz/detenido-un-hombre-por-muerte-su-pareja-hallada-octubre-semienterrada-una-duna-chiclana_7065565_0.html",
+          "fecha": "2026-11-25T11:37:06+00:00"
+        }
+      ]
+    },
+    {
+      "id": "8a589f27a2a8cdfa",
+      "medio_titular": "elDiario.es",
+      "titular": "Un hombre detenido en Cádiz por el asesinato de su pareja, hallada en octubre semienterrada en la playa",
+      "titular_original": "Un hombre detenido en Cádiz por el asesinato de su pareja, hallada en octubre semienterrada en la playa",
+      "metodo_titular": "original",
+      "fecha": "2026-11-25T11:09:42+00:00",
+      "actualizado": "2026-11-25T11:09:42+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [
+        "Violencia en la pareja"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/andalucia/cadiz/detienen-acusan-crimen-pareja-mujer-hallada-octubre-semienterrada-playa-cadiz_1_13691592.html",
+          "fecha": "2026-11-25T11:09:42+00:00"
+        }
+      ]
+    },
+    {
+      "id": "89dd2956c82860e4",
+      "medio_titular": "OKDIARIO — España",
+      "titular": "Detenido el novio de Gloria Vallejo tras ser hallada asesinada a golpes y enterrada en una playa de Chiclana",
+      "titular_original": "Detenido el novio de Gloria Vallejo tras ser hallada asesinada a golpes y enterrada en una playa de Chiclana",
+      "metodo_titular": "original",
+      "fecha": "2026-11-25T10:58:47+00:00",
+      "actualizado": "2026-11-25T10:58:47+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "OKDIARIO — España",
+          "url": "https://okdiario.com/andalucia/detenido-novio-gloria-vallejo-ser-hallada-asesinada-enterrada-playa-chiclana-21267284",
+          "fecha": "2026-11-25T10:58:47+00:00"
+        }
+      ]
+    },
+    {
+      "id": "58017bc03cf86bce",
+      "medio_titular": "20minutos",
+      "titular": "Nacho Cano, tajante sobre el PSOE: \"Esto es una banda criminal y el que vota criminal es un criminal\"",
+      "titular_original": "Nacho Cano, tajante sobre el PSOE: \"Esto es una banda criminal y el que vota criminal es un criminal\"",
+      "metodo_titular": "original",
+      "fecha": "2026-11-25T09:47:14+00:00",
+      "actualizado": "2026-11-25T09:47:14+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [
+        "Crimen organizado"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "20minutos",
+          "url": "https://www.20minutos.es/television/nacho-cano-sobre-psoe-esto-es-una-banda-criminal-que-vota-criminal-es-un-criminal_7065506_0.html",
+          "fecha": "2026-11-25T09:47:14+00:00"
+        }
+      ]
+    },
+    {
+      "id": "694e1e3bf0f62823",
+      "medio_titular": "EL MUNDO — España",
+      "titular": "Condenado a 30 años de cárcel por asesinar a su pareja e incendiar la vivienda en Albacete",
+      "titular_original": "Condenado a 30 años de cárcel por asesinar a su pareja e incendiar la vivienda en Albacete",
+      "metodo_titular": "original",
+      "fecha": "2026-11-25T09:41:17+00:00",
+      "actualizado": "2026-11-25T09:41:17+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [
+        "Juicios",
+        "Violencia en la pareja"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "EL MUNDO — España",
+          "url": "https://www.elmundo.es/espana/2026/11/25/6b06ab6afdddffdf2f8b45b9.html",
+          "fecha": "2026-11-25T09:41:17+00:00"
+        }
+      ]
+    },
+    {
+      "id": "9ace6df0df991183",
+      "medio_titular": "CrimeReads",
+      "titular": "¿Qué thriller internacional deberías ver este fin de semana?",
+      "titular_original": "Which international thriller should you watch this weekend?",
+      "metodo_titular": "traduccion_automatica",
+      "fecha": "2026-11-25T09:08:58+00:00",
+      "actualizado": "2026-11-25T09:08:58+00:00",
+      "categoria": "FICCIÓN NEGROCRIMINAL",
+      "region": "MUNDO",
+      "temas": [
+        "Ficción negrocriminal"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "CrimeReads",
+          "url": "https://crimereads.com/which-foreign-thriller-should-you-watch-this-weekend-november-25-2026",
+          "fecha": "2026-11-25T09:08:58+00:00"
+        }
+      ]
+    },
+    {
+      "id": "e0c2b584b1953873",
+      "medio_titular": "CrimeReads",
+      "titular": "Jessica Hamilton en posesión, menopausia y los horrores de la edad media",
+      "titular_original": "Jessica Hamilton on possession, menopause, and the horrors of middle age",
+      "metodo_titular": "traduccion_automatica",
+      "fecha": "2026-11-25T09:07:47+00:00",
+      "actualizado": "2026-11-25T09:07:47+00:00",
+      "categoria": "FICCIÓN NEGROCRIMINAL",
+      "region": "MUNDO",
+      "temas": [
+        "Ficción negrocriminal"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "CrimeReads",
+          "url": "https://crimereads.com/jessica-hamilton-on-possession-menopause-and-the-horrors-of-middle-age",
+          "fecha": "2026-11-25T09:07:47+00:00"
+        }
+      ]
+    },
     {
       "id": "f2d55c94357119a1",
       "medio_titular": "El Debate — Portada",
@@ -64,6 +897,29 @@
           "medio": "THE OBJECTIVE — España",
           "url": "https://theobjective.com/espana/politica/2026-11-25/nacho-cano-persecucion-gobierno-banda-criminal",
           "fecha": "2026-11-25T08:03:58+00:00"
+        }
+      ]
+    },
+    {
+      "id": "bef8e139a565f007",
+      "medio_titular": "20minutos",
+      "titular": "La lucha contra la violencia de género también es cosa de hombres",
+      "titular_original": "La lucha contra la violencia de género también es cosa de hombres",
+      "metodo_titular": "original",
+      "fecha": "2026-11-25T08:03:10+00:00",
+      "actualizado": "2026-11-25T08:03:10+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [
+        "Violencia en la pareja"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "20minutos",
+          "url": "https://www.20minutos.es/mujer/blogs/el-blog-de-lilih-blue/lucha-contra-violencia-genero-tambien-cosa-hombres_7064920_0.html",
+          "fecha": "2026-11-25T08:03:10+00:00"
         }
       ]
     },
@@ -198,6 +1054,27 @@
           "medio": "BBC News — World",
           "url": "https://www.bbc.co.uk/news/articles/cmrrg749d02do?at_medium=RSS&at_campaign=rss",
           "fecha": "2026-11-25T01:51:43+00:00"
+        }
+      ]
+    },
+    {
+      "id": "7cdda1f5017420ab",
+      "medio_titular": "BBC News — World",
+      "titular": "Mi familia fue asesinada en Ucrania. Mi madre culpó a las tropas de Zelensky - la verdad es complicada",
+      "titular_original": "My family were killed in Ukraine. My mum blamed Zelensky's troops - the truth is complicated",
+      "metodo_titular": "traduccion_automatica",
+      "fecha": "2026-11-25T00:54:13+00:00",
+      "actualizado": "2026-11-25T00:54:13+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "EUROPA",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "BBC News — World",
+          "url": "https://www.bbc.co.uk/news/articles/cw24e17v9e51o?at_medium=RSS&at_campaign=rss",
+          "fecha": "2026-11-25T00:54:13+00:00"
         }
       ]
     },
@@ -705,7 +1582,7 @@
     {
       "id": "17784998fd4d157d",
       "medio_titular": "The Guardian — UK",
-      "titular": "Dos detenidos después del presunto robo en casa de Prince y Princess of Wales",
+      "titular": "Dos detenidos después de presuntos robos en casa de Prince y Princess of Wales",
       "titular_original": "Two arrested after suspected burglary at home of Prince and Princess of Wales",
       "metodo_titular": "traduccion_automatica",
       "fecha": "2026-11-24T15:43:25+00:00",
@@ -1483,7 +2360,7 @@
     {
       "id": "95af17db593fb907",
       "medio_titular": "Law & Crime",
-      "titular": "La abuela despierta pensando que la niña de 3 años tiene una pesadilla — entra para encontrar a mamá apuñalando a ex-novio dormido:",
+      "titular": "La abuela despierta pensando que la niña de 3 años tiene una pesadilla — entra para encontrar a mamá apuñalando a su exnovio dormido:",
       "titular_original": "Grandmother wakes up thinking 3-year-old is having a nightmare — walks in to find mom stabbing sleeping ex-boyfriend: Cops",
       "metodo_titular": "traduccion_automatica",
       "fecha": "2026-11-23T18:43:00+00:00",
@@ -1925,7 +2802,7 @@
     {
       "id": "f47bca55e94b1adf",
       "medio_titular": "The Guardian — World",
-      "titular": "Al menos 24 muertos y docenas desaparecidos en el fuego de fábrica de confitería en Indonesia",
+      "titular": "Al menos 24 muertos y decenas desaparecidos en el fuego de fábrica de confitería en Indonesia",
       "titular_original": "At least 24 killed and dozens missing in confectionery factory fire in Indonesia",
       "metodo_titular": "traduccion_automatica",
       "fecha": "2026-11-23T05:45:12+00:00",
@@ -1946,7 +2823,7 @@
     {
       "id": "84cde718517c078d",
       "medio_titular": "The Guardian — World",
-      "titular": "El amor hizo un tonto de Beau Lamarre-Condon pero no lo hizo un asesino, la defensa argumenta",
+      "titular": "El amor hizo un tonto de Beau Lamarre-Condon pero no lo convirtió en un asesino, la defensa argumenta",
       "titular_original": "Love made a fool of Beau Lamarre-Condon but did not make him a murderer, defence argues",
       "metodo_titular": "traduccion_automatica",
       "fecha": "2026-11-23T04:34:11+00:00",
