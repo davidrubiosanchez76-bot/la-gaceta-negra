@@ -1,7 +1,334 @@
 {
   "mes": "2026-11",
-  "total": 230,
+  "total": 246,
   "noticias": [
+    {
+      "id": "8e5ddc46e03131e9",
+      "medio_titular": "20minutos",
+      "titular": "La Guardia Civil desarticula en Valencia una organización criminal que cultivaba y transportaba marihuana a Grecia",
+      "titular_original": "La Guardia Civil desarticula en Valencia una organización criminal que cultivaba y transportaba marihuana a Grecia",
+      "metodo_titular": "original",
+      "fecha": "2026-11-26T08:20:42+00:00",
+      "actualizado": "2026-11-26T08:20:42+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [
+        "Crimen organizado"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "20minutos",
+          "url": "https://www.20minutos.es/comunidad-valenciana/valencia/guardia-civil-desarticula-valencia-una-organizacion-criminal-que-cultivaba-transportaba-marihuana-grecia_7065983_0.html",
+          "fecha": "2026-11-26T08:20:42+00:00"
+        }
+      ]
+    },
+    {
+      "id": "48324d07ff03f567",
+      "medio_titular": "Europa Press — España",
+      "titular": "Colau promete \"firmeza\" con Abascal y Feijóo y avanza que hablará de violencia machista en el debate a cuatro",
+      "titular_original": "Colau promete \"firmeza\" con Abascal y Feijóo y avanza que hablará de violencia machista en el debate a cuatro",
+      "metodo_titular": "original",
+      "fecha": "2026-11-26T08:16:35+00:00",
+      "actualizado": "2026-11-26T08:16:35+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [
+        "Violencia en la pareja"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "Europa Press — España",
+          "url": "https://www.europapress.es/nacional/noticia-colau-promete-firmeza-abascal-feijoo-avanza-hablara-violencia-machista-debate-cuatro-20261126091635.html",
+          "fecha": "2026-11-26T08:16:35+00:00"
+        }
+      ]
+    },
+    {
+      "id": "94fdb91eb7c033c0",
+      "medio_titular": "The Guardian — World",
+      "titular": "Los pensamientos homicida de Adolescentes desestimados como \"caídas\" días antes de matar a 10 años de edad, la investigación escucha",
+      "titular_original": "Teen’s homicidal thoughts dismissed as ‘crap’ days before she killed 10-year-old, inquest hears",
+      "metodo_titular": "traduccion_automatica",
+      "fecha": "2026-11-26T04:11:34+00:00",
+      "actualizado": "2026-11-26T04:11:34+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "The Guardian — World",
+          "url": "https://www.theguardian.com/australia-news/2026/nov/26/teens-homicidal-thoughts-dismissed-as-crap-before-killed-10-year-old-inquest-ntwnfb",
+          "fecha": "2026-11-26T04:11:34+00:00"
+        }
+      ]
+    },
+    {
+      "id": "f323267c9536da30",
+      "medio_titular": "El Debate — Portada",
+      "titular": "Ley de nietos vasca o prohibir los ongi etorris: las cinco medidas que plantea el PP hacia las víctimas del terrorismo de ETA",
+      "titular_original": "Ley de nietos vasca o prohibir los ongi etorris: las cinco medidas que plantea el PP hacia las víctimas del terrorismo de ETA",
+      "metodo_titular": "original",
+      "fecha": "2026-11-26T03:30:00+00:00",
+      "actualizado": "2026-11-26T03:30:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "El Debate — Portada",
+          "url": "https://www.eldebate.com/espana/20261126/ley-nietos-vasca-prohibir-ongi-etorris-cinco-medidas-plantea-pp-hacia-victimas-terrorismo-eta_485166.html",
+          "fecha": "2026-11-26T03:30:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "aa4773046aa9b162",
+      "medio_titular": "El Debate — Portada",
+      "titular": "Sánchez quiere perpetuarse hasta el punto de intentar contratar a unos narcotraficantes",
+      "titular_original": "Sánchez quiere perpetuarse hasta el punto de intentar contratar a unos narcotraficantes",
+      "metodo_titular": "original",
+      "fecha": "2026-11-26T03:30:00+00:00",
+      "actualizado": "2026-11-26T03:30:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [
+        "Narcotráfico"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "El Debate — Portada",
+          "url": "https://www.eldebate.com/espana/20261126/cayetana-alvarez-toledo-sanchez-quiere-perpetuarse-hasta-punto-intentar-contratar-narcotraficantes_485159.html",
+          "fecha": "2026-11-26T03:30:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "dc7847c157c34247",
+      "medio_titular": "The Guardian — World",
+      "titular": "Al menos 31 muertos mientras el accidente de tanque de combustible encenderá fuego grande en la carretera de El Cairo",
+      "titular_original": "At least 31 killed as fuel tanker crash ignites large fire on Cairo highway",
+      "metodo_titular": "traduccion_automatica",
+      "fecha": "2026-11-26T00:39:10+00:00",
+      "actualizado": "2026-11-26T00:39:10+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "The Guardian — World",
+          "url": "https://www.theguardian.com/world/2026/nov/25/people-killed-fuel-tanker-crash-ignites-large-fire-cairo-highway",
+          "fecha": "2026-11-26T00:39:10+00:00"
+        }
+      ]
+    },
+    {
+      "id": "5f85c7e5f0844a0a",
+      "medio_titular": "El Debate — Portada",
+      "titular": "El odio asesino a la emoción",
+      "titular_original": "El odio asesino a la emoción",
+      "metodo_titular": "original",
+      "fecha": "2026-11-26T00:25:00+00:00",
+      "actualizado": "2026-11-26T00:25:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "El Debate — Portada",
+          "url": "https://www.eldebate.com/opinion/20261126/odio-asesino-emocion_485228.html",
+          "fecha": "2026-11-26T00:25:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "d296b1a2d6938622",
+      "medio_titular": "BBC News — World",
+      "titular": "Una renovación estaba destinada a mejorar estos hogares de Hong Kong - terminó en un incendio que mató a 168",
+      "titular_original": "A renovation was meant to improve these Hong Kong homes - it ended in a blaze that killed 168",
+      "metodo_titular": "traduccion_automatica",
+      "fecha": "2026-11-25T23:26:50+00:00",
+      "actualizado": "2026-11-25T23:26:50+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "BBC News — World",
+          "url": "https://www.bbc.co.uk/news/articles/cqx2wrkyrdn8o?at_medium=RSS&at_campaign=rss",
+          "fecha": "2026-11-25T23:26:50+00:00"
+        }
+      ]
+    },
+    {
+      "id": "1a8ac9ee002fb76f",
+      "medio_titular": "The Guardian — World",
+      "titular": "Periodista palestino asesinado por Israel en Gaza gana el premio Rory Peck",
+      "titular_original": "Palestinian journalist killed by Israel in Gaza wins Rory Peck prize",
+      "metodo_titular": "traduccion_automatica",
+      "fecha": "2026-11-25T23:06:06+00:00",
+      "actualizado": "2026-11-25T23:06:06+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "The Guardian — World",
+          "url": "https://www.theguardian.com/media/2026/nov/25/palestinian-journalist-killed-by-israel-in-gaza-wins-rory-peck-prize",
+          "fecha": "2026-11-25T23:06:06+00:00"
+        }
+      ]
+    },
+    {
+      "id": "c86b0c1deee01619",
+      "medio_titular": "CrimeReads",
+      "titular": "Películas de este año pasado para ver más acción de gracias",
+      "titular_original": "Movies From This Past Year to Watch Over Thanksgiving",
+      "metodo_titular": "traduccion_automatica",
+      "fecha": "2026-11-25T22:42:30+00:00",
+      "actualizado": "2026-11-25T22:42:30+00:00",
+      "categoria": "FICCIÓN NEGROCRIMINAL",
+      "region": "MUNDO",
+      "temas": [
+        "Ficción negrocriminal"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "CrimeReads",
+          "url": "https://crimereads.com/movies-from-this-past-year-to-watch-over-thanksgiving",
+          "fecha": "2026-11-25T22:42:30+00:00"
+        }
+      ]
+    },
+    {
+      "id": "f63c6f1f34597143",
+      "medio_titular": "BBC News — World",
+      "titular": "Treinta y uno murieron en un incendio masivo mientras el tanque de combustible se estrella en la carretera de El Cairo",
+      "titular_original": "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
+      "metodo_titular": "traduccion_automatica",
+      "fecha": "2026-11-25T22:18:06+00:00",
+      "actualizado": "2026-11-25T22:18:06+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "BBC News — World",
+          "url": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&at_campaign=rss",
+          "fecha": "2026-11-25T22:18:06+00:00"
+        }
+      ]
+    },
+    {
+      "id": "2edff91f1e71bb08",
+      "medio_titular": "Law & Crime",
+      "titular": "El hombre se escabulló detrás de la mujer que había estado acechando durante meses, repetidamente la apuñaló en la espalda después de que se \"obsesionó\" con ella cuando trabajaban en una gasolinera:",
+      "titular_original": "Man sneaked up behind woman he'd been stalking for months, repeatedly stabbed her in the back after he became 'obsessed' with her when they worked at a gas station: Cops",
+      "metodo_titular": "traduccion_automatica",
+      "fecha": "2026-11-25T21:59:33+00:00",
+      "actualizado": "2026-11-25T21:59:33+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "Law & Crime",
+          "url": "https://lawandcrime.com/crime/man-sneaked-up-behind-woman-hed-been-stalking-for-months-repeatedly-stabbed-her-in-the-back-after-he-became-obsessed-with-her-when-they-worked-at-a-gas-station-cops",
+          "fecha": "2026-11-25T21:59:33+00:00"
+        }
+      ]
+    },
+    {
+      "id": "ecd321178f74709a",
+      "medio_titular": "EL PAÍS — Sociedad",
+      "titular": "Decenas de miles de personas llenan las calles en un 25-N marcado por la campaña: “Hay que salir. Hay políticos que niegan la violencia de género”",
+      "titular_original": "Decenas de miles de personas llenan las calles en un 25-N marcado por la campaña: “Hay que salir. Hay políticos que niegan la violencia de género”",
+      "metodo_titular": "original",
+      "fecha": "2026-11-25T21:11:46+00:00",
+      "actualizado": "2026-11-25T21:11:46+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [
+        "Violencia en la pareja"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "EL PAÍS — Sociedad",
+          "url": "https://elpais.com/sociedad/2026-11-25/decenas-de-miles-de-personas-salen-a-las-calles-en-un-25-n-marcado-por-la-campana-hay-que-salir-mas-ahora-que-hay-politicos-que-niegan-la-violencia-de-genero.html",
+          "fecha": "2026-11-25T21:11:46+00:00"
+        }
+      ]
+    },
+    {
+      "id": "9b1643863eb16b81",
+      "medio_titular": "elDiario.es",
+      "titular": "El PP recurre a las putas en el día de la violencia machista",
+      "titular_original": "El PP recurre a las putas en el día de la violencia machista",
+      "metodo_titular": "original",
+      "fecha": "2026-11-25T21:08:43+00:00",
+      "actualizado": "2026-11-25T21:08:43+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [
+        "Violencia en la pareja"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/politica/pp-recurre-putas-dia-violencia-machista_129_13692947.html",
+          "fecha": "2026-11-25T21:08:43+00:00"
+        }
+      ]
+    },
+    {
+      "id": "d80c8cd9de0b33d3",
+      "medio_titular": "Law & Crime",
+      "titular": "El hombre apuñaló a la víctima en un Travelodge, luego fue atropellado por la mujer que trajo a la víctima al hospital: DA",
+      "titular_original": "Man stabbed victim at a Travelodge, then got run over by the woman who brought the victim to the hospital: DA",
+      "metodo_titular": "traduccion_automatica",
+      "fecha": "2026-11-25T20:50:26+00:00",
+      "actualizado": "2026-11-25T20:50:26+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "Law & Crime",
+          "url": "https://lawandcrime.com/crime/man-stabbed-victim-at-a-travelodge-then-got-run-over-by-the-woman-who-brought-the-victim-to-the-hospital-da",
+          "fecha": "2026-11-25T20:50:26+00:00"
+        }
+      ]
+    },
     {
       "id": "43bdce750a8f4b00",
       "medio_titular": "ABC — Última hora",
@@ -41,6 +368,27 @@
           "medio": "Law & Crime",
           "url": "https://lawandcrime.com/crime/woman-killed-man-last-seen-bringing-24-pack-of-beer-into-apartment-dumped-body-in-ravine-with-help-from-her-mom-police",
           "fecha": "2026-11-25T18:35:43+00:00"
+        }
+      ]
+    },
+    {
+      "id": "dd267ba63284ed57",
+      "medio_titular": "EL MUNDO — España",
+      "titular": "La Guardia Civil busca al presunto autor del asesinato de una mujer de 32 años en el municipio de Bullas (Murcia)",
+      "titular_original": "La Guardia Civil busca al presunto autor del asesinato de una mujer de 32 años en el municipio de Bullas (Murcia)",
+      "metodo_titular": "original",
+      "fecha": "2026-11-25T18:23:00+00:00",
+      "actualizado": "2026-11-25T18:23:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "EL MUNDO — España",
+          "url": "https://www.elmundo.es/murcia/2026/11/25/6b06dcb021efa05d2c8b4570.html",
+          "fecha": "2026-11-25T18:23:00+00:00"
         }
       ]
     },
@@ -460,7 +808,7 @@
     {
       "id": "f1ef09b3d88a7679",
       "medio_titular": "The Guardian — World",
-      "titular": "Número de mujeres asesinadas por hombres en Irlanda casi se duplican en un año",
+      "titular": "Número de mujeres asesinadas por hombres en Irlanda casi duplica en un año",
       "titular_original": "Number of women killed by men in Ireland almost doubles in a year",
       "metodo_titular": "traduccion_automatica",
       "fecha": "2026-11-25T13:28:39+00:00",
@@ -1039,7 +1387,7 @@
     {
       "id": "0dd6e1cdb53ecacf",
       "medio_titular": "BBC News — World",
-      "titular": "Lies, un disfraz y bolsas de surf: cómo un policía celoso de Sydney trató de encubrir el doble asesinato",
+      "titular": "Lies, un disfraz y bolsas de surf: cómo un policía celoso de Sydney trató de cubrir el doble asesinato",
       "titular_original": "Lies, a disguise and surfboard bags: how a jealous Sydney policeman tried to cover up double murder",
       "metodo_titular": "traduccion_automatica",
       "fecha": "2026-11-25T01:51:43+00:00",
@@ -1081,7 +1429,7 @@
     {
       "id": "8e9c790a528c5870",
       "medio_titular": "CrimeReads",
-      "titular": "La Marina de los Estados Unidos retira el pavo real, el tipo que Robert Redford llevaba en tres días del Cóndor",
+      "titular": "La Marina de los Estados Unidos retira el pavo real, el tipo que Robert Redford usó en tres días del Cóndor",
       "titular_original": "The U.S. Navy is retiring the peacoat—the kind that Robert Redford wore in Three Days of the Condor",
       "metodo_titular": "traduccion_automatica",
       "fecha": "2026-11-24T22:50:48+00:00",
@@ -2207,7 +2555,7 @@
     {
       "id": "85bff9928c30247c",
       "medio_titular": "Law & Crime",
-      "titular": "Nuevo padre que le disparó a un hombre atrás por enfrentarse a él sobre cortar la línea Starbucks drive-thru es condenado",
+      "titular": "Nuevo padre que le disparó a un hombre por enfrentarlo sobre cortar la línea Starbucks drive-thru es condenado",
       "titular_original": "New dad who shot man in back for confronting him about cutting Starbucks drive-thru line is convicted",
       "metodo_titular": "traduccion_automatica",
       "fecha": "2026-11-23T22:34:57+00:00",
@@ -2249,7 +2597,7 @@
     {
       "id": "eff70de64cc01d19",
       "medio_titular": "Law & Crime",
-      "titular": "Padre-a-ser aparece hasta la ducha de bebé sin invitación, dispara al padre de su novia hasta la muerte antes de que él y un espectador sean asesinados en un tiroteo, los policías dicen",
+      "titular": "Padre a ser aparece hasta la ducha de bebé sin invitación, le dispara al padre de su novia hasta la muerte antes de que él y un espectador sean asesinados en un tiroteo, los policías dicen",
       "titular_original": "Father-to-be shows up to baby shower uninvited, shoots his girlfriend's father to death before he and a bystander are killed in a shootout, cops say",
       "metodo_titular": "traduccion_automatica",
       "fecha": "2026-11-23T22:24:10+00:00",
@@ -2779,7 +3127,7 @@
     {
       "id": "6bca7cd3efc630a7",
       "medio_titular": "CrimeReads",
-      "titular": "Sara Paretsky en idiomas inventando y sintiendo parentesco con personajes mayores",
+      "titular": "Sara Paretsky en el invento de idiomas y el sentimiento de parentesco con personajes mayores",
       "titular_original": "Sara Paretsky on inventing languages and feeling kinship with older characters",
       "metodo_titular": "traduccion_automatica",
       "fecha": "2026-11-23T09:09:20+00:00",
@@ -2802,7 +3150,7 @@
     {
       "id": "f47bca55e94b1adf",
       "medio_titular": "The Guardian — World",
-      "titular": "Al menos 24 muertos y decenas desaparecidos en el fuego de fábrica de confitería en Indonesia",
+      "titular": "Al menos 24 muertos y docenas desaparecidos en el fuego de fábrica de confitería en Indonesia",
       "titular_original": "At least 24 killed and dozens missing in confectionery factory fire in Indonesia",
       "metodo_titular": "traduccion_automatica",
       "fecha": "2026-11-23T05:45:12+00:00",
