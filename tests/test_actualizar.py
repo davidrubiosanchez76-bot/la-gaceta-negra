@@ -273,6 +273,55 @@ class TestGaceta(unittest.TestCase):
         for name in ("Solo Novela Negra","Inmisericordes","Interrobang","Zenda — Novela Negra"):
             self.assertTrue(index[name]["solo_noticias_genero"])
 
+
+    def test_filtrar_polemica_sin_criminalizar_politica(self):
+        ejemplos_fuera = [
+            "La izquierda sale a la ofensiva contra Abascal y Feijóo por los recortes y la violencia machista",
+            "Zasca de Abascal a Sánchez por recriminarle que no condene la violencia machista: Usted ha liberado violadores",
+            "Colau promete firmeza con Abascal y Feijóo en el debate a cuatro",
+            "Feijóo y Ayuso alimentan el fantasma del fraude electoral",
+            "El PP utiliza el día contra la violencia machista para cargar contra el Gobierno",
+            "Vox sobre los siete empadronados en Marbella: este es el fraude para amañar las elecciones",
+            "El PP anuncia sus programas para combatir la violencia machista",
+        ]
+        for titulo in ejemplos_fuera:
+            with self.subTest(titulo=titulo):
+                self.assertIsNone(g.category(titulo, "AUTO"))
+        ejemplos_dentro = [
+            "La policía detiene a un alcalde por fraude en las cuentas municipales",
+            "Un banco que financió a Vox prestó servicio a una supuesta red de blanqueo rusa",
+            "Dimite un cargo del partido de Erdogan tras implicarse a su hijo en un fraude millonario",
+            "El etarra Jon Bienzobas sale en libertad tras cumplir 27 años de prisión",
+            "Detenido un hombre por asesinar a su pareja en Murcia",
+            "La fiscalía acusa a un diputado de un delito de corrupción",
+        ]
+        for titulo in ejemplos_dentro:
+            with self.subTest(titulo=titulo):
+                self.assertEqual(g.category(titulo, "AUTO"), "TRUE CRIME")
+
+    def test_etiquetas_todas_las_categorias(self):
+        self.assertIn("Homicidios y asesinatos", g.topics_of("La policía investiga un asesinato en Girona", "TRUE CRIME"))
+        self.assertIn("Investigación policial", g.topics_of("La policía investiga un asesinato en Girona", "TRUE CRIME"))
+        self.assertIn("Agresiones sexuales", g.topics_of("Detienen a un violador", "TRUE CRIME"))
+        self.assertIn("Estafas y fraudes", g.topics_of("Condenado por blanqueo y estafa", "TRUE CRIME"))
+        self.assertIn("Ciberdelincuencia", g.topics_of("Un hacker ataca un sistema policial", "TRUE CRIME"))
+        self.assertIn("Narcotráfico", g.topics_of("Incautan cocaína a un cártel", "TRUE CRIME"))
+        self.assertIn("Festivales", g.topics_of("El festival Getafe Negro presenta su programa", "FICCIÓN NEGROCRIMINAL"))
+        self.assertIn("Ficción negrocriminal", g.topics_of("Festival de novela negra", "FICCIÓN NEGROCRIMINAL"))
+        self.assertIn("Criminalística", g.topics_of("Nuevas pruebas forenses", "CRIME SCENE"))
+        self.assertEqual(g.topics_of("Suceso sin palabras temáticas", "TRUE CRIME"), ["Actualidad criminal"])
+
+    def test_lawcrime_exigir_revision_editorial(self):
+        self.assertTrue(g.titular_complejo_lawcrime(
+            "Grandmother defending kids from daughter's stalker shot dead after confronting gunman in home: Family and cops"))
+        self.assertTrue(g.titular_complejo_lawcrime(
+            "Husband who reported wife missing charged with murder after her body was found near abandoned building: Police"))
+        self.assertFalse(g.titular_complejo_lawcrime("Woman arrested for murder"))
+        import json
+        fixes=json.loads((Path(__file__).resolve().parents[1] / "config" / "titulares_revisados.json").read_text(encoding="utf-8"))
+        for ident in ("8d3d016f32047414","a4dcb27b4e5ebb66","ff822ce0630c17d3"):
+            self.assertIn(ident, fixes)
+
     def test_cases(self):
         self.assertEqual(g.cases_of("Novedades en el caso de Lindsay Clancy", [{"id": "lindsay-clancy", "alias": ["Lindsay Clancy"]}]), ["lindsay-clancy"])
         self.assertEqual(g.cases_of("Novedades de Lindsay Johnson", [{"id": "lindsay-clancy", "alias": ["Lindsay Clancy"]}]), [])

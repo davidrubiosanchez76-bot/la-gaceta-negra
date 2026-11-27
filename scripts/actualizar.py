@@ -34,14 +34,44 @@ DAYS_ACCEPT_FEED = 15
 
 STOP = set("a al ante bajo con contra de del desde durante e el en entre es esta este estos estas la las le les lo los o para por que se sin sobre su sus un una uno unos unas y ya hoy ayer tras nuevo nueva nuevos nuevas caso crimen investigacion investigan detenido detenida presunto presunta ultima ultimas noticia noticias".split())
 TOPICS = {
-    "Narcotráfico": ("narcotrafico", "narcotrafic", "cocaina", "heroina", "fentanilo", "cartel", "trafico de drogas", "estupefaciente", "droga incautada"),
-    "Crimen organizado": ("crimen organizado", "mafia", "organizacion criminal", "banda criminal", "sicario", "trata de personas"),
-    "Violencia en la pareja": ("violencia machista", "violencia de genero", "pareja", "expareja", "feminicidio"),
-    "Desapariciones": ("desaparecid", "desaparicion", "paradero desconocido", "persona desaparecida"),
-    "Criminalística": ("adn", "forense", "criminalistic", "huella dactilar", "medicina legal", "genetica forense", "balistica", "antropologia forense"),
-    "Ficción negrocriminal": ("novela negra", "novela policiaca", "literatura negra", "thriller", "premio edgar", "detective literario"),
-    "Juicios": ("tribunal", "juicio", "sentencia", "juzgado", "acusacion", "veredicto", "condenad"),
+    "Violencia en la pareja": ("violencia machista", "violencia de genero", "feminicid", "expareja",
+        "exnovia", "exnovio", "exesposa", "exmarido", "su pareja", "su novia", "su novio",
+        "su marido", "su mujer", "su esposa", "domestic violence", "boyfriend", "girlfriend",
+        "husband", "wife", "ex-girlfriend", "ex-boyfriend", "estranged husband"),
+    "Agresiones sexuales": ("agresion sexual", "abuso sexual", "violaci", "violador",
+        "delitos sexuales", "sexual assault", "rape", "rapist", "sexual abuse"),
+    "Narcotráfico": ("narcotraf", "cocaina", "heroina", "fentanilo", "cartel de la droga",
+        "cartel mexicano", "droga incautada", "trafico de drogas", "drug trafficking",
+        "drug cartel", "cannabis incautad"),
+    "Crimen organizado": ("crimen organizado", "mafia", "organizacion criminal", "banda criminal",
+        "sicario", "trata de personas", "mobster", "organized crime", "human trafficking"),
+    "Terrorismo y extremismo": ("terrorism", "terrorismo", "terrorista", "atentado",
+        "extremismo", "yihad", "jihad", "atentados de eta"),
+    "Homicidios y asesinatos": ("asesinat", "homicid", "asesino", "asesina", "murder", "killed",
+        "killing", "slain", "stabbing", "stabb", "mato a", "matar a", "muerte violenta",
+        "tiroteo mortal", "shot dead", "muere tirotead", "cadaver"),
+    "Violencia familiar": ("parricid", "infanticid", "matricid", "filicid", "mata a su madre",
+        "mata a su padre", "mata a su hijo", "mato a su madre", "mato a su padre",
+        "mato a sus hijos", "child abuse", "baby killed", "daughter killed"),
+    "Desapariciones": ("desaparicion", "desaparecid", "missing person", "missing girl",
+        "missing woman", "persona desaparecida"),
+    "Robos y atracos": ("robo", "robos", "atraco", "hurto", "allanamiento", "burglary",
+        "robbery", "theft", "stolen", "asaltan"),
+    "Estafas y fraudes": ("estafa", "fraude", "fraud", "scam", "blanqueo", "lavado de dinero",
+        "money laundering", "falsificac", "delito economico"),
+    "Corrupción": ("malversacion", "cohecho", "soborno", "prevaricacion", "comisiones ilegales",
+        "corrupcion", "bribery", "embezzl"),
+    "Ciberdelincuencia": ("ciberataque", "hacke", "ransomware", "phishing", "ciberdelincuencia",
+        "cibercrimen", "cyberattack", "hacking", "hackers", "ciberdelito"),
+    "Juicios": ("tribunal", "juicio", "sentencia", "juzgado", "fiscalia", "fiscal",
+        "veredicto", "condenad", "condenan", "condena", "declara culpable", "acusan",
+        "procesad", "imputad", "charged", "convicted", "sentenced", "pleads guilty",
+        "court", "trial", "prosecutor"),
+    "Investigación policial": ("policia", "guardia civil", "mossos", "fbi", "investiga",
+        "detenid", "detienen", "arrested", "detectives", "police", "cops", "sheriff",
+        "sospechos", "buscan al"),
 }
+
 CRIME_SCENE = ("ciencia forense", "forense", "tecnica forense", "medicina forense", "criminalistica", "antropologia forense", "balistica", "huellas dactilares", "genetica forense", "identificacion genetica", "restos humanos", "prueba pericial", "forensic", "dna evidence", "forensic dna", "forensic science", "fingerprint analysis", "forensic genealogy", "digital forensics", "crime scene analysis", "evidence testing", "forensic investigation", "forensic technology", "pericia forense", "pericial informatica")
 LITERARY = ("novela negra", "novela policiaca", "literatura criminal", "literatura negra", "ficcion criminal", "thriller policiac", "premio edgar", "premio hammett", "festival de novela negra", "novela de misterio", "novela policial", "cine negro", "ficcion noir", "crime fiction", "noir fiction", "mystery novel", "thriller novel", "detective novel", "crime novel", "mystery fiction", "novela negra", "novel·la negra", "novel·la policíaca")
 CRIME = ("asesinat", "asesino", "asesina", "homicid", "crimen", "criminal", "detenid", "detien", "blanqueo", "ciberataque", "secuestro", "narcotraf", "violencia machista", "violencia de genero", "feminicidio", "robo con violencia", "atraco", "sicario", "estafa millonaria", "policia investiga", "presunto asesino", "procesad", "condena por", "asesino en serie", "terrorismo", "trata de personas", "murder", "homicide", "killed", "killing", "slain", "stabbed", "stabbing", "arrested", "rape", "rapist", "sexual assault", "kidnapped", "kidnapping", "fraud", "shooting", "shot dead", "found dead", "missing girl", "missing woman", "missing person", "convicted", "sentenced to prison", "sentenced for", "pleads guilty", "pleaded guilty", "charged with murder", "criminal trial", "death penalty", "crime scene", "assassinat", "assassinat", "homicidi", "detingut", "detinguda", "detenen", "segrest", "narcotrafic", "violencia masclista", "feminicidi", "crim organitzat", "assassi", "robatori violent", "arson", "murdered", "throat slit")
@@ -156,8 +186,56 @@ def adn_forense(s):
     return any(p in s for p in contexto)
 
 
+
+def es_debate_politico(titulo):
+    """Excluir debate partidista, declaraciones y campañas sin un hecho criminal verificable.
+
+    No excluye investigaciones y causas judiciales por el mero hecho de afectar
+    a un partido, cargo público o persona vinculada a la política.
+    """
+    s = normalize(titulo)
+    accion_judicial = re.search(
+        r"\b(detienen|detenido|detenida|detencion|juez|juzgado|tribunal|fiscalia|"
+        r"fiscal|imputado|imputada|investigado|investigada|investigacion|procesado|"
+        r"procesada|condenado|condenada|condenan|sentencia|prision|policia|"
+        r"guardia civil|registros policiales|querella|causa judicial)\b", s)
+    polemicas_explicitas = (
+        "zasca", "sale a la ofensiva", "salen a la ofensiva", "debate a cuatro",
+        "fantasma del fraude", "vuestras politicas no me representan",
+        "campana: hay que salir", "el pp recurre a las",
+        "propone fusilar", "yo los fusilaba", "el sanchista",
+        "el feminismo reivindica", "25n en directo",
+        "el pp celebrara el dia", "actua como una banda criminal",
+        "este es el fraude para amanar las elecciones",
+        "ley de nietos", "prohibir los ongi etorris",
+    )
+    if any(t in s for t in polemicas_explicitas) and not accion_judicial:
+        return True
+    actores = re.search(
+        r"\b(abascal|feijoo|sanchez|ayuso|almeida|colau|"
+        r"pp|vox|bildu|izquierda|derecha|gobierno|partido|"
+        r"campana|electoral|politicos|politicas|25n)\b", s)
+    debate = re.search(
+        r"\b(promete|critica|critican|recrimina|reprocha|reprochan|acusa|"
+        r"arremete|ataca|carga|cargan|reivindica|reivindican|proponen|"
+        r"propone|programas|medidas|alegato|pol[eé]mica|traiciona|"
+        r"movilizaciones|recortes|ofensiva|afirma|advierte|"
+        r"discute|declara|denuncia una persecucion)\b", s)
+    return bool(actores and debate and not accion_judicial)
+
+
+def titular_complejo_lawcrime(titulo):
+    """Evitar calcos automáticos de titulares sensacionalistas y sintácticamente largos."""
+    s = titulo.strip().lower()
+    return (len(s) > 125 or "—" in s or s.count(",") >= 2 or
+            any(x in s for x in (": cops", ": police", ": da", "before ", "after ",
+                                 " then ", " who ", " while ", " allegedly ")))
+
+
 def category(text, src):
     s = normalize(text)
+    if es_debate_politico(text):
+        return None
     if any(w in s for w in EXCLUDE):
         return None
     # Prehistoria y genética general no implican violencia criminal.
@@ -182,11 +260,30 @@ def category(text, src):
 
 def topics_of(text, cat):
     s = normalize(text)
-    found = [key for key, words in TOPICS.items() if any(w in s for w in words)]
-    if cat == "FICCIÓN NEGROCRIMINAL" and "Ficción negrocriminal" not in found:
-        found.append("Ficción negrocriminal")
-    if cat == "CRIME SCENE" and "Criminalística" not in found:
-        found.append("Criminalística")
+    if cat == "FICCIÓN NEGROCRIMINAL":
+        found = []
+        if any(x in s for x in ("festival", "semana negra", "getafe negro", "congreso negro")):
+            found.append("Festivales")
+        if any(x in s for x in ("premio", "certamen", "concurso", "galardon", "finalista")):
+            found.append("Premios y concursos")
+        if any(x in s for x in ("publica", "novedad", "nueva novela", "presentacion",
+                                 "lanzamiento", "reedicion", "editorial")):
+            found.append("Novedades editoriales")
+        if any(x in s for x in ("adaptacion", "serie", "pelicula", "cine")):
+            found.append("Adaptaciones y pantallas")
+        return list(dict.fromkeys(found + ["Ficción negrocriminal"]))
+    if cat == "CRIME SCENE":
+        found = []
+        if any(x in s for x in ("adn", "genetica", "dna", "genetic")):
+            found.append("ADN y genética forense")
+        if "balistic" in s or "ballistic" in s:
+            found.append("Balística")
+        return list(dict.fromkeys(found + ["Criminalística"]))
+    if cat != "TRUE CRIME":
+        return []
+    found = [key for key, words in TOPICS.items() if any(word in s for word in words)]
+    if not found:
+        found = ["Actualidad criminal"]
     return found
 
 
@@ -345,6 +442,9 @@ def make_story(item, feed, config, correcciones=None, excluidas=None):
     editorial, metodo = titulo_para_publicar(title, cat, idioma)
     if sid in (correcciones or {}):
         editorial, metodo = correcciones[sid], "revision_editorial"
+    if feed["nombre"].startswith("Law & Crime") and metodo == "traduccion_automatica" and titular_complejo_lawcrime(title):
+        # Si no existe corrección editorial, no publicar traducciones ininteligibles.
+        return None
     if idioma == "en" and metodo == "original":
         # No incorporar titulares en inglés sin una traducción revisable al español.
         print(f"TRADUCCION PENDIENTE: {title[:130]}", file=sys.stderr)
@@ -353,7 +453,7 @@ def make_story(item, feed, config, correcciones=None, excluidas=None):
         "id": sid, "medio_titular": item.get("outlet") or feed["nombre"],
         "titular": editorial[:260], "titular_original": title[:260], "metodo_titular": metodo, "fecha": dt, "actualizado": dt,
         "categoria": cat, "region": region_of(title, feed.get("region", "MUNDO")),
-        "temas": sorted(set(topics_of(title, cat) + (["Extremismo nihilista violento"] if es_nve else []))),
+        "temas": list(dict.fromkeys(topics_of(title, cat) + (["Extremismo nihilista violento"] if es_nve else []))),
         "expedientes": cases_of(title, config, summary=item["summary"]),
         "etiquetas_de_deteccion": ["nve"] if es_nve else [],
         "fuentes": [{"medio": item.get("outlet") or (urllib.parse.urlsplit(url).hostname.removeprefix("www.") if "Google Alerts" in feed["nombre"] else feed["nombre"]), "url": url, "fecha": dt}],
@@ -424,6 +524,9 @@ def main():
             cat = "TRUE CRIME"
         if not cat:
             return None
+        if (source.startswith("Law & Crime") and old.get("id") not in correcciones
+                and titular_complejo_lawcrime(original)):
+            return None
         old["categoria"] = cat
         old["titular_original"] = original[:260]
         idioma = "en" if es_ingles(source, origin.get("idioma","")) else "es"
@@ -437,7 +540,7 @@ def main():
                     and old.get("titular") and old["titular"] != original):
                 old["titular"], old["metodo_titular"] = candidato, metodo
         old["region"] = region_of(original, origin.get("region", "MUNDO"))
-        old["temas"] = sorted(set(topics_of(original, cat) + (["Extremismo nihilista violento"] if es_nve else [])))
+        old["temas"] = list(dict.fromkeys(topics_of(original, cat) + (["Extremismo nihilista violento"] if es_nve else [])))
         old["expedientes"] = sorted(set(cases_of(original, watch) + (["extremismo-nihilista-violento"] if es_nve and any(c.get("id") == "extremismo-nihilista-violento" and c.get("activo", True) for c in watch) else [])))
         old["etiquetas_de_deteccion"] = ["nve"] if es_nve else []
         return old

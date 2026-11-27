@@ -90,3 +90,10 @@ Se añaden **OKDIARIO, THE OBJECTIVE, El Debate, ABC, El Confidencial y EL MUNDO
 Los cuatro medios literarios llevan `solo_noticias_genero: true`: únicamente se incorporan titulares con indicios claros de actualidad (premios, festivales, presentaciones, convocatorias, reediciones, novedades, etc.). No se importa indiscriminadamente su archivo de reseñas, artículos o listas. El filtro es deliberadamente conservador, y algunas noticias pueden quedar fuera si su titular no contiene esas señales.
 
 La disponibilidad del RSS se comprueba en GitHub Actions: los canales inaccesibles se registran como aviso sin bloquear el resto del agregado. Los enlaces de medios con modelos de suscripción mantienen la preferencia de lectura pública configurada en `config/acceso_medios.json`.
+
+## Revisión editorial (27/11/2026)
+
+- Se rechazan titulares de debate político, enfrentamiento partidista, campaña o declaraciones que no identifiquen un hecho criminal concreto. La regla se aplica de modo neutral a todas las fuentes y conserva noticias sobre delitos, causas judiciales y corrupción incluso cuando afectan a políticos.
+- Se incorpora el registro de exclusiones editoriales para evitar que vuelvan a publicarse titulares concretos descartados. Los artículos quedan fuera de Portada y Hemeroteca al siguiente refresco de GitHub Actions.
+- Las etiquetas temáticas se calculan para todos los artículos (homicidios, agresiones sexuales, estafas, narcotráfico, ciberdelincuencia, juicios, investigaciones, etc.), con una etiqueta genérica cuando el titular no permite una subclasificación segura. Blogger ya muestra `temas` y no necesita modificar su HTML.
+- Para Law & Crime, se han revisado manualmente quince traducciones defectuosas; los titulares nuevos largos o enrevesados no pasan automáticamente si no tienen revisión editorial. Así se prioriza la fidelidad factual frente a la publicación a cualquier precio.
