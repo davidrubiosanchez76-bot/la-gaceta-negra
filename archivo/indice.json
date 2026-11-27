@@ -2,19 +2,30 @@
   "meses": [
     {
       "mes": "2026-11",
-      "total": 293,
+      "total": 289,
       "expedientes": [
         "isak-andic",
         "lindsay-clancy"
       ],
       "temas": [
+        "Actualidad criminal",
+        "Adaptaciones y pantallas",
+        "Agresiones sexuales",
+        "Ciberdelincuencia",
+        "Corrupción",
         "Crimen organizado",
         "Criminalística",
         "Desapariciones",
+        "Estafas y fraudes",
+        "Festivales",
         "Ficción negrocriminal",
+        "Homicidios y asesinatos",
+        "Investigación policial",
         "Juicios",
         "Narcotráfico",
         "Pruebas forenses",
+        "Robos y atracos",
+        "Terrorismo y extremismo",
         "Violencia en la pareja"
       ],
       "regiones": [
