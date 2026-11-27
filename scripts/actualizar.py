@@ -188,41 +188,52 @@ def adn_forense(s):
 
 
 def es_debate_politico(titulo):
-    """Excluir debate partidista, declaraciones y campañas sin un hecho criminal verificable.
+    """Eliminar cobertura de campaña, confrontación y opinión sin hecho delictivo.
 
-    No excluye investigaciones y causas judiciales por el mero hecho de afectar
-    a un partido, cargo público o persona vinculada a la política.
+    Un proceso penal real no queda excluido por mencionar a un político.
+    Analizar el foco del titular: la reacción a un crimen no es el crimen.
     """
     s = normalize(titulo)
-    accion_judicial = re.search(
-        r"\b(detienen|detenido|detenida|detencion|juez|juzgado|tribunal|fiscalia|"
-        r"fiscal|imputado|imputada|investigado|investigada|investigacion|procesado|"
-        r"procesada|condenado|condenada|condenan|sentencia|prision|policia|"
-        r"guardia civil|registros policiales|querella|causa judicial)\b", s)
-    polemicas_explicitas = (
-        "zasca", "sale a la ofensiva", "salen a la ofensiva", "debate a cuatro",
-        "fantasma del fraude", "vuestras politicas no me representan",
-        "campana: hay que salir", "el pp recurre a las",
-        "propone fusilar", "yo los fusilaba", "el sanchista",
-        "el feminismo reivindica", "25n en directo",
-        "el pp celebrara el dia", "actua como una banda criminal",
-        "este es el fraude para amanar las elecciones",
-        "ley de nietos", "prohibir los ongi etorris",
-    )
-    if any(t in s for t in polemicas_explicitas) and not accion_judicial:
-        return True
-    actores = re.search(
+    # Excepciones por actos concretos de investigación, proceso o condena.
+    # "asesinato" o "violencia machista" a secas no bastan: pueden ser
+    # sólo asuntos citados en un debate político.
+    proceso = re.search(
+        r"\b(detiene|detienen|detenido|detenida|detencion|arrestad|"
+        r"investigan|investiga|investigado|investigada|imputad|"
+        r"procesad|condenad|condenan|sentencia|sentenciad|"
+        r"juzga|juzgan|juzgado|tribunal|fiscalia|fiscal|"
+        r"causa judicial|querella|policia detiene|guardia civil detiene|"
+        r"registros policiales)\b", s)
+    enfoque_electoral = re.search(
+        r"\b(campana|precampana|electoral|elecciones|candidatos|"
+        r"debate|debatian|debatieron|pide el voto|pidio el voto|"
+        r"actos de campana|cierre de campana|pregunta de colau|"
+        r"pregunta a colau|suspende sus actos|suspende todos sus actos|"
+        r"promesas electorales|programa electoral|mitin|sondeos)\b", s)
+    declaracion_partidista = re.search(
         r"\b(abascal|feijoo|sanchez|ayuso|almeida|colau|"
-        r"pp|vox|bildu|izquierda|derecha|gobierno|partido|"
-        r"campana|electoral|politicos|politicas|25n)\b", s)
-    debate = re.search(
-        r"\b(promete|critica|critican|recrimina|reprocha|reprochan|acusa|"
-        r"arremete|ataca|carga|cargar|cargan|reivindica|reivindican|proponen|"
-        r"propone|programas|medidas|alegato|pol[eé]mica|traiciona|"
-        r"movilizaciones|recortes|ofensiva|afirma|advierte|"
-        r"discute|declara|denuncia una persecucion)\b", s)
-    return bool(actores and debate and not accion_judicial)
-
+        r"pp|vox|bildu|psoe|izquierda|derecha|gobierno|"
+        r"concejala|consejero|diputado|ministro|politicos|partido)\b", s)
+    controversia = re.search(
+        r"\b(zasca|ofensiva|arremete|critica|critican|carga|cargar|"
+        r"cargan|reprocha|recrimina|denuncia una persecucion|"
+        r"menciona en el debate|replica|responde|pregunta|"
+        r"pol[eé]mica|brilla|reivindica|rechaza|promete|"
+        r"propone|propuso|medidas|alegato|discurso|"
+        r"reaccion|negacionismo|pone de ejemplo|"
+        r"piden el voto|pide el voto)\b", s)
+    # Si el propio titular describe una causa penal, prevalece el hecho.
+    if proceso:
+        return False
+    # La mera mención de una víctima en una disputa electoral no justifica
+    # una tarjeta de True Crime; los hechos concretos se publican aparte.
+    if enfoque_electoral:
+        return True
+    if declaracion_partidista and controversia:
+        return True
+    if "negacionismo de la violencia machista" in s:
+        return True
+    return False
 
 def titular_complejo_lawcrime(titulo):
     """Evitar calcos automáticos de titulares sensacionalistas y sintácticamente largos."""

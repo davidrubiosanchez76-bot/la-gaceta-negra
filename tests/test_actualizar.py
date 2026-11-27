@@ -322,6 +322,46 @@ class TestGaceta(unittest.TestCase):
         for ident in ("8d3d016f32047414","a4dcb27b4e5ebb66","ff822ce0630c17d3"):
             self.assertIn(ident, fixes)
 
+
+    def test_no_noticias_de_campana_sobre_violencia_machista(self):
+        excluir = (
+            "Abascal, sobre la pregunta de Colau acerca de la violencia de género: Me dio un asco infinito",
+            "La violencia machista sacude el final de la campaña: 50 asesinadas, la última mientras debatían los candidatos",
+            "Ada Colau brilla en el debate y se abre un hueco en la campaña por no quedarse calladita",
+            "EH Bildu suspende todos sus actos, incluido el cierre de campaña, como protesta por el asesinato machista en Bilbao",
+            "Inda agradece a Sánchez su mención en el debate sobre corrupción",
+            "La izquierda sale a la ofensiva contra Abascal y Feijóo por la violencia machista",
+            "Isabel Rodríguez pide el voto a las mujeres para defender leyes contra la violencia machista",
+            "Feijóo y Ayuso critican a Sánchez en campaña por la violencia de género",
+            "Una concejala carga contra el negacionismo de la violencia machista",
+        )
+        for titulo in excluir:
+            with self.subTest(titulo=titulo):
+                self.assertIsNone(g.category(titulo, "AUTO"))
+        mantener = (
+            "Detienen a un diputado del PP por blanqueo de capitales",
+            "La fiscalía investiga a un dirigente de Vox por presunta corrupción",
+            "Un alcalde socialista condenado por malversación de fondos",
+            "La Guardia Civil detiene al sospechoso del asesinato machista en Bilbao durante la campaña",
+            "Investigan como violencia machista el asesinato de una mujer en Murcia",
+            "Las víctimas mortales por violencia machista suben a 49 al confirmarse dos casos más",
+            "Un banco vinculado a un partido prestó servicio a una red de blanqueo rusa",
+        )
+        for titulo in mantener:
+            with self.subTest(titulo=titulo):
+                self.assertEqual(g.category(titulo, "AUTO"), "TRUE CRIME")
+
+    def test_limpieza_de_polemicas_en_datos_publicados(self):
+        import json
+        raiz=Path(__file__).resolve().parents[1]
+        vetados={"b6f9bf537844cff1", "a3f05387bb2dd1ea",
+                 "0c4537c1d02b32b0", "8d0227379be3efe0"}
+        exclusiones=json.loads((raiz/"config"/"noticias_excluidas.json").read_text(encoding="utf-8"))
+        self.assertTrue(vetados.issubset({x["id"] for x in exclusiones["noticias"]}))
+        for ruta in (raiz/"data"/"noticias.json", raiz/"archivo"/"2026-11.json"):
+            publicado=json.loads(ruta.read_text(encoding="utf-8"))
+            self.assertFalse(vetados & {x["id"] for x in publicado["noticias"]})
+
     def test_cases(self):
         self.assertEqual(g.cases_of("Novedades en el caso de Lindsay Clancy", [{"id": "lindsay-clancy", "alias": ["Lindsay Clancy"]}]), ["lindsay-clancy"])
         self.assertEqual(g.cases_of("Novedades de Lindsay Johnson", [{"id": "lindsay-clancy", "alias": ["Lindsay Clancy"]}]), [])

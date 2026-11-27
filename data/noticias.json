@@ -1,6 +1,6 @@
 {
   "actualizado": "2026-11-27T18:46:04+00:00",
-  "total": 292,
+  "total": 280,
   "noticias": [
     {
       "id": "50fcbda37f60ff3d",
@@ -166,29 +166,6 @@
       ]
     },
     {
-      "id": "b6f9bf537844cff1",
-      "medio_titular": "EL PAÍS — España",
-      "titular": "Abascal, sobre la pregunta de Colau acerca de la violencia de género: “Me dio un asco infinito”",
-      "titular_original": "Abascal, sobre la pregunta de Colau acerca de la violencia de género: “Me dio un asco infinito”",
-      "metodo_titular": "original",
-      "fecha": "2026-11-27T12:59:56+00:00",
-      "actualizado": "2026-11-27T12:59:56+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "ESPAÑA",
-      "temas": [
-        "Violencia en la pareja"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "EL PAÍS — España",
-          "url": "https://elpais.com/espana/elecciones-generales/2026-11-27/abascal-sobre-la-pregunta-de-colau-acerca-de-la-violencia-de-genero-me-dio-un-asco-infinito.html",
-          "fecha": "2026-11-27T12:59:56+00:00"
-        }
-      ]
-    },
-    {
       "id": "30ba162ec0f7fbce",
       "medio_titular": "NPR — Noticias",
       "titular": "La estrella del cine francés Gérard Depardieu ordenó ser juzgada por violación y agresión sexual",
@@ -283,30 +260,6 @@
       ]
     },
     {
-      "id": "a3f05387bb2dd1ea",
-      "medio_titular": "EL PAÍS — Sociedad",
-      "titular": "La violencia machista sacude el final de la campaña: 50 asesinadas en lo que va de año, la última mientras debatían los candidatos",
-      "titular_original": "La violencia machista sacude el final de la campaña: 50 asesinadas en lo que va de año, la última mientras debatían los candidatos",
-      "metodo_titular": "original",
-      "fecha": "2026-11-27T11:09:55+00:00",
-      "actualizado": "2026-11-27T11:09:55+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "ESPAÑA",
-      "temas": [
-        "Violencia en la pareja",
-        "Homicidios y asesinatos"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "EL PAÍS — Sociedad",
-          "url": "https://elpais.com/sociedad/2026-11-27/la-violencia-machista-sacude-el-final-de-la-campana-50-asesinadas-en-lo-que-va-de-ano-la-ultima-mientras-debatian-los-candidatos.html",
-          "fecha": "2026-11-27T11:09:55+00:00"
-        }
-      ]
-    },
-    {
       "id": "13b1287150b8b333",
       "medio_titular": "OKDIARIO — España",
       "titular": "Herido un policía nacional tras un tiroteo ocurrido durante una operación contra el narcotráfico en Nerja, Málaga",
@@ -327,29 +280,6 @@
           "medio": "OKDIARIO — España",
           "url": "https://okdiario.com/andalucia/herido-policia-nacional-tiroteo-ocurrido-durante-operacion-contra-narcotrafico-nerja-malaga-21286245",
           "fecha": "2026-11-27T10:42:53+00:00"
-        }
-      ]
-    },
-    {
-      "id": "8d0227379be3efe0",
-      "medio_titular": "elDiario.es",
-      "titular": "EH Bildu suspende todos sus actos, incluido el cierre de campaña, como protesta por el asesinato machista en Bilbao",
-      "titular_original": "EH Bildu suspende todos sus actos, incluido el cierre de campaña, como protesta por el asesinato machista en Bilbao",
-      "metodo_titular": "original",
-      "fecha": "2026-11-27T09:50:07+00:00",
-      "actualizado": "2026-11-27T09:50:07+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "ESPAÑA",
-      "temas": [
-        "Homicidios y asesinatos"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "elDiario.es",
-          "url": "https://www.eldiario.es/euskadi/eh-bildu-suspende-actos-incluido-cierre-campana-protesta-asesinato-machista-bilbao_1_13698195.html",
-          "fecha": "2026-11-27T09:50:07+00:00"
         }
       ]
     },
@@ -730,29 +660,6 @@
       ]
     },
     {
-      "id": "75f1900a9a017d1c",
-      "medio_titular": "OKDIARIO — España",
-      "titular": "Inda agradece a Sánchez su mención en el debate: «Si no fuera por las 115 muertes de Urda y Adamuz y por tu corrupción, te votaría por toda la publicidad que me haces»",
-      "titular_original": "Inda agradece a Sánchez su mención en el debate: «Si no fuera por las 115 muertes de Urda y Adamuz y por tu corrupción, te votaría por toda la publicidad que me haces»",
-      "metodo_titular": "original",
-      "fecha": "2026-11-27T03:03:02+00:00",
-      "actualizado": "2026-11-27T03:03:02+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "ESPAÑA",
-      "temas": [
-        "Corrupción"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "OKDIARIO — España",
-          "url": "https://okdiario.com/espana/inda-agradece-sanchez-mencion-debate-si-no-fuera-115-muertes-urda-adamuz-tu-corrupcion-te-votaria-toda-publicidad-que-haces-21284531",
-          "fecha": "2026-11-27T03:03:02+00:00"
-        }
-      ]
-    },
-    {
       "id": "4e05448e80fc5522",
       "medio_titular": "BBC News — World",
       "titular": "La policía de Met arruinó mi vida, dice que el hombre de Kenia fue condenado injustamente por atacar a la pareja británica",
@@ -773,29 +680,6 @@
           "medio": "BBC News — World",
           "url": "https://www.bbc.co.uk/news/articles/cqvg2nlr8kd8o?at_medium=RSS&at_campaign=rss",
           "fecha": "2026-11-27T00:48:11+00:00"
-        }
-      ]
-    },
-    {
-      "id": "0c4537c1d02b32b0",
-      "medio_titular": "EL MUNDO — España",
-      "titular": "Ada Colau brilla en el debate y se abre un hueco en la campaña por no quedarse \"calladita\" contra la violencia de género",
-      "titular_original": "Ada Colau brilla en el debate y se abre un hueco en la campaña por no quedarse \"calladita\" contra la violencia de género",
-      "metodo_titular": "original",
-      "fecha": "2026-11-27T00:12:33+00:00",
-      "actualizado": "2026-11-27T00:12:33+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "ESPAÑA",
-      "temas": [
-        "Violencia en la pareja"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "EL MUNDO — España",
-          "url": "https://www.elmundo.es/elecciones/elecciones-generales/2026/11/27/6b08c04621efa0bc688b45a7.html",
-          "fecha": "2026-11-27T00:12:33+00:00"
         }
       ]
     },
@@ -1138,30 +1022,6 @@
       ]
     },
     {
-      "id": "3a6e850ebf091587",
-      "medio_titular": "EL PAÍS — Sociedad",
-      "titular": "Una concejala socialista de Murcia carga contra el negacionismo de la violencia machista: “Sufrí una agresión sexual cuando tenía 13 años”",
-      "titular_original": "Una concejala socialista de Murcia carga contra el negacionismo de la violencia machista: “Sufrí una agresión sexual cuando tenía 13 años”",
-      "metodo_titular": "original",
-      "fecha": "2026-11-26T15:59:51+00:00",
-      "actualizado": "2026-11-26T15:59:51+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "ESPAÑA",
-      "temas": [
-        "Agresiones sexuales",
-        "Violencia en la pareja"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "EL PAÍS — Sociedad",
-          "url": "https://elpais.com/sociedad/2026-11-26/una-concejala-socialista-de-murcia-carga-contra-el-negacionismo-de-la-violencia-machista-sufri-una-agresion-sexual-cuando-tenia-13-anos.html",
-          "fecha": "2026-11-26T15:59:51+00:00"
-        }
-      ]
-    },
-    {
       "id": "cc12308f48f72c12",
       "medio_titular": "El Confidencial — España",
       "titular": "Detenido por asaltar una vivienda en Inca (Baleares) y agredir a guardias civiles cuando iban a arrestarlo",
@@ -1393,30 +1253,6 @@
           "medio": "EL MUNDO — España",
           "url": "https://www.elmundo.es/cataluna/2026/11/26/6b080e4efc6c837c068b4572.html",
           "fecha": "2026-11-26T11:17:02+00:00"
-        }
-      ]
-    },
-    {
-      "id": "1da70ed0d4cde6ab",
-      "medio_titular": "BBC News — World",
-      "titular": "Funcionario político y esposa de Hamás entre ocho palestinos muertos en huelgas israelíes contra Gaza",
-      "titular_original": "Hamas political official and wife among eight Palestinians killed in Israeli strikes on Gaza",
-      "metodo_titular": "traduccion_automatica",
-      "fecha": "2026-11-26T10:14:08+00:00",
-      "actualizado": "2026-11-26T10:14:08+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "MUNDO",
-      "temas": [
-        "Violencia en la pareja",
-        "Homicidios y asesinatos"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "BBC News — World",
-          "url": "https://www.bbc.co.uk/news/articles/cqvg2n4mzl1jo?at_medium=RSS&at_campaign=rss",
-          "fecha": "2026-11-26T10:14:08+00:00"
         }
       ]
     },
@@ -2028,29 +1864,6 @@
       ]
     },
     {
-      "id": "8f46c811ad2722c5",
-      "medio_titular": "elDiario.es",
-      "titular": "La presidenta conservadora del Parlamento alemán pone de ejemplo a España por su lucha contra la violencia machista",
-      "titular_original": "La presidenta conservadora del Parlamento alemán pone de ejemplo a España por su lucha contra la violencia machista",
-      "metodo_titular": "original",
-      "fecha": "2026-11-25T16:14:36+00:00",
-      "actualizado": "2026-11-25T16:14:36+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "ESPAÑA",
-      "temas": [
-        "Violencia en la pareja"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "elDiario.es",
-          "url": "https://www.eldiario.es/internacional/presidenta-conservadora-parlamento-aleman-pone-ejemplo-espana-lucha-violencia-machista_1_13693103.html",
-          "fecha": "2026-11-25T16:14:36+00:00"
-        }
-      ]
-    },
-    {
       "id": "ad1b81a3a12cbc1e",
       "medio_titular": "EL MUNDO — España",
       "titular": "Detienen a una mujer en Zamora por la sustracción de sus dos hijos menores durante una visita regulada en Alicante",
@@ -2645,29 +2458,6 @@
       ]
     },
     {
-      "id": "56461177841ea487",
-      "medio_titular": "EL PAÍS — Sociedad",
-      "titular": "La crisis de vivienda golpea el doble a las víctimas de violencia machista: “No quería volver a mi casa, pero no tenía dónde ir”",
-      "titular_original": "La crisis de vivienda golpea el doble a las víctimas de violencia machista: “No quería volver a mi casa, pero no tenía dónde ir”",
-      "metodo_titular": "original",
-      "fecha": "2026-11-25T04:30:01+00:00",
-      "actualizado": "2026-11-25T04:30:01+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "ESPAÑA",
-      "temas": [
-        "Violencia en la pareja"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "EL PAÍS — Sociedad",
-          "url": "https://elpais.com/sociedad/2026-11-25/la-crisis-de-vivienda-golpea-el-doble-a-las-victimas-de-violencia-machista-no-queria-volver-a-mi-casa-pero-no-tenia-donde-ir.html",
-          "fecha": "2026-11-25T04:30:01+00:00"
-        }
-      ]
-    },
-    {
       "id": "8e7260c204ad10e5",
       "medio_titular": "20minutos",
       "titular": "Ibrahimović se pasa al crimen: será uno de los villanos de la temporada 3 de 'Tierra de mafiosos'",
@@ -2804,52 +2594,6 @@
           "medio": "CrimeReads",
           "url": "https://crimereads.com/the-u-s-navy-is-retiring-the-peacoat-the-kind-that-robert-redford-wore-in-three-days-of-the-condor",
           "fecha": "2026-11-24T22:50:48+00:00"
-        }
-      ]
-    },
-    {
-      "id": "9d1a334c1ec65e71",
-      "medio_titular": "elDiario.es",
-      "titular": "Expertos en “denuncias falsas” y streamers ultra: la red que sostiene el negacionismo de la violencia machista",
-      "titular_original": "Expertos en “denuncias falsas” y streamers ultra: la red que sostiene el negacionismo de la violencia machista",
-      "metodo_titular": "original",
-      "fecha": "2026-11-24T21:12:55+00:00",
-      "actualizado": "2026-11-24T21:12:55+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "MUNDO",
-      "temas": [
-        "Violencia en la pareja"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "elDiario.es",
-          "url": "https://www.eldiario.es/sociedad/expertos-denuncias-falsas-streamers-ultra-red-sostiene-negacionismo-violencia-machista_1_13685955.html",
-          "fecha": "2026-11-24T21:12:55+00:00"
-        }
-      ]
-    },
-    {
-      "id": "04946e284a3f2652",
-      "medio_titular": "ABC — Última hora",
-      "titular": "Isabel Rodríguez pide el voto a las mujeres para defender las leyes contra la violencia machista",
-      "titular_original": "Isabel Rodríguez pide el voto a las mujeres para defender las leyes contra la violencia machista",
-      "metodo_titular": "original",
-      "fecha": "2026-11-24T19:59:01+00:00",
-      "actualizado": "2026-11-24T19:59:01+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "MUNDO",
-      "temas": [
-        "Violencia en la pareja"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "ABC — Última hora",
-          "url": "https://www.abc.es/espana/castilla-la-mancha/isabel-rodriguez-pide-voto-mujeres-defender-leyes-20261124205900-nt.html",
-          "fecha": "2026-11-24T19:59:01+00:00"
         }
       ]
     },
@@ -6313,29 +6057,6 @@
       "metodo_titular": "revision_editorial",
       "etiquetas_de_deteccion": [],
       "medio_titular": "Law & Crime"
-    },
-    {
-      "id": "21e17b77d1171c52",
-      "medio_titular": "elDiario.es",
-      "titular": "Salud mental y violencia machista, una doble vulnerabilidad que sigue invisibilizada",
-      "titular_original": "Salud mental y violencia machista, una doble vulnerabilidad que sigue invisibilizada",
-      "metodo_titular": "original",
-      "fecha": "2026-11-18T15:47:23+00:00",
-      "actualizado": "2026-11-18T15:47:23+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "MUNDO",
-      "temas": [
-        "Violencia en la pareja"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "elDiario.es",
-          "url": "https://www.eldiario.es/edcreativo/salud-mental-violencia-machista-doble-vulnerabilidad-sigue-invisibilizada_1_13674549.html",
-          "fecha": "2026-11-18T15:47:23+00:00"
-        }
-      ]
     },
     {
       "id": "a2c14cf42509f166",
