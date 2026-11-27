@@ -1,6 +1,6 @@
 {
   "mes": "2026-11",
-  "total": 277,
+  "total": 270,
   "noticias": [
     {
       "id": "50fcbda37f60ff3d",
@@ -810,29 +810,6 @@
       ]
     },
     {
-      "id": "1e52d9d287b53693",
-      "medio_titular": "20minutos",
-      "titular": "Las víctimas mortales por violencia machista suben a 49 y superan las de 2025 al confirmarse dos casos más",
-      "titular_original": "Las víctimas mortales por violencia machista suben a 49 y superan las de 2025 al confirmarse dos casos más",
-      "metodo_titular": "original",
-      "fecha": "2026-11-26T19:05:49+00:00",
-      "actualizado": "2026-11-26T19:05:49+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "MUNDO",
-      "temas": [
-        "Violencia en la pareja"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "20minutos",
-          "url": "https://www.20minutos.es/nacional/las-victimas-mortales-por-violencia-machista-suben-49-superan-las-todo-2025-confirmarse-los-casos-murcia-cadiz_7066390_0.html",
-          "fecha": "2026-11-26T19:05:49+00:00"
-        }
-      ]
-    },
-    {
       "id": "7dffba01722eb55d",
       "medio_titular": "20minutos",
       "titular": "Atenas muestra por primera vez los restos de 79 hombres encadenados entre sí y asesinados hace 2.600 años",
@@ -1135,29 +1112,6 @@
           "medio": "The Guardian — World",
           "url": "https://www.theguardian.com/australia-news/2026/nov/27/beau-lamarre-condon-service-weapon-murder-police-recruiters-ntwnfb",
           "fecha": "2026-11-26T14:26:00+00:00"
-        }
-      ]
-    },
-    {
-      "id": "85cb095c264ba6c6",
-      "medio_titular": "EL PAÍS — Sociedad",
-      "titular": "Detenido en Cantabria el hombre buscado por el crimen machista del miércoles en Murcia",
-      "titular_original": "Detenido en Cantabria el hombre buscado por el crimen machista del miércoles en Murcia",
-      "metodo_titular": "original",
-      "fecha": "2026-11-26T13:00:26+00:00",
-      "actualizado": "2026-11-26T13:00:26+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "ESPAÑA",
-      "temas": [
-        "Investigación policial"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "EL PAÍS — Sociedad",
-          "url": "https://elpais.com/sociedad/2026-11-26/detenido-en-cantabria-el-hombre-buscado-por-el-crimen-machista-de-ayer-en-murcia.html",
-          "fecha": "2026-11-26T13:00:26+00:00"
         }
       ]
     },
@@ -2052,31 +2006,6 @@
       ]
     },
     {
-      "id": "0f6ce033d3e218fa",
-      "medio_titular": "20minutos",
-      "titular": "Investigan como violencia machista el asesinato a navajazos de una mujer en Murcia: buscan a su novio",
-      "titular_original": "Investigan como violencia machista el asesinato a navajazos de una mujer en Murcia: buscan a su novio",
-      "metodo_titular": "original",
-      "fecha": "2026-11-25T13:03:23+00:00",
-      "actualizado": "2026-11-25T13:03:23+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "ESPAÑA",
-      "temas": [
-        "Violencia en la pareja",
-        "Homicidios y asesinatos",
-        "Investigación policial"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "20minutos",
-          "url": "https://www.20minutos.es/murcia/asesinan-navajazos-una-mujer-32-anos-murcia-pleno-25-n-buscan-su-novio_7065673_0.html",
-          "fecha": "2026-11-25T13:03:23+00:00"
-        }
-      ]
-    },
-    {
       "id": "eaf1580def9be8e8",
       "medio_titular": "EL PAÍS — Sociedad",
       "titular": "Detenido en Chiclana un hombre por el asesinato de su pareja, que fue hallada semienterrada en una playa el pasado octubre",
@@ -2122,29 +2051,6 @@
           "medio": "elDiario.es",
           "url": "https://www.eldiario.es/euskadi/audiencia-nacional-revoca-tercer-grado-exdirigente-eta-henri-parot-condenado-39-asesinatos_1_13692418.html",
           "fecha": "2026-11-25T13:00:53+00:00"
-        }
-      ]
-    },
-    {
-      "id": "8fee59f5520ddd71",
-      "medio_titular": "elDiario.es",
-      "titular": "La Policía busca al presunto autor de un crimen machista en Bullas este 25N",
-      "titular_original": "La Policía busca al presunto autor de un crimen machista en Bullas este 25N",
-      "metodo_titular": "original",
-      "fecha": "2026-11-25T12:54:52+00:00",
-      "actualizado": "2026-11-25T12:54:52+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "MUNDO",
-      "temas": [
-        "Investigación policial"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "elDiario.es",
-          "url": "https://www.eldiario.es/murcia/sociedad/buscan-presunto-autor-crimen-machista-bullas-25n_1_13692363.html",
-          "fecha": "2026-11-25T12:54:52+00:00"
         }
       ]
     },
@@ -2476,30 +2382,6 @@
         {
           "medio": "20minutos",
           "url": "https://www.20minutos.es/cinemania/series/zlatan-ibrahimovic-leyenda-futbol-temporada-3-tierra-mafiosos_7065135_0.html",
-          "fecha": "2026-11-25T04:00:00+00:00"
-        }
-      ]
-    },
-    {
-      "id": "3ae7c113aaf06a0c",
-      "medio_titular": "20minutos",
-      "titular": "Más de 100.000 mujeres viven bajo el radar policial por maltrato y solo es la punta del iceberg de la violencia machista en España",
-      "titular_original": "Más de 100.000 mujeres viven bajo el radar policial por maltrato y solo es la punta del iceberg de la violencia machista en España",
-      "metodo_titular": "original",
-      "fecha": "2026-11-25T04:00:00+00:00",
-      "actualizado": "2026-11-25T04:00:00+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "ESPAÑA",
-      "temas": [
-        "Violencia en la pareja",
-        "Investigación policial"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "20minutos",
-          "url": "https://www.20minutos.es/nacional/mas-100-000-mujeres-viven-bajo-radar-policial-por-maltrato-solo-es-punta-iceberg-violencia-machista-espana_7063659_0.html",
           "fecha": "2026-11-25T04:00:00+00:00"
         }
       ]
@@ -3694,30 +3576,6 @@
       ]
     },
     {
-      "id": "e15554845eac88d1",
-      "medio_titular": "EL PAÍS — Sociedad",
-      "titular": "El acusado de asesinar a Elena, la última víctima de la violencia machista, intentó atribuir la muerte a causas naturales",
-      "titular_original": "El acusado de asesinar a Elena, la última víctima de la violencia machista, intentó atribuir la muerte a causas naturales",
-      "metodo_titular": "original",
-      "fecha": "2026-11-23T19:13:34+00:00",
-      "actualizado": "2026-11-23T19:13:34+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "ESPAÑA",
-      "temas": [
-        "Violencia en la pareja",
-        "Homicidios y asesinatos"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "EL PAÍS — Sociedad",
-          "url": "https://elpais.com/sociedad/2026-11-23/el-acusado-de-asesinar-a-elena-la-ultima-victima-de-la-violencia-machista-intento-atribuir-la-muerte-a-causas-naturales.html",
-          "fecha": "2026-11-23T19:13:34+00:00"
-        }
-      ]
-    },
-    {
       "id": "95af17db593fb907",
       "medio_titular": "Law & Crime",
       "titular": "Una abuela sorprende a una madre apuñalando a su exnovio dormido, según la policía",
@@ -4325,30 +4183,6 @@
           "medio": "Law & Crime",
           "url": "https://lawandcrime.com/crime/woman-kidnapped-child-from-park-while-pretending-to-be-her-mother-and-made-it-a-mile-before-girl-escaped-her-grasp-cops",
           "fecha": "2026-11-22T19:06:24+00:00"
-        }
-      ]
-    },
-    {
-      "id": "9b7074c6b25ea3ac",
-      "medio_titular": "EL PAÍS — Sociedad",
-      "titular": "La Guardia Civil apunta a la violencia machista en la muerte de una joven de 37 años en Albacete",
-      "titular_original": "La Guardia Civil apunta a la violencia machista en la muerte de una joven de 37 años en Albacete",
-      "metodo_titular": "original",
-      "fecha": "2026-11-22T18:34:33+00:00",
-      "actualizado": "2026-11-22T18:34:33+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "ESPAÑA",
-      "temas": [
-        "Violencia en la pareja",
-        "Investigación policial"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "EL PAÍS — Sociedad",
-          "url": "https://elpais.com/sociedad/2026-11-22/la-guardia-civil-no-descarta-la-violencia-de-genero-en-la-muerte-de-una-joven-de-37-anos-en-albacete.html",
-          "fecha": "2026-11-22T18:34:33+00:00"
         }
       ]
     },

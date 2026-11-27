@@ -187,6 +187,11 @@ def adn_forense(s):
 
 
 
+def veto_titular_machista(titulo):
+    """Veto editorial literal de «machista» y sus plurales en los titulares."""
+    return "machista" in normalize(titulo)
+
+
 def es_debate_politico(titulo):
     """Eliminar cobertura de campaña, confrontación y opinión sin hecho delictivo.
 
@@ -245,6 +250,8 @@ def titular_complejo_lawcrime(titulo):
 
 def category(text, src):
     s = normalize(text)
+    if veto_titular_machista(text):
+        return None
     if es_debate_politico(text):
         return None
     if any(w in s for w in EXCLUDE):
@@ -453,6 +460,8 @@ def make_story(item, feed, config, correcciones=None, excluidas=None):
     editorial, metodo = titulo_para_publicar(title, cat, idioma)
     if sid in (correcciones or {}):
         editorial, metodo = correcciones[sid], "revision_editorial"
+    if veto_titular_machista(editorial):
+        return None
     if feed["nombre"].startswith("Law & Crime") and metodo == "traduccion_automatica" and titular_complejo_lawcrime(title):
         # Si no existe corrección editorial, no publicar traducciones ininteligibles.
         return None
@@ -507,7 +516,9 @@ def main():
     folder = ROOT / "archivo"
     stories = []
     def review_old(old):
-        if old.get("id") in excluidas:
+        if (old.get("id") in excluidas or
+                veto_titular_machista(old.get("titular", "")) or
+                veto_titular_machista(old.get("titular_original", ""))):
             return None
         # Eliminar de portada y archivo todas las fuentes excluidas, también en fichas agrupadas.
         old["fuentes"] = [f for f in old.get("fuentes", []) if f.get("medio") not in FUENTES_EXCLUIDAS]

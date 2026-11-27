@@ -342,14 +342,33 @@ class TestGaceta(unittest.TestCase):
             "Detienen a un diputado del PP por blanqueo de capitales",
             "La fiscalía investiga a un dirigente de Vox por presunta corrupción",
             "Un alcalde socialista condenado por malversación de fondos",
-            "La Guardia Civil detiene al sospechoso del asesinato machista en Bilbao durante la campaña",
-            "Investigan como violencia machista el asesinato de una mujer en Murcia",
-            "Las víctimas mortales por violencia machista suben a 49 al confirmarse dos casos más",
             "Un banco vinculado a un partido prestó servicio a una red de blanqueo rusa",
         )
         for titulo in mantener:
             with self.subTest(titulo=titulo):
                 self.assertEqual(g.category(titulo, "AUTO"), "TRUE CRIME")
+
+    def test_veto_literal_machista_en_titulares(self):
+        casos = [
+            "La policía detiene al presunto autor de un crimen machista",
+            "Investigan como violencia machista el asesinato de una mujer en Murcia",
+            "Las víctimas mortales por violencia machista ascienden a 49",
+            "Crímenes machistas: condenan a un hombre",
+            "Una campaña sobre violencia machista provoca una polémica",
+        ]
+        for titular in casos:
+            with self.subTest(titular=titular):
+                self.assertTrue(g.veto_titular_machista(titular))
+                self.assertIsNone(g.category(titular, "AUTO"))
+        self.assertFalse(g.veto_titular_machista("La policía detiene a un hombre por asesinar a su pareja"))
+        self.assertEqual(g.category("La policía detiene a un hombre por asesinar a su pareja", "AUTO"), "TRUE CRIME")
+        import json
+        raiz=Path(__file__).resolve().parents[1]
+        for path in (raiz / "data/noticias.json", raiz / "archivo/2026-11.json"):
+            noticias=json.loads(path.read_text(encoding="utf-8"))["noticias"]
+            self.assertFalse([x for x in noticias if
+                              g.veto_titular_machista(x.get("titular", "")) or
+                              g.veto_titular_machista(x.get("titular_original", ""))])
 
     def test_limpieza_de_polemicas_en_datos_publicados(self):
         import json
