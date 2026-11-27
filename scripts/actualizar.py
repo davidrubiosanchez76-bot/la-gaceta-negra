@@ -213,13 +213,13 @@ def es_debate_politico(titulo):
     declaracion_partidista = re.search(
         r"\b(abascal|feijoo|sanchez|ayuso|almeida|colau|"
         r"pp|vox|bildu|psoe|izquierda|derecha|gobierno|"
-        r"concejala|consejero|diputado|ministro|politicos|partido)\b", s)
+        r"concejala|consejero|diputado|ministro|presidenta|presidente|parlamento|politicos|partido)\b", s)
     controversia = re.search(
         r"\b(zasca|ofensiva|arremete|critica|critican|carga|cargar|"
         r"cargan|reprocha|recrimina|denuncia una persecucion|"
         r"menciona en el debate|replica|responde|pregunta|"
         r"pol[eé]mica|brilla|reivindica|rechaza|promete|"
-        r"propone|propuso|medidas|alegato|discurso|"
+        r"propone|propuso|anuncia|programas|medidas|alegato|discurso|"
         r"reaccion|negacionismo|pone de ejemplo|"
         r"piden el voto|pide el voto)\b", s)
     # Si el propio titular describe una causa penal, prevalece el hecho.
