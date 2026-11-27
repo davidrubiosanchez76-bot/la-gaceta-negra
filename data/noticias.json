@@ -1,7 +1,439 @@
 {
-  "actualizado": "2026-11-26T20:19:20+00:00",
-  "total": 276,
+  "actualizado": "2026-11-27T08:41:04+00:00",
+  "total": 296,
   "noticias": [
+    {
+      "id": "6d753f70d826e08e",
+      "medio_titular": "ABC — Última hora",
+      "titular": "Herido un policía nacional en un tiroteo durante una operación contra el narcotráfico en Málaga",
+      "titular_original": "Herido un policía nacional en un tiroteo durante una operación contra el narcotráfico en Málaga",
+      "metodo_titular": "original",
+      "fecha": "2026-11-27T08:24:41+00:00",
+      "actualizado": "2026-11-27T08:24:41+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [
+        "Narcotráfico"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "ABC — Última hora",
+          "url": "https://www.abc.es/espana/andalucia/malaga/herido-policia-nacional-tiroteo-operacion-narcotrafico-malaga-20261127092441-nts.html",
+          "fecha": "2026-11-27T08:24:41+00:00"
+        }
+      ]
+    },
+    {
+      "id": "d1c0cd44a8cd2778",
+      "medio_titular": "BBC News — World",
+      "titular": "Millones de esposas en el sur de Asia sin protección contra la violación marital - estudio",
+      "titular_original": "Millions of wives in South Asia unprotected from marital rape - study",
+      "metodo_titular": "traduccion_automatica",
+      "fecha": "2026-11-27T08:13:43+00:00",
+      "actualizado": "2026-11-27T08:13:43+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "BBC News — World",
+          "url": "https://www.bbc.co.uk/news/articles/cw074p95ye5do?at_medium=RSS&at_campaign=rss",
+          "fecha": "2026-11-27T08:13:43+00:00"
+        }
+      ]
+    },
+    {
+      "id": "924273857b279160",
+      "medio_titular": "20minutos",
+      "titular": "Suiza confirma cinco ciberataques con IA contra empresas e infraestructuras críticas",
+      "titular_original": "Suiza confirma cinco ciberataques con IA contra empresas e infraestructuras críticas",
+      "metodo_titular": "original",
+      "fecha": "2026-11-27T07:37:41+00:00",
+      "actualizado": "2026-11-27T07:37:41+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "EUROPA",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "20minutos",
+          "url": "https://www.20minutos.es/tecnologia/ciberseguridad/suiza-confirma-cinco-ciberataques-con-inteligencia-artificial-contra-empresas-infraestructuras-criticas_7066502_0.html",
+          "fecha": "2026-11-27T07:37:41+00:00"
+        }
+      ]
+    },
+    {
+      "id": "9a3d951f3703fbdc",
+      "medio_titular": "Revista Calibre .38",
+      "titular": "El rincón oscuro. El Inmortal televisivo",
+      "titular_original": "El rincón oscuro. El Inmortal televisivo",
+      "metodo_titular": "original",
+      "fecha": "2026-11-27T07:30:00+00:00",
+      "actualizado": "2026-11-27T07:30:00+00:00",
+      "categoria": "FICCIÓN NEGROCRIMINAL",
+      "region": "MUNDO",
+      "temas": [
+        "Ficción negrocriminal"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "Revista Calibre .38",
+          "url": "https://revistacalibre38.com/2026/11/27/el-rincon-oscuro-el-inmortal-televisivo",
+          "fecha": "2026-11-27T07:30:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "6c5266196c509c55",
+      "medio_titular": "The Guardian — World",
+      "titular": "Grace. Tame llama al ex ejecutivo de los medios de comunicación de Murdoch que dijo que “debe estar buscando ser violada de nuevo”",
+      "titular_original": "Grace Tame calls out ex-Murdoch media executive who said she ‘must be looking to be raped again’",
+      "metodo_titular": "traduccion_automatica",
+      "fecha": "2026-11-27T06:54:59+00:00",
+      "actualizado": "2026-11-27T06:54:59+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "The Guardian — World",
+          "url": "https://www.theguardian.com/australia-news/2026/nov/27/grace-tame-responds-former-murdoch-executive-nephew-rape-comment-ntwnfb",
+          "fecha": "2026-11-27T06:54:59+00:00"
+        }
+      ]
+    },
+    {
+      "id": "964aee7c0a88b6de",
+      "medio_titular": "elDiario.es",
+      "titular": "Asesinada una mujer de 34 años en Bilbao a manos de su expareja, un hombre de 47 años",
+      "titular_original": "Asesinada una mujer de 34 años en Bilbao a manos de su expareja, un hombre de 47 años",
+      "metodo_titular": "original",
+      "fecha": "2026-11-27T06:23:11+00:00",
+      "actualizado": "2026-11-27T06:23:11+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [
+        "Violencia en la pareja"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/euskadi/asesinada-mujer-34-anos-bilbao-manos-expareja-hombre-47-anos_1_13697819.html",
+          "fecha": "2026-11-27T06:23:11+00:00"
+        }
+      ]
+    },
+    {
+      "id": "9a0513f363b59037",
+      "medio_titular": "The Guardian — World",
+      "titular": "Erin Patterson lanza una oferta de alto recurso judicial sobre condenas por homicidio de hongos",
+      "titular_original": "Erin Patterson launches high court appeal bid over mushroom murder convictions",
+      "metodo_titular": "traduccion_automatica",
+      "fecha": "2026-11-27T05:31:38+00:00",
+      "actualizado": "2026-11-27T05:31:38+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "The Guardian — World",
+          "url": "https://www.theguardian.com/australia-news/2026/nov/27/erin-patterson-launches-high-court-appeal-over-mushroom-convictions-ntwnfb",
+          "fecha": "2026-11-27T05:31:38+00:00"
+        }
+      ]
+    },
+    {
+      "id": "becee24b00b3625f",
+      "medio_titular": "The Guardian — World",
+      "titular": "El ex piloto de la RAAF condenado por asesinato después de la muerte de su esposa como accidente de cortacéspedes",
+      "titular_original": "Former RAAF pilot convicted of murder after staging wife’s death as lawnmower accident",
+      "metodo_titular": "traduccion_automatica",
+      "fecha": "2026-11-27T04:56:32+00:00",
+      "actualizado": "2026-11-27T04:56:32+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "The Guardian — World",
+          "url": "https://www.theguardian.com/australia-news/2026/nov/27/raaf-pilot-robert-john-crawford-guilty-murder-wife-staged-as-lawn-mowing-accident-ntwnfb",
+          "fecha": "2026-11-27T04:56:32+00:00"
+        }
+      ]
+    },
+    {
+      "id": "91d801b3392fa8af",
+      "medio_titular": "OKDIARIO — España",
+      "titular": "El Gobierno ‘okupa’ el CNIO con 5 altos cargos sin perfil científico tras destaparse el fraude de 25 millones",
+      "titular_original": "El Gobierno ‘okupa’ el CNIO con 5 altos cargos sin perfil científico tras destaparse el fraude de 25 millones",
+      "metodo_titular": "original",
+      "fecha": "2026-11-27T04:49:52+00:00",
+      "actualizado": "2026-11-27T04:49:52+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "OKDIARIO — España",
+          "url": "https://okdiario.com/espana/gobierno-okupa-cnio-5-altos-cargos-sin-perfil-cientifico-destaparse-fraude-25-millones-21281703",
+          "fecha": "2026-11-27T04:49:52+00:00"
+        }
+      ]
+    },
+    {
+      "id": "59d1aa729fa334b7",
+      "medio_titular": "20minutos",
+      "titular": "Una oleada de ciberataques en EEUU golpea al FBI, al Tesoro y a la CIA",
+      "titular_original": "Una oleada de ciberataques en EEUU golpea al FBI, al Tesoro y a la CIA",
+      "metodo_titular": "original",
+      "fecha": "2026-11-27T04:00:00+00:00",
+      "actualizado": "2026-11-27T04:00:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "20minutos",
+          "url": "https://www.20minutos.es/tecnologia/ciberseguridad/ciberataques-estados-unidos-fbi-cia-tesoro-pentagono-seguridad-informatica_7066253_0.html",
+          "fecha": "2026-11-27T04:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "b79a565712035c6b",
+      "medio_titular": "El Debate — Portada",
+      "titular": "Los 107.824 hijos asesinados de España que ya nunca podrán votar",
+      "titular_original": "Los 107.824 hijos asesinados de España que ya nunca podrán votar",
+      "metodo_titular": "original",
+      "fecha": "2026-11-27T03:30:00+00:00",
+      "actualizado": "2026-11-27T03:30:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "El Debate — Portada",
+          "url": "https://www.eldebate.com/familia/20261127/107824-hijos-asesinados-espana-nunca-podran-votar_485672.html",
+          "fecha": "2026-11-27T03:30:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "3338c6d57e2cc2d4",
+      "medio_titular": "El Debate — Portada",
+      "titular": "Las argucias de un entramado rumano para defraudar más de 100.000 euros a la Seguridad Social desde Valladolid",
+      "titular_original": "Las argucias de un entramado rumano para defraudar más de 100.000 euros a la Seguridad Social desde Valladolid",
+      "metodo_titular": "original",
+      "fecha": "2026-11-27T03:30:00+00:00",
+      "actualizado": "2026-11-27T03:30:00+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "El Debate — Portada",
+          "url": "https://www.eldebate.com/espana/castilla-y-leon/20261127/argucias-entramado-rumano-defraudar-100000-euros-seguridad-social-desde-valladolid_485583.html",
+          "fecha": "2026-11-27T03:30:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "6e8137e5ae6c7291",
+      "medio_titular": "20minutos",
+      "titular": "Detenido el presunto autor del disparo mortal a un joven de 35 años durante una cacería en León",
+      "titular_original": "Detenido el presunto autor del disparo mortal a un joven de 35 años durante una cacería en León",
+      "metodo_titular": "original",
+      "fecha": "2026-11-27T03:25:56+00:00",
+      "actualizado": "2026-11-27T03:25:56+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "20minutos",
+          "url": "https://www.20minutos.es/nacional/muere-un-hombre-35-anos-por-un-accidente-caza-localidad-leonesa-tombrio-abajo_7066481_0.html",
+          "fecha": "2026-11-27T03:25:56+00:00"
+        }
+      ]
+    },
+    {
+      "id": "4e05448e80fc5522",
+      "medio_titular": "BBC News — World",
+      "titular": "La policía de Met arruinó mi vida, dice que el hombre de Kenia fue condenado injustamente por atacar a la pareja británica",
+      "titular_original": "Met Police ruined my life, says Kenyan man wrongly convicted over attack on UK couple",
+      "metodo_titular": "traduccion_automatica",
+      "fecha": "2026-11-27T00:48:11+00:00",
+      "actualizado": "2026-11-27T00:48:11+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "BBC News — World",
+          "url": "https://www.bbc.co.uk/news/articles/cqvg2nlr8kd8o?at_medium=RSS&at_campaign=rss",
+          "fecha": "2026-11-27T00:48:11+00:00"
+        }
+      ]
+    },
+    {
+      "id": "edc1d2b915ba447c",
+      "medio_titular": "Europa Press — Internacional",
+      "titular": "EEUU confirma la \"salida voluntaria\" del estudiante español detenido por el ICE y le atribuye un antecedente por hurto",
+      "titular_original": "EEUU confirma la \"salida voluntaria\" del estudiante español detenido por el ICE y le atribuye un antecedente por hurto",
+      "metodo_titular": "original",
+      "fecha": "2026-11-27T00:04:40+00:00",
+      "actualizado": "2026-11-27T00:04:40+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "Europa Press — Internacional",
+          "url": "https://www.europapress.es/internacional/noticia-eeuu-confirma-salida-voluntaria-estudiante-espanol-detenido-ice-le-atribuye-antecedente-hurto-20261127010440.html",
+          "fecha": "2026-11-27T00:04:40+00:00"
+        }
+      ]
+    },
+    {
+      "id": "3152031803ef6d5f",
+      "medio_titular": "EL PAÍS — España",
+      "titular": "La izquierda sale a la ofensiva contra Abascal y Feijóo por los recortes y la violencia machista",
+      "titular_original": "La izquierda sale a la ofensiva contra Abascal y Feijóo por los recortes y la violencia machista",
+      "metodo_titular": "original",
+      "fecha": "2026-11-26T23:10:45+00:00",
+      "actualizado": "2026-11-26T23:10:45+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [
+        "Violencia en la pareja"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "EL PAÍS — España",
+          "url": "https://elpais.com/espana/elecciones-generales/2026-11-26/la-izquierda-sale-a-la-ofensiva-contra-abascal-y-feijoo-por-los-recortes-y-la-violencia-de-genero.html",
+          "fecha": "2026-11-26T23:10:45+00:00"
+        }
+      ]
+    },
+    {
+      "id": "6f3ae5893b4a3cf5",
+      "medio_titular": "OKDIARIO — España",
+      "titular": "Zasca de Abascal a Sánchez por recriminarle que no condene la violencia machista: «Usted ha liberado violadores»",
+      "titular_original": "Zasca de Abascal a Sánchez por recriminarle que no condene la violencia machista: «Usted ha liberado violadores»",
+      "metodo_titular": "original",
+      "fecha": "2026-11-26T21:59:23+00:00",
+      "actualizado": "2026-11-26T21:59:23+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [
+        "Violencia en la pareja"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "OKDIARIO — España",
+          "url": "https://okdiario.com/espana/zasca-abascal-sanchez-recriminarle-que-no-condene-violencia-machista-usted-liberado-violadores-21283498",
+          "fecha": "2026-11-26T21:59:23+00:00"
+        }
+      ]
+    },
+    {
+      "id": "8d3d016f32047414",
+      "medio_titular": "Law & Crime",
+      "titular": "La abuela defendiendo a los niños del 'stalker' de la hija mató a balazos después de confrontar al pistolero en casa: Familia y policías",
+      "titular_original": "Grandmother defending kids from daughter's 'stalker' shot dead after confronting gunman in home: Family and cops",
+      "metodo_titular": "traduccion_automatica",
+      "fecha": "2026-11-26T21:47:13+00:00",
+      "actualizado": "2026-11-26T21:47:13+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "Law & Crime",
+          "url": "https://lawandcrime.com/crime/grandmother-defending-kids-from-daughters-stalker-shot-dead-after-confronting-gunman-in-home-family-and-cops",
+          "fecha": "2026-11-26T21:47:13+00:00"
+        }
+      ]
+    },
+    {
+      "id": "c365f83987f1d3ec",
+      "medio_titular": "20minutos",
+      "titular": "Detenido un hombre por asesinar a su expareja, una mujer de 34 años, en Bilbao",
+      "titular_original": "Detenido un hombre por asesinar a su expareja, una mujer de 34 años, en Bilbao",
+      "metodo_titular": "original",
+      "fecha": "2026-11-26T21:45:14+00:00",
+      "actualizado": "2026-11-26T21:45:14+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "temas": [
+        "Violencia en la pareja"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "20minutos",
+          "url": "https://www.20minutos.es/pais-vasco/vizcaya/detenido-bilbao-por-herir-su-expareja-con-un-arma-blanca_7066457_0.html",
+          "fecha": "2026-11-26T21:45:14+00:00"
+        }
+      ]
+    },
+    {
+      "id": "a4dcb27b4e5ebb66",
+      "medio_titular": "Law & Crime",
+      "titular": "Secuestrar a la víctima escapa del secuestro después de la nota de deslizamiento, pidiendo ayuda de múltiples negocios: Policía",
+      "titular_original": "Kidnapping victim escapes abduction after slipping note, asking for help from multiple businesses: Police",
+      "metodo_titular": "traduccion_automatica",
+      "fecha": "2026-11-26T20:36:42+00:00",
+      "actualizado": "2026-11-26T20:36:42+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "temas": [],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "Law & Crime",
+          "url": "https://lawandcrime.com/crime/kidnapping-victim-escapes-abduction-after-slipping-note-asking-for-help-from-multiple-businesses-police",
+          "fecha": "2026-11-26T20:36:42+00:00"
+        }
+      ]
+    },
     {
       "id": "9cebc923d4cd65dc",
       "medio_titular": "Law & Crime",
@@ -366,7 +798,7 @@
     {
       "id": "79582c328d349801",
       "medio_titular": "Forensic Focus",
-      "titular": "Automatización de flujos de trabajo forenses: Atola TaskForce 2 API web + Autopsia",
+      "titular": "Automatización de flujos de trabajo forenses: Atola TaskForce 2 Web API + Autopsia",
       "titular_original": "Automating Forensic Workflows: Atola TaskForce 2 Web API + Autopsy",
       "metodo_titular": "traduccion_automatica",
       "fecha": "2026-11-26T12:31:26+00:00",
@@ -1366,7 +1798,7 @@
     {
       "id": "5c5850aadf3f9341",
       "medio_titular": "The Guardian — UK",
-      "titular": "Turista suizo asesinado y británico y americanos heridos por elefantes en Camerún",
+      "titular": "Turista suizo asesinado y británicos y estadounidenses heridos por elefantes en Camerún",
       "titular_original": "Swiss tourist killed and British and Americans injured by elephants in Cameroon",
       "metodo_titular": "traduccion_automatica",
       "fecha": "2026-11-25T14:03:18+00:00",
@@ -2509,7 +2941,7 @@
     {
       "id": "17784998fd4d157d",
       "medio_titular": "The Guardian — UK",
-      "titular": "Dos detenidos después del presunto robo en casa de Prince y Princess of Wales",
+      "titular": "Dos detenidos después de presuntos robos en casa de Prince y Princess of Wales",
       "titular_original": "Two arrested after suspected burglary at home of Prince and Princess of Wales",
       "metodo_titular": "traduccion_automatica",
       "fecha": "2026-11-24T15:43:25+00:00",
@@ -3287,7 +3719,7 @@
     {
       "id": "95af17db593fb907",
       "medio_titular": "Law & Crime",
-      "titular": "La abuela despierta pensando que la niña de 3 años tiene una pesadilla — entra para encontrar a mamá apuñalando a ex-novio dormido:",
+      "titular": "La abuela despierta pensando que la niña de 3 años tiene una pesadilla — entra para encontrar a mamá apuñalando a su exnovio dormido:",
       "titular_original": "Grandmother wakes up thinking 3-year-old is having a nightmare — walks in to find mom stabbing sleeping ex-boyfriend: Cops",
       "metodo_titular": "traduccion_automatica",
       "fecha": "2026-11-23T18:43:00+00:00",
@@ -3729,7 +4161,7 @@
     {
       "id": "f47bca55e94b1adf",
       "medio_titular": "The Guardian — World",
-      "titular": "Al menos 24 muertos y docenas desaparecidos en el fuego de fábrica de confitería en Indonesia",
+      "titular": "Al menos 24 muertos y decenas desaparecidos en el fuego de fábrica de confitería en Indonesia",
       "titular_original": "At least 24 killed and dozens missing in confectionery factory fire in Indonesia",
       "metodo_titular": "traduccion_automatica",
       "fecha": "2026-11-23T05:45:12+00:00",
@@ -3750,7 +4182,7 @@
     {
       "id": "84cde718517c078d",
       "medio_titular": "The Guardian — World",
-      "titular": "El amor hizo un tonto de Beau Lamarre-Condon pero no lo hizo un asesino, la defensa argumenta",
+      "titular": "El amor hizo un tonto de Beau Lamarre-Condon pero no lo convirtió en un asesino, la defensa argumenta",
       "titular_original": "Love made a fool of Beau Lamarre-Condon but did not make him a murderer, defence argues",
       "metodo_titular": "traduccion_automatica",
       "fecha": "2026-11-23T04:34:11+00:00",
