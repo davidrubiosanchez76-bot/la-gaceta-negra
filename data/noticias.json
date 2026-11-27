@@ -1,7 +1,54 @@
 {
-  "actualizado": "2026-11-27T18:55:39+00:00",
-  "total": 273,
+  "actualizado": "2026-11-27T20:14:37+00:00",
+  "total": 275,
   "noticias": [
+    {
+      "id": "5a015f286038a800",
+      "medio_titular": "El Debate — Portada",
+      "titular": "El padre de Diana Quer, a Sánchez: «Mi hija fue asesinada por un violador reincidente. Conozco su falso feminismo»",
+      "titular_original": "El padre de Diana Quer, a Sánchez: «Mi hija fue asesinada por un violador reincidente. Conozco su falso feminismo»",
+      "metodo_titular": "original",
+      "fecha": "2026-11-27T19:47:30+00:00",
+      "actualizado": "2026-11-27T19:47:30+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [
+        "Agresiones sexuales",
+        "Homicidios y asesinatos"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "El Debate — Portada",
+          "url": "https://www.eldebate.com/espana/galicia/20261127/padre-diana-quer-sanchez-mi-hija-asesinada-violador-reincidente-conozco-falso-feminismo_486129.html",
+          "fecha": "2026-11-27T19:47:30+00:00"
+        }
+      ]
+    },
+    {
+      "id": "4a21e57d92f990df",
+      "medio_titular": "20minutos",
+      "titular": "Detenidas la directora y una profesora de un colegio por trato degradante a niños con necesidades especiales",
+      "titular_original": "Detenidas la directora y una profesora de un colegio por trato degradante a niños con necesidades especiales",
+      "metodo_titular": "original",
+      "fecha": "2026-11-27T19:43:56+00:00",
+      "actualizado": "2026-11-27T19:43:56+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [
+        "Investigación policial"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "20minutos",
+          "url": "https://www.20minutos.es/andalucia/malaga/detenidas-directora-una-profesora-un-colegio-por-presunto-trato-degradante-ninos-con-necesidades-especiales_7066937_0.html",
+          "fecha": "2026-11-27T19:43:56+00:00"
+        }
+      ]
+    },
     {
       "id": "50fcbda37f60ff3d",
       "medio_titular": "20minutos",
