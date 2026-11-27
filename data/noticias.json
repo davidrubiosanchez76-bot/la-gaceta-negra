@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-27T18:46:04+00:00",
+  "actualizado": "2026-11-27T18:55:39+00:00",
   "total": 280,
   "noticias": [
     {
@@ -106,8 +106,8 @@
       "categoria": "TRUE CRIME",
       "region": "ESPAÑA",
       "temas": [
-        "Narcotráfico",
-        "Investigación policial"
+        "Investigación policial",
+        "Narcotráfico"
       ],
       "expedientes": [],
       "etiquetas_de_deteccion": [],
@@ -246,8 +246,8 @@
       "categoria": "TRUE CRIME",
       "region": "MUNDO",
       "temas": [
-        "Violencia en la pareja",
-        "Homicidios y asesinatos"
+        "Homicidios y asesinatos",
+        "Violencia en la pareja"
       ],
       "expedientes": [],
       "etiquetas_de_deteccion": [],
@@ -270,8 +270,8 @@
       "categoria": "TRUE CRIME",
       "region": "ESPAÑA",
       "temas": [
-        "Narcotráfico",
-        "Investigación policial"
+        "Investigación policial",
+        "Narcotráfico"
       ],
       "expedientes": [],
       "etiquetas_de_deteccion": [],
