@@ -1,7 +1,64 @@
 {
   "mes": "2026-08",
-  "total": 4,
+  "total": 6,
   "noticias": [
+    {
+      "id": "epstein-20260827-39",
+      "titular": "Un juez aprueba el acuerdo de 72,5 millones de dólares entre Bank of America y denunciantes de Epstein",
+      "titular_original": "Un juez aprueba el acuerdo de 72,5 millones de dólares entre Bank of America y denunciantes de Epstein",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2026-08-27T12:00:00+00:00",
+      "actualizado": "2026-08-27T12:00:00+00:00",
+      "precision_fecha": "día",
+      "fecha_publicacion_fuente": "2026-08-27",
+      "nota_fecha": "",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "pais": "ESTADOS UNIDOS",
+      "temas": [
+        "Juicios",
+        "Justicia"
+      ],
+      "expedientes": [
+        "caso-epstein"
+      ],
+      "fuentes": [
+        {
+          "medio": "Reuters / Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/court-approves-bank-of-americas-725-million-settlement-with-epstein-accusers-4879933",
+          "fecha": "2026-08-27T12:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "epstein-20260825-38",
+      "titular": "Un juez federal rechaza la petición de Ghislaine Maxwell para anular su condena",
+      "titular_original": "Un juez federal rechaza la petición de Ghislaine Maxwell para anular su condena",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2026-08-25T12:00:00+00:00",
+      "actualizado": "2026-08-25T12:00:00+00:00",
+      "precision_fecha": "día",
+      "fecha_publicacion_fuente": "2026-08-25",
+      "nota_fecha": "",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "pais": "ESTADOS UNIDOS",
+      "temas": [
+        "Juicios"
+      ],
+      "expedientes": [
+        "caso-epstein"
+      ],
+      "fuentes": [
+        {
+          "medio": "Associated Press",
+          "url": "https://apnews.com/article/5dbf8548c211188a03c6e23c8a5b9311",
+          "fecha": "2026-08-25T12:00:00+00:00"
+        }
+      ]
+    },
     {
       "id": "nve-2026-08-19-09",
       "titular": "Condenan a 77 años de prisión a un miembro de 764 por delitos de explotación de menores y maltrato animal",

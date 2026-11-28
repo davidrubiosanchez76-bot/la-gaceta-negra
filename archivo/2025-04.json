@@ -1,6 +1,6 @@
 {
   "mes": "2025-04",
-  "total": 3,
+  "total": 4,
   "noticias": [
     {
       "id": "nve-2025-04-30-01",
@@ -27,6 +27,34 @@
         }
       ],
       "pais": null
+    },
+    {
+      "id": "epstein-20250425-27",
+      "titular": "Muere Virginia Giuffre, una de las principales denunciantes del caso Epstein",
+      "titular_original": "Muere Virginia Giuffre, una de las principales denunciantes del caso Epstein",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2025-04-25T12:00:00+00:00",
+      "actualizado": "2025-04-25T12:00:00+00:00",
+      "precision_fecha": "día",
+      "fecha_publicacion_fuente": "2025-04-26",
+      "nota_fecha": "",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "pais": "ESTADOS UNIDOS",
+      "temas": [
+        "Actualidad criminal"
+      ],
+      "expedientes": [
+        "caso-epstein"
+      ],
+      "fuentes": [
+        {
+          "medio": "Associated Press",
+          "url": "https://apnews.com/article/778c4fdd6fac2522133ca3d79244bccd",
+          "fecha": "2025-04-26T12:00:00+00:00"
+        }
+      ]
     },
     {
       "id": "lm-2025-04-25-08",

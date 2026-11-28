@@ -1,0 +1,35 @@
+{
+  "mes": "2020-07",
+  "total": 1,
+  "noticias": [
+    {
+      "id": "epstein-20200702-15",
+      "titular": "La Fiscalía federal detiene e imputa a Ghislaine Maxwell por su presunta colaboración en abusos sexuales a menores con Epstein",
+      "titular_original": "La Fiscalía federal detiene e imputa a Ghislaine Maxwell por su presunta colaboración en abusos sexuales a menores con Epstein",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2020-07-02T12:00:00+00:00",
+      "actualizado": "2020-07-02T12:00:00+00:00",
+      "precision_fecha": "día",
+      "fecha_publicacion_fuente": "2020-07-02",
+      "nota_fecha": "",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "pais": "ESTADOS UNIDOS",
+      "temas": [
+        "Juicios",
+        "Agresiones sexuales"
+      ],
+      "expedientes": [
+        "caso-epstein"
+      ],
+      "fuentes": [
+        {
+          "medio": "Departamento de Justicia de EE. UU.",
+          "url": "https://www.justice.gov/usao-sdny/pr/ghislaine-maxwell-charged-manhattan-federal-court-conspiring-jeffrey-epstein-sexually",
+          "fecha": "2020-07-02T12:00:00+00:00"
+        }
+      ]
+    }
+  ]
+}

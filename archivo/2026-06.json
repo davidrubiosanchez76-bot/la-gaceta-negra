@@ -1,6 +1,6 @@
 {
   "mes": "2026-06",
-  "total": 3,
+  "total": 4,
   "noticias": [
     {
       "id": "nve-2026-06-30-06",
@@ -53,6 +53,35 @@
         }
       ],
       "pais": null
+    },
+    {
+      "id": "epstein-20260623-37",
+      "titular": "La comisión del Congreso publica declaraciones recabadas en la investigación de Epstein y Maxwell",
+      "titular_original": "La comisión del Congreso publica declaraciones recabadas en la investigación de Epstein y Maxwell",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2026-06-23T12:00:00+00:00",
+      "actualizado": "2026-06-23T12:00:00+00:00",
+      "precision_fecha": "día",
+      "fecha_publicacion_fuente": "2026-06-23",
+      "nota_fecha": "",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "pais": "ESTADOS UNIDOS",
+      "temas": [
+        "Documentación judicial",
+        "Investigación policial"
+      ],
+      "expedientes": [
+        "caso-epstein"
+      ],
+      "fuentes": [
+        {
+          "medio": "Comisión de Supervisión de la Cámara de Representantes",
+          "url": "https://oversight.house.gov/release/oversight-committee-releases-gates-and-groff-transcripts/",
+          "fecha": "2026-06-23T12:00:00+00:00"
+        }
+      ]
     },
     {
       "id": "hist-isak-andic-2026-06-12-19",

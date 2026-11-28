@@ -1,0 +1,35 @@
+{
+  "mes": "2024-01",
+  "total": 1,
+  "noticias": [
+    {
+      "id": "epstein-20240103-24",
+      "titular": "Comienza la desclasificación de documentos judiciales de una demanda civil relacionada con Epstein y Maxwell",
+      "titular_original": "Comienza la desclasificación de documentos judiciales de una demanda civil relacionada con Epstein y Maxwell",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2024-01-03T12:00:00+00:00",
+      "actualizado": "2024-01-03T12:00:00+00:00",
+      "precision_fecha": "día",
+      "fecha_publicacion_fuente": "2024-01-03",
+      "nota_fecha": "",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "pais": "ESTADOS UNIDOS",
+      "temas": [
+        "Juicios",
+        "Documentación judicial"
+      ],
+      "expedientes": [
+        "caso-epstein"
+      ],
+      "fuentes": [
+        {
+          "medio": "Associated Press",
+          "url": "https://apnews.com/article/3af500d4788ad45301be426628846d71",
+          "fecha": "2024-01-03T12:00:00+00:00"
+        }
+      ]
+    }
+  ]
+}

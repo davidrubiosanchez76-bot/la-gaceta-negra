@@ -1,0 +1,35 @@
+{
+  "mes": "2019-02",
+  "total": 1,
+  "noticias": [
+    {
+      "id": "epstein-20190221-10",
+      "titular": "Un juez concluye que los fiscales vulneraron los derechos de las víctimas al ocultarles el acuerdo sobre Epstein",
+      "titular_original": "Un juez concluye que los fiscales vulneraron los derechos de las víctimas al ocultarles el acuerdo sobre Epstein",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2019-02-21T12:00:00+00:00",
+      "actualizado": "2019-02-21T12:00:00+00:00",
+      "precision_fecha": "día",
+      "fecha_publicacion_fuente": "2026-02-05",
+      "nota_fecha": "",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "pais": "ESTADOS UNIDOS",
+      "temas": [
+        "Juicios",
+        "Justicia"
+      ],
+      "expedientes": [
+        "caso-epstein"
+      ],
+      "fuentes": [
+        {
+          "medio": "Associated Press / PBS NewsHour",
+          "url": "https://www.pbs.org/newshour/politics/a-timeline-of-the-jeffrey-epstein-investigation-and-the-fight-to-make-the-governments-files-public",
+          "fecha": "2026-02-05T12:00:00+00:00"
+        }
+      ]
+    }
+  ]
+}

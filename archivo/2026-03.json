@@ -1,6 +1,6 @@
 {
   "mes": "2026-03",
-  "total": 1,
+  "total": 2,
   "noticias": [
     {
       "id": "nve-2026-03-25-04",
@@ -27,6 +27,35 @@
         }
       ],
       "pais": null
+    },
+    {
+      "id": "epstein-20260317-36",
+      "titular": "Bank of America alcanza un acuerdo preliminar con denunciantes de Jeffrey Epstein",
+      "titular_original": "Bank of America alcanza un acuerdo preliminar con denunciantes de Jeffrey Epstein",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2026-03-17T12:00:00+00:00",
+      "actualizado": "2026-03-17T12:00:00+00:00",
+      "precision_fecha": "día",
+      "fecha_publicacion_fuente": "2026-03-17",
+      "nota_fecha": "",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "pais": "ESTADOS UNIDOS",
+      "temas": [
+        "Juicios",
+        "Justicia"
+      ],
+      "expedientes": [
+        "caso-epstein"
+      ],
+      "fuentes": [
+        {
+          "medio": "Associated Press / PBS NewsHour",
+          "url": "https://www.pbs.org/newshour/nation/bank-of-america-settles-lawsuit-brought-on-behalf-of-jeffrey-epstein-victims",
+          "fecha": "2026-03-17T12:00:00+00:00"
+        }
+      ]
     }
   ]
 }

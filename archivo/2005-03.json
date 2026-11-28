@@ -1,0 +1,35 @@
+{
+  "mes": "2005-03",
+  "total": 1,
+  "noticias": [
+    {
+      "id": "epstein-20050301-01",
+      "titular": "La policía de Palm Beach inicia una investigación por denuncias de abusos de Epstein a menores",
+      "titular_original": "La policía de Palm Beach inicia una investigación por denuncias de abusos de Epstein a menores",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2005-03-01T12:00:00+00:00",
+      "actualizado": "2005-03-01T12:00:00+00:00",
+      "precision_fecha": "mes",
+      "fecha_publicacion_fuente": "2026-02-05",
+      "nota_fecha": "La fuente acredita mes y año, no el día concreto. El día 1 es un marcador técnico de ordenación.",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "pais": "ESTADOS UNIDOS",
+      "temas": [
+        "Investigación policial",
+        "Agresiones sexuales"
+      ],
+      "expedientes": [
+        "caso-epstein"
+      ],
+      "fuentes": [
+        {
+          "medio": "Associated Press",
+          "url": "https://apnews.com/article/aa2455f2b0097753393570aa938757b8",
+          "fecha": "2026-02-05T12:00:00+00:00"
+        }
+      ]
+    }
+  ]
+}

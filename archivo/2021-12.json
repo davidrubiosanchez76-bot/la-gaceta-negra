@@ -1,0 +1,35 @@
+{
+  "mes": "2021-12",
+  "total": 1,
+  "noticias": [
+    {
+      "id": "epstein-20211229-17",
+      "titular": "Un jurado declara culpable a Ghislaine Maxwell por su participación en la explotación sexual de menores",
+      "titular_original": "Un jurado declara culpable a Ghislaine Maxwell por su participación en la explotación sexual de menores",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2021-12-29T12:00:00+00:00",
+      "actualizado": "2021-12-29T12:00:00+00:00",
+      "precision_fecha": "día",
+      "fecha_publicacion_fuente": "2021-12-29",
+      "nota_fecha": "",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "pais": "ESTADOS UNIDOS",
+      "temas": [
+        "Juicios",
+        "Agresiones sexuales"
+      ],
+      "expedientes": [
+        "caso-epstein"
+      ],
+      "fuentes": [
+        {
+          "medio": "Departamento de Justicia de EE. UU.",
+          "url": "https://www.justice.gov/usao-sdny/pr/statement-us-attorney-damian-williams-verdict-us-v-ghislaine-maxwell",
+          "fecha": "2021-12-29T12:00:00+00:00"
+        }
+      ]
+    }
+  ]
+}

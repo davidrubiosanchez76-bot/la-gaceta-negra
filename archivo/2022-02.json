@@ -1,0 +1,35 @@
+{
+  "mes": "2022-02",
+  "total": 1,
+  "noticias": [
+    {
+      "id": "epstein-20220215-18",
+      "titular": "El entonces príncipe Andrés y Virginia Giuffre alcanzan un acuerdo para resolver la demanda civil, sin admisión de culpabilidad",
+      "titular_original": "El entonces príncipe Andrés y Virginia Giuffre alcanzan un acuerdo para resolver la demanda civil, sin admisión de culpabilidad",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2022-02-15T12:00:00+00:00",
+      "actualizado": "2022-02-15T12:00:00+00:00",
+      "precision_fecha": "día",
+      "fecha_publicacion_fuente": "2022-02-15",
+      "nota_fecha": "",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "pais": "ESTADOS UNIDOS",
+      "temas": [
+        "Juicios",
+        "Agresiones sexuales"
+      ],
+      "expedientes": [
+        "caso-epstein"
+      ],
+      "fuentes": [
+        {
+          "medio": "Associated Press / PBS NewsHour",
+          "url": "https://www.pbs.org/newshour/nation/lawyers-say-settlement-reached-in-virginia-giuffres-lawsuit-against-prince-andrew",
+          "fecha": "2022-02-15T12:00:00+00:00"
+        }
+      ]
+    }
+  ]
+}

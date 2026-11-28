@@ -1,7 +1,36 @@
 {
   "mes": "2025-11",
-  "total": 1,
+  "total": 3,
   "noticias": [
+    {
+      "id": "epstein-20251119-32",
+      "titular": "Entra en vigor la ley estadounidense que obliga a divulgar archivos federales sobre Epstein",
+      "titular_original": "Entra en vigor la ley estadounidense que obliga a divulgar archivos federales sobre Epstein",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2025-11-19T12:00:00+00:00",
+      "actualizado": "2025-11-19T12:00:00+00:00",
+      "precision_fecha": "día",
+      "fecha_publicacion_fuente": "2025-11-19",
+      "nota_fecha": "",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "pais": "ESTADOS UNIDOS",
+      "temas": [
+        "Justicia",
+        "Documentación judicial"
+      ],
+      "expedientes": [
+        "caso-epstein"
+      ],
+      "fuentes": [
+        {
+          "medio": "Congreso de EE. UU. / GovInfo",
+          "url": "https://www.govinfo.gov/app/details/PLAW-119publ38",
+          "fecha": "2025-11-19T12:00:00+00:00"
+        }
+      ]
+    },
     {
       "id": "nve-2025-11-14-02",
       "titular": "Acusan en Nueva Jersey a un presunto integrante de 764 de ciberacoso",
@@ -27,6 +56,35 @@
         }
       ],
       "pais": null
+    },
+    {
+      "id": "epstein-20251112-31",
+      "titular": "Una comisión del Congreso publica documentos adicionales del patrimonio de Epstein",
+      "titular_original": "Una comisión del Congreso publica documentos adicionales del patrimonio de Epstein",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2025-11-12T12:00:00+00:00",
+      "actualizado": "2025-11-12T12:00:00+00:00",
+      "precision_fecha": "día",
+      "fecha_publicacion_fuente": "2025-11-12",
+      "nota_fecha": "",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "pais": "ESTADOS UNIDOS",
+      "temas": [
+        "Documentación judicial",
+        "Investigación policial"
+      ],
+      "expedientes": [
+        "caso-epstein"
+      ],
+      "fuentes": [
+        {
+          "medio": "Comisión de Supervisión de la Cámara de Representantes",
+          "url": "https://oversight.house.gov/release/oversight-committee-releases-additional-epstein-estate-documents/",
+          "fecha": "2025-11-12T12:00:00+00:00"
+        }
+      ]
     }
   ]
 }

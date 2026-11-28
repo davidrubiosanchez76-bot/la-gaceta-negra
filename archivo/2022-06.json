@@ -1,0 +1,35 @@
+{
+  "mes": "2022-06",
+  "total": 1,
+  "noticias": [
+    {
+      "id": "epstein-20220628-19",
+      "titular": "Ghislaine Maxwell es condenada a veinte años de prisión por delitos vinculados a Epstein",
+      "titular_original": "Ghislaine Maxwell es condenada a veinte años de prisión por delitos vinculados a Epstein",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2022-06-28T12:00:00+00:00",
+      "actualizado": "2022-06-28T12:00:00+00:00",
+      "precision_fecha": "día",
+      "fecha_publicacion_fuente": "2022-06-28",
+      "nota_fecha": "",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "pais": "ESTADOS UNIDOS",
+      "temas": [
+        "Juicios",
+        "Agresiones sexuales"
+      ],
+      "expedientes": [
+        "caso-epstein"
+      ],
+      "fuentes": [
+        {
+          "medio": "Departamento de Justicia de EE. UU.",
+          "url": "https://www.justice.gov/usao-sdny/pr/ghislaine-maxwell-sentenced-20-years-prison-conspiring-jeffrey-epstein-sexually-abuse",
+          "fecha": "2022-06-28T12:00:00+00:00"
+        }
+      ]
+    }
+  ]
+}

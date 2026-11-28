@@ -1,7 +1,36 @@
 {
   "mes": "2023-09",
-  "total": 1,
+  "total": 2,
   "noticias": [
+    {
+      "id": "epstein-20230926-23",
+      "titular": "JPMorgan acuerda pagar 75 millones de dólares a las Islas Vírgenes por las reclamaciones ligadas al caso Epstein",
+      "titular_original": "JPMorgan acuerda pagar 75 millones de dólares a las Islas Vírgenes por las reclamaciones ligadas al caso Epstein",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2023-09-26T12:00:00+00:00",
+      "actualizado": "2023-09-26T12:00:00+00:00",
+      "precision_fecha": "día",
+      "fecha_publicacion_fuente": "2023-09-26",
+      "nota_fecha": "",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "pais": "ESTADOS UNIDOS",
+      "temas": [
+        "Juicios",
+        "Justicia"
+      ],
+      "expedientes": [
+        "caso-epstein"
+      ],
+      "fuentes": [
+        {
+          "medio": "Associated Press / PBS NewsHour",
+          "url": "https://www.pbs.org/newshour/world/jpmorgan-to-pay-75-million-for-role-in-epstein-sex-trafficking-operation",
+          "fecha": "2023-09-26T12:00:00+00:00"
+        }
+      ]
+    },
     {
       "id": "hist-lindsay-clancy-2023-09-15-03",
       "titular": "Un gran jurado acusa formalmente a Lindsay Clancy de tres asesinatos y otros delitos",

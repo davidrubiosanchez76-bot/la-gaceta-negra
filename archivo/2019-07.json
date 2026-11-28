@@ -1,0 +1,65 @@
+{
+  "mes": "2019-07",
+  "total": 2,
+  "noticias": [
+    {
+      "id": "epstein-20190712-12",
+      "titular": "Alexander Acosta dimite como secretario de Trabajo tras las críticas por el acuerdo judicial de Epstein",
+      "titular_original": "Alexander Acosta dimite como secretario de Trabajo tras las críticas por el acuerdo judicial de Epstein",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2019-07-12T12:00:00+00:00",
+      "actualizado": "2019-07-12T12:00:00+00:00",
+      "precision_fecha": "día",
+      "fecha_publicacion_fuente": "2019-07-12",
+      "nota_fecha": "",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "pais": "ESTADOS UNIDOS",
+      "temas": [
+        "Justicia",
+        "Investigación policial"
+      ],
+      "expedientes": [
+        "caso-epstein"
+      ],
+      "fuentes": [
+        {
+          "medio": "CBS News",
+          "url": "https://www.cbsnews.com/newyork/news/timeline-of-the-life-and-crimes-of-jeffrey-epstein/",
+          "fecha": "2019-07-12T12:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "epstein-20190708-11",
+      "titular": "La Fiscalía de Nueva York anuncia cargos federales contra Epstein por tráfico sexual de menores",
+      "titular_original": "La Fiscalía de Nueva York anuncia cargos federales contra Epstein por tráfico sexual de menores",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2019-07-08T12:00:00+00:00",
+      "actualizado": "2019-07-08T12:00:00+00:00",
+      "precision_fecha": "día",
+      "fecha_publicacion_fuente": "2019-07-08",
+      "nota_fecha": "",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "pais": "ESTADOS UNIDOS",
+      "temas": [
+        "Agresiones sexuales",
+        "Investigación policial",
+        "Juicios"
+      ],
+      "expedientes": [
+        "caso-epstein"
+      ],
+      "fuentes": [
+        {
+          "medio": "Departamento de Justicia de EE. UU.",
+          "url": "https://www.justice.gov/usao-sdny/pr/jeffrey-epstein-charged-manhattan-federal-court-sex-trafficking-minors",
+          "fecha": "2019-07-08T12:00:00+00:00"
+        }
+      ]
+    }
+  ]
+}

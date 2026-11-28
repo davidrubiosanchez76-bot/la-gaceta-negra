@@ -1,6 +1,6 @@
 {
   "mes": "2026-11",
-  "total": 293,
+  "total": 294,
   "noticias": [
     {
       "id": "197619ec43606549",
@@ -7130,6 +7130,36 @@
       "etiquetas_de_deteccion": [],
       "medio_titular": "Forensic Focus",
       "pais": null
+    },
+    {
+      "id": "epstein-20261110-40",
+      "titular": "Una investigación parlamentaria estadounidense señala fallos en las investigaciones de Epstein y Maxwell",
+      "titular_original": "Una investigación parlamentaria estadounidense señala fallos en las investigaciones de Epstein y Maxwell",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2026-11-10T12:00:00+00:00",
+      "actualizado": "2026-11-10T12:00:00+00:00",
+      "precision_fecha": "día",
+      "fecha_publicacion_fuente": "2026-11-10",
+      "nota_fecha": "",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "pais": "ESTADOS UNIDOS",
+      "temas": [
+        "Investigación policial",
+        "Justicia",
+        "Documentación judicial"
+      ],
+      "expedientes": [
+        "caso-epstein"
+      ],
+      "fuentes": [
+        {
+          "medio": "Comisión de Supervisión de la Cámara de Representantes",
+          "url": "https://oversight.house.gov/release/house-oversight-committee-releases-report-on-the-federal-governments-mishandling-of-epstein-and-maxwell-criminal-investigations/",
+          "fecha": "2026-11-10T12:00:00+00:00"
+        }
+      ]
     },
     {
       "id": "6f5961ef07cec512",

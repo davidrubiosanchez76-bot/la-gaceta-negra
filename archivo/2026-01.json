@@ -1,7 +1,36 @@
 {
   "mes": "2026-01",
-  "total": 2,
+  "total": 3,
   "noticias": [
+    {
+      "id": "epstein-20260130-34",
+      "titular": "Estados Unidos publica millones de páginas adicionales de archivos sobre Epstein y Maxwell",
+      "titular_original": "Estados Unidos publica millones de páginas adicionales de archivos sobre Epstein y Maxwell",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2026-01-30T12:00:00+00:00",
+      "actualizado": "2026-01-30T12:00:00+00:00",
+      "precision_fecha": "día",
+      "fecha_publicacion_fuente": "2026-01-30",
+      "nota_fecha": "",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "pais": "ESTADOS UNIDOS",
+      "temas": [
+        "Documentación judicial",
+        "Investigación policial"
+      ],
+      "expedientes": [
+        "caso-epstein"
+      ],
+      "fuentes": [
+        {
+          "medio": "Departamento de Justicia de EE. UU.",
+          "url": "https://www.justice.gov/opa/pr/department-justice-publishes-35-million-responsive-pages-compliance-epstein-files",
+          "fecha": "2026-01-30T12:00:00+00:00"
+        }
+      ]
+    },
     {
       "id": "lm-2026-01-30-11",
       "titular": "Una jueza federal elimina los cargos que permitían solicitar la pena de muerte contra Luigi Mangione",

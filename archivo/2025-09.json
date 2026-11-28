@@ -1,6 +1,6 @@
 {
   "mes": "2025-09",
-  "total": 1,
+  "total": 2,
   "noticias": [
     {
       "id": "lm-2025-09-16-09",
@@ -26,6 +26,35 @@
         }
       ],
       "pais": null
+    },
+    {
+      "id": "epstein-20250902-29",
+      "titular": "El Congreso estadounidense divulga 33.295 páginas del Departamento de Justicia sobre Epstein",
+      "titular_original": "El Congreso estadounidense divulga 33.295 páginas del Departamento de Justicia sobre Epstein",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2025-09-02T12:00:00+00:00",
+      "actualizado": "2025-09-02T12:00:00+00:00",
+      "precision_fecha": "día",
+      "fecha_publicacion_fuente": "2025-09-02",
+      "nota_fecha": "",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "pais": "ESTADOS UNIDOS",
+      "temas": [
+        "Documentación judicial",
+        "Justicia"
+      ],
+      "expedientes": [
+        "caso-epstein"
+      ],
+      "fuentes": [
+        {
+          "medio": "Comisión de Supervisión de la Cámara de Representantes",
+          "url": "https://oversight.house.gov/release/oversight-committee-releases-epstein-records-provided-by-the-department-of-justice/",
+          "fecha": "2025-09-02T12:00:00+00:00"
+        }
+      ]
     }
   ]
 }

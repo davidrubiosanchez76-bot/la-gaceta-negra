@@ -1,6 +1,6 @@
 {
   "mes": "2025-10",
-  "total": 1,
+  "total": 2,
   "noticias": [
     {
       "id": "hist-isak-andic-2025-10-17-15",
@@ -26,6 +26,34 @@
         }
       ],
       "pais": "ESPAÑA"
+    },
+    {
+      "id": "epstein-20251006-30",
+      "titular": "El Tribunal Supremo de Estados Unidos rechaza examinar el recurso de Ghislaine Maxwell",
+      "titular_original": "El Tribunal Supremo de Estados Unidos rechaza examinar el recurso de Ghislaine Maxwell",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2025-10-06T12:00:00+00:00",
+      "actualizado": "2025-10-06T12:00:00+00:00",
+      "precision_fecha": "día",
+      "fecha_publicacion_fuente": "2025-10-06",
+      "nota_fecha": "",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "pais": "ESTADOS UNIDOS",
+      "temas": [
+        "Juicios"
+      ],
+      "expedientes": [
+        "caso-epstein"
+      ],
+      "fuentes": [
+        {
+          "medio": "Associated Press",
+          "url": "https://apnews.com/article/a4ba832cd2a23a2c499cef23f1e30927",
+          "fecha": "2025-10-06T12:00:00+00:00"
+        }
+      ]
     }
   ]
 }

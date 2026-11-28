@@ -1,0 +1,64 @@
+{
+  "mes": "2023-06",
+  "total": 2,
+  "noticias": [
+    {
+      "id": "epstein-20230627-22",
+      "titular": "El inspector general documenta fallos penitenciarios graves en la custodia y muerte de Epstein",
+      "titular_original": "El inspector general documenta fallos penitenciarios graves en la custodia y muerte de Epstein",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2023-06-27T12:00:00+00:00",
+      "actualizado": "2023-06-27T12:00:00+00:00",
+      "precision_fecha": "día",
+      "fecha_publicacion_fuente": "2023-06-27",
+      "nota_fecha": "",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "pais": "ESTADOS UNIDOS",
+      "temas": [
+        "Investigación policial",
+        "Pruebas forenses"
+      ],
+      "expedientes": [
+        "caso-epstein"
+      ],
+      "fuentes": [
+        {
+          "medio": "Associated Press / PBS NewsHour",
+          "url": "https://www.pbs.org/newshour/nation/misconduct-by-federal-jail-guards-led-to-jeffrey-epsteins-suicide-doj-watchdog-says",
+          "fecha": "2023-06-27T12:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "epstein-20230601-21",
+      "titular": "JPMorgan alcanza un acuerdo civil millonario con víctimas de Jeffrey Epstein",
+      "titular_original": "JPMorgan alcanza un acuerdo civil millonario con víctimas de Jeffrey Epstein",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2023-06-01T12:00:00+00:00",
+      "actualizado": "2023-06-01T12:00:00+00:00",
+      "precision_fecha": "mes",
+      "fecha_publicacion_fuente": "2023-06-12",
+      "nota_fecha": "La fuente acredita mes y año, no el día concreto. El día 1 es un marcador técnico de ordenación.",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "pais": "ESTADOS UNIDOS",
+      "temas": [
+        "Juicios",
+        "Justicia"
+      ],
+      "expedientes": [
+        "caso-epstein"
+      ],
+      "fuentes": [
+        {
+          "medio": "Associated Press / PBS NewsHour",
+          "url": "https://www.pbs.org/newshour/nation/jpmorgan-reaches-settlement-with-victims-of-jeffrey-epstein",
+          "fecha": "2023-06-12T12:00:00+00:00"
+        }
+      ]
+    }
+  ]
+}

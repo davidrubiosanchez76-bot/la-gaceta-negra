@@ -1,0 +1,35 @@
+{
+  "mes": "2023-05",
+  "total": 1,
+  "noticias": [
+    {
+      "id": "epstein-20230501-20",
+      "titular": "Deutsche Bank acuerda pagar 75 millones de dólares para resolver reclamaciones de víctimas de Epstein",
+      "titular_original": "Deutsche Bank acuerda pagar 75 millones de dólares para resolver reclamaciones de víctimas de Epstein",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2023-05-01T12:00:00+00:00",
+      "actualizado": "2023-05-01T12:00:00+00:00",
+      "precision_fecha": "mes",
+      "fecha_publicacion_fuente": "2023-12-29",
+      "nota_fecha": "La fuente acredita mes y año, no el día concreto. El día 1 es un marcador técnico de ordenación.",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "pais": "ESTADOS UNIDOS",
+      "temas": [
+        "Juicios",
+        "Justicia"
+      ],
+      "expedientes": [
+        "caso-epstein"
+      ],
+      "fuentes": [
+        {
+          "medio": "Associated Press",
+          "url": "https://apnews.com/article/c776b52f90b5938bcc9d6ce1153e9b7a",
+          "fecha": "2023-12-29T12:00:00+00:00"
+        }
+      ]
+    }
+  ]
+}

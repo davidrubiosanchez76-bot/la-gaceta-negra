@@ -1,0 +1,34 @@
+{
+  "mes": "2024-09",
+  "total": 1,
+  "noticias": [
+    {
+      "id": "epstein-20240917-25",
+      "titular": "Un tribunal federal de apelaciones confirma la condena de Ghislaine Maxwell",
+      "titular_original": "Un tribunal federal de apelaciones confirma la condena de Ghislaine Maxwell",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2024-09-17T12:00:00+00:00",
+      "actualizado": "2024-09-17T12:00:00+00:00",
+      "precision_fecha": "día",
+      "fecha_publicacion_fuente": "2024-09-17",
+      "nota_fecha": "",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "pais": "ESTADOS UNIDOS",
+      "temas": [
+        "Juicios"
+      ],
+      "expedientes": [
+        "caso-epstein"
+      ],
+      "fuentes": [
+        {
+          "medio": "Justia — Tribunal de Apelaciones",
+          "url": "https://law.justia.com/cases/federal/appellate-courts/ca2/22-1426/22-1426-2024-09-17.html",
+          "fecha": "2024-09-17T12:00:00+00:00"
+        }
+      ]
+    }
+  ]
+}

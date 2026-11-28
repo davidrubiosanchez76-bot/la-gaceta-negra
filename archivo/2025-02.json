@@ -1,7 +1,36 @@
 {
   "mes": "2025-02",
-  "total": 1,
+  "total": 2,
   "noticias": [
+    {
+      "id": "epstein-20250227-26",
+      "titular": "El Departamento de Justicia estadounidense publica la primera fase de documentos sobre Epstein",
+      "titular_original": "El Departamento de Justicia estadounidense publica la primera fase de documentos sobre Epstein",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2025-02-27T12:00:00+00:00",
+      "actualizado": "2025-02-27T12:00:00+00:00",
+      "precision_fecha": "día",
+      "fecha_publicacion_fuente": "2025-02-27",
+      "nota_fecha": "",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "pais": "ESTADOS UNIDOS",
+      "temas": [
+        "Documentación judicial",
+        "Investigación policial"
+      ],
+      "expedientes": [
+        "caso-epstein"
+      ],
+      "fuentes": [
+        {
+          "medio": "Departamento de Justicia de EE. UU.",
+          "url": "https://www.justice.gov/opa/pr/attorney-general-pamela-bondi-releases-first-phase-declassified-epstein-files",
+          "fecha": "2025-02-27T12:00:00+00:00"
+        }
+      ]
+    },
     {
       "id": "lm-2025-02-21-06",
       "titular": "La defensa de Mangione cuestiona el acceso a pruebas en su primera vista estatal de 2025",

@@ -1,6 +1,6 @@
 {
   "mes": "2026-02",
-  "total": 2,
+  "total": 3,
   "noticias": [
     {
       "id": "lm-2026-02-27-12",
@@ -52,6 +52,35 @@
         }
       ],
       "pais": null
+    },
+    {
+      "id": "epstein-20260202-35",
+      "titular": "El Gobierno retira miles de documentos de Epstein para corregir la exposición de datos de víctimas",
+      "titular_original": "El Gobierno retira miles de documentos de Epstein para corregir la exposición de datos de víctimas",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2026-02-02T12:00:00+00:00",
+      "actualizado": "2026-02-02T12:00:00+00:00",
+      "precision_fecha": "día",
+      "fecha_publicacion_fuente": "2026-02-02",
+      "nota_fecha": "",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "pais": "ESTADOS UNIDOS",
+      "temas": [
+        "Documentación judicial",
+        "Justicia"
+      ],
+      "expedientes": [
+        "caso-epstein"
+      ],
+      "fuentes": [
+        {
+          "medio": "Associated Press",
+          "url": "https://apnews.com/article/036f169b672bcbe0a9b5516e109b6af0",
+          "fecha": "2026-02-02T12:00:00+00:00"
+        }
+      ]
     }
   ]
 }

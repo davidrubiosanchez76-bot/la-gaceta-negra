@@ -1,0 +1,35 @@
+{
+  "mes": "2018-11",
+  "total": 1,
+  "noticias": [
+    {
+      "id": "epstein-20181128-08",
+      "titular": "El Miami Herald publica la investigación «Perversion of Justice» sobre los abusos de Epstein y el acuerdo de 2007",
+      "titular_original": "El Miami Herald publica la investigación «Perversion of Justice» sobre los abusos de Epstein y el acuerdo de 2007",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2018-11-28T12:00:00+00:00",
+      "actualizado": "2018-11-28T12:00:00+00:00",
+      "precision_fecha": "día",
+      "fecha_publicacion_fuente": "2026-02-05",
+      "nota_fecha": "",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "pais": "ESTADOS UNIDOS",
+      "temas": [
+        "Investigación policial",
+        "Agresiones sexuales"
+      ],
+      "expedientes": [
+        "caso-epstein"
+      ],
+      "fuentes": [
+        {
+          "medio": "Associated Press",
+          "url": "https://apnews.com/article/aa2455f2b0097753393570aa938757b8",
+          "fecha": "2026-02-05T12:00:00+00:00"
+        }
+      ]
+    }
+  ]
+}

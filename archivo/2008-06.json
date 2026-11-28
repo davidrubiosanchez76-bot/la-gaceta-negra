@@ -1,0 +1,35 @@
+{
+  "mes": "2008-06",
+  "total": 1,
+  "noticias": [
+    {
+      "id": "epstein-20080630-04",
+      "titular": "Epstein se declara culpable de delitos estatales relacionados con prostitución y explotación de una menor",
+      "titular_original": "Epstein se declara culpable de delitos estatales relacionados con prostitución y explotación de una menor",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2008-06-30T12:00:00+00:00",
+      "actualizado": "2008-06-30T12:00:00+00:00",
+      "precision_fecha": "día",
+      "fecha_publicacion_fuente": "2020-11-12",
+      "nota_fecha": "",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "pais": "ESTADOS UNIDOS",
+      "temas": [
+        "Juicios",
+        "Agresiones sexuales"
+      ],
+      "expedientes": [
+        "caso-epstein"
+      ],
+      "fuentes": [
+        {
+          "medio": "Departamento de Justicia de EE. UU.",
+          "url": "https://www.justice.gov/archives/opa/pr/statement-doj-office-professional-responsibility-report-jeffrey-epstein-2006-2008",
+          "fecha": "2020-11-12T12:00:00+00:00"
+        }
+      ]
+    }
+  ]
+}
