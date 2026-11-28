@@ -5,7 +5,8 @@
     "categoria": "FICCIÓN NEGROCRIMINAL",
     "region": "MUNDO",
     "activo": true,
-    "idioma": "es"
+    "idioma": "es",
+    "solo_noticias_genero": true
   },
   {
     "nombre": "elDiario.es",
@@ -109,7 +110,8 @@
     "categoria": "FICCIÓN NEGROCRIMINAL",
     "region": "MUNDO",
     "activo": true,
-    "idioma": "en"
+    "idioma": "en",
+    "solo_noticias_genero": true
   },
   {
     "nombre": "Forensic Focus",
@@ -219,5 +221,119 @@
     "activo": true,
     "idioma": "es",
     "solo_noticias_genero": true
+  },
+  {
+    "nombre": "FBI — Comunicados nacionales",
+    "url": "https://www.fbi.gov/feeds/national-press-releases/rss.xml",
+    "categoria": "AUTO",
+    "region": "ESTADOS UNIDOS",
+    "activo": true,
+    "idioma": "en",
+    "tipo_fuente": "oficial",
+    "pais_fuente": "ESTADOS UNIDOS",
+    "ambito_nacional": true
+  },
+  {
+    "nombre": "FTC — Protección del consumidor",
+    "url": "https://www.ftc.gov/feeds/press-release-consumer-protection.xml",
+    "categoria": "AUTO",
+    "region": "ESTADOS UNIDOS",
+    "activo": true,
+    "idioma": "en",
+    "tipo_fuente": "oficial",
+    "pais_fuente": "ESTADOS UNIDOS",
+    "ambito_nacional": true,
+    "solo_timos": true
+  },
+  {
+    "nombre": "NIST — Ciencia forense",
+    "url": "https://www.nist.gov/news-events/forensic%20science/rss.xml",
+    "categoria": "CRIME SCENE",
+    "region": "ESTADOS UNIDOS",
+    "activo": true,
+    "idioma": "en",
+    "tipo_fuente": "cientifica",
+    "pais_fuente": "ESTADOS UNIDOS",
+    "tematica_verificada": true
+  },
+  {
+    "nombre": "Europol — Noticias",
+    "url": "https://www.europol.europa.eu/rss.xml",
+    "categoria": "AUTO",
+    "region": "EUROPA",
+    "activo": true,
+    "idioma": "en",
+    "tipo_fuente": "oficial",
+    "pais_fuente": "EUROPA"
+  },
+  {
+    "nombre": "Mystery Tribune",
+    "url": "https://mysterytribune.com/feed/",
+    "categoria": "FICCIÓN NEGROCRIMINAL",
+    "region": "MUNDO",
+    "activo": true,
+    "idioma": "en",
+    "tipo_fuente": "especializada",
+    "solo_noticias_genero": true
+  },
+  {
+    "nombre": "Valencia Negra — Noticias",
+    "url": "https://valencianegra.com/feed/",
+    "categoria": "FICCIÓN NEGROCRIMINAL",
+    "region": "ESPAÑA",
+    "activo": true,
+    "idioma": "es",
+    "tipo_fuente": "festival",
+    "solo_noticias_genero": true
+  },
+  {
+    "nombre": "The Moscow Times — English",
+    "url": "https://www.themoscowtimes.com/rss/news",
+    "categoria": "AUTO",
+    "region": "EUROPA",
+    "activo": true,
+    "idioma": "en",
+    "tipo_fuente": "prensa",
+    "pais_fuente": "RUSIA"
+  },
+  {
+    "nombre": "Meduza — English",
+    "url": "https://meduza.io/rss/en/all",
+    "categoria": "AUTO",
+    "region": "EUROPA",
+    "activo": true,
+    "idioma": "en",
+    "tipo_fuente": "prensa",
+    "pais_fuente": "RUSIA"
+  },
+  {
+    "nombre": "Deutsche Welle — English",
+    "url": "https://rss.dw.com/rdf/rss-en-all",
+    "categoria": "AUTO",
+    "region": "EUROPA",
+    "activo": true,
+    "idioma": "en",
+    "tipo_fuente": "publico",
+    "pais_fuente": "ALEMANIA"
+  },
+  {
+    "nombre": "ANSA — English",
+    "url": "https://www.ansa.it/english/english_rss.xml",
+    "categoria": "AUTO",
+    "region": "EUROPA",
+    "activo": true,
+    "idioma": "en",
+    "tipo_fuente": "agencia",
+    "pais_fuente": "ITALIA"
+  },
+  {
+    "nombre": "Infobae — RSS",
+    "url": "https://www.infobae.com/arc/outboundfeeds/rss/?outputType=xml",
+    "categoria": "AUTO",
+    "region": "MUNDO",
+    "activo": true,
+    "idioma": "es",
+    "tipo_fuente": "prensa",
+    "pais_fuente": "LATINOAMÉRICA"
   }
 ]
