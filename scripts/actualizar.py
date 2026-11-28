@@ -57,8 +57,9 @@ TOPICS = {
         "missing woman", "persona desaparecida"),
     "Robos y atracos": ("robo", "robos", "atraco", "hurto", "allanamiento", "burglary",
         "robbery", "theft", "stolen", "asaltan"),
-    "Estafas y fraudes": ("estafa", "fraude", "fraud", "scam", "blanqueo", "lavado de dinero",
+    "Estafas y fraudes": ("estafa", "fraude", "fraud", "scam", "timo", "smishing", "phishing", "suplantacion bancaria", "blanqueo", "lavado de dinero",
         "money laundering", "falsificac", "delito economico"),
+    "Timos y suplantaciones": ("timo", "phishing", "smishing", "vishing", "falso empleado del banco", "haciendose pasar por", "suplantacion de identidad", "fake bank", "bank impersonation", "romance scam", "investment scam"),
     "Corrupción": ("malversacion", "cohecho", "soborno", "prevaricacion", "comisiones ilegales",
         "corrupcion", "bribery", "embezzl"),
     "Ciberdelincuencia": ("ciberataque", "hacke", "ransomware", "phishing", "ciberdelincuencia",
@@ -72,9 +73,9 @@ TOPICS = {
         "sospechos", "buscan al"),
 }
 
-CRIME_SCENE = ("ciencia forense", "forense", "tecnica forense", "medicina forense", "criminalistica", "antropologia forense", "balistica", "huellas dactilares", "genetica forense", "identificacion genetica", "restos humanos", "prueba pericial", "forensic", "dna evidence", "forensic dna", "forensic science", "fingerprint analysis", "forensic genealogy", "digital forensics", "crime scene analysis", "evidence testing", "forensic investigation", "forensic technology", "pericia forense", "pericial informatica")
+CRIME_SCENE = ("criminologia", "investigacion criminologica", "estudio criminologico", "victimologia", "forensic research", "criminology research", "forensic toxicology", "trace evidence", "forensic anthropology", "forensic pathology", "ciencia forense", "forense", "tecnica forense", "medicina forense", "criminalistica", "antropologia forense", "balistica", "huellas dactilares", "genetica forense", "identificacion genetica", "restos humanos", "prueba pericial", "forensic", "dna evidence", "forensic dna", "forensic science", "fingerprint analysis", "forensic genealogy", "digital forensics", "crime scene analysis", "evidence testing", "forensic investigation", "forensic technology", "pericia forense", "pericial informatica")
 LITERARY = ("novela negra", "novela policiaca", "literatura criminal", "literatura negra", "ficcion criminal", "thriller policiac", "premio edgar", "premio hammett", "festival de novela negra", "novela de misterio", "novela policial", "cine negro", "ficcion noir", "crime fiction", "noir fiction", "mystery novel", "thriller novel", "detective novel", "crime novel", "mystery fiction", "novela negra", "novel·la negra", "novel·la policíaca")
-CRIME = ("asesinat", "asesino", "asesina", "homicid", "crimen", "criminal", "detenid", "detien", "blanqueo", "corrupcion", "malversacion", "cohecho", "etarra", "ciberataque", "secuestro", "narcotraf", "violencia machista", "violencia de genero", "feminicidio", "robo con violencia", "atraco", "sicario", "estafa millonaria", "policia investiga", "presunto asesino", "procesad", "condena por", "asesino en serie", "terrorismo", "trata de personas", "murder", "homicide", "killed", "killing", "slain", "stabbed", "stabbing", "arrested", "rape", "rapist", "sexual assault", "kidnapped", "kidnapping", "fraud", "shooting", "shot dead", "found dead", "missing girl", "missing woman", "missing person", "convicted", "sentenced to prison", "sentenced for", "pleads guilty", "pleaded guilty", "charged with murder", "criminal trial", "death penalty", "crime scene", "assassinat", "assassinat", "homicidi", "detingut", "detinguda", "detenen", "segrest", "narcotrafic", "violencia masclista", "feminicidi", "crim organitzat", "assassi", "robatori violent", "arson", "murdered", "throat slit")
+CRIME = ("estafa", "timo", "smishing", "phishing", "suplantacion bancaria", "ciberestafa", "fraude bancario", "extorsion", "scam", "romance scam", "asesinat", "asesino", "asesina", "homicid", "crimen", "criminal", "detenid", "detien", "blanqueo", "corrupcion", "malversacion", "cohecho", "etarra", "ciberataque", "secuestro", "narcotraf", "violencia machista", "violencia de genero", "feminicidio", "robo con violencia", "atraco", "sicario", "estafa millonaria", "policia investiga", "presunto asesino", "procesad", "condena por", "asesino en serie", "terrorismo", "trata de personas", "murder", "homicide", "killed", "killing", "slain", "stabbed", "stabbing", "arrested", "rape", "rapist", "sexual assault", "kidnapped", "kidnapping", "fraud", "shooting", "shot dead", "found dead", "missing girl", "missing woman", "missing person", "convicted", "sentenced to prison", "sentenced for", "pleads guilty", "pleaded guilty", "charged with murder", "criminal trial", "death penalty", "crime scene", "assassinat", "assassinat", "homicidi", "detingut", "detinguda", "detenen", "segrest", "narcotrafic", "violencia masclista", "feminicidi", "crim organitzat", "assassi", "robatori violent", "arson", "murdered", "throat slit")
 EXCLUDE = ("accidente de trafico", "colision entre", "incendio forestal", "terremoto", "atropello accidental", "fenomeno meteorologico", "gta vi", "video game", "glider crash", "crashes into", "road accident", "car crash", "plane crash", "forensic focus digest", "registration opens for", "virtual summit", "climate summit")
 FUENTES_EXCLUIDAS = {"3CatInfo", "La Vanguardia — Barcelona"}
 
@@ -282,12 +283,12 @@ def topics_of(text, cat):
         found = []
         if any(x in s for x in ("festival", "semana negra", "getafe negro", "congreso negro")):
             found.append("Festivales")
-        if any(x in s for x in ("premio", "certamen", "concurso", "galardon", "finalista")):
+        if any(x in s for x in ("premio", "certamen", "concurso", "galardon", "finalista", "award", "dagger", "shortlist", "winner")):
             found.append("Premios y concursos")
         if any(x in s for x in ("publica", "novedad", "nueva novela", "presentacion",
                                  "lanzamiento", "reedicion", "editorial")):
             found.append("Novedades editoriales")
-        if any(x in s for x in ("adaptacion", "serie", "pelicula", "cine")):
+        if any(x in s for x in ("adaptacion", "serie", "pelicula", "cine", "film adaptation", "screen adaptation", "tv adaptation", "crime drama series")):
             found.append("Adaptaciones y pantallas")
         return list(dict.fromkeys(found + ["Ficción negrocriminal"]))
     if cat == "CRIME SCENE":
@@ -296,6 +297,14 @@ def topics_of(text, cat):
             found.append("ADN y genética forense")
         if "balistic" in s or "ballistic" in s:
             found.append("Balística")
+        if any(x in s for x in ("criminologia", "criminology", "victimologia", "victimology", "reincidencia", "recidivism")):
+            found.append("Criminología")
+        if any(x in s for x in ("toxicologia", "toxicology")):
+            found.append("Toxicología forense")
+        if any(x in s for x in ("digital", "informatic", "ciber", "cyber", "device", "smartphone")):
+            found.append("Informática forense")
+        if any(x in s for x in ("patologia", "pathology", "autopsia", "autopsy")):
+            found.append("Patología forense")
         return list(dict.fromkeys(found + ["Criminalística"]))
     if cat != "TRUE CRIME":
         return []
@@ -418,10 +427,16 @@ SEÑALES_ACTUALIDAD_NEGRA = (
     r"\binaugura(?:n|ci[oó]n)?\b", r"\babr(?:e|en)\b.{0,30}\binscrip",
     r"\bprogramaci[oó]n\b", r"\bcartagena negra\b",
     r"\bgetafe negro\b", r"\bsemana negra\b",
+    r"\b(?:award|awards|winner|winners|shortlist|shortlisted|longlist)\b",
+    r"\b(?:dagger|edgar) awards?\b",
+    r"\bnew (?:crime|mystery|detective|noir) (?:novel|book|series)\b",
+    r"\b(?:crime|mystery|noir) (?:festival|prize|awards)\b",
+    r"\b(?:film|screen|tv) adaptation\b",
 )
 SEÑALES_NO_ACTUALIDAD = (
     r"^rese[ñn]a\b", r"^cr[ií]tica(?: literaria)?\b",
     r"^opini[oó]n\b", r"^mis lecturas\b",
+    r"^review\b", r"^book review\b", r"^the best \d+\b",
 )
 
 def es_noticia_negrocriminal(titulo):
@@ -443,6 +458,8 @@ def make_story(item, feed, config, correcciones=None, excluidas=None):
     if feed.get("solo_noticias_genero") and not es_noticia_negrocriminal(title):
         return None
     full_text = title + " " + re.sub(r"<[^>]*>", " ", item["summary"])
+    if feed.get("solo_timos") and not any(x in normalize(full_text) for x in ("scam", "fraud", "impostor", "deceptive", "phishing", "estafa", "timo", "suplantacion", "identity theft")):
+        return None
     es_nve = es_extremismo_nihilista(title, item["summary"])
     # Los RSS especializados en seguimiento no deben inundar la portada.
     if feed.get("solo_expediente") and feed["solo_expediente"] not in cases_of(title, config, summary=item["summary"]):
@@ -451,6 +468,9 @@ def make_story(item, feed, config, correcciones=None, excluidas=None):
     if sid in (excluidas or set()):
         return None
     cat = category(title, feed.get("categoria", "AUTO"))
+    # RSS oficial monográfico: el resumen puede aclarar un titular científico genérico.
+    if not cat and feed.get("tematica_verificada") and feed.get("categoria") == "CRIME SCENE":
+        cat = category(full_text, "CRIME SCENE")
     if not cat and es_nve:
         cat = "TRUE CRIME"
     if not cat:
