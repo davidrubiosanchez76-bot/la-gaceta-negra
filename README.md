@@ -121,3 +121,13 @@ Se detectaron falsos positivos por la subcadena "timo" dentro de "último", "ín
 Las noticias archivadas se mantienen completas, pero **la portada** muestra como máximo tres entradas por medio y día. Sus primeras veinte tarjetas se diversifican con un máximo preferente de tres por medio, usando acontecimientos recientes de otras fuentes. Ninguna cabecera es excluida por su orientación ideológica; la representación responde exclusivamente a evitar duplicación editorial y acumulación de noticias en un único RSS. El HTML de Blogger deberá respetar el orden recibido desde data/noticias.json para conservar la mezcla; si vuelve a ordenar por fecha, seguirá vigente el máximo por medio y día.
 
 CASO EPSTEIN: añadido el análisis forense presentado el 16/11/2026 (Michael Freeman, Anders Eriksson e Itiel Dror) con fuentes independientes CNN/BBC/CBS, describiendo tanto sus dudas sobre el suicidio como el dictamen contrario del Médico Forense de Nueva York. No se atribuye como hecho probado un homicidio.
+
+## Corrección efectiva de la infrarrepresentación — 28/11/2026
+
+La auditoría del ciclo 46130886672 confirmó un **problema de cobertura real**: CrimeReads, Revista Calibre .38, Mystery Tribune, Valencia Negra y NIST devolvían cero noticias pertinentes; la combinación de RSS limitados a los últimos 10-40 artículos, ventana de 15 días y palabras clave en el título impedía aprovechar noticias especializadas.
+
+Desde esta revisión las fuentes de categoría **CRIME SCENE** o **FICCIÓN NEGROCRIMINAL** disponen de **90 días** para recuperar noticias de sus canales; True Crime general sigue con 15 días. Se mantienen las salvaguardas: excluir reseñas rutinarias, opiniones y publicidad; exigir pertinencia forense en fuentes generalistas; no incorporar catálogos editoriales.
+
+Se han sembrado **12 fichas de actualidad respaldadas por noticias abiertas de 2026**, con fuente directa y fecha documental: siete Crime Scene (ADN y genealogía, prueba informática, criminología) y cinco Ficción negrocriminal (premios literarios, festival Vallekas Negra, adaptación audiovisual), evitando notas promocionales comerciales salvo documentación primaria de un estreno audiovisual.
+
+El sembrado histórico y las nuevas reglas se reflejarán en Blogger tras la próxima ejecución completa de GitHub Actions, que reconstruye `data/noticias.json` y `archivo/indice.json`. La publicación de nuevas noticias automáticas depende de que los RSS entreguen títulos pertinentes, no de cuotas impuestas.

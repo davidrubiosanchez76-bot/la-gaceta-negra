@@ -32,6 +32,7 @@ HEADER = {"User-Agent": "LaGacetaNegra/0.1 (+BalasyEstrellas RSS reader)"}
 LIMIT_BYTES = 3_000_000
 DAYS_KEEP_FRONTPAGE = 60
 DAYS_ACCEPT_FEED = 15
+DAYS_ACCEPT_SPECIALIZED = 90  # investigación y ficción publican con menor frecuencia
 
 STOP = set("a al ante bajo con contra de del desde durante e el en entre es esta este estos estas la las le les lo los o para por que se sin sobre su sus un una uno unos unas y ya hoy ayer tras nuevo nueva nuevos nuevas caso crimen investigacion investigan detenido detenida presunto presunta ultima ultimas noticia noticias".split())
 TOPICS = {
@@ -471,6 +472,8 @@ SEÑALES_ACTUALIDAD_NEGRA = (
     r"\bnew (?:crime|mystery|detective|noir) (?:novel|book|series)\b",
     r"\b(?:crime|mystery|noir) (?:festival|prize|awards)\b",
     r"\b(?:film|screen|tv) adaptation\b",
+    r"\b(?:crime|mystery|thriller|noir) (?:writer|author|book|novel|series) wins?\b",
+    r"\b(?:crime|mystery) (?:writers?|authors?) (?:association|awards)\b",
 )
 SEÑALES_NO_ACTUALIDAD = (
     r"^rese[ñn]a\b", r"^cr[ií]tica(?: literaria)?\b",
@@ -492,7 +495,8 @@ def make_story(item, feed, config, correcciones=None, excluidas=None):
     date = date_parse(item["date"])
     if not title or not url or not date:
         return None
-    if not (NOW - timedelta(days=DAYS_ACCEPT_FEED) <= date <= NOW + timedelta(hours=8)):
+    plazo = DAYS_ACCEPT_SPECIALIZED if feed.get("categoria") in ("CRIME SCENE", "FICCIÓN NEGROCRIMINAL") else DAYS_ACCEPT_FEED
+    if not (NOW - timedelta(days=plazo) <= date <= NOW + timedelta(hours=8)):
         return None
     if feed.get("solo_noticias_genero") and not es_noticia_negrocriminal(title):
         return None

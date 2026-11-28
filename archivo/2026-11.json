@@ -1,6 +1,6 @@
 {
   "mes": "2026-11",
-  "total": 290,
+  "total": 298,
   "noticias": [
     {
       "id": "63cb2b094c541031",
@@ -2739,6 +2739,30 @@
       "pais": null
     },
     {
+      "id": "gaceta-20261125-fn-08",
+      "titular": "Crime Fiction Lover anuncia las seis novelas finalistas a mejor novela criminal de 2026",
+      "titular_original": "Crime Fiction Lover anuncia las seis novelas finalistas a mejor novela criminal de 2026",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2026-11-25T12:00:00+00:00",
+      "actualizado": "2026-11-25T12:00:00+00:00",
+      "categoria": "FICCIÓN NEGROCRIMINAL",
+      "region": "MUNDO",
+      "pais": null,
+      "temas": [
+        "Premios y concursos",
+        "Ficción negrocriminal"
+      ],
+      "expedientes": [],
+      "fuentes": [
+        {
+          "medio": "Crime Fiction Lover",
+          "url": "https://crimefictionlover.com/2026/11/best-crime-novel-of-2026-shortlist/",
+          "fecha": "2026-11-25T12:00:00+00:00"
+        }
+      ]
+    },
+    {
       "id": "660243ade2c7650e",
       "medio_titular": "The Guardian — World",
       "titular": "Embajada del Reino Unido en Japón advierte de aumento en el arpismo de bebidas y fraude de tarjetas de crédito en los bares de Tokio",
@@ -3738,6 +3762,31 @@
       "pais": null
     },
     {
+      "id": "gaceta-20261124-fn-09",
+      "titular": "Vallekas Negra crea un premio de novela negra y social para su quinta edición de 2027",
+      "titular_original": "Vallekas Negra crea un premio de novela negra y social para su quinta edición de 2027",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2026-11-24T12:00:00+00:00",
+      "actualizado": "2026-11-24T12:00:00+00:00",
+      "categoria": "FICCIÓN NEGROCRIMINAL",
+      "region": "ESPAÑA",
+      "pais": "ESPAÑA",
+      "temas": [
+        "Festivales",
+        "Premios y concursos",
+        "Ficción negrocriminal"
+      ],
+      "expedientes": [],
+      "fuentes": [
+        {
+          "medio": "Europa Press — Madrid",
+          "url": "https://www.europapress.es/madrid/noticia-vallekas-negra-celebra-quinto-aniversario-nuevo-premio-reconocer-mejor-novela-negra-social-2026-20261124080951.html",
+          "fecha": "2026-11-24T12:00:00+00:00"
+        }
+      ]
+    },
+    {
       "id": "c0880b7b66921e96",
       "medio_titular": "EL PAÍS — España",
       "titular": "Dos detenidos en Barcelona vinculados a la red de financiación de Hamás",
@@ -4523,6 +4572,30 @@
         }
       ],
       "pais": "ESPAÑA"
+    },
+    {
+      "id": "gaceta-20261123-cs-01",
+      "titular": "La genealogía genética forense esclarece el asesinato de Jacqueline Dunleavy cometido en Canadá en 1968",
+      "titular_original": "La genealogía genética forense esclarece el asesinato de Jacqueline Dunleavy cometido en Canadá en 1968",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2026-11-23T12:00:00+00:00",
+      "actualizado": "2026-11-23T12:00:00+00:00",
+      "categoria": "CRIME SCENE",
+      "region": "MUNDO",
+      "pais": "CANADÁ",
+      "temas": [
+        "ADN y genética forense",
+        "Investigación policial"
+      ],
+      "expedientes": [],
+      "fuentes": [
+        {
+          "medio": "London Police Service",
+          "url": "https://www.londonpolice.ca/about/news-and-media/forensic-investigative-genetic-genealogy/",
+          "fecha": "2026-11-23T12:00:00+00:00"
+        }
+      ]
     },
     {
       "id": "e098f0514d5b8be7",
@@ -6056,6 +6129,30 @@
       "pais": null
     },
     {
+      "id": "gaceta-20261120-fn-10",
+      "titular": "Crime Fiction Lover anuncia las novelas criminales traducidas finalistas de sus premios 2026",
+      "titular_original": "Crime Fiction Lover anuncia las novelas criminales traducidas finalistas de sus premios 2026",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2026-11-20T12:00:00+00:00",
+      "actualizado": "2026-11-20T12:00:00+00:00",
+      "categoria": "FICCIÓN NEGROCRIMINAL",
+      "region": "MUNDO",
+      "pais": null,
+      "temas": [
+        "Premios y concursos",
+        "Ficción negrocriminal"
+      ],
+      "expedientes": [],
+      "fuentes": [
+        {
+          "medio": "Crime Fiction Lover",
+          "url": "https://crimefictionlover.com/2026/11/best-crime-novel-in-translation-of-2026-shortlist/",
+          "fecha": "2026-11-20T12:00:00+00:00"
+        }
+      ]
+    },
+    {
       "id": "de26cc8c733070f2",
       "titular": "Andréi Zviáguintsev reflexiona sobre el matrimonio, la mitología y la violencia familiar",
       "fecha": "2026-11-20T09:10:51+00:00",
@@ -6791,6 +6888,30 @@
       "pais": null
     },
     {
+      "id": "gaceta-20261117-fn-11",
+      "titular": "Crime Fiction Lover publica los finalistas a mejor primera novela criminal de 2026",
+      "titular_original": "Crime Fiction Lover publica los finalistas a mejor primera novela criminal de 2026",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2026-11-17T12:00:00+00:00",
+      "actualizado": "2026-11-17T12:00:00+00:00",
+      "categoria": "FICCIÓN NEGROCRIMINAL",
+      "region": "MUNDO",
+      "pais": null,
+      "temas": [
+        "Premios y concursos",
+        "Ficción negrocriminal"
+      ],
+      "expedientes": [],
+      "fuentes": [
+        {
+          "medio": "Crime Fiction Lover",
+          "url": "https://crimefictionlover.com/2026/11/best-debut-crime-novel-of-2026-shortlist/",
+          "fecha": "2026-11-17T12:00:00+00:00"
+        }
+      ]
+    },
+    {
       "id": "d17b94cf849f577a",
       "titular": "Una demanda atribuye a una furgoneta escolar de bajo coste un accidente con un estudiante muerto y otro con quemaduras en el 70 % del cuerpo",
       "fecha": "2026-11-16T21:36:50+00:00",
@@ -6980,6 +7101,30 @@
       "pais": null
     },
     {
+      "id": "gaceta-20261116-cs-02",
+      "titular": "Identifican mediante ADN y genealogía genética los restos del hombre hallado en un barril en el lago Mead",
+      "titular_original": "Identifican mediante ADN y genealogía genética los restos del hombre hallado en un barril en el lago Mead",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2026-11-16T12:00:00+00:00",
+      "actualizado": "2026-11-16T12:00:00+00:00",
+      "categoria": "CRIME SCENE",
+      "region": "ESTADOS UNIDOS",
+      "pais": "ESTADOS UNIDOS",
+      "temas": [
+        "ADN y genética forense",
+        "Criminalística"
+      ],
+      "expedientes": [],
+      "fuentes": [
+        {
+          "medio": "Oklahoma State University",
+          "url": "https://news.okstate.edu/articles/health-sciences/2026/osu-chs-forensic-scientists-help-identify-lake-mead-remains",
+          "fecha": "2026-11-16T12:00:00+00:00"
+        }
+      ]
+    },
+    {
       "id": "b4cf404a2db55892",
       "medio_titular": "Solo Novela Negra",
       "titular": "GETAFE NEGRO cierra con éxito la XIX edición",
@@ -7134,6 +7279,30 @@
       "pais": null
     },
     {
+      "id": "gaceta-20261109-cs-03",
+      "titular": "Un estudio compara las garantías legales y la admisibilidad de pruebas digitales en Estados Unidos y la India",
+      "titular_original": "Un estudio compara las garantías legales y la admisibilidad de pruebas digitales en Estados Unidos y la India",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2026-11-09T12:00:00+00:00",
+      "actualizado": "2026-11-09T12:00:00+00:00",
+      "categoria": "CRIME SCENE",
+      "region": "EUROPA",
+      "pais": null,
+      "temas": [
+        "Informática forense",
+        "Investigación criminológica"
+      ],
+      "expedientes": [],
+      "fuentes": [
+        {
+          "medio": "Frontiers in Computer Science",
+          "url": "https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2026.2010006/full",
+          "fecha": "2026-11-09T12:00:00+00:00"
+        }
+      ]
+    },
+    {
       "id": "hist-lindsay-clancy-2026-11-02-08",
       "titular": "Tras el juicio sin veredicto, la Fiscalía estudia un nuevo proceso contra Lindsay Clancy",
       "titular_original": "Explainer-What’s next in the Lindsay Clancy murder case?",
@@ -7157,6 +7326,30 @@
         }
       ],
       "pais": null
+    },
+    {
+      "id": "gaceta-20261102-cs-04",
+      "titular": "Un algoritmo de Stanford acelera la genealogía genética para resolver crímenes antiguos",
+      "titular_original": "Un algoritmo de Stanford acelera la genealogía genética para resolver crímenes antiguos",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2026-11-02T12:00:00+00:00",
+      "actualizado": "2026-11-02T12:00:00+00:00",
+      "categoria": "CRIME SCENE",
+      "region": "ESTADOS UNIDOS",
+      "pais": "ESTADOS UNIDOS",
+      "temas": [
+        "ADN y genética forense",
+        "Criminalística"
+      ],
+      "expedientes": [],
+      "fuentes": [
+        {
+          "medio": "Stanford Report",
+          "url": "https://news.stanford.edu/stories/2026/11/professor-found-faster-way-crack-cold-cases",
+          "fecha": "2026-11-02T12:00:00+00:00"
+        }
+      ]
     }
   ]
 }

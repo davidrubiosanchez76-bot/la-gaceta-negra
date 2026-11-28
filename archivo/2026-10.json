@@ -1,6 +1,6 @@
 {
   "mes": "2026-10",
-  "total": 4,
+  "total": 8,
   "noticias": [
     {
       "id": "lm-2026-10-31-18",
@@ -28,6 +28,31 @@
       "pais": null
     },
     {
+      "id": "gaceta-20261030-fn-12",
+      "titular": "Se estrena Nocturne, serie criminal basada en una novela de Lars Kepler",
+      "titular_original": "Se estrena Nocturne, serie criminal basada en una novela de Lars Kepler",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2026-10-30T12:00:00+00:00",
+      "actualizado": "2026-10-30T12:00:00+00:00",
+      "categoria": "FICCIÓN NEGROCRIMINAL",
+      "region": "MUNDO",
+      "pais": null,
+      "temas": [
+        "Adaptaciones y pantallas",
+        "Ficción negrocriminal"
+      ],
+      "expedientes": [],
+      "fuentes": [
+        {
+          "medio": "Apple TV Press",
+          "url": "https://www.apple.com/tv-pr/news/2026/09/apple-tv-unveils-trailer-for-nocturne-the-gripping-new-drama-led-by-liev-schreiber-and-zazie-beetz-and-stars-stephen-graham/",
+          "fecha": "2026-09-29T12:00:00+00:00"
+        }
+      ],
+      "nota_fecha": "La noticia original se publicó el 29 de septiembre y anunció el estreno para el 30 de octubre; la fecha de esta ficha corresponde al estreno, no a la nota de prensa."
+    },
+    {
       "id": "epstein-20261026-supl",
       "titular": "El grupo demócrata del Comité Judicial pide una investigación independiente tras publicar un informe de alegaciones sobre el caso Epstein",
       "titular_original": "El grupo demócrata del Comité Judicial pide una investigación independiente tras publicar un informe de alegaciones sobre el caso Epstein",
@@ -53,6 +78,78 @@
           "medio": "Comité Judicial de la Cámara — Grupo demócrata",
           "url": "https://democrats-judiciary.house.gov/media-center/press-releases/judiciary-democrats-report-details-mounting-evidence-linking-trump-to-epstein-s-criminal-activities-and-doj-s-cover-up-specific-accounts-involving-11-women-provide-more-evidence-of-potential-sex-crimes",
           "fecha": "2026-10-26T12:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "gaceta-20261021-cs-05",
+      "titular": "Un estudio explora el ADN humano capturado del aire como posible prueba en robos domiciliarios",
+      "titular_original": "Un estudio explora el ADN humano capturado del aire como posible prueba en robos domiciliarios",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2026-10-21T12:00:00+00:00",
+      "actualizado": "2026-10-21T12:00:00+00:00",
+      "categoria": "CRIME SCENE",
+      "region": "MUNDO",
+      "pais": "AUSTRALIA",
+      "temas": [
+        "ADN y genética forense",
+        "Criminalística"
+      ],
+      "expedientes": [],
+      "fuentes": [
+        {
+          "medio": "Flinders University",
+          "url": "https://news.flinders.edu.au/blog/2026/10/21/new-ways-to-catch-a-thief/",
+          "fecha": "2026-10-21T12:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "gaceta-20261016-cs-07",
+      "titular": "Un estudio oficial sitúa la reincidencia penitenciaria en España en el 13,3 % durante cuatro años",
+      "titular_original": "Un estudio oficial sitúa la reincidencia penitenciaria en España en el 13,3 % durante cuatro años",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2026-10-16T12:00:00+00:00",
+      "actualizado": "2026-10-16T12:00:00+00:00",
+      "categoria": "CRIME SCENE",
+      "region": "ESPAÑA",
+      "pais": "ESPAÑA",
+      "temas": [
+        "Criminología",
+        "Reincidencia"
+      ],
+      "expedientes": [],
+      "fuentes": [
+        {
+          "medio": "Ministerio del Interior",
+          "url": "https://www.interior.gob.es/opencms/va/detalle/articulo/El-nuevo-estudio-de-reincidencia-penitenciaria-recoge-que-casi-9-de-cada-10-excarcelados-en-2020-no-volvieron-a-prision-durante-el-periodo-examinado/",
+          "fecha": "2026-10-16T12:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "gaceta-20261016-cs-06",
+      "titular": "Europol identifica carencias en la obtención y el análisis de pruebas digitales en Europa",
+      "titular_original": "Europol identifica carencias en la obtención y el análisis de pruebas digitales en Europa",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2026-10-16T12:00:00+00:00",
+      "actualizado": "2026-10-16T12:00:00+00:00",
+      "categoria": "CRIME SCENE",
+      "region": "EUROPA",
+      "pais": null,
+      "temas": [
+        "Informática forense",
+        "Criminalística"
+      ],
+      "expedientes": [],
+      "fuentes": [
+        {
+          "medio": "Europol",
+          "url": "https://www.europol.europa.eu/media-press/newsroom/news/keeping-pace-e-evidence-new-report-examines-europes-digital-forensic-capabilities",
+          "fecha": "2026-10-16T12:00:00+00:00"
         }
       ]
     },

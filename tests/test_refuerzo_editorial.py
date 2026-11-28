@@ -90,6 +90,24 @@ class TestRefuerzo(unittest.TestCase):
         from collections import Counter
         self.assertLessEqual(max(Counter(x["medio_titular"] for x in final[:10]).values()),3)
 
+
+    def test_ventana_extendida_solo_especializadas(self):
+        from datetime import datetime, timezone, timedelta
+        from email.utils import format_datetime
+        from unittest.mock import patch
+        dt=datetime.now(timezone.utc)-timedelta(days=43)
+        def item(title):
+            return {"title":title,"url":"https://example.org/actualidad-negra","date":format_datetime(dt),
+                    "summary":"","outlet":""}
+        with patch.object(g,"titulo_para_publicar",return_value=("Premios de novela negra","revision_editorial")):
+            specialized={"nombre":"Festival Noir","categoria":"FICCIÓN NEGROCRIMINAL",
+                         "region":"ESPAÑA","idioma":"es","solo_noticias_genero":True}
+            self.assertIsNotNone(g.make_story(item("Festival de novela negra anuncia finalistas"),specialized,[]))
+            general={"nombre":"Diario genérico","categoria":"AUTO","region":"ESPAÑA","idioma":"es"}
+            self.assertIsNone(g.make_story(item("Detenido por asesinato en Madrid"),general,[]))
+        self.assertEqual(g.DAYS_ACCEPT_FEED,15)
+        self.assertGreaterEqual(g.DAYS_ACCEPT_SPECIALIZED,60)
+
     def test_detector_epstein(self):
         from detectar_epstein import coincide
         self.assertTrue(coincide("Jeffrey Epstein files released by US Justice Department"))
