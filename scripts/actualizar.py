@@ -383,6 +383,37 @@ def story_region(story):
     return story.get("region", "MUNDO")
 
 
+# País de los hechos, no nacionalidad del medio. MUNDO permanece si hay duda.
+MARCADORES_PAIS = {
+    "ESPAÑA": ("espana", "spain", "madrid", "barcelona", "sevilla", "valencia", "malaga", "mossos", "guardia civil"),
+    "ESTADOS UNIDOS": ("estados unidos", "eeuu", "united states", "california", "new york", "florida", "texas", "washington dc"),
+    "MÉXICO": ("mexico", "mexican", "ciudad de mexico", "cdmx"),
+    "ARGENTINA": ("argentina", "buenos aires"),
+    "COLOMBIA": ("colombia", "bogota", "medellin"),
+    "PERÚ": ("peru", "lima peru"),
+    "RUSIA": ("rusia", "russian", "moscu", "moscow"),
+    "CHINA": ("china", "chinese", "pekin", "beijing", "shanghai"),
+    "FRANCIA": ("francia", "france", "paris", "marsella", "marseille"),
+    "ITALIA": ("italia", "italy", "roma", "milan", "napoles", "napoli"),
+    "ALEMANIA": ("alemania", "germany", "berlin", "hamburgo"),
+    "REINO UNIDO": ("reino unido", "united kingdom", "britain", "londres", "london", "england", "scotland"),
+}
+
+
+def pais_del_hecho(titulo, feed=None):
+    s = " " + normalize(titulo) + " "
+    posibles = [pais for pais, nombres in MARCADORES_PAIS.items()
+                if any(re.search(r"(?<![a-z])" + re.escape(normalize(nombre)) + r"(?![a-z])", s)
+                       for nombre in nombres)]
+    if len(posibles) == 1:
+        return posibles[0]
+    if len(posibles) > 1:
+        return None  # Noticias internacionales o de localización ambigua.
+    if feed and feed.get("ambito_nacional") and feed.get("pais_fuente"):
+        return feed["pais_fuente"]
+    return None
+
+
 
 PREFERENCIAS_ACCESO = {"habitualmente_abierto": 0, "acceso_variable": 1,
                        "suscripcion_frecuente": 2}
@@ -493,6 +524,7 @@ def make_story(item, feed, config, correcciones=None, excluidas=None):
         "id": sid, "medio_titular": item.get("outlet") or feed["nombre"],
         "titular": editorial[:260], "titular_original": title[:260], "metodo_titular": metodo, "fecha": dt, "actualizado": dt,
         "categoria": cat, "region": region_of(title, feed.get("region", "MUNDO")),
+        "pais": pais_del_hecho(title, feed),
         "temas": list(dict.fromkeys(topics_of(title, cat) + (["Extremismo nihilista violento"] if es_nve else []))),
         "expedientes": cases_of(title, config, summary=item["summary"]),
         "etiquetas_de_deteccion": ["nve"] if es_nve else [],
@@ -549,6 +581,7 @@ def main():
         # Conservar intactos los titulares de hemeroteca seleccionados y verificados.
         # Su fecha, fuente, categoría y texto ya fueron comprobados editorialmente.
         if old.get("origen") == "hemeroteca_manual":
+            old.setdefault("pais", pais_del_hecho(old.get("titular_original") or old.get("titular", "")))
             return old
         # A partir de 0.2, una palabra en el resumen de otro tema no basta.
         # Revalidar incluso las entradas ya publicadas para retirar falsos positivos.
@@ -582,6 +615,7 @@ def main():
                     and old.get("titular") and old["titular"] != original):
                 old["titular"], old["metodo_titular"] = candidato, metodo
         old["region"] = region_of(original, origin.get("region", "MUNDO"))
+        old["pais"] = pais_del_hecho(original, origin)
         old["temas"] = list(dict.fromkeys(topics_of(original, cat) + (["Extremismo nihilista violento"] if es_nve else [])))
         old["expedientes"] = sorted(set(cases_of(original, watch) + (["extremismo-nihilista-violento"] if es_nve and any(c.get("id") == "extremismo-nihilista-violento" and c.get("activo", True) for c in watch) else [])))
         old["etiquetas_de_deteccion"] = ["nve"] if es_nve else []
@@ -659,7 +693,7 @@ def main():
         month_doc = {"mes": month, "total": len(items), "noticias": items}
         if read_json(path, None) != month_doc:
             write_json(path, month_doc)
-        manifest.append({"mes": month, "total": len(items), "expedientes": sorted({c for s in items for c in s["expedientes"]}), "temas": sorted({t for s in items for t in s["temas"]}), "regiones": sorted({story_region(s) for s in items})})
+        manifest.append({"mes": month, "total": len(items), "expedientes": sorted({c for s in items for c in s["expedientes"]}), "temas": sorted({t for s in items for t in s["temas"]}), "regiones": sorted({story_region(s) for s in items}), "paises": sorted({s["pais"] for s in items if s.get("pais")})})
     manifest_doc = {"meses": manifest}
     if read_json(folder / "indice.json", None) != manifest_doc:
         write_json(folder / "indice.json", manifest_doc)
