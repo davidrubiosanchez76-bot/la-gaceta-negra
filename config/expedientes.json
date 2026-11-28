@@ -68,5 +68,30 @@
       "Terrorismo",
       "Ciberdelincuencia"
     ]
+  },
+  {
+    "id": "caso-epstein",
+    "nombre": "CASO EPSTEIN",
+    "tipo": "caso",
+    "detector": "epstein",
+    "descripcion": "Investigaciones iniciadas en Palm Beach en 2005, condena de 2008, nueva acusación federal de 2019, caso Maxwell, reparación a víctimas, documentos judiciales y control institucional. No confundir aparecer mencionado con ser culpable.",
+    "alias": [
+      "jeffrey epstein",
+      "epstein",
+      "ghislaine maxwell",
+      "virginia giuffre"
+    ],
+    "inicio": "2005-03-01",
+    "activo": true,
+    "categorias": [
+      "TRUE CRIME"
+    ],
+    "temas": [
+      "Agresiones sexuales",
+      "Trata y explotación sexual",
+      "Investigación policial",
+      "Juicios",
+      "Documentación judicial"
+    ]
   }
 ]

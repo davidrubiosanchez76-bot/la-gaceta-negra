@@ -43,6 +43,30 @@ class TestRefuerzo(unittest.TestCase):
         self.assertTrue(any(x["nombre"].startswith("NIST") and x.get("tematica_verificada") for x in cfg))
         self.assertTrue(any(x["nombre"].startswith("FTC") and x.get("solo_timos") for x in cfg))
 
+
+    def test_detector_epstein(self):
+        from detectar_epstein import coincide
+        self.assertTrue(coincide("Jeffrey Epstein files released by US Justice Department"))
+        self.assertTrue(coincide("Ghislaine Maxwell appeal rejected by federal court"))
+        self.assertTrue(coincide("Virginia Giuffre lawsuit in sex trafficking case"))
+        self.assertFalse(coincide("Scientists study Epstein-Barr virus in children"))
+        self.assertFalse(coincide("Jeffrey Epstein-inspired thriller novel"))
+        self.assertFalse(coincide("Prince Andrew attends charity event"))
+        from datetime import datetime, timezone
+        from email.utils import format_datetime
+        cfg=[{"id":"caso-epstein","tipo":"caso","detector":"epstein","activo":True}]
+        self.assertIn("caso-epstein", g.cases_of("Epstein files published by Justice Department",cfg))
+        self.assertEqual(g.cases_of("Epstein-Barr virus discovery",cfg),[])
+        item={"title":"Epstein files published by Justice Department",
+              "url":"https://example.org/epstein-files",
+              "date":format_datetime(datetime.now(timezone.utc)),
+              "summary":"","outlet":""}
+        feed={"nombre":"Fuente de prueba","categoria":"AUTO","region":"MUNDO","idioma":"es","solo_expediente":"caso-epstein"}
+        noticia=g.make_story(item,feed,cfg)
+        self.assertIsNotNone(noticia)
+        self.assertEqual(noticia["categoria"],"TRUE CRIME")
+        self.assertEqual(noticia["expedientes"],["caso-epstein"])
+
     def test_exclusiones_persistentes(self):
         cfg=json.loads((Path(__file__).resolve().parents[1]/"config/noticias_excluidas.json").read_text(encoding="utf-8"))
         ids={x["id"] for x in cfg["noticias"]}

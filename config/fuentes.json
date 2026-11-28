@@ -335,5 +335,16 @@
     "idioma": "es",
     "tipo_fuente": "prensa",
     "pais_fuente": "LATINOAMÉRICA"
+  },
+  {
+    "nombre": "The Guardian — Caso Epstein",
+    "url": "https://www.theguardian.com/us-news/jeffrey-epstein/rss",
+    "categoria": "AUTO",
+    "region": "MUNDO",
+    "activo": true,
+    "idioma": "en",
+    "solo_expediente": "caso-epstein",
+    "tipo_fuente": "prensa especializada por tema",
+    "observacion": "Canal temático: solo noticias relacionadas con expediente."
   }
 ]

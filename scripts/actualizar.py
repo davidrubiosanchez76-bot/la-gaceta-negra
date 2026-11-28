@@ -23,6 +23,7 @@ from pathlib import Path
 from titulares import reescribir_titular
 from traducir import titulo_para_publicar, es_ingles
 from temas_expedientes import coincide as es_extremismo_nihilista
+from detectar_epstein import coincide as es_caso_epstein
 
 ROOT = Path(__file__).resolve().parents[1]
 UTC = timezone.utc
@@ -320,7 +321,10 @@ def cases_of(text, config, summary=""):
     for item in config:
         if item.get("activo") is False:
             continue
-        if item.get("tipo") == "tematico":
+        if item.get("detector") == "epstein":
+            if es_caso_epstein(text, summary):
+                results.append(item["id"])
+        elif item.get("tipo") == "tematico":
             if item.get("detector") == "nve" and es_extremismo_nihilista(text, summary):
                 results.append(item["id"])
         elif any(" " + normalize(alias) + " " in s for alias in item.get("alias", [])):
@@ -499,6 +503,11 @@ def make_story(item, feed, config, correcciones=None, excluidas=None):
     if sid in (excluidas or set()):
         return None
     cat = category(title, feed.get("categoria", "AUTO"))
+    # Un asunto judicial o una nueva publicación documental del caso no siempre
+    # contiene las palabras genéricas CRIME. Evitar los titulares ajenos al caso.
+    es_epstein = es_caso_epstein(title, item["summary"])
+    if not cat and es_epstein:
+        cat = "TRUE CRIME"
     # RSS oficial monográfico: el resumen puede aclarar un titular científico genérico.
     if not cat and feed.get("tematica_verificada") and feed.get("categoria") == "CRIME SCENE":
         cat = category(full_text, "CRIME SCENE")
@@ -595,7 +604,7 @@ def main():
         original = old.get("titular_original") or old.get("titular", "")
         es_nve = ("nve" in old.get("etiquetas_de_deteccion", [])) or es_extremismo_nihilista(original)
         cat = category(original, hint)
-        if not cat and es_nve:
+        if not cat and (es_nve or es_caso_epstein(original)):
             cat = "TRUE CRIME"
         if not cat:
             return None
