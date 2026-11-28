@@ -24,7 +24,8 @@
           "url": "https://www.pbs.org/newshour/nation/federal-prosecutors-cant-seek-death-penalty-against-luigi-mangione-judge-rules",
           "fecha": "2026-01-30T00:00:00+00:00"
         }
-      ]
+      ],
+      "pais": null
     },
     {
       "id": "hist-lindsay-clancy-2026-01-27-05",
@@ -48,7 +49,8 @@
           "url": "https://www.boston.com/news/crime/2026/01/27/lindsay-clancy-malpractice-lawsuit/",
           "fecha": "2026-01-27T12:00:00+00:00"
         }
-      ]
+      ],
+      "pais": null
     }
   ]
 }

@@ -25,7 +25,8 @@
           "url": "https://www.justice.gov/usao-edtn/pr/764-extremist-group-member-sentenced-production-child-pornography-and-distribution",
           "fecha": "2026-08-19T00:00:00+00:00"
         }
-      ]
+      ],
+      "pais": null
     },
     {
       "id": "lm-2026-08-17-16",
@@ -49,7 +50,8 @@
           "url": "https://apnews.com/article/09c039f61c62d2c0e8815ea0189f0522",
           "fecha": "2026-08-17T00:00:00+00:00"
         }
-      ]
+      ],
+      "pais": null
     },
     {
       "id": "lm-2026-08-14-15",
@@ -73,7 +75,8 @@
           "url": "https://abcnews.com/US/luigi-mangione-guilty-plea-expected-announced-friday-federal/story?id=135607454",
           "fecha": "2026-08-14T00:00:00+00:00"
         }
-      ]
+      ],
+      "pais": null
     },
     {
       "id": "nve-2026-08-02-08",
@@ -98,7 +101,8 @@
           "url": "https://elpais.com/espana/2026-08-02/detenido-un-menor-del-grupo-ultraviolento-764-acusado-de-amenazar-de-muerte-a-irene-montero.html",
           "fecha": "2026-08-02T00:00:00+00:00"
         }
-      ]
+      ],
+      "pais": null
     }
   ]
 }

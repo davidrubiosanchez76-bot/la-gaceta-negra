@@ -24,7 +24,8 @@
           "url": "https://abcnews.com/US/luigi-mangiones-attorneys-push-double-jeopardy-claim-court/story?id=137733860",
           "fecha": "2026-10-31T00:00:00+00:00"
         }
-      ]
+      ],
+      "pais": null
     },
     {
       "id": "lm-2026-10-02-17",
@@ -49,7 +50,8 @@
           "url": "https://apnews.com/article/701b424d38c5c0fcfe5f82d296cf2548",
           "fecha": "2026-10-02T00:00:00+00:00"
         }
-      ]
+      ],
+      "pais": null
     },
     {
       "id": "nve-2026-10-01-13",
@@ -74,7 +76,8 @@
           "url": "https://www.defensa.gob.es/ceseden/-/ieee-2026-auge-extremismo-nihilista-violento-en-era-digital",
           "fecha": "2026-10-01T00:00:00+00:00"
         }
-      ]
+      ],
+      "pais": null
     }
   ]
 }

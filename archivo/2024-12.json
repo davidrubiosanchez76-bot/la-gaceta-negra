@@ -24,7 +24,8 @@
           "url": "https://www.boston.com/news/new-york-city/2024/12/23/luigi-mangione-pleads-not-guilty-state-murder-charges-united-healthcare-ceo-death/",
           "fecha": "2024-12-23T00:00:00+00:00"
         }
-      ]
+      ],
+      "pais": null
     },
     {
       "id": "lm-2024-12-20-04",
@@ -48,7 +49,8 @@
           "url": "https://apnews.com/article/4cc18cfa71b96aaa39b321f60145d2f0",
           "fecha": "2024-12-20T00:00:00+00:00"
         }
-      ]
+      ],
+      "pais": null
     },
     {
       "id": "lm-2024-12-17-03",
@@ -72,7 +74,8 @@
           "url": "https://manhattanda.org/d-a-bragg-announces-murder-indictment-of-luigi-mangione/",
           "fecha": "2024-12-17T00:00:00+00:00"
         }
-      ]
+      ],
+      "pais": null
     },
     {
       "id": "hist-isak-andic-2024-12-14-12",
@@ -96,7 +99,8 @@
           "url": "https://www.rtve.es/noticias/20241214/muere-fundador-mango-isak-andic-accidente-montana-barcelona/16372523.shtml",
           "fecha": "2024-12-14T12:00:00+00:00"
         }
-      ]
+      ],
+      "pais": "ESPAÑA"
     },
     {
       "id": "lm-2024-12-09-02",
@@ -121,7 +125,8 @@
           "url": "https://abcnews.com/US/unitedhealthcare-ceo-shooting-latest-net-closing-suspect-new/story?id=116591169",
           "fecha": "2024-12-09T00:00:00+00:00"
         }
-      ]
+      ],
+      "pais": null
     },
     {
       "id": "lm-2024-12-04-01",
@@ -145,7 +150,8 @@
           "url": "https://apnews.com/article/8a130e64bcab749d1a085f5a34ab8254",
           "fecha": "2024-12-04T00:00:00+00:00"
         }
-      ]
+      ],
+      "pais": "ESTADOS UNIDOS"
     }
   ]
 }

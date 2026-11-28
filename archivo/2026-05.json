@@ -24,7 +24,8 @@
           "url": "https://elpais.com/espana/catalunya/2026-05-28/jonathan-andic-pide-anular-las-medidas-cautelares-acordadas-tras-su-detencion.html",
           "fecha": "2026-05-28T12:00:00+00:00"
         }
-      ]
+      ],
+      "pais": null
     },
     {
       "id": "hist-isak-andic-2026-05-22-17",
@@ -48,7 +49,8 @@
           "url": "https://elpais.com/espana/catalunya/2026-05-22/los-mossos-concluyen-que-jonathan-andic-hizo-cuatro-dias-antes-de-la-muerte-de-su-padre-en-montserrat-una-ruta-casi-exacta.html",
           "fecha": "2026-05-22T12:00:00+00:00"
         }
-      ]
+      ],
+      "pais": "ESPAÑA"
     },
     {
       "id": "hist-isak-andic-2026-05-19-16",
@@ -72,7 +74,8 @@
           "url": "https://www.rtve.es/noticias/20260519/mossos-detienen-a-jonathan-andic-acusado-muerte-su-padre-fundador-mango/17075069.shtml",
           "fecha": "2026-05-19T12:00:00+00:00"
         }
-      ]
+      ],
+      "pais": null
     },
     {
       "id": "lm-2026-05-18-14",
@@ -97,7 +100,8 @@
           "url": "https://www.pbs.org/newshour/nation/judge-allows-gun-and-notebook-as-evidence-in-luigi-mangione-murder-trial",
           "fecha": "2026-05-18T00:00:00+00:00"
         }
-      ]
+      ],
+      "pais": null
     }
   ]
 }
