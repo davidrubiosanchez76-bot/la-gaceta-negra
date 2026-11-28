@@ -1,42 +1,44 @@
 {
-  "actualizado": "2026-11-28T08:24:11+00:00",
-  "total": 298,
+  "actualizado": "2026-11-28T09:33:13+00:00",
+  "total": 237,
   "noticias": [
     {
-      "id": "197619ec43606549",
+      "id": "63cb2b094c541031",
       "medio_titular": "Infobae — RSS",
-      "titular": "Encontraron a una madre y su hijo muertos en Río Cuarto: analizan un presunto homicidio seguido de suicidio",
-      "titular_original": "Encontraron a una madre y su hijo muertos en Río Cuarto: analizan un presunto homicidio seguido de suicidio",
+      "titular": "Los Mossos activan su Plan de Navidad: más patrullaje y prevención de robos y ciberestafas",
+      "titular_original": "Los Mossos activan su Plan de Navidad: más patrullaje y prevención de robos y ciberestafas",
       "metodo_titular": "original",
-      "fecha": "2026-11-28T07:15:43+00:00",
-      "actualizado": "2026-11-28T07:15:43+00:00",
+      "fecha": "2026-11-28T09:17:05+00:00",
+      "actualizado": "2026-11-28T09:17:05+00:00",
       "categoria": "TRUE CRIME",
-      "region": "MUNDO",
-      "pais": null,
+      "region": "ESPAÑA",
+      "pais": "ESPAÑA",
       "temas": [
-        "Homicidios y asesinatos"
+        "Robos y atracos",
+        "Estafas y fraudes",
+        "Investigación policial"
       ],
       "expedientes": [],
       "etiquetas_de_deteccion": [],
       "fuentes": [
         {
           "medio": "Infobae — RSS",
-          "url": "https://www.infobae.com/sociedad/policiales/2026/11/28/encontraron-a-una-madre-y-su-hijo-muertos-en-rio-cuarto-analizan-un-presunto-homicidio-seguido-de-suicidio",
-          "fecha": "2026-11-28T07:15:43+00:00"
+          "url": "https://www.infobae.com/espana/agencias/2026/11/28/los-mossos-activan-su-plan-de-navidad-mas-patrullaje-y-prevencion-de-robos-y-ciberestafas",
+          "fecha": "2026-11-28T09:17:05+00:00"
         }
       ]
     },
     {
-      "id": "b16d26d93ca45cfd",
+      "id": "8e900d2aa19ba591",
       "medio_titular": "Infobae — RSS",
-      "titular": "Los “perdones presidenciales” de presos comunes desatan una ola de nuevos crímenes en Nicaragua",
-      "titular_original": "Los “perdones presidenciales” de presos comunes desatan una ola de nuevos crímenes en Nicaragua",
+      "titular": "Odei A.-Extearte reconstruye los 'secuestros' de autobuses en el extrarradio de Barcelona",
+      "titular_original": "Odei A.-Extearte reconstruye los 'secuestros' de autobuses en el extrarradio de Barcelona",
       "metodo_titular": "original",
-      "fecha": "2026-11-28T07:00:00+00:00",
-      "actualizado": "2026-11-28T07:00:00+00:00",
+      "fecha": "2026-11-28T09:16:48+00:00",
+      "actualizado": "2026-11-28T09:16:48+00:00",
       "categoria": "TRUE CRIME",
-      "region": "MUNDO",
-      "pais": null,
+      "region": "ESPAÑA",
+      "pais": "ESPAÑA",
       "temas": [
         "Actualidad criminal"
       ],
@@ -45,19 +47,67 @@
       "fuentes": [
         {
           "medio": "Infobae — RSS",
-          "url": "https://www.infobae.com/nicaragua/2026/11/28/los-perdones-presidenciales-de-presos-comunes-desatan-una-ola-de-nuevos-crimenes-en-nicaragua",
-          "fecha": "2026-11-28T07:00:00+00:00"
+          "url": "https://www.infobae.com/espana/agencias/2026/11/28/odei-a-extearte-reconstruye-los-secuestros-de-autobuses-en-el-extrarradio-de-barcelona",
+          "fecha": "2026-11-28T09:16:48+00:00"
         }
       ]
     },
     {
-      "id": "8a5ae54c773b4f83",
+      "id": "239e5c9fdf8f7cfe",
       "medio_titular": "Infobae — RSS",
-      "titular": "El crimen de una maestra generó consternación en Uruguay: cuatro hombres la asesinaron a balazos en su auto y huyeron",
-      "titular_original": "El crimen de una maestra generó consternación en Uruguay: cuatro hombres la asesinaron a balazos en su auto y huyeron",
+      "titular": "Bueno Hudson debuta en la novela negra con \"la Nueva York que no ven los turistas\"",
+      "titular_original": "Bueno Hudson debuta en la novela negra con \"la Nueva York que no ven los turistas\"",
       "metodo_titular": "original",
-      "fecha": "2026-11-28T07:00:00+00:00",
-      "actualizado": "2026-11-28T07:00:00+00:00",
+      "fecha": "2026-11-28T09:15:58+00:00",
+      "actualizado": "2026-11-28T09:15:58+00:00",
+      "categoria": "FICCIÓN NEGROCRIMINAL",
+      "region": "ESTADOS UNIDOS",
+      "pais": null,
+      "temas": [
+        "Ficción negrocriminal"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "Infobae — RSS",
+          "url": "https://www.infobae.com/america/agencias/2026/11/28/bueno-hudson-debuta-en-la-novela-negra-con-la-nueva-york-que-no-ven-los-turistas",
+          "fecha": "2026-11-28T09:15:58+00:00"
+        }
+      ]
+    },
+    {
+      "id": "1f914a2f1b2ec5c4",
+      "medio_titular": "20minutos",
+      "titular": "Un ciberataque vulnera la principal plataforma informática de las Fuerzas Aéreas de Estados Unidos",
+      "titular_original": "Un ciberataque vulnera la principal plataforma informática de las Fuerzas Aéreas de Estados Unidos",
+      "metodo_titular": "original",
+      "fecha": "2026-11-28T09:11:45+00:00",
+      "actualizado": "2026-11-28T09:11:45+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "pais": "ESTADOS UNIDOS",
+      "temas": [
+        "Ciberdelincuencia"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "20minutos",
+          "url": "https://www.20minutos.es/internacional/un-ciberataque-vulnera-principal-plataforma-informatica-las-fuerzas-aereas-estados-unidos_7066975_0.html",
+          "fecha": "2026-11-28T09:11:45+00:00"
+        }
+      ]
+    },
+    {
+      "id": "c8dd9d3138c6542d",
+      "medio_titular": "elDiario.es",
+      "titular": "Un zapato recuperado del fondo del mar podría conectar un barco hundido con la historia de un gobernador asesinado por los propios esclavos",
+      "titular_original": "Un zapato recuperado del fondo del mar podría conectar un barco hundido con la historia de un gobernador asesinado por los propios esclavos",
+      "metodo_titular": "original",
+      "fecha": "2026-11-28T09:00:28+00:00",
+      "actualizado": "2026-11-28T09:00:28+00:00",
       "categoria": "TRUE CRIME",
       "region": "MUNDO",
       "pais": null,
@@ -68,133 +118,9 @@
       "etiquetas_de_deteccion": [],
       "fuentes": [
         {
-          "medio": "Infobae — RSS",
-          "url": "https://www.infobae.com/america/america-latina/2026/11/28/el-crimen-de-una-educadora-genero-consternacion-en-uruguay-la-asesinaron-a-balazos-cuando-estaba-en-su-auto",
-          "fecha": "2026-11-28T07:00:00+00:00"
-        }
-      ]
-    },
-    {
-      "id": "78dbd86a217d2494",
-      "medio_titular": "Infobae — RSS",
-      "titular": "La mega red de corrupción que vincula a Maduro y Cilia Flores con el desfalco petrolero en Venezuela",
-      "titular_original": "La mega red de corrupción que vincula a Maduro y Cilia Flores con el desfalco petrolero en Venezuela",
-      "metodo_titular": "original",
-      "fecha": "2026-11-28T07:00:00+00:00",
-      "actualizado": "2026-11-28T07:00:00+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "MUNDO",
-      "pais": null,
-      "temas": [
-        "Corrupción"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "Infobae — RSS",
-          "url": "https://www.infobae.com/venezuela/2026/11/28/la-mega-red-de-corrupcion-que-vincula-a-maduro-y-cilia-flores-con-el-desfalco-petrolero-en-venezuela",
-          "fecha": "2026-11-28T07:00:00+00:00"
-        }
-      ]
-    },
-    {
-      "id": "d3e43ba4838621a8",
-      "medio_titular": "Infobae — RSS",
-      "titular": "Malograr lo legítimo por abuso institucional",
-      "titular_original": "Malograr lo legítimo por abuso institucional",
-      "metodo_titular": "original",
-      "fecha": "2026-11-28T06:43:12+00:00",
-      "actualizado": "2026-11-28T06:43:12+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "MUNDO",
-      "pais": null,
-      "temas": [
-        "Estafas y fraudes",
-        "Timos y suplantaciones"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "Infobae — RSS",
-          "url": "https://www.infobae.com/opinion/2026/11/28/malograr-lo-legitimo-por-abuso-institucional",
-          "fecha": "2026-11-28T06:43:12+00:00"
-        }
-      ]
-    },
-    {
-      "id": "5b1abc0c5f995f7e",
-      "medio_titular": "Infobae — RSS",
-      "titular": "El mapa del narcotráfico en América Latina: rutas, carteles y el avance del crimen organizado en la región",
-      "titular_original": "El mapa del narcotráfico en América Latina: rutas, carteles y el avance del crimen organizado en la región",
-      "metodo_titular": "original",
-      "fecha": "2026-11-28T06:39:04+00:00",
-      "actualizado": "2026-11-28T06:39:04+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "MUNDO",
-      "pais": null,
-      "temas": [
-        "Crimen organizado",
-        "Narcotráfico"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "Infobae — RSS",
-          "url": "https://www.infobae.com/def/2026/11/28/el-mapa-del-narcotrafico-en-america-latina-rutas-carteles-y-el-avance-del-crimen-organizado-en-la-region",
-          "fecha": "2026-11-28T06:39:04+00:00"
-        }
-      ]
-    },
-    {
-      "id": "a36dbff1ac464aa2",
-      "medio_titular": "Infobae — RSS",
-      "titular": "Quiso asesinar al Papa y pagó sólo 700 dólares de fianza: un atentado evitado por cardenales y que hizo del atacante un éxito comercial",
-      "titular_original": "Quiso asesinar al Papa y pagó sólo 700 dólares de fianza: un atentado evitado por cardenales y que hizo del atacante un éxito comercial",
-      "metodo_titular": "original",
-      "fecha": "2026-11-28T06:28:19+00:00",
-      "actualizado": "2026-11-28T06:28:19+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "MUNDO",
-      "pais": null,
-      "temas": [
-        "Homicidios y asesinatos",
-        "Terrorismo y extremismo"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "Infobae — RSS",
-          "url": "https://www.infobae.com/sociedad/2026/11/28/quiso-asesinar-al-papa-y-pago-solo-700-dolares-de-fianza-un-atentado-evitado-por-cardenales-y-que-hizo-del-atacante-un-exito-comercial",
-          "fecha": "2026-11-28T06:28:19+00:00"
-        }
-      ]
-    },
-    {
-      "id": "047af032fc25889e",
-      "medio_titular": "Infobae — RSS",
-      "titular": "La Fiscalía admite una querella contra Evo Morales por tentativa de asesinato y reclama su captura",
-      "titular_original": "La Fiscalía admite una querella contra Evo Morales por tentativa de asesinato y reclama su captura",
-      "metodo_titular": "original",
-      "fecha": "2026-11-28T06:15:33+00:00",
-      "actualizado": "2026-11-28T06:15:33+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "MUNDO",
-      "pais": null,
-      "temas": [
-        "Homicidios y asesinatos",
-        "Juicios"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "Infobae — RSS",
-          "url": "https://www.infobae.com/america/agencias/2026/11/28/la-fiscalia-admite-una-querella-contra-evo-morales-por-tentativa-de-asesinato-y-reclama-su-captura",
-          "fecha": "2026-11-28T06:15:33+00:00"
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/spin/zapato-recuperado-fondo-mar-conectar-barco-hundido-historia-gobernador-asesinado-pm_1_13687845.html",
+          "fecha": "2026-11-28T09:00:28+00:00"
         }
       ]
     },
@@ -219,78 +145,6 @@
           "medio": "THE OBJECTIVE — España",
           "url": "https://theobjective.com/espana/2026-11-28/asesinato-ocho-espias-espanoles-irak-foto",
           "fecha": "2026-11-28T04:25:00+00:00"
-        }
-      ]
-    },
-    {
-      "id": "41ac3e4b538867c1",
-      "medio_titular": "BBC News — World",
-      "titular": "Ocho muertos en helicóptero militar peruano",
-      "titular_original": "Eight killed in Peruvian military helicopter crash",
-      "metodo_titular": "traduccion_automatica",
-      "fecha": "2026-11-28T04:19:16+00:00",
-      "actualizado": "2026-11-28T04:19:16+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "MUNDO",
-      "pais": null,
-      "temas": [
-        "Homicidios y asesinatos"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "BBC News — World",
-          "url": "https://www.bbc.co.uk/news/articles/cwp9d85mlp88o?at_medium=RSS&at_campaign=rss",
-          "fecha": "2026-11-28T04:19:16+00:00"
-        }
-      ]
-    },
-    {
-      "id": "aef23b418a0b129e",
-      "medio_titular": "El Debate — Portada",
-      "titular": "El Gobierno abandera el feminismo mientras España supera ya las víctimas mortales por violencia de género de todo 2025",
-      "titular_original": "El Gobierno abandera el feminismo mientras España supera ya las víctimas mortales por violencia de género de todo 2025",
-      "metodo_titular": "original",
-      "fecha": "2026-11-28T03:30:00+00:00",
-      "actualizado": "2026-11-28T03:30:00+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "ESPAÑA",
-      "pais": "ESPAÑA",
-      "temas": [
-        "Violencia en la pareja"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "El Debate — Portada",
-          "url": "https://www.eldebate.com/sociedad/20261128/gobierno-abandera-feminismo-mientras-espana-supera-victimas-mortales-violencia-genero-todo-2025_485815.html",
-          "fecha": "2026-11-28T03:30:00+00:00"
-        }
-      ]
-    },
-    {
-      "id": "a6f6d505412f2441",
-      "medio_titular": "El Debate — Portada",
-      "titular": "El cardenal Semeraro beatifica hoy en Madrid a once mártires asesinados en la Guerra Civil",
-      "titular_original": "El cardenal Semeraro beatifica hoy en Madrid a once mártires asesinados en la Guerra Civil",
-      "metodo_titular": "original",
-      "fecha": "2026-11-28T03:30:00+00:00",
-      "actualizado": "2026-11-28T03:30:00+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "ESPAÑA",
-      "pais": "ESPAÑA",
-      "temas": [
-        "Homicidios y asesinatos"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "El Debate — Portada",
-          "url": "https://www.eldebate.com/religion/20261128/cardenal-semeraro-beatifica-hoy-madrid-once-martires-asesinados-guerra-civil_486070.html",
-          "fecha": "2026-11-28T03:30:00+00:00"
         }
       ]
     },
@@ -320,31 +174,6 @@
       ]
     },
     {
-      "id": "5c719f19013cefc8",
-      "medio_titular": "El Debate — Portada",
-      "titular": "La gasolina arrasa al diésel y ya es 24 céntimos más barata por litro: 13 euros por depósito",
-      "titular_original": "La gasolina arrasa al diésel y ya es 24 céntimos más barata por litro: 13 euros por depósito",
-      "metodo_titular": "original",
-      "fecha": "2026-11-28T03:30:00+00:00",
-      "actualizado": "2026-11-28T03:30:00+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "MUNDO",
-      "pais": null,
-      "temas": [
-        "Estafas y fraudes",
-        "Timos y suplantaciones"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "El Debate — Portada",
-          "url": "https://www.eldebate.com/motor/20261128/gasolina-arrasa-diesel-24-centimos-barata-litro-13-euros-deposito_486025.html",
-          "fecha": "2026-11-28T03:30:00+00:00"
-        }
-      ]
-    },
-    {
       "id": "4d4010be0651e4cc",
       "medio_titular": "El Debate — Portada",
       "titular": "El CNI alerta con casos reales de una nueva era de ciberataques con IA: «Esto no va a acabar»",
@@ -364,30 +193,6 @@
         {
           "medio": "El Debate — Portada",
           "url": "https://www.eldebate.com/espana/20261128/cni-alerta-casos-reales-nueva-ciberataques-ia-esto-no-acabar_486087.html",
-          "fecha": "2026-11-28T03:30:00+00:00"
-        }
-      ]
-    },
-    {
-      "id": "480822e0f50ca393",
-      "medio_titular": "El Debate — Portada",
-      "titular": "Naranjo explica por qué llegamos al 29-N con un fraude monumental",
-      "titular_original": "Naranjo explica por qué llegamos al 29-N con un fraude monumental",
-      "metodo_titular": "original",
-      "fecha": "2026-11-28T03:30:00+00:00",
-      "actualizado": "2026-11-28T03:30:00+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "MUNDO",
-      "pais": null,
-      "temas": [
-        "Estafas y fraudes"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "El Debate — Portada",
-          "url": "https://www.eldebate.com/podcast/el-centinela/20261128/naranjo-explica-llegamos-29n-fraude-monumental_486132.html",
           "fecha": "2026-11-28T03:30:00+00:00"
         }
       ]
@@ -417,30 +222,6 @@
       ]
     },
     {
-      "id": "eac441e6b4b34720",
-      "medio_titular": "elDiario.es",
-      "titular": "Leos Carax, el genio tímido del cine: “Como director soy un principiante, he hecho tan pocas películas que me siento como un fraude”",
-      "titular_original": "Leos Carax, el genio tímido del cine: “Como director soy un principiante, he hecho tan pocas películas que me siento como un fraude”",
-      "metodo_titular": "original",
-      "fecha": "2026-11-27T22:26:57+00:00",
-      "actualizado": "2026-11-27T22:26:57+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "MUNDO",
-      "pais": null,
-      "temas": [
-        "Estafas y fraudes"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "elDiario.es",
-          "url": "https://www.eldiario.es/cultura/cine/leos-carax-genio-timido-cine-director-principiante-he-hecho-peliculas-siento-fraude_1_13700061.html",
-          "fecha": "2026-11-27T22:26:57+00:00"
-        }
-      ]
-    },
-    {
       "id": "d45744a8276052c5",
       "medio_titular": "elDiario.es",
       "titular": "Llevo años estudiando el crimen de genocidio y esta es la razón por la que el fallo contra Myanmar es un hito",
@@ -461,57 +242,6 @@
           "medio": "elDiario.es",
           "url": "https://www.eldiario.es/internacional/llevo-anos-estudiando-crimen-genocidio-razon-fallo-myanmar-hito_129_13693405.html",
           "fecha": "2026-11-27T22:26:55+00:00"
-        }
-      ]
-    },
-    {
-      "id": "0205dff410a25f68",
-      "medio_titular": "elDiario.es",
-      "titular": "Pedrera, un pueblo jornalero de la Sierra Sur de Sevilla, último reducto de la izquierda andaluza",
-      "titular_original": "Pedrera, un pueblo jornalero de la Sierra Sur de Sevilla, último reducto de la izquierda andaluza",
-      "metodo_titular": "original",
-      "fecha": "2026-11-27T22:26:52+00:00",
-      "actualizado": "2026-11-27T22:26:52+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "ESPAÑA",
-      "pais": "ESPAÑA",
-      "temas": [
-        "Estafas y fraudes",
-        "Timos y suplantaciones"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "elDiario.es",
-          "url": "https://www.eldiario.es/sevilla/pedrera-pueblo-jornalero-sierra-sur-sevilla-ultimo-reducto-izquierda-andaluza_1_13697878.html",
-          "fecha": "2026-11-27T22:26:52+00:00"
-        }
-      ]
-    },
-    {
-      "id": "f4549b215de1cab6",
-      "medio_titular": "OKDIARIO — España",
-      "titular": "OKDIARIO captura el momento más íntimo entre Abascal y su mujer en Valencia: su agradecimiento al «sacrificio por España»",
-      "titular_original": "OKDIARIO captura el momento más íntimo entre Abascal y su mujer en Valencia: su agradecimiento al «sacrificio por España»",
-      "metodo_titular": "original",
-      "fecha": "2026-11-27T22:06:38+00:00",
-      "actualizado": "2026-11-27T22:06:38+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "ESPAÑA",
-      "pais": "ESPAÑA",
-      "temas": [
-        "Estafas y fraudes",
-        "Timos y suplantaciones",
-        "Violencia en la pareja"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "OKDIARIO — España",
-          "url": "https://okdiario.com/espana/okdiario-captura-momento-mas-intimo-abascal-mujer-valencia-agradecimiento-sacrificio-espana-21292138",
-          "fecha": "2026-11-27T22:06:38+00:00"
         }
       ]
     },
@@ -618,127 +348,6 @@
       "pais": null
     },
     {
-      "id": "7f87dac7cd2516c0",
-      "medio_titular": "20minutos",
-      "titular": "Detenido en Lanzarote el exgobernador colombiano Carlos Caicedo por abusos sexuales a menores",
-      "titular_original": "Detenido en Lanzarote el exgobernador colombiano Carlos Caicedo por abusos sexuales a menores",
-      "metodo_titular": "original",
-      "fecha": "2026-11-27T16:14:07+00:00",
-      "actualizado": "2026-11-27T16:14:07+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "MUNDO",
-      "temas": [
-        "Investigación policial"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "20minutos",
-          "url": "https://www.20minutos.es/canarias/detenido-lanzarote-exgobernador-colombiano-carlos-caicedo-por-abusos-sexuales-menores_7066857_0.html",
-          "fecha": "2026-11-27T16:14:07+00:00"
-        }
-      ],
-      "pais": null
-    },
-    {
-      "id": "518e247242ad7982",
-      "medio_titular": "20minutos",
-      "titular": "Dos detenidos en la casa de una anciana con un 72% de discapacidad a la que habían robado previamente el bolso con sus llaves",
-      "titular_original": "Dos detenidos en la casa de una anciana con un 72% de discapacidad a la que habían robado previamente el bolso con sus llaves",
-      "metodo_titular": "original",
-      "fecha": "2026-11-27T16:10:31+00:00",
-      "actualizado": "2026-11-27T16:10:31+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "MUNDO",
-      "temas": [
-        "Investigación policial"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "20minutos",
-          "url": "https://www.20minutos.es/andalucia/almeria/dos-detenidos-casa-una-anciana-con-un-72-discapacidad-que-habian-robado-previamente-bolso-con-sus-llaves_7066855_0.html",
-          "fecha": "2026-11-27T16:10:31+00:00"
-        }
-      ],
-      "pais": null
-    },
-    {
-      "id": "d1bffff4021311c4",
-      "medio_titular": "20minutos",
-      "titular": "Detenidos dos hombres por tráfico de drogas y decomisados 700 gramos de cocaína en L'Hospitalet",
-      "titular_original": "Detenidos dos hombres por tráfico de drogas y decomisados 700 gramos de cocaína en L'Hospitalet",
-      "metodo_titular": "original",
-      "fecha": "2026-11-27T15:58:18+00:00",
-      "actualizado": "2026-11-27T15:58:18+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "ESPAÑA",
-      "temas": [
-        "Investigación policial",
-        "Narcotráfico"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "20minutos",
-          "url": "https://www.20minutos.es/cataluna/barcelona/detenidos-dos-hombres-por-trafico-drogas-decomisados-700-gramos-cocaina-l-hospitalet-llobregat_7066847_0.html",
-          "fecha": "2026-11-27T15:58:18+00:00"
-        }
-      ],
-      "pais": null
-    },
-    {
-      "id": "9518255c900f1c51",
-      "medio_titular": "20minutos",
-      "titular": "Argelia mata a dos \"narcotraficantes\" que intentaban introducir en el país \"más de un millón de comprimidos psicotrópicos\"",
-      "titular_original": "Argelia mata a dos \"narcotraficantes\" que intentaban introducir en el país \"más de un millón de comprimidos psicotrópicos\"",
-      "metodo_titular": "original",
-      "fecha": "2026-11-27T15:50:10+00:00",
-      "actualizado": "2026-11-27T15:50:10+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "MUNDO",
-      "temas": [
-        "Narcotráfico"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "20minutos",
-          "url": "https://www.20minutos.es/internacional/argelia-mata-dos-narcotraficantes-que-intentaban-introducir-pais-mas-un-millon-comprimidos-psicotropicos_7066845_0.html",
-          "fecha": "2026-11-27T15:50:10+00:00"
-        }
-      ],
-      "pais": null
-    },
-    {
-      "id": "204c121b0d568cb0",
-      "medio_titular": "El Debate — Portada",
-      "titular": "La Policía interviene hachas y una pistola de aire comprimido en el local del detenido por el ataque a la comisaría de Palencia",
-      "titular_original": "La Policía interviene hachas y una pistola de aire comprimido en el local del detenido por el ataque a la comisaría de Palencia",
-      "metodo_titular": "original",
-      "fecha": "2026-11-27T15:26:38+00:00",
-      "actualizado": "2026-11-27T15:26:38+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "MUNDO",
-      "temas": [
-        "Investigación policial"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "El Debate — Portada",
-          "url": "https://www.eldebate.com/espana/castilla-y-leon/20261127/policia-interviene-hachas-pistola-aire-comprimido-local-detenido-ataque-comisaria-palencia_485995.html",
-          "fecha": "2026-11-27T15:26:38+00:00"
-        }
-      ],
-      "pais": null
-    },
-    {
       "id": "ef93dfb656eae498",
       "medio_titular": "Deutsche Welle — English",
       "titular": "El dueño de la televisión informante Vucicevic arrestó: ¿Ha comenzado el cálculo con la máquina media pro Vucic de Serbia?",
@@ -763,34 +372,9 @@
       ]
     },
     {
-      "id": "5654b990a8ba5312",
-      "medio_titular": "EL MUNDO — España",
-      "titular": "Salvamento Marítimo halla varios fallecidos en un cayuco rescatado a 62 kilómetros de El Hierro",
-      "titular_original": "Salvamento Marítimo halla varios fallecidos en un cayuco rescatado a 62 kilómetros de El Hierro",
-      "metodo_titular": "original",
-      "fecha": "2026-11-27T12:56:58+00:00",
-      "actualizado": "2026-11-27T12:56:58+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "ESPAÑA",
-      "pais": null,
-      "temas": [
-        "Estafas y fraudes",
-        "Timos y suplantaciones"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "EL MUNDO — España",
-          "url": "https://www.elmundo.es/espana/2026/11/27/6b097b4ae85ece933c8b45bb.html",
-          "fecha": "2026-11-27T12:56:58+00:00"
-        }
-      ]
-    },
-    {
       "id": "30ba162ec0f7fbce",
       "medio_titular": "NPR — Noticias",
-      "titular": "La estrella del cine francés Gérard Depardieu ordenó someterse a juicio por violación y agresión sexual",
+      "titular": "La estrella del cine francés Gérard Depardieu ordenó ser juzgada por violación y agresión sexual",
       "titular_original": "French cinema star Gérard Depardieu ordered to stand trial for rape and sexual assault",
       "metodo_titular": "traduccion_automatica",
       "fecha": "2026-11-27T11:49:50+00:00",
@@ -861,31 +445,6 @@
       "pais": null
     },
     {
-      "id": "111e1811ebb2bb2e",
-      "medio_titular": "El Debate — Portada",
-      "titular": "La reducción del censo exterior tras los autos del Supremo supera en varias provincias el margen del último escaño del 23-J",
-      "titular_original": "La reducción del censo exterior tras los autos del Supremo supera en varias provincias el margen del último escaño del 23-J",
-      "metodo_titular": "original",
-      "fecha": "2026-11-27T11:40:01+00:00",
-      "actualizado": "2026-11-27T11:40:01+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "MUNDO",
-      "pais": null,
-      "temas": [
-        "Estafas y fraudes",
-        "Timos y suplantaciones"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "El Debate — Portada",
-          "url": "https://www.eldebate.com/espana/20261127/reduccion-censo-exterior-autos-supremo-supera-varias-provincias-margen-ultimo-escano-23j_485893.html",
-          "fecha": "2026-11-27T11:40:01+00:00"
-        }
-      ]
-    },
-    {
       "id": "a75c5d7c87271276",
       "medio_titular": "BBC News — World",
       "titular": "Ex gobernador de Kenia encarcelado durante 25 años por el asesinato de novia embarazada",
@@ -934,6 +493,54 @@
         }
       ],
       "pais": "ESPAÑA"
+    },
+    {
+      "id": "7f87dac7cd2516c0",
+      "medio_titular": "20minutos",
+      "titular": "Detenido en Lanzarote el exgobernador colombiano Carlos Caicedo por abusos sexuales a menores",
+      "titular_original": "Detenido en Lanzarote el exgobernador colombiano Carlos Caicedo por abusos sexuales a menores",
+      "metodo_titular": "original",
+      "fecha": "2026-11-27T16:14:07+00:00",
+      "actualizado": "2026-11-27T16:14:07+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [
+        "Investigación policial"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "20minutos",
+          "url": "https://www.20minutos.es/canarias/detenido-lanzarote-exgobernador-colombiano-carlos-caicedo-por-abusos-sexuales-menores_7066857_0.html",
+          "fecha": "2026-11-27T16:14:07+00:00"
+        }
+      ],
+      "pais": null
+    },
+    {
+      "id": "204c121b0d568cb0",
+      "medio_titular": "El Debate — Portada",
+      "titular": "La Policía interviene hachas y una pistola de aire comprimido en el local del detenido por el ataque a la comisaría de Palencia",
+      "titular_original": "La Policía interviene hachas y una pistola de aire comprimido en el local del detenido por el ataque a la comisaría de Palencia",
+      "metodo_titular": "original",
+      "fecha": "2026-11-27T15:26:38+00:00",
+      "actualizado": "2026-11-27T15:26:38+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "temas": [
+        "Investigación policial"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "El Debate — Portada",
+          "url": "https://www.eldebate.com/espana/castilla-y-leon/20261127/policia-interviene-hachas-pistola-aire-comprimido-local-detenido-ataque-comisaria-palencia_485995.html",
+          "fecha": "2026-11-27T15:26:38+00:00"
+        }
+      ],
+      "pais": null
     },
     {
       "id": "e0a86858415385f6",
@@ -1034,54 +641,6 @@
       "pais": "ESPAÑA"
     },
     {
-      "id": "d1c0cd44a8cd2778",
-      "medio_titular": "BBC News — World",
-      "titular": "Millones de esposas en el sur de Asia sin protección contra la violación marital - estudio",
-      "titular_original": "Millions of wives in South Asia unprotected from marital rape - study",
-      "metodo_titular": "traduccion_automatica",
-      "fecha": "2026-11-27T08:13:43+00:00",
-      "actualizado": "2026-11-27T08:13:43+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "MUNDO",
-      "temas": [
-        "Agresiones sexuales"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "BBC News — World",
-          "url": "https://www.bbc.co.uk/news/articles/cw074p95ye5do?at_medium=RSS&at_campaign=rss",
-          "fecha": "2026-11-27T08:13:43+00:00"
-        }
-      ],
-      "pais": null
-    },
-    {
-      "id": "924273857b279160",
-      "medio_titular": "20minutos",
-      "titular": "Suiza confirma cinco ciberataques con IA contra empresas e infraestructuras críticas",
-      "titular_original": "Suiza confirma cinco ciberataques con IA contra empresas e infraestructuras críticas",
-      "metodo_titular": "original",
-      "fecha": "2026-11-27T07:37:41+00:00",
-      "actualizado": "2026-11-27T07:37:41+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "EUROPA",
-      "temas": [
-        "Ciberdelincuencia"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "20minutos",
-          "url": "https://www.20minutos.es/tecnologia/ciberseguridad/suiza-confirma-cinco-ciberataques-con-inteligencia-artificial-contra-empresas-infraestructuras-criticas_7066502_0.html",
-          "fecha": "2026-11-27T07:37:41+00:00"
-        }
-      ],
-      "pais": null
-    },
-    {
       "id": "9a3d951f3703fbdc",
       "medio_titular": "Revista Calibre .38",
       "titular": "El rincón oscuro. El Inmortal televisivo",
@@ -1130,56 +689,6 @@
       "pais": null
     },
     {
-      "id": "964aee7c0a88b6de",
-      "medio_titular": "elDiario.es",
-      "titular": "Asesinada una mujer de 34 años en Bilbao a manos de su expareja, un hombre de 47 años",
-      "titular_original": "Asesinada una mujer de 34 años en Bilbao a manos de su expareja, un hombre de 47 años",
-      "metodo_titular": "original",
-      "fecha": "2026-11-27T06:23:11+00:00",
-      "actualizado": "2026-11-27T06:23:11+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "ESPAÑA",
-      "temas": [
-        "Homicidios y asesinatos",
-        "Violencia en la pareja"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "elDiario.es",
-          "url": "https://www.eldiario.es/euskadi/asesinada-mujer-34-anos-bilbao-manos-expareja-hombre-47-anos_1_13697819.html",
-          "fecha": "2026-11-27T06:23:11+00:00"
-        }
-      ],
-      "pais": null
-    },
-    {
-      "id": "0f635ec0121bb608",
-      "medio_titular": "BBC News — World",
-      "titular": "El asesino de hongos Erin Patterson lanza el último recurso del Tribunal Superior",
-      "titular_original": "Mushroom murderer Erin Patterson launches last-ditch High Court appeal",
-      "metodo_titular": "traduccion_automatica",
-      "fecha": "2026-11-27T05:54:38+00:00",
-      "actualizado": "2026-11-27T05:54:38+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "MUNDO",
-      "temas": [
-        "Homicidios y asesinatos",
-        "Juicios"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "BBC News — World",
-          "url": "https://www.bbc.co.uk/news/articles/ck053e1d3ly1o?at_medium=RSS&at_campaign=rss",
-          "fecha": "2026-11-27T05:54:38+00:00"
-        }
-      ],
-      "pais": null
-    },
-    {
       "id": "9a0513f363b59037",
       "medio_titular": "The Guardian — World",
       "titular": "Erin Patterson lanza una oferta de alto recurso judicial sobre condenas por homicidio de hongos",
@@ -1207,7 +716,7 @@
     {
       "id": "becee24b00b3625f",
       "medio_titular": "The Guardian — World",
-      "titular": "El ex piloto de la RAAF condenado por asesinato después de la muerte de su esposa como accidente de cortacéspedes",
+      "titular": "Ex piloto de la RAAF condenado por asesinato después de la muerte de su esposa en un accidente de cortacéspedes",
       "titular_original": "Former RAAF pilot convicted of murder after staging wife’s death as lawnmower accident",
       "metodo_titular": "traduccion_automatica",
       "fecha": "2026-11-27T04:56:32+00:00",
@@ -1229,31 +738,6 @@
         }
       ],
       "pais": null
-    },
-    {
-      "id": "59d1aa729fa334b7",
-      "medio_titular": "20minutos",
-      "titular": "Una oleada de ciberataques en EEUU golpea al FBI, al Tesoro y a la CIA",
-      "titular_original": "Una oleada de ciberataques en EEUU golpea al FBI, al Tesoro y a la CIA",
-      "metodo_titular": "original",
-      "fecha": "2026-11-27T04:00:00+00:00",
-      "actualizado": "2026-11-27T04:00:00+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "ESTADOS UNIDOS",
-      "temas": [
-        "Ciberdelincuencia",
-        "Investigación policial"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "20minutos",
-          "url": "https://www.20minutos.es/tecnologia/ciberseguridad/ciberataques-estados-unidos-fbi-cia-tesoro-pentagono-seguridad-informatica_7066253_0.html",
-          "fecha": "2026-11-27T04:00:00+00:00"
-        }
-      ],
-      "pais": "ESTADOS UNIDOS"
     },
     {
       "id": "b79a565712035c6b",
@@ -1299,55 +783,6 @@
           "medio": "El Debate — Portada",
           "url": "https://www.eldebate.com/espana/castilla-y-leon/20261127/argucias-entramado-rumano-defraudar-100000-euros-seguridad-social-desde-valladolid_485583.html",
           "fecha": "2026-11-27T03:30:00+00:00"
-        }
-      ],
-      "pais": null
-    },
-    {
-      "id": "6e8137e5ae6c7291",
-      "medio_titular": "20minutos",
-      "titular": "Detenido el presunto autor del disparo mortal a un joven de 35 años durante una cacería en León",
-      "titular_original": "Detenido el presunto autor del disparo mortal a un joven de 35 años durante una cacería en León",
-      "metodo_titular": "original",
-      "fecha": "2026-11-27T03:25:56+00:00",
-      "actualizado": "2026-11-27T03:25:56+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "MUNDO",
-      "temas": [
-        "Investigación policial"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "20minutos",
-          "url": "https://www.20minutos.es/nacional/muere-un-hombre-35-anos-por-un-accidente-caza-localidad-leonesa-tombrio-abajo_7066481_0.html",
-          "fecha": "2026-11-27T03:25:56+00:00"
-        }
-      ],
-      "pais": null
-    },
-    {
-      "id": "4e05448e80fc5522",
-      "medio_titular": "BBC News — World",
-      "titular": "La policía de Met arruinó mi vida, dice que el hombre de Kenia fue condenado injustamente por atacar a la pareja británica",
-      "titular_original": "Met Police ruined my life, says Kenyan man wrongly convicted over attack on UK couple",
-      "metodo_titular": "traduccion_automatica",
-      "fecha": "2026-11-27T00:48:11+00:00",
-      "actualizado": "2026-11-27T00:48:11+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "MUNDO",
-      "temas": [
-        "Juicios",
-        "Investigación policial"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "BBC News — World",
-          "url": "https://www.bbc.co.uk/news/articles/cqvg2nlr8kd8o?at_medium=RSS&at_campaign=rss",
-          "fecha": "2026-11-27T00:48:11+00:00"
         }
       ],
       "pais": null
@@ -1532,33 +967,6 @@
       "pais": null
     },
     {
-      "id": "156e53eadb91b0f2",
-      "medio_titular": "Law & Crime",
-      "titular": "Acusan de asesinato al hombre que denunció la desaparición de su esposa tras hallar su cadáver cerca de un edificio abandonado, según la policía",
-      "titular_original": "Husband who reported wife missing charged with murder after her body is found near abandoned building: Police",
-      "metodo_titular": "revision_editorial",
-      "fecha": "2026-11-26T18:15:04+00:00",
-      "actualizado": "2026-11-26T18:15:04+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "ESTADOS UNIDOS",
-      "temas": [
-        "Homicidios y asesinatos",
-        "Investigación policial",
-        "Juicios",
-        "Violencia en la pareja"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "Law & Crime",
-          "url": "https://lawandcrime.com/crime/husband-who-reported-wife-missing-charged-with-murder-after-her-body-is-found-near-abandoned-building-police",
-          "fecha": "2026-11-26T18:15:04+00:00"
-        }
-      ],
-      "pais": null
-    },
-    {
       "id": "cbd95a1485d85c46",
       "medio_titular": "The Guardian — UK",
       "titular": "Hombre que apuñaló pasajeros en tren a Londres culpable de intento de asesinato de 14 personas",
@@ -1705,54 +1113,6 @@
       "pais": null
     },
     {
-      "id": "d5266aec82ac1135",
-      "medio_titular": "20minutos",
-      "titular": "Depresión y alimentos ultraprocesados: una relación muy directa",
-      "titular_original": "Depresión y alimentos ultraprocesados: una relación muy directa",
-      "metodo_titular": "original",
-      "fecha": "2026-11-26T15:26:30+00:00",
-      "actualizado": "2026-11-26T15:26:30+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "MUNDO",
-      "temas": [
-        "Juicios"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "20minutos",
-          "url": "https://www.20minutos.es/salud/alimentos-ultraprocesados-depresion-una-relacion-mucho-mas-directa-que-pensabamos_7066297_0.html",
-          "fecha": "2026-11-26T15:26:30+00:00"
-        }
-      ],
-      "pais": null
-    },
-    {
-      "id": "295903a2bc678c61",
-      "medio_titular": "20minutos",
-      "titular": "Detenido el presunto responsable del accidente del camión cisterna que dejó 31 muertos en Egipto",
-      "titular_original": "Detenido el presunto responsable del accidente del camión cisterna que dejó 31 muertos en Egipto",
-      "metodo_titular": "original",
-      "fecha": "2026-11-26T15:12:19+00:00",
-      "actualizado": "2026-11-26T15:12:19+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "MUNDO",
-      "temas": [
-        "Investigación policial"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "20minutos",
-          "url": "https://www.20minutos.es/internacional/detenido-presunto-responsable-accidente-camion-cisterna-que-dejo-31-muertos-egipto_7066289_0.html",
-          "fecha": "2026-11-26T15:12:19+00:00"
-        }
-      ],
-      "pais": null
-    },
-    {
       "id": "0e74206d490b42d5",
       "medio_titular": "BBC News — World",
       "titular": "Gérard Depardieu para ser juzgado por presunta violación de la actriz en 2018, reglas judiciales",
@@ -1805,7 +1165,7 @@
     {
       "id": "79582c328d349801",
       "medio_titular": "Forensic Focus",
-      "titular": "Automatización de flujos de trabajo forenses: Atola TaskForce 2 Web API + Autopsia",
+      "titular": "Automatización de flujos de trabajo forenses: Atola TaskForce 2 API web + Autopsia",
       "titular_original": "Automating Forensic Workflows: Atola TaskForce 2 Web API + Autopsy",
       "metodo_titular": "traduccion_automatica",
       "fecha": "2026-11-26T12:31:26+00:00",
@@ -1905,7 +1265,7 @@
     {
       "id": "deb2d0b9b0c2fe2d",
       "medio_titular": "ANSA — English",
-      "titular": "Hombre asesinos compañero entonces se tira de viaducto usado en femicidio pasado",
+      "titular": "Hombre asesinos compañero entonces se tira de viaducto usado en femicidios pasados",
       "titular_original": "Man murders partner then throws himself off viaduct used in past femicide",
       "metodo_titular": "traduccion_automatica",
       "fecha": "2026-11-26T11:06:02+00:00",
@@ -1929,7 +1289,7 @@
     {
       "id": "050a7bbb98880cbe",
       "medio_titular": "Meduza — English",
-      "titular": "Comandante Adjunto de las Fuerzas Aeroespaciales de Rusia arrestado por cargos de soborno en medio de represión continua contra altos funcionarios militares",
+      "titular": "Comandante Adjunto de las Fuerzas Aeroespaciales de Rusia arrestado por cargos de soborno en medio de una represión continua contra altos funcionarios militares",
       "titular_original": "Deputy commander of Russia’s Aerospace Forces arrested on bribery charges amid ongoing crackdown on senior military officials",
       "metodo_titular": "traduccion_automatica",
       "fecha": "2026-11-26T10:32:09+00:00",
@@ -2025,30 +1385,6 @@
       "pais": null
     },
     {
-      "id": "590d992548b758fd",
-      "medio_titular": "20minutos",
-      "titular": "Arrestado en Cantabria el novio de la joven asesinada a puñaladas en Bullas",
-      "titular_original": "Arrestado en Cantabria el novio de la joven asesinada a puñaladas en Bullas",
-      "metodo_titular": "original",
-      "fecha": "2026-11-26T09:24:35+00:00",
-      "actualizado": "2026-11-26T09:24:35+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "MUNDO",
-      "temas": [
-        "Homicidios y asesinatos"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "20minutos",
-          "url": "https://www.20minutos.es/murcia/detenido-cantabria-presunto-autor-muerte-su-pareja-bullas_7066022_0.html",
-          "fecha": "2026-11-26T09:24:35+00:00"
-        }
-      ],
-      "pais": null
-    },
-    {
       "id": "1f8cbc8f6ecc116c",
       "medio_titular": "BBC News — World",
       "titular": "Fuego mortal estalló cerca de El Cairo matando a docenas de personas",
@@ -2071,31 +1407,6 @@
         }
       ],
       "pais": null
-    },
-    {
-      "id": "8e5ddc46e03131e9",
-      "medio_titular": "20minutos",
-      "titular": "La Guardia Civil desarticula en Valencia una organización criminal que cultivaba y transportaba marihuana a Grecia",
-      "titular_original": "La Guardia Civil desarticula en Valencia una organización criminal que cultivaba y transportaba marihuana a Grecia",
-      "metodo_titular": "original",
-      "fecha": "2026-11-26T08:20:42+00:00",
-      "actualizado": "2026-11-26T08:20:42+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "ESPAÑA",
-      "temas": [
-        "Crimen organizado",
-        "Investigación policial"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "20minutos",
-          "url": "https://www.20minutos.es/comunidad-valenciana/valencia/guardia-civil-desarticula-valencia-una-organizacion-criminal-que-cultivaba-transportaba-marihuana-grecia_7065983_0.html",
-          "fecha": "2026-11-26T08:20:42+00:00"
-        }
-      ],
-      "pais": "ESPAÑA"
     },
     {
       "id": "94fdb91eb7c033c0",
@@ -2685,7 +1996,7 @@
     {
       "id": "5c5850aadf3f9341",
       "medio_titular": "The Guardian — UK",
-      "titular": "Turista suizo asesinado y británicos y estadounidenses heridos por elefantes en Camerún",
+      "titular": "Turista suizo asesinado y británico y americanos heridos por elefantes en Camerún",
       "titular_original": "Swiss tourist killed and British and Americans injured by elephants in Cameroon",
       "metodo_titular": "traduccion_automatica",
       "fecha": "2026-11-25T14:03:18+00:00",
@@ -2726,32 +2037,6 @@
           "medio": "The Guardian — World",
           "url": "https://www.theguardian.com/society/2026/nov/25/number-of-women-killed-by-men-in-ireland-almost-doubles-in-a-year",
           "fecha": "2026-11-25T13:28:39+00:00"
-        }
-      ],
-      "pais": null
-    },
-    {
-      "id": "453aaffe121c80ea",
-      "medio_titular": "EL MUNDO — España",
-      "titular": "Una juez cita a declarar como imputados a Leire Díez y al ex presidente de Correos por fraude, prevaricación, malversación y tráfico de influencias",
-      "titular_original": "Una juez cita a declarar como imputados a Leire Díez y al ex presidente de Correos por fraude, prevaricación, malversación y tráfico de influencias",
-      "metodo_titular": "original",
-      "fecha": "2026-11-25T13:23:11+00:00",
-      "actualizado": "2026-11-25T13:23:11+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "ESPAÑA",
-      "temas": [
-        "Estafas y fraudes",
-        "Corrupción",
-        "Juicios"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "EL MUNDO — España",
-          "url": "https://www.elmundo.es/espana/2026/11/25/6b06dd84e85ece0e448b45af.html",
-          "fecha": "2026-11-25T13:23:11+00:00"
         }
       ],
       "pais": null
@@ -2827,32 +2112,6 @@
           "medio": "elDiario.es",
           "url": "https://www.eldiario.es/euskadi/audiencia-nacional-revoca-tercer-grado-exdirigente-eta-henri-parot-condenado-39-asesinatos_1_13692418.html",
           "fecha": "2026-11-25T13:00:53+00:00"
-        }
-      ],
-      "pais": null
-    },
-    {
-      "id": "e170bc1564977adb",
-      "medio_titular": "El Confidencial — España",
-      "titular": "Investigan el asesinato de una mujer de 32 años en Bullas (Murcia): buscan a su novio",
-      "titular_original": "Investigan el asesinato de una mujer de 32 años en Bullas (Murcia): buscan a su novio",
-      "metodo_titular": "original",
-      "fecha": "2026-11-25T12:53:00+00:00",
-      "actualizado": "2026-11-25T12:53:00+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "ESPAÑA",
-      "temas": [
-        "Violencia en la pareja",
-        "Homicidios y asesinatos",
-        "Investigación policial"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "El Confidencial — España",
-          "url": "https://www.elconfidencial.com/espana/2026-11-25/asesinato-mujer-bullas-violencia-machista-1tna-1tps_4472340",
-          "fecha": "2026-11-25T12:53:00+00:00"
         }
       ],
       "pais": null
@@ -2958,56 +2217,6 @@
       "pais": null
     },
     {
-      "id": "58017bc03cf86bce",
-      "medio_titular": "20minutos",
-      "titular": "Nacho Cano, tajante sobre el PSOE: \"Esto es una banda criminal y el que vota criminal es un criminal\"",
-      "titular_original": "Nacho Cano, tajante sobre el PSOE: \"Esto es una banda criminal y el que vota criminal es un criminal\"",
-      "metodo_titular": "original",
-      "fecha": "2026-11-25T09:47:14+00:00",
-      "actualizado": "2026-11-25T09:47:14+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "MUNDO",
-      "temas": [
-        "Crimen organizado"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "20minutos",
-          "url": "https://www.20minutos.es/television/nacho-cano-sobre-psoe-esto-es-una-banda-criminal-que-vota-criminal-es-un-criminal_7065506_0.html",
-          "fecha": "2026-11-25T09:47:14+00:00"
-        }
-      ],
-      "pais": null
-    },
-    {
-      "id": "694e1e3bf0f62823",
-      "medio_titular": "EL MUNDO — España",
-      "titular": "Condenado a 30 años de cárcel por asesinar a su pareja e incendiar la vivienda en Albacete",
-      "titular_original": "Condenado a 30 años de cárcel por asesinar a su pareja e incendiar la vivienda en Albacete",
-      "metodo_titular": "original",
-      "fecha": "2026-11-25T09:41:17+00:00",
-      "actualizado": "2026-11-25T09:41:17+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "ESPAÑA",
-      "temas": [
-        "Violencia en la pareja",
-        "Homicidios y asesinatos",
-        "Juicios"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "EL MUNDO — España",
-          "url": "https://www.elmundo.es/espana/2026/11/25/6b06ab6afdddffdf2f8b45b9.html",
-          "fecha": "2026-11-25T09:41:17+00:00"
-        }
-      ],
-      "pais": null
-    },
-    {
       "id": "9ace6df0df991183",
       "medio_titular": "CrimeReads",
       "titular": "¿Qué thriller internacional deberías ver este fin de semana?",
@@ -3027,30 +2236,6 @@
           "medio": "CrimeReads",
           "url": "https://crimereads.com/which-foreign-thriller-should-you-watch-this-weekend-november-25-2026",
           "fecha": "2026-11-25T09:08:58+00:00"
-        }
-      ],
-      "pais": null
-    },
-    {
-      "id": "e0c2b584b1953873",
-      "medio_titular": "CrimeReads",
-      "titular": "Jessica Hamilton en posesión, menopausia y los horrores de la edad media",
-      "titular_original": "Jessica Hamilton on possession, menopause, and the horrors of middle age",
-      "metodo_titular": "traduccion_automatica",
-      "fecha": "2026-11-25T09:07:47+00:00",
-      "actualizado": "2026-11-25T09:07:47+00:00",
-      "categoria": "FICCIÓN NEGROCRIMINAL",
-      "region": "MUNDO",
-      "temas": [
-        "Ficción negrocriminal"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "CrimeReads",
-          "url": "https://crimereads.com/jessica-hamilton-on-possession-menopause-and-the-horrors-of-middle-age",
-          "fecha": "2026-11-25T09:07:47+00:00"
         }
       ],
       "pais": null
@@ -3081,54 +2266,6 @@
       "pais": null
     },
     {
-      "id": "485edf5676953298",
-      "medio_titular": "20minutos",
-      "titular": "Cinco detenidos por una plantación de marihuana oculta bajo un parque infantil en Granada",
-      "titular_original": "Cinco detenidos por una plantación de marihuana oculta bajo un parque infantil en Granada",
-      "metodo_titular": "original",
-      "fecha": "2026-11-25T08:20:42+00:00",
-      "actualizado": "2026-11-25T08:20:42+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "ESPAÑA",
-      "temas": [
-        "Investigación policial"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "20minutos",
-          "url": "https://www.20minutos.es/andalucia/granada/cinco-detenidos-por-una-plantacion-marihuana-oculta-bajo-un-parque-infantil-las-gabias-granada_7065470_0.html",
-          "fecha": "2026-11-25T08:20:42+00:00"
-        }
-      ],
-      "pais": null
-    },
-    {
-      "id": "bef8e139a565f007",
-      "medio_titular": "20minutos",
-      "titular": "La lucha contra la violencia de género también es cosa de hombres",
-      "titular_original": "La lucha contra la violencia de género también es cosa de hombres",
-      "metodo_titular": "original",
-      "fecha": "2026-11-25T08:03:10+00:00",
-      "actualizado": "2026-11-25T08:03:10+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "MUNDO",
-      "temas": [
-        "Violencia en la pareja"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "20minutos",
-          "url": "https://www.20minutos.es/mujer/blogs/el-blog-de-lilih-blue/lucha-contra-violencia-genero-tambien-cosa-hombres_7064920_0.html",
-          "fecha": "2026-11-25T08:03:10+00:00"
-        }
-      ],
-      "pais": null
-    },
-    {
       "id": "e551ee294ac1303a",
       "medio_titular": "Revista Calibre .38",
       "titular": "Cine: «Ganglang», de Vincent Grashaw",
@@ -3154,30 +2291,6 @@
       "pais": null
     },
     {
-      "id": "8bba7ca7c0cbe446",
-      "medio_titular": "El Debate — Portada",
-      "titular": "¿Quiénes son los hijos de los nietos que pueden votar sin haber registrado nunca sus huellas dactilares?",
-      "titular_original": "¿Quiénes son los hijos de los nietos que pueden votar sin haber registrado nunca sus huellas dactilares?",
-      "metodo_titular": "original",
-      "fecha": "2026-11-25T03:30:00+00:00",
-      "actualizado": "2026-11-25T03:30:00+00:00",
-      "categoria": "CRIME SCENE",
-      "region": "MUNDO",
-      "temas": [
-        "Criminalística"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "El Debate — Portada",
-          "url": "https://www.eldebate.com/espana/20261125/quienes-son-hijos-nietos-pueden-votar-haber-registrado-nunca-huellas-dactilares_484825.html",
-          "fecha": "2026-11-25T03:30:00+00:00"
-        }
-      ],
-      "pais": null
-    },
-    {
       "id": "0dd6e1cdb53ecacf",
       "medio_titular": "BBC News — World",
       "titular": "Lies, un disfraz y bolsas de surf: cómo un policía celoso de Sydney trató de encubrir el doble asesinato",
@@ -3198,30 +2311,6 @@
           "medio": "BBC News — World",
           "url": "https://www.bbc.co.uk/news/articles/cmrrg749d02do?at_medium=RSS&at_campaign=rss",
           "fecha": "2026-11-25T01:51:43+00:00"
-        }
-      ],
-      "pais": null
-    },
-    {
-      "id": "7cdda1f5017420ab",
-      "medio_titular": "BBC News — World",
-      "titular": "Mi familia fue asesinada en Ucrania. Mi madre culpó a las tropas de Zelensky - la verdad es complicada",
-      "titular_original": "My family were killed in Ukraine. My mum blamed Zelensky's troops - the truth is complicated",
-      "metodo_titular": "traduccion_automatica",
-      "fecha": "2026-11-25T00:54:13+00:00",
-      "actualizado": "2026-11-25T00:54:13+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "EUROPA",
-      "temas": [
-        "Homicidios y asesinatos"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "BBC News — World",
-          "url": "https://www.bbc.co.uk/news/articles/cw24e17v9e51o?at_medium=RSS&at_campaign=rss",
-          "fecha": "2026-11-25T00:54:13+00:00"
         }
       ],
       "pais": null
@@ -3444,30 +2533,6 @@
       "pais": null
     },
     {
-      "id": "87e7acca3bfcc29f",
-      "medio_titular": "20minutos",
-      "titular": "Conmoción en Colombia: un grupo de hombres armados secuestran a decenas de personas en un súper tras un atraco fallido",
-      "titular_original": "Conmoción en Colombia: un grupo de hombres armados secuestran a decenas de personas en un súper tras un atraco fallido",
-      "metodo_titular": "original",
-      "fecha": "2026-11-24T17:29:14+00:00",
-      "actualizado": "2026-11-24T17:29:14+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "MUNDO",
-      "temas": [
-        "Robos y atracos"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "20minutos",
-          "url": "https://www.20minutos.es/internacional/hombres-armados-toman-un-supermercado-cartagena-tras-atentado-con-coche-bomba-que-dejo-23-heridos-villavicencio_7065325_0.html",
-          "fecha": "2026-11-24T17:29:14+00:00"
-        }
-      ],
-      "pais": "COLOMBIA"
-    },
-    {
       "id": "8287e96d5b12ec86",
       "medio_titular": "BBC News — World",
       "titular": "Zimbabuense condenado en Sudáfrica por tratar de luchar en Ucrania",
@@ -3487,30 +2552,6 @@
           "medio": "BBC News — World",
           "url": "https://www.bbc.co.uk/news/articles/cmqj5qlj5yz9o?at_medium=RSS&at_campaign=rss",
           "fecha": "2026-11-24T17:04:00+00:00"
-        }
-      ],
-      "pais": null
-    },
-    {
-      "id": "a9402efe05672ca1",
-      "medio_titular": "20minutos",
-      "titular": "Hallan el cuerpo sin vida de un hombre de 90 años desaparecido este lunes en Vilagarcía de Arousa",
-      "titular_original": "Hallan el cuerpo sin vida de un hombre de 90 años desaparecido este lunes en Vilagarcía de Arousa",
-      "metodo_titular": "original",
-      "fecha": "2026-11-24T16:51:48+00:00",
-      "actualizado": "2026-11-24T16:51:48+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "MUNDO",
-      "temas": [
-        "Desapariciones"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "20minutos",
-          "url": "https://www.20minutos.es/galicia/hallan-cuerpo-sin-vida-un-hombre-90-anos-desaparecido-este-lunes-vilagarcia-arousa_7065255_0.html",
-          "fecha": "2026-11-24T16:51:48+00:00"
         }
       ],
       "pais": null
@@ -3613,30 +2654,6 @@
       "pais": null
     },
     {
-      "id": "7ff4a9237cf1b313",
-      "medio_titular": "20minutos",
-      "titular": "¿Qué se sabe del estudiante español de 22 años detenido por el ICE? Estados Unidos alega problemas en el visado",
-      "titular_original": "¿Qué se sabe del estudiante español de 22 años detenido por el ICE? Estados Unidos alega problemas en el visado",
-      "metodo_titular": "original",
-      "fecha": "2026-11-24T16:08:15+00:00",
-      "actualizado": "2026-11-24T16:08:15+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "ESTADOS UNIDOS",
-      "temas": [
-        "Investigación policial"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "20minutos",
-          "url": "https://www.20minutos.es/cataluna/barcelona/que-se-sabe-estudiante-espanol-detenido-por-ice-eeuu-alega-problemas-con-visado-su-abogada-denuncia-trato-criminal_7065064_0.html",
-          "fecha": "2026-11-24T16:08:15+00:00"
-        }
-      ],
-      "pais": "ESTADOS UNIDOS"
-    },
-    {
       "id": "ab91bd983ee0974c",
       "medio_titular": "The Guardian — World",
       "titular": "Más de 300 rusos asesinados mientras Moscú impulsa la junta de Malí, los datos filtrados revelan",
@@ -3663,7 +2680,7 @@
     {
       "id": "17784998fd4d157d",
       "medio_titular": "The Guardian — UK",
-      "titular": "Dos detenidos después de presuntos robos en casa de Prince y Princess of Wales",
+      "titular": "Dos detenidos después del presunto robo en casa de Prince y Princess of Wales",
       "titular_original": "Two arrested after suspected burglary at home of Prince and Princess of Wales",
       "metodo_titular": "traduccion_automatica",
       "fecha": "2026-11-24T15:43:25+00:00",
@@ -3736,30 +2753,6 @@
       "pais": null
     },
     {
-      "id": "c7d24433a1acf4af",
-      "medio_titular": "20minutos",
-      "titular": "El presidente de las Cortes de Castilla-La Mancha se arranca a rapear con gorra y gafas de sol: \"Hagamos los discursos de esta manera\"",
-      "titular_original": "El presidente de las Cortes de Castilla-La Mancha se arranca a rapear con gorra y gafas de sol: \"Hagamos los discursos de esta manera\"",
-      "metodo_titular": "original",
-      "fecha": "2026-11-24T14:15:55+00:00",
-      "actualizado": "2026-11-24T14:15:55+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "ESPAÑA",
-      "temas": [
-        "Agresiones sexuales"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "20minutos",
-          "url": "https://www.20minutos.es/castilla-la-mancha/presidente-las-cortes-castilla-mancha-se-arranca-rapear-con-gorra-gafas-sol-hagamos-los-discursos-rapeando_7065201_0.html",
-          "fecha": "2026-11-24T14:15:55+00:00"
-        }
-      ],
-      "pais": null
-    },
-    {
       "id": "301b2896526a05ba",
       "medio_titular": "elDiario.es",
       "titular": "Un ciberataque con IA a Quirónsalud roba correos de pacientes de la sanidad pública",
@@ -3779,30 +2772,6 @@
           "medio": "elDiario.es",
           "url": "https://www.eldiario.es/tecnologia/ciberataque-ia-quironsalud-roba-correos-pacientes-sanidad-publica_1_13689349.html",
           "fecha": "2026-11-24T13:43:55+00:00"
-        }
-      ],
-      "pais": null
-    },
-    {
-      "id": "768803e1122327fd",
-      "medio_titular": "El Confidencial — España",
-      "titular": "Heridos siete policías en una operación antidroga en Melilla con seis detenidos",
-      "titular_original": "Heridos siete policías en una operación antidroga en Melilla con seis detenidos",
-      "metodo_titular": "original",
-      "fecha": "2026-11-24T13:03:00+00:00",
-      "actualizado": "2026-11-24T13:03:00+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "ESPAÑA",
-      "temas": [
-        "Investigación policial"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "El Confidencial — España",
-          "url": "https://www.elconfidencial.com/espana/2026-11-24/trafico-drogas-melilla-agentes-heridos-detenidos-1tna-1tps_4471531",
-          "fecha": "2026-11-24T13:03:00+00:00"
         }
       ],
       "pais": null
@@ -3830,31 +2799,6 @@
         }
       ],
       "pais": "ESPAÑA"
-    },
-    {
-      "id": "5ba75dc0870658d3",
-      "medio_titular": "elDiario.es",
-      "titular": "Covite incorpora como víctima del terrorismo a Salvador Sampedro, el taxista de Valladolid asesinado por un comando de extrema derecha",
-      "titular_original": "Covite incorpora como víctima del terrorismo a Salvador Sampedro, el taxista de Valladolid asesinado por un comando de extrema derecha",
-      "metodo_titular": "original",
-      "fecha": "2026-11-24T12:31:58+00:00",
-      "actualizado": "2026-11-24T12:31:58+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "MUNDO",
-      "temas": [
-        "Terrorismo y extremismo",
-        "Homicidios y asesinatos"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "elDiario.es",
-          "url": "https://www.eldiario.es/castilla-y-leon/politica/covite-incorpora-victima-terrorismo-salvador-sampedro-taxista-valladolid-asesinado-comando-extrema-derecha_1_13688830.html",
-          "fecha": "2026-11-24T12:31:58+00:00"
-        }
-      ],
-      "pais": null
     },
     {
       "id": "c0880b7b66921e96",
@@ -3954,30 +2898,6 @@
       "pais": null
     },
     {
-      "id": "53ec4817cd42548b",
-      "medio_titular": "CrimeReads",
-      "titular": "Un estudio en rojo, blanco y azul: Sir Arthur Conan Doyle en los Estados Unidos",
-      "titular_original": "A Study In Red, White and Blue: Sir Arthur Conan Doyle in the USA",
-      "metodo_titular": "traduccion_automatica",
-      "fecha": "2026-11-24T09:08:22+00:00",
-      "actualizado": "2026-11-24T09:08:22+00:00",
-      "categoria": "FICCIÓN NEGROCRIMINAL",
-      "region": "ESTADOS UNIDOS",
-      "temas": [
-        "Ficción negrocriminal"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "CrimeReads",
-          "url": "https://crimereads.com/arthur-conan-doyle-america",
-          "fecha": "2026-11-24T09:08:22+00:00"
-        }
-      ],
-      "pais": null
-    },
-    {
       "id": "9a45202faa71997a",
       "medio_titular": "ANSA — English",
       "titular": "'Inicio' estudiante maduro encontrado muerto en tienda en la Universidad La Sapienza de Roma",
@@ -4000,106 +2920,6 @@
           "fecha": "2026-11-24T08:50:15+00:00"
         }
       ]
-    },
-    {
-      "id": "58584db13721db49",
-      "medio_titular": "El Confidencial — España",
-      "titular": "Detenidos dos estibadores en Algeciras cuando sacaban 53,8 kilos de cocaína de un contenedor",
-      "titular_original": "Detenidos dos estibadores en Algeciras cuando sacaban 53,8 kilos de cocaína de un contenedor",
-      "metodo_titular": "original",
-      "fecha": "2026-11-24T08:21:00+00:00",
-      "actualizado": "2026-11-24T08:21:00+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "ESPAÑA",
-      "temas": [
-        "Narcotráfico",
-        "Investigación policial"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "El Confidencial — España",
-          "url": "https://www.elconfidencial.com/espana/andalucia/2026-11-24/detenidos-trabajadores-portuarios-cocaina-algeciras-1tna-1tps_4471156",
-          "fecha": "2026-11-24T08:21:00+00:00"
-        }
-      ],
-      "pais": null
-    },
-    {
-      "id": "aefeb280b18a23ed",
-      "medio_titular": "20minutos",
-      "titular": "Cinco mujeres fueron asesinadas cada hora por su pareja o un familiar en el mundo durante 2025",
-      "titular_original": "Cinco mujeres fueron asesinadas cada hora por su pareja o un familiar en el mundo durante 2025",
-      "metodo_titular": "original",
-      "fecha": "2026-11-24T08:15:51+00:00",
-      "actualizado": "2026-11-24T08:15:51+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "MUNDO",
-      "temas": [
-        "Violencia en la pareja",
-        "Homicidios y asesinatos"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "20minutos",
-          "url": "https://www.20minutos.es/internacional/cinco-mujeres-fueron-asesinadas-cada-hora-por-su-pareja-un-familiar-mundo-2025-segun-onu_7064919_0.html",
-          "fecha": "2026-11-24T08:15:51+00:00"
-        }
-      ],
-      "pais": null
-    },
-    {
-      "id": "96df46937521dd0e",
-      "medio_titular": "20minutos",
-      "titular": "La Comisión Europea confirma que el ciberataque asistido por IA robó nombres y correos de usuarios",
-      "titular_original": "La Comisión Europea confirma que el ciberataque asistido por IA robó nombres y correos de usuarios",
-      "metodo_titular": "original",
-      "fecha": "2026-11-24T07:32:57+00:00",
-      "actualizado": "2026-11-24T07:32:57+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "MUNDO",
-      "temas": [
-        "Robos y atracos",
-        "Ciberdelincuencia"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "20minutos",
-          "url": "https://www.20minutos.es/tecnologia/ciberseguridad/comision-europea-confirma-ciberataque-asistido-ia-robo-nombres-correos-usuarios_7064891_0.html",
-          "fecha": "2026-11-24T07:32:57+00:00"
-        }
-      ],
-      "pais": null
-    },
-    {
-      "id": "c02d497ddeee5673",
-      "medio_titular": "elDiario.es",
-      "titular": "La guerra de la mafia turca se libra en España: drogas, venganza, tiroteos y asesinatos",
-      "titular_original": "La guerra de la mafia turca se libra en España: drogas, venganza, tiroteos y asesinatos",
-      "metodo_titular": "original",
-      "fecha": "2026-11-24T06:59:49+00:00",
-      "actualizado": "2026-11-24T06:59:49+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "ESPAÑA",
-      "temas": [
-        "Crimen organizado",
-        "Homicidios y asesinatos"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "elDiario.es",
-          "url": "https://www.eldiario.es/internacional/la-semana-internacional/guerra-mafia-turca-libra-espana-drogas-venganza-tiroteos-asesinatos_132_13687350.html",
-          "fecha": "2026-11-24T06:59:49+00:00"
-        }
-      ],
-      "pais": "ESPAÑA"
     },
     {
       "id": "328a1aeff81f6d85",
@@ -4620,54 +3440,6 @@
       "pais": null
     },
     {
-      "id": "48eaa990ad373267",
-      "medio_titular": "El Debate — Portada",
-      "titular": "El líder de la banda criminal de los Tiguerones llega a Ecuador tras ser expulsado de España",
-      "titular_original": "El líder de la banda criminal de los Tiguerones llega a Ecuador tras ser expulsado de España",
-      "metodo_titular": "original",
-      "fecha": "2026-11-23T12:22:20+00:00",
-      "actualizado": "2026-11-23T12:22:20+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "ESPAÑA",
-      "temas": [
-        "Crimen organizado"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "El Debate — Portada",
-          "url": "https://www.eldebate.com/internacional/20261123/lider-banda-criminal-tiguerones-llega-ecuador-expulsado-espana_484129.html",
-          "fecha": "2026-11-23T12:22:20+00:00"
-        }
-      ],
-      "pais": "ESPAÑA"
-    },
-    {
-      "id": "e098f0514d5b8be7",
-      "medio_titular": "20minutos",
-      "titular": "Detenido un hombre tras huir por el techo de una casa en la que se incautaron 941 plantas de marihuana",
-      "titular_original": "Detenido un hombre tras huir por el techo de una casa en la que se incautaron 941 plantas de marihuana",
-      "metodo_titular": "original",
-      "fecha": "2026-11-23T11:28:21+00:00",
-      "actualizado": "2026-11-23T11:28:21+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "MUNDO",
-      "temas": [
-        "Investigación policial"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "20minutos",
-          "url": "https://www.20minutos.es/andalucia/almeria/guardia-civil-detiene-almeria-un-hombre-tras-huir-por-techo-una-vivienda-con-941-plantas-marihuana_7064550_0.html",
-          "fecha": "2026-11-23T11:28:21+00:00"
-        }
-      ],
-      "pais": null
-    },
-    {
       "id": "eb0a25ef1f90aac3",
       "medio_titular": "OKDIARIO — España",
       "titular": "Denuncian ciberataques desde Rusia e Irán contra Corrupción Censal, el portal que vigila el censo del 29-N",
@@ -4743,7 +3515,7 @@
     {
       "id": "f47bca55e94b1adf",
       "medio_titular": "The Guardian — World",
-      "titular": "Al menos 24 muertos y decenas desaparecidos en el fuego de fábrica de confitería en Indonesia",
+      "titular": "Al menos 24 muertos y docenas desaparecidos en el fuego de fábrica de confitería en Indonesia",
       "titular_original": "At least 24 killed and dozens missing in confectionery factory fire in Indonesia",
       "metodo_titular": "traduccion_automatica",
       "fecha": "2026-11-23T05:45:12+00:00",
@@ -4767,7 +3539,7 @@
     {
       "id": "84cde718517c078d",
       "medio_titular": "The Guardian — World",
-      "titular": "El amor hizo un tonto de Beau Lamarre-Condon pero no lo convirtió en un asesino, la defensa argumenta",
+      "titular": "El amor hizo un tonto de Beau Lamarre-Condon pero no lo hizo un asesino, la defensa argumenta",
       "titular_original": "Love made a fool of Beau Lamarre-Condon but did not make him a murderer, defence argues",
       "metodo_titular": "traduccion_automatica",
       "fecha": "2026-11-23T04:34:11+00:00",
@@ -5003,30 +3775,6 @@
           "medio": "20minutos",
           "url": "https://www.20minutos.es/internacional/un-ataque-ruso-derrumba-parte-un-edificio-ucrania-zelenski-alerta-14-personas-desaparecidas-bajo-los-escombros_7064185_0.html",
           "fecha": "2026-11-22T09:43:14+00:00"
-        }
-      ],
-      "pais": null
-    },
-    {
-      "id": "ac3ef45ccb1e7022",
-      "medio_titular": "elDiario.es",
-      "titular": "Agentes del ICE encapuchados detienen a dos personas al embarcar en Seattle: \"Se están llevando a mi papá, tenemos permiso de trabajo\"",
-      "titular_original": "Agentes del ICE encapuchados detienen a dos personas al embarcar en Seattle: \"Se están llevando a mi papá, tenemos permiso de trabajo\"",
-      "metodo_titular": "original",
-      "fecha": "2026-11-22T09:16:11+00:00",
-      "actualizado": "2026-11-22T09:16:11+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "MUNDO",
-      "temas": [
-        "Investigación policial"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "elDiario.es",
-          "url": "https://www.eldiario.es/desalambre/agentes-ice-encapuchados-detienen-personas-embarcar-seattle-llevando-papa-permiso-trabajo_1_13683637.html",
-          "fecha": "2026-11-22T09:16:11+00:00"
         }
       ],
       "pais": null
@@ -5539,31 +4287,6 @@
       "pais": null
     },
     {
-      "id": "87f4c2e829321f4b",
-      "titular": "Skylar Deleon: la historia real tras el supuesto Power Ranger rojo condenado por asesinato",
-      "fecha": "2026-11-21T07:08:29+00:00",
-      "actualizado": "2026-11-21T07:08:29+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "MUNDO",
-      "temas": [
-        "Homicidios y asesinatos",
-        "Juicios"
-      ],
-      "expedientes": [],
-      "fuentes": [
-        {
-          "medio": "20minutos",
-          "url": "https://www.20minutos.es/gente/skylar-deleon-historia-real-tras-supuesto-power-ranger-rojo-condenado-por-asesinato_7060295_0.html",
-          "fecha": "2026-11-21T07:08:29+00:00"
-        }
-      ],
-      "titular_original": "Skylar Deleon: la historia real tras el supuesto Power Ranger rojo condenado por asesinato",
-      "metodo_titular": "original",
-      "etiquetas_de_deteccion": [],
-      "medio_titular": "20minutos",
-      "pais": null
-    },
-    {
       "id": "ccac139a0ec3d993",
       "titular": "El FBI investiga un nuevo ciberataque a su red de datos criminales",
       "titular_original": "El FBI investiga un nuevo ciberataque a su red de datos criminales",
@@ -5954,30 +4677,6 @@
       "pais": null
     },
     {
-      "id": "e98fcb4fe395b9c3",
-      "titular": "Casi 600 mujeres asesinadas en Sudáfrica en tres meses",
-      "fecha": "2026-11-20T15:55:16+00:00",
-      "actualizado": "2026-11-20T15:55:16+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "MUNDO",
-      "temas": [
-        "Homicidios y asesinatos"
-      ],
-      "expedientes": [],
-      "fuentes": [
-        {
-          "medio": "BBC News — World",
-          "url": "https://www.bbc.co.uk/news/articles/c69vwyjp0339o?at_medium=RSS&at_campaign=rss",
-          "fecha": "2026-11-20T15:55:16+00:00"
-        }
-      ],
-      "titular_original": "Nearly 600 women killed in South Africa within three months",
-      "metodo_titular": "revision_editorial",
-      "etiquetas_de_deteccion": [],
-      "medio_titular": "BBC News — World",
-      "pais": null
-    },
-    {
       "id": "f59209d27d0e83bc",
       "titular": "Granada: detenido el hombre acusado de disparar contra su expareja y su excuñada",
       "fecha": "2026-11-20T15:02:47+00:00",
@@ -6100,31 +4799,6 @@
       "pais": null
     },
     {
-      "id": "21134463fe40c1e7",
-      "titular": "La Policía Nacional frustra la implantación en España de un grupo ciberterrorista prorruso y detiene a su presunto líder en Burgos",
-      "fecha": "2026-11-20T12:42:24+00:00",
-      "actualizado": "2026-11-20T12:42:24+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "ESPAÑA",
-      "temas": [
-        "Terrorismo y extremismo",
-        "Investigación policial"
-      ],
-      "expedientes": [],
-      "fuentes": [
-        {
-          "medio": "20minutos",
-          "url": "https://www.20minutos.es/castilla-y-leon/burgos/policia-nacional-frustra-implantacion-espana-un-grupo-ciberterrorista-prorruso-detiene-un-hombre-burgos_7063638_0.html",
-          "fecha": "2026-11-20T12:42:24+00:00"
-        }
-      ],
-      "titular_original": "La Policía Nacional frustra la implantación en España de un grupo ciberterrorista prorruso y detiene a su presunto líder en Burgos",
-      "metodo_titular": "original",
-      "etiquetas_de_deteccion": [],
-      "medio_titular": "20minutos",
-      "pais": "ESPAÑA"
-    },
-    {
       "id": "77aafc4de90cfb4c",
       "medio_titular": "EL MUNDO — España",
       "titular": "Uno de los menores condenados por el asesinato de la educadora de Badajoz intenta estrangular a un vigilante de seguridad del centro donde está recluido",
@@ -6199,30 +4873,6 @@
       "pais": null
     },
     {
-      "id": "e6c3f7174a791636",
-      "titular": "Ocho libros de no ficción que exploran los aspectos más oscuros del deporte",
-      "fecha": "2026-11-20T09:09:30+00:00",
-      "actualizado": "2026-11-20T09:09:30+00:00",
-      "categoria": "FICCIÓN NEGROCRIMINAL",
-      "region": "MUNDO",
-      "temas": [
-        "Ficción negrocriminal"
-      ],
-      "expedientes": [],
-      "fuentes": [
-        {
-          "medio": "CrimeReads",
-          "url": "https://crimereads.com/8-nonfiction-books-that-delve-into-the-darkest-parts-of-sports",
-          "fecha": "2026-11-20T09:09:30+00:00"
-        }
-      ],
-      "titular_original": "8 nonfiction books that delve into the darkest parts of sports",
-      "metodo_titular": "revision_editorial",
-      "etiquetas_de_deteccion": [],
-      "medio_titular": "CrimeReads",
-      "pais": null
-    },
-    {
       "id": "704d4b26f14012e8",
       "titular": "El rincón oscuro. Nuestra señora del abismo",
       "fecha": "2026-11-20T07:30:00+00:00",
@@ -6244,31 +4894,6 @@
       "metodo_titular": "original",
       "etiquetas_de_deteccion": [],
       "medio_titular": "Revista Calibre .38",
-      "pais": null
-    },
-    {
-      "id": "2c0c0f72d29ba274",
-      "titular": "«The Loch Ness Mysteries»: una nueva serie televisiva de misterio amable",
-      "fecha": "2026-11-20T01:12:48+00:00",
-      "actualizado": "2026-11-20T01:12:48+00:00",
-      "categoria": "FICCIÓN NEGROCRIMINAL",
-      "region": "MUNDO",
-      "temas": [
-        "Adaptaciones y pantallas",
-        "Ficción negrocriminal"
-      ],
-      "expedientes": [],
-      "fuentes": [
-        {
-          "medio": "CrimeReads",
-          "url": "https://crimereads.com/theres-a-new-cozy-mystery-tv-series-called-the-loch-ness-mysteries",
-          "fecha": "2026-11-20T01:12:48+00:00"
-        }
-      ],
-      "titular_original": "There’s a new cozy mystery TV series called The Loch Ness Mysteries",
-      "metodo_titular": "revision_editorial",
-      "etiquetas_de_deteccion": [],
-      "medio_titular": "CrimeReads",
       "pais": null
     },
     {
@@ -6348,30 +4973,6 @@
       "pais": null
     },
     {
-      "id": "3a51cc59b8a43e02",
-      "titular": "Acusan a un padre de matar a la madre de su hijo e incendiar deliberadamente el coche con el menor dentro",
-      "fecha": "2026-11-19T20:20:59+00:00",
-      "actualizado": "2026-11-19T20:20:59+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "ESTADOS UNIDOS",
-      "temas": [
-        "Homicidios y asesinatos"
-      ],
-      "expedientes": [],
-      "fuentes": [
-        {
-          "medio": "Law & Crime",
-          "url": "https://lawandcrime.com/crime/dad-let-his-little-boy-die-in-flaming-car-he-knowingly-set-ablaze-after-killing-the-childs-mom-just-days-after-protection-order-was-served-on-him-docs",
-          "fecha": "2026-11-19T20:20:59+00:00"
-        }
-      ],
-      "titular_original": "Dad let his little boy die in flaming car he 'knowingly' set ablaze after killing the child's mom, just days after protection order was served on him: Docs",
-      "metodo_titular": "revision_editorial",
-      "etiquetas_de_deteccion": [],
-      "medio_titular": "Law & Crime",
-      "pais": null
-    },
-    {
       "id": "102a2cb17f108c75",
       "titular": "JPMorgan Chase informa de un ciberataque: se habrían filtrado datos de clientes y sus correos electrónicos",
       "fecha": "2026-11-19T17:12:58+00:00",
@@ -6393,31 +4994,6 @@
       "metodo_titular": "original",
       "etiquetas_de_deteccion": [],
       "medio_titular": "20minutos",
-      "pais": null
-    },
-    {
-      "id": "31d5f5b42c02bd2b",
-      "titular": "Hallan muerta bajo una manta a una mujer que llevaba 15 años en el mismo hotel; la policía investiga la actuación de un hombre",
-      "fecha": "2026-11-19T13:31:02+00:00",
-      "actualizado": "2026-11-19T13:31:02+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "ESTADOS UNIDOS",
-      "temas": [
-        "Agresiones sexuales",
-        "Investigación policial"
-      ],
-      "expedientes": [],
-      "fuentes": [
-        {
-          "medio": "Law & Crime",
-          "url": "https://lawandcrime.com/crime/woman-living-in-the-same-hotel-for-15-years-is-found-dead-under-a-blanket-man-draped-it-over-her-after-watching-her-have-medical-emergency-police",
-          "fecha": "2026-11-19T13:31:02+00:00"
-        }
-      ],
-      "titular_original": "Woman living in the same hotel for 15 years is found dead under a blanket, man draped it over her after watching her have medical emergency: Police",
-      "metodo_titular": "revision_editorial",
-      "etiquetas_de_deteccion": [],
-      "medio_titular": "Law & Crime",
       "pais": null
     },
     {
@@ -6542,30 +5118,6 @@
       "pais": null
     },
     {
-      "id": "42c928ba84d5865a",
-      "titular": "Chuck Thompson investiga las misteriosas muertes de dos cazadores de Bigfoot en Washington",
-      "fecha": "2026-11-19T09:07:59+00:00",
-      "actualizado": "2026-11-19T09:07:59+00:00",
-      "categoria": "FICCIÓN NEGROCRIMINAL",
-      "region": "MUNDO",
-      "temas": [
-        "Ficción negrocriminal"
-      ],
-      "expedientes": [],
-      "fuentes": [
-        {
-          "medio": "CrimeReads",
-          "url": "https://crimereads.com/bigfoot-sasquatch-hunters-death-washington",
-          "fecha": "2026-11-19T09:07:59+00:00"
-        }
-      ],
-      "titular_original": "Chuck Thompson on the mysterious deaths of two Bigfoot hunters in Washington",
-      "metodo_titular": "revision_editorial",
-      "etiquetas_de_deteccion": [],
-      "medio_titular": "CrimeReads",
-      "pais": null
-    },
-    {
       "id": "55d09293990ecb74",
       "titular": "Parla: un hombre se entrega a la policía tras matar a su pareja",
       "fecha": "2026-11-19T07:47:31+00:00",
@@ -6683,31 +5235,6 @@
         }
       ],
       "titular_original": "'I will behead you Donald J Trump': Man who told president he would feel his 'wrath' in barrage of assassination threats that had even his own mom worried learns his fate",
-      "metodo_titular": "revision_editorial",
-      "etiquetas_de_deteccion": [],
-      "medio_titular": "Law & Crime",
-      "pais": null
-    },
-    {
-      "id": "014d54439a307e80",
-      "titular": "Condenan a una mujer que, tras beber en una fiesta, atropelló mortalmente a un hombre con su todoterreno",
-      "fecha": "2026-11-18T17:40:56+00:00",
-      "actualizado": "2026-11-18T17:40:56+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "ESTADOS UNIDOS",
-      "temas": [
-        "Homicidios y asesinatos",
-        "Juicios"
-      ],
-      "expedientes": [],
-      "fuentes": [
-        {
-          "medio": "Law & Crime",
-          "url": "https://lawandcrime.com/crime/woman-still-wearing-glow-stick-from-rave-where-she-drank-everything-before-crashing-her-wrangler-and-killing-a-man-is-sentenced",
-          "fecha": "2026-11-18T17:40:56+00:00"
-        }
-      ],
-      "titular_original": "Woman still wearing glow stick from 'rave' where she drank 'everything' before crashing her Wrangler and killing a man is sentenced",
       "metodo_titular": "revision_editorial",
       "etiquetas_de_deteccion": [],
       "medio_titular": "Law & Crime",
@@ -6885,31 +5412,6 @@
       "pais": null
     },
     {
-      "id": "5cb401abddc820b1",
-      "titular": "Un conductor ebrio atropella mortalmente a dos vendedores ambulantes conocidos por repartir comida gratis",
-      "fecha": "2026-11-17T17:18:58+00:00",
-      "actualizado": "2026-11-17T17:18:58+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "ESTADOS UNIDOS",
-      "temas": [
-        "Homicidios y asesinatos",
-        "Investigación policial"
-      ],
-      "expedientes": [],
-      "fuentes": [
-        {
-          "medio": "Law & Crime",
-          "url": "https://lawandcrime.com/crime/driver-trying-to-get-around-another-car-plowed-into-3-beloved-street-vendors-killing-them-in-trail-of-carnage-police",
-          "fecha": "2026-11-17T17:18:58+00:00"
-        }
-      ],
-      "titular_original": "Beloved street vendors who gave free hot dogs to hungry neighbors mowed down and killed by drunk driver: Cops",
-      "metodo_titular": "revision_editorial",
-      "etiquetas_de_deteccion": [],
-      "medio_titular": "Law & Crime",
-      "pais": null
-    },
-    {
       "id": "d17b94cf849f577a",
       "titular": "Una demanda atribuye a una furgoneta escolar de bajo coste un accidente con un estudiante muerto y otro con quemaduras en el 70 % del cuerpo",
       "fecha": "2026-11-16T21:36:50+00:00",
@@ -6983,28 +5485,46 @@
       "pais": null
     },
     {
-      "id": "55ce5b48b3f17130",
-      "titular": "Acusan a un hijo de matar a su padre y ocultar su cuerpo en un contenedor de basura cerca del río White",
-      "fecha": "2026-11-16T17:45:37+00:00",
-      "actualizado": "2026-11-16T17:45:37+00:00",
+      "id": "epstein-20261116-forense-freeman",
+      "titular": "Tres especialistas forenses cuestionan el suicidio de Epstein; el médico forense de Nueva York mantiene su dictamen",
+      "titular_original": "Forensic expert says Epstein was likely killed, but NYC medical examiner stands by suicide ruling",
+      "medio_titular": "CNN — Español",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2026-11-16T18:00:00+00:00",
+      "actualizado": "2026-11-16T18:00:00+00:00",
+      "precision_fecha": "día",
+      "fecha_publicacion_fuente": "2026-11-16",
+      "nota_contexto": "Michael Freeman, Anders Eriksson e Itiel Dror presentaron una revisión de lesiones cervicales y documentación de autopsia que consideran más compatible con un estrangulamiento. La Oficina del Médico Forense Jefe de Nueva York reafirmó la conclusión oficial de suicidio por ahorcamiento. El análisis no equivale a una sentencia ni demuestra la intervención de terceros. Además, se han documentado deficiencias de custodia e investigación.",
       "categoria": "TRUE CRIME",
       "region": "ESTADOS UNIDOS",
+      "pais": "ESTADOS UNIDOS",
       "temas": [
-        "Homicidios y asesinatos"
+        "Patología forense",
+        "Pruebas forenses",
+        "Investigación policial",
+        "Justicia"
       ],
-      "expedientes": [],
+      "expedientes": [
+        "caso-epstein"
+      ],
       "fuentes": [
         {
-          "medio": "Law & Crime",
-          "url": "https://lawandcrime.com/crime/dad-is-in-the-white-river-son-accused-of-killing-dad-stuffing-body-in-trash-bin-and-claiming-lid-wasnt-going-to-open",
-          "fecha": "2026-11-16T17:45:37+00:00"
+          "medio": "BBC News",
+          "url": "https://www.bbc.com/news/articles/c5n4exg1kkmyo",
+          "fecha": "2026-11-16T18:00:00+00:00"
+        },
+        {
+          "medio": "CNN — Español (ABC17)",
+          "url": "https://abc17news.com/cnn-spanish/2026/11/16/experto-forense-dice-que-la-muerte-de-epstein-tal-vez-fue-un-homicidio-forense-de-nueva-york-mantiene-dictamen-de-suicidio/",
+          "fecha": "2026-11-16T22:03:00+00:00"
+        },
+        {
+          "medio": "CBS News",
+          "url": "https://www.cbsnews.com/news/jeffrey-epstein-death-suicide-forensics-expert-analysis/",
+          "fecha": "2026-11-18T19:16:00+00:00"
         }
-      ],
-      "titular_original": "'Dad is in the White River': Son accused of killing dad, stuffing body in trash bin and claiming lid 'wasn't going to open'",
-      "metodo_titular": "revision_editorial",
-      "etiquetas_de_deteccion": [],
-      "medio_titular": "Law & Crime",
-      "pais": null
+      ]
     },
     {
       "id": "hist-lindsay-clancy-2026-11-16-10",

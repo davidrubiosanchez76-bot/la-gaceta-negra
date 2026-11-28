@@ -1,7 +1,154 @@
 {
   "mes": "2026-11",
-  "total": 295,
+  "total": 290,
   "noticias": [
+    {
+      "id": "63cb2b094c541031",
+      "medio_titular": "Infobae — RSS",
+      "titular": "Los Mossos activan su Plan de Navidad: más patrullaje y prevención de robos y ciberestafas",
+      "titular_original": "Los Mossos activan su Plan de Navidad: más patrullaje y prevención de robos y ciberestafas",
+      "metodo_titular": "original",
+      "fecha": "2026-11-28T09:17:05+00:00",
+      "actualizado": "2026-11-28T09:17:05+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "pais": "ESPAÑA",
+      "temas": [
+        "Robos y atracos",
+        "Estafas y fraudes",
+        "Investigación policial"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "Infobae — RSS",
+          "url": "https://www.infobae.com/espana/agencias/2026/11/28/los-mossos-activan-su-plan-de-navidad-mas-patrullaje-y-prevencion-de-robos-y-ciberestafas",
+          "fecha": "2026-11-28T09:17:05+00:00"
+        }
+      ]
+    },
+    {
+      "id": "8e900d2aa19ba591",
+      "medio_titular": "Infobae — RSS",
+      "titular": "Odei A.-Extearte reconstruye los 'secuestros' de autobuses en el extrarradio de Barcelona",
+      "titular_original": "Odei A.-Extearte reconstruye los 'secuestros' de autobuses en el extrarradio de Barcelona",
+      "metodo_titular": "original",
+      "fecha": "2026-11-28T09:16:48+00:00",
+      "actualizado": "2026-11-28T09:16:48+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "pais": "ESPAÑA",
+      "temas": [
+        "Actualidad criminal"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "Infobae — RSS",
+          "url": "https://www.infobae.com/espana/agencias/2026/11/28/odei-a-extearte-reconstruye-los-secuestros-de-autobuses-en-el-extrarradio-de-barcelona",
+          "fecha": "2026-11-28T09:16:48+00:00"
+        }
+      ]
+    },
+    {
+      "id": "239e5c9fdf8f7cfe",
+      "medio_titular": "Infobae — RSS",
+      "titular": "Bueno Hudson debuta en la novela negra con \"la Nueva York que no ven los turistas\"",
+      "titular_original": "Bueno Hudson debuta en la novela negra con \"la Nueva York que no ven los turistas\"",
+      "metodo_titular": "original",
+      "fecha": "2026-11-28T09:15:58+00:00",
+      "actualizado": "2026-11-28T09:15:58+00:00",
+      "categoria": "FICCIÓN NEGROCRIMINAL",
+      "region": "ESTADOS UNIDOS",
+      "pais": null,
+      "temas": [
+        "Ficción negrocriminal"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "Infobae — RSS",
+          "url": "https://www.infobae.com/america/agencias/2026/11/28/bueno-hudson-debuta-en-la-novela-negra-con-la-nueva-york-que-no-ven-los-turistas",
+          "fecha": "2026-11-28T09:15:58+00:00"
+        }
+      ]
+    },
+    {
+      "id": "1f914a2f1b2ec5c4",
+      "medio_titular": "20minutos",
+      "titular": "Un ciberataque vulnera la principal plataforma informática de las Fuerzas Aéreas de Estados Unidos",
+      "titular_original": "Un ciberataque vulnera la principal plataforma informática de las Fuerzas Aéreas de Estados Unidos",
+      "metodo_titular": "original",
+      "fecha": "2026-11-28T09:11:45+00:00",
+      "actualizado": "2026-11-28T09:11:45+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "pais": "ESTADOS UNIDOS",
+      "temas": [
+        "Ciberdelincuencia"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "20minutos",
+          "url": "https://www.20minutos.es/internacional/un-ciberataque-vulnera-principal-plataforma-informatica-las-fuerzas-aereas-estados-unidos_7066975_0.html",
+          "fecha": "2026-11-28T09:11:45+00:00"
+        }
+      ]
+    },
+    {
+      "id": "17c869f9e90110cc",
+      "medio_titular": "Infobae — RSS",
+      "titular": "Dos detenidos por tráfico de drogas en Pamplona",
+      "titular_original": "Dos detenidos por tráfico de drogas en Pamplona",
+      "metodo_titular": "original",
+      "fecha": "2026-11-28T09:00:58+00:00",
+      "actualizado": "2026-11-28T09:00:58+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "ESPAÑA",
+      "pais": null,
+      "temas": [
+        "Narcotráfico",
+        "Investigación policial"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "Infobae — RSS",
+          "url": "https://www.infobae.com/america/agencias/2026/11/28/dos-detenidos-por-trafico-de-drogas-en-pamplona",
+          "fecha": "2026-11-28T09:00:58+00:00"
+        }
+      ]
+    },
+    {
+      "id": "c8dd9d3138c6542d",
+      "medio_titular": "elDiario.es",
+      "titular": "Un zapato recuperado del fondo del mar podría conectar un barco hundido con la historia de un gobernador asesinado por los propios esclavos",
+      "titular_original": "Un zapato recuperado del fondo del mar podría conectar un barco hundido con la historia de un gobernador asesinado por los propios esclavos",
+      "metodo_titular": "original",
+      "fecha": "2026-11-28T09:00:28+00:00",
+      "actualizado": "2026-11-28T09:00:28+00:00",
+      "categoria": "TRUE CRIME",
+      "region": "MUNDO",
+      "pais": null,
+      "temas": [
+        "Homicidios y asesinatos"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "elDiario.es",
+          "url": "https://www.eldiario.es/spin/zapato-recuperado-fondo-mar-conectar-barco-hundido-historia-gobernador-asesinado-pm_1_13687845.html",
+          "fecha": "2026-11-28T09:00:28+00:00"
+        }
+      ]
+    },
     {
       "id": "197619ec43606549",
       "medio_titular": "Infobae — RSS",
@@ -99,31 +246,6 @@
       ]
     },
     {
-      "id": "d3e43ba4838621a8",
-      "medio_titular": "Infobae — RSS",
-      "titular": "Malograr lo legítimo por abuso institucional",
-      "titular_original": "Malograr lo legítimo por abuso institucional",
-      "metodo_titular": "original",
-      "fecha": "2026-11-28T06:43:12+00:00",
-      "actualizado": "2026-11-28T06:43:12+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "MUNDO",
-      "pais": null,
-      "temas": [
-        "Estafas y fraudes",
-        "Timos y suplantaciones"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "Infobae — RSS",
-          "url": "https://www.infobae.com/opinion/2026/11/28/malograr-lo-legitimo-por-abuso-institucional",
-          "fecha": "2026-11-28T06:43:12+00:00"
-        }
-      ]
-    },
-    {
       "id": "5b1abc0c5f995f7e",
       "medio_titular": "Infobae — RSS",
       "titular": "El mapa del narcotráfico en América Latina: rutas, carteles y el avance del crimen organizado en la región",
@@ -135,8 +257,8 @@
       "region": "MUNDO",
       "pais": null,
       "temas": [
-        "Crimen organizado",
-        "Narcotráfico"
+        "Narcotráfico",
+        "Crimen organizado"
       ],
       "expedientes": [],
       "etiquetas_de_deteccion": [],
@@ -160,8 +282,8 @@
       "region": "MUNDO",
       "pais": null,
       "temas": [
-        "Homicidios y asesinatos",
-        "Terrorismo y extremismo"
+        "Terrorismo y extremismo",
+        "Homicidios y asesinatos"
       ],
       "expedientes": [],
       "etiquetas_de_deteccion": [],
@@ -195,6 +317,11 @@
           "medio": "Infobae — RSS",
           "url": "https://www.infobae.com/america/agencias/2026/11/28/la-fiscalia-admite-una-querella-contra-evo-morales-por-tentativa-de-asesinato-y-reclama-su-captura",
           "fecha": "2026-11-28T06:15:33+00:00"
+        },
+        {
+          "medio": "Europa Press — Internacional",
+          "url": "https://www.europapress.es/internacional/noticia-fiscalia-boliviana-admite-querella-contra-evo-morales-tentativa-asesinato-pide-captura-20261128065224.html",
+          "fecha": "2026-11-28T05:52:24+00:00"
         }
       ]
     },
@@ -219,78 +346,6 @@
           "medio": "THE OBJECTIVE — España",
           "url": "https://theobjective.com/espana/2026-11-28/asesinato-ocho-espias-espanoles-irak-foto",
           "fecha": "2026-11-28T04:25:00+00:00"
-        }
-      ]
-    },
-    {
-      "id": "41ac3e4b538867c1",
-      "medio_titular": "BBC News — World",
-      "titular": "Ocho muertos en helicóptero militar peruano",
-      "titular_original": "Eight killed in Peruvian military helicopter crash",
-      "metodo_titular": "traduccion_automatica",
-      "fecha": "2026-11-28T04:19:16+00:00",
-      "actualizado": "2026-11-28T04:19:16+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "MUNDO",
-      "pais": null,
-      "temas": [
-        "Homicidios y asesinatos"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "BBC News — World",
-          "url": "https://www.bbc.co.uk/news/articles/cwp9d85mlp88o?at_medium=RSS&at_campaign=rss",
-          "fecha": "2026-11-28T04:19:16+00:00"
-        }
-      ]
-    },
-    {
-      "id": "aef23b418a0b129e",
-      "medio_titular": "El Debate — Portada",
-      "titular": "El Gobierno abandera el feminismo mientras España supera ya las víctimas mortales por violencia de género de todo 2025",
-      "titular_original": "El Gobierno abandera el feminismo mientras España supera ya las víctimas mortales por violencia de género de todo 2025",
-      "metodo_titular": "original",
-      "fecha": "2026-11-28T03:30:00+00:00",
-      "actualizado": "2026-11-28T03:30:00+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "ESPAÑA",
-      "pais": "ESPAÑA",
-      "temas": [
-        "Violencia en la pareja"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "El Debate — Portada",
-          "url": "https://www.eldebate.com/sociedad/20261128/gobierno-abandera-feminismo-mientras-espana-supera-victimas-mortales-violencia-genero-todo-2025_485815.html",
-          "fecha": "2026-11-28T03:30:00+00:00"
-        }
-      ]
-    },
-    {
-      "id": "a6f6d505412f2441",
-      "medio_titular": "El Debate — Portada",
-      "titular": "El cardenal Semeraro beatifica hoy en Madrid a once mártires asesinados en la Guerra Civil",
-      "titular_original": "El cardenal Semeraro beatifica hoy en Madrid a once mártires asesinados en la Guerra Civil",
-      "metodo_titular": "original",
-      "fecha": "2026-11-28T03:30:00+00:00",
-      "actualizado": "2026-11-28T03:30:00+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "ESPAÑA",
-      "pais": "ESPAÑA",
-      "temas": [
-        "Homicidios y asesinatos"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "El Debate — Portada",
-          "url": "https://www.eldebate.com/religion/20261128/cardenal-semeraro-beatifica-hoy-madrid-once-martires-asesinados-guerra-civil_486070.html",
-          "fecha": "2026-11-28T03:30:00+00:00"
         }
       ]
     },
@@ -320,31 +375,6 @@
       ]
     },
     {
-      "id": "5c719f19013cefc8",
-      "medio_titular": "El Debate — Portada",
-      "titular": "La gasolina arrasa al diésel y ya es 24 céntimos más barata por litro: 13 euros por depósito",
-      "titular_original": "La gasolina arrasa al diésel y ya es 24 céntimos más barata por litro: 13 euros por depósito",
-      "metodo_titular": "original",
-      "fecha": "2026-11-28T03:30:00+00:00",
-      "actualizado": "2026-11-28T03:30:00+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "MUNDO",
-      "pais": null,
-      "temas": [
-        "Estafas y fraudes",
-        "Timos y suplantaciones"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "El Debate — Portada",
-          "url": "https://www.eldebate.com/motor/20261128/gasolina-arrasa-diesel-24-centimos-barata-litro-13-euros-deposito_486025.html",
-          "fecha": "2026-11-28T03:30:00+00:00"
-        }
-      ]
-    },
-    {
       "id": "4d4010be0651e4cc",
       "medio_titular": "El Debate — Portada",
       "titular": "El CNI alerta con casos reales de una nueva era de ciberataques con IA: «Esto no va a acabar»",
@@ -364,30 +394,6 @@
         {
           "medio": "El Debate — Portada",
           "url": "https://www.eldebate.com/espana/20261128/cni-alerta-casos-reales-nueva-ciberataques-ia-esto-no-acabar_486087.html",
-          "fecha": "2026-11-28T03:30:00+00:00"
-        }
-      ]
-    },
-    {
-      "id": "480822e0f50ca393",
-      "medio_titular": "El Debate — Portada",
-      "titular": "Naranjo explica por qué llegamos al 29-N con un fraude monumental",
-      "titular_original": "Naranjo explica por qué llegamos al 29-N con un fraude monumental",
-      "metodo_titular": "original",
-      "fecha": "2026-11-28T03:30:00+00:00",
-      "actualizado": "2026-11-28T03:30:00+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "MUNDO",
-      "pais": null,
-      "temas": [
-        "Estafas y fraudes"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "El Debate — Portada",
-          "url": "https://www.eldebate.com/podcast/el-centinela/20261128/naranjo-explica-llegamos-29n-fraude-monumental_486132.html",
           "fecha": "2026-11-28T03:30:00+00:00"
         }
       ]
@@ -417,30 +423,6 @@
       ]
     },
     {
-      "id": "eac441e6b4b34720",
-      "medio_titular": "elDiario.es",
-      "titular": "Leos Carax, el genio tímido del cine: “Como director soy un principiante, he hecho tan pocas películas que me siento como un fraude”",
-      "titular_original": "Leos Carax, el genio tímido del cine: “Como director soy un principiante, he hecho tan pocas películas que me siento como un fraude”",
-      "metodo_titular": "original",
-      "fecha": "2026-11-27T22:26:57+00:00",
-      "actualizado": "2026-11-27T22:26:57+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "MUNDO",
-      "pais": null,
-      "temas": [
-        "Estafas y fraudes"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "elDiario.es",
-          "url": "https://www.eldiario.es/cultura/cine/leos-carax-genio-timido-cine-director-principiante-he-hecho-peliculas-siento-fraude_1_13700061.html",
-          "fecha": "2026-11-27T22:26:57+00:00"
-        }
-      ]
-    },
-    {
       "id": "d45744a8276052c5",
       "medio_titular": "elDiario.es",
       "titular": "Llevo años estudiando el crimen de genocidio y esta es la razón por la que el fallo contra Myanmar es un hito",
@@ -461,57 +443,6 @@
           "medio": "elDiario.es",
           "url": "https://www.eldiario.es/internacional/llevo-anos-estudiando-crimen-genocidio-razon-fallo-myanmar-hito_129_13693405.html",
           "fecha": "2026-11-27T22:26:55+00:00"
-        }
-      ]
-    },
-    {
-      "id": "0205dff410a25f68",
-      "medio_titular": "elDiario.es",
-      "titular": "Pedrera, un pueblo jornalero de la Sierra Sur de Sevilla, último reducto de la izquierda andaluza",
-      "titular_original": "Pedrera, un pueblo jornalero de la Sierra Sur de Sevilla, último reducto de la izquierda andaluza",
-      "metodo_titular": "original",
-      "fecha": "2026-11-27T22:26:52+00:00",
-      "actualizado": "2026-11-27T22:26:52+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "ESPAÑA",
-      "pais": "ESPAÑA",
-      "temas": [
-        "Estafas y fraudes",
-        "Timos y suplantaciones"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "elDiario.es",
-          "url": "https://www.eldiario.es/sevilla/pedrera-pueblo-jornalero-sierra-sur-sevilla-ultimo-reducto-izquierda-andaluza_1_13697878.html",
-          "fecha": "2026-11-27T22:26:52+00:00"
-        }
-      ]
-    },
-    {
-      "id": "f4549b215de1cab6",
-      "medio_titular": "OKDIARIO — España",
-      "titular": "OKDIARIO captura el momento más íntimo entre Abascal y su mujer en Valencia: su agradecimiento al «sacrificio por España»",
-      "titular_original": "OKDIARIO captura el momento más íntimo entre Abascal y su mujer en Valencia: su agradecimiento al «sacrificio por España»",
-      "metodo_titular": "original",
-      "fecha": "2026-11-27T22:06:38+00:00",
-      "actualizado": "2026-11-27T22:06:38+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "ESPAÑA",
-      "pais": "ESPAÑA",
-      "temas": [
-        "Estafas y fraudes",
-        "Timos y suplantaciones",
-        "Violencia en la pareja"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "OKDIARIO — España",
-          "url": "https://okdiario.com/espana/okdiario-captura-momento-mas-intimo-abascal-mujer-valencia-agradecimiento-sacrificio-espana-21292138",
-          "fecha": "2026-11-27T22:06:38+00:00"
         }
       ]
     },
@@ -763,34 +694,9 @@
       ]
     },
     {
-      "id": "5654b990a8ba5312",
-      "medio_titular": "EL MUNDO — España",
-      "titular": "Salvamento Marítimo halla varios fallecidos en un cayuco rescatado a 62 kilómetros de El Hierro",
-      "titular_original": "Salvamento Marítimo halla varios fallecidos en un cayuco rescatado a 62 kilómetros de El Hierro",
-      "metodo_titular": "original",
-      "fecha": "2026-11-27T12:56:58+00:00",
-      "actualizado": "2026-11-27T12:56:58+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "ESPAÑA",
-      "pais": null,
-      "temas": [
-        "Estafas y fraudes",
-        "Timos y suplantaciones"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "EL MUNDO — España",
-          "url": "https://www.elmundo.es/espana/2026/11/27/6b097b4ae85ece933c8b45bb.html",
-          "fecha": "2026-11-27T12:56:58+00:00"
-        }
-      ]
-    },
-    {
       "id": "30ba162ec0f7fbce",
       "medio_titular": "NPR — Noticias",
-      "titular": "La estrella del cine francés Gérard Depardieu ordenó someterse a juicio por violación y agresión sexual",
+      "titular": "La estrella del cine francés Gérard Depardieu ordenó ser juzgada por violación y agresión sexual",
       "titular_original": "French cinema star Gérard Depardieu ordered to stand trial for rape and sexual assault",
       "metodo_titular": "traduccion_automatica",
       "fecha": "2026-11-27T11:49:50+00:00",
@@ -859,31 +765,6 @@
         }
       ],
       "pais": null
-    },
-    {
-      "id": "111e1811ebb2bb2e",
-      "medio_titular": "El Debate — Portada",
-      "titular": "La reducción del censo exterior tras los autos del Supremo supera en varias provincias el margen del último escaño del 23-J",
-      "titular_original": "La reducción del censo exterior tras los autos del Supremo supera en varias provincias el margen del último escaño del 23-J",
-      "metodo_titular": "original",
-      "fecha": "2026-11-27T11:40:01+00:00",
-      "actualizado": "2026-11-27T11:40:01+00:00",
-      "categoria": "TRUE CRIME",
-      "region": "MUNDO",
-      "pais": null,
-      "temas": [
-        "Estafas y fraudes",
-        "Timos y suplantaciones"
-      ],
-      "expedientes": [],
-      "etiquetas_de_deteccion": [],
-      "fuentes": [
-        {
-          "medio": "El Debate — Portada",
-          "url": "https://www.eldebate.com/espana/20261127/reduccion-censo-exterior-autos-supremo-supera-varias-provincias-margen-ultimo-escano-23j_485893.html",
-          "fecha": "2026-11-27T11:40:01+00:00"
-        }
-      ]
     },
     {
       "id": "a75c5d7c87271276",
@@ -1036,7 +917,7 @@
     {
       "id": "d1c0cd44a8cd2778",
       "medio_titular": "BBC News — World",
-      "titular": "Millones de esposas en el sur de Asia sin protección contra la violación marital - estudio",
+      "titular": "Millones de esposas en Asia del Sur desprotegidas de violación marital - estudio",
       "titular_original": "Millions of wives in South Asia unprotected from marital rape - study",
       "metodo_titular": "traduccion_automatica",
       "fecha": "2026-11-27T08:13:43+00:00",
@@ -1207,7 +1088,7 @@
     {
       "id": "becee24b00b3625f",
       "medio_titular": "The Guardian — World",
-      "titular": "El ex piloto de la RAAF condenado por asesinato después de la muerte de su esposa como accidente de cortacéspedes",
+      "titular": "Ex piloto de la RAAF condenado por asesinato después de la muerte de su esposa en un accidente de cortacéspedes",
       "titular_original": "Former RAAF pilot convicted of murder after staging wife’s death as lawnmower accident",
       "metodo_titular": "traduccion_automatica",
       "fecha": "2026-11-27T04:56:32+00:00",
@@ -1805,7 +1686,7 @@
     {
       "id": "79582c328d349801",
       "medio_titular": "Forensic Focus",
-      "titular": "Automatización de flujos de trabajo forenses: Atola TaskForce 2 Web API + Autopsia",
+      "titular": "Automatización de flujos de trabajo forenses: Atola TaskForce 2 API web + Autopsia",
       "titular_original": "Automating Forensic Workflows: Atola TaskForce 2 Web API + Autopsy",
       "metodo_titular": "traduccion_automatica",
       "fecha": "2026-11-26T12:31:26+00:00",
@@ -1905,7 +1786,7 @@
     {
       "id": "deb2d0b9b0c2fe2d",
       "medio_titular": "ANSA — English",
-      "titular": "Hombre asesinos compañero entonces se tira de viaducto usado en femicidio pasado",
+      "titular": "Hombre asesinos compañero entonces se tira de viaducto usado en femicidios pasados",
       "titular_original": "Man murders partner then throws himself off viaduct used in past femicide",
       "metodo_titular": "traduccion_automatica",
       "fecha": "2026-11-26T11:06:02+00:00",
@@ -1929,7 +1810,7 @@
     {
       "id": "050a7bbb98880cbe",
       "medio_titular": "Meduza — English",
-      "titular": "Comandante Adjunto de las Fuerzas Aeroespaciales de Rusia arrestado por cargos de soborno en medio de represión continua contra altos funcionarios militares",
+      "titular": "Comandante Adjunto de las Fuerzas Aeroespaciales de Rusia arrestado por cargos de soborno en medio de una represión continua contra altos funcionarios militares",
       "titular_original": "Deputy commander of Russia’s Aerospace Forces arrested on bribery charges amid ongoing crackdown on senior military officials",
       "metodo_titular": "traduccion_automatica",
       "fecha": "2026-11-26T10:32:09+00:00",
@@ -2685,7 +2566,7 @@
     {
       "id": "5c5850aadf3f9341",
       "medio_titular": "The Guardian — UK",
-      "titular": "Turista suizo asesinado y británicos y estadounidenses heridos por elefantes en Camerún",
+      "titular": "Turista suizo asesinado y británico y americanos heridos por elefantes en Camerún",
       "titular_original": "Swiss tourist killed and British and Americans injured by elephants in Cameroon",
       "metodo_titular": "traduccion_automatica",
       "fecha": "2026-11-25T14:03:18+00:00",
@@ -3663,7 +3544,7 @@
     {
       "id": "17784998fd4d157d",
       "medio_titular": "The Guardian — UK",
-      "titular": "Dos detenidos después de presuntos robos en casa de Prince y Princess of Wales",
+      "titular": "Dos detenidos después del presunto robo en casa de Prince y Princess of Wales",
       "titular_original": "Two arrested after suspected burglary at home of Prince and Princess of Wales",
       "metodo_titular": "traduccion_automatica",
       "fecha": "2026-11-24T15:43:25+00:00",
@@ -4743,7 +4624,7 @@
     {
       "id": "f47bca55e94b1adf",
       "medio_titular": "The Guardian — World",
-      "titular": "Al menos 24 muertos y decenas desaparecidos en el fuego de fábrica de confitería en Indonesia",
+      "titular": "Al menos 24 muertos y docenas desaparecidos en el fuego de fábrica de confitería en Indonesia",
       "titular_original": "At least 24 killed and dozens missing in confectionery factory fire in Indonesia",
       "metodo_titular": "traduccion_automatica",
       "fecha": "2026-11-23T05:45:12+00:00",
@@ -4767,7 +4648,7 @@
     {
       "id": "84cde718517c078d",
       "medio_titular": "The Guardian — World",
-      "titular": "El amor hizo un tonto de Beau Lamarre-Condon pero no lo convirtió en un asesino, la defensa argumenta",
+      "titular": "El amor hizo un tonto de Beau Lamarre-Condon pero no lo hizo un asesino, la defensa argumenta",
       "titular_original": "Love made a fool of Beau Lamarre-Condon but did not make him a murderer, defence argues",
       "metodo_titular": "traduccion_automatica",
       "fecha": "2026-11-23T04:34:11+00:00",
@@ -7008,6 +6889,11 @@
       ],
       "fuentes": [
         {
+          "medio": "BBC News",
+          "url": "https://www.bbc.com/news/articles/c5n4exg1kkmyo",
+          "fecha": "2026-11-16T18:00:00+00:00"
+        },
+        {
           "medio": "CNN — Español (ABC17)",
           "url": "https://abc17news.com/cnn-spanish/2026/11/16/experto-forense-dice-que-la-muerte-de-epstein-tal-vez-fue-un-homicidio-forense-de-nueva-york-mantiene-dictamen-de-suicidio/",
           "fecha": "2026-11-16T22:03:00+00:00"
@@ -7016,11 +6902,6 @@
           "medio": "CBS News",
           "url": "https://www.cbsnews.com/news/jeffrey-epstein-death-suicide-forensics-expert-analysis/",
           "fecha": "2026-11-18T19:16:00+00:00"
-        },
-        {
-          "medio": "BBC News",
-          "url": "https://www.bbc.com/news/articles/c5n4exg1kkmyo",
-          "fecha": "2026-11-16T18:00:00+00:00"
         }
       ]
     },
