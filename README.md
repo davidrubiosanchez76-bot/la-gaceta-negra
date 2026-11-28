@@ -97,3 +97,19 @@ La disponibilidad del RSS se comprueba en GitHub Actions: los canales inaccesibl
 - Se incorpora el registro de exclusiones editoriales para evitar que vuelvan a publicarse titulares concretos descartados. Los artículos quedan fuera de Portada y Hemeroteca al siguiente refresco de GitHub Actions.
 - Las etiquetas temáticas se calculan para todos los artículos (homicidios, agresiones sexuales, estafas, narcotráfico, ciberdelincuencia, juicios, investigaciones, etc.), con una etiqueta genérica cuando el titular no permite una subclasificación segura. Blogger ya muestra `temas` y no necesita modificar su HTML.
 - Para Law & Crime, se han revisado manualmente quince traducciones defectuosas; los titulares nuevos largos o enrevesados no pasan automáticamente si no tienen revisión editorial. Así se prioriza la fidelidad factual frente a la publicación a cualquier precio.
+
+## Ampliación editorial y geográfica (28/11/2026)
+
+Se han añadido **11 canales RSS** a `config/fuentes.json`: FBI, FTC (fraudes al consumidor), NIST (ciencia forense), Europol, Mystery Tribune, Valencia Negra, The Moscow Times (inglés), Meduza (inglés), Deutsche Welle (inglés), ANSA (inglés) e Infobae. Sus enlaces de sindicación se identificaron en páginas oficiales o se reconocieron como contenidos RSS/XML en consultas previas. GitHub Actions comprueba su funcionamiento real y deja constancia de los errores sin bloquear la hemeroteca.
+
+`config/fuentes_candidatas.json` contiene medios que **no se han activado** por ausencia de un feed comprobado, dificultad lingüística o posible muro de pago. Se han registrado candidatas para Francia, China, Reino Unido, Alemania, Italia, España y los dos circuitos especializados. No se ha inventado ninguna URL RSS ni activado una fuente por el mero hecho de aparecer en una lista.
+
+**Criterios editoriales aplicados:**
+- Las editoriales se consultan de forma plural para contrastar datos, pero no se importan sus catálogos como noticias ni se da preferencia a Penguin u otro grupo.
+- En literatura se priorizan noticias de premios, novedades periodísticas, adaptaciones y festivales; se excluyen las reseñas rutinarias de los feeds especializados.
+- Se amplía el rastreo de estafas, timos y suplantaciones, así como criminología y especialidades forenses. NIST permite verificar el contexto forense también en el resumen de un RSS monográfico y FTC filtra por fraude.
+- Se omiten **nuevas incorporaciones automáticas** de dominios clasificados como de suscripción frecuente. La clasificación por dominio es orientativa; no garantiza que cada artículo de los demás medios sea gratuito.
+- El registro de exclusiones persiste para que once falsos positivos ya identificados no reaparezcan. La siguiente ejecución de GitHub Actions materializa las exclusiones en la hemeroteca; los casos históricos verificados se conservan.
+- Se almacena `pais` cuando el título indica un país de los hechos de modo inequívoco (o el feed es oficial de ámbito nacional), y la lista de países por mes en `archivo/indice.json`. Blogger continúa usando las regiones anteriores, por compatibilidad. Para mostrar un filtro por país en la página hay que modificar su HTML.
+
+Las fuentes institucionales se interpretan como información sobre investigaciones y acusaciones, no como determinaciones de culpabilidad. No se asignan puntuaciones automáticas de veracidad según el perfil ideológico de cada periódico. La prioridad editorial es el hecho delictivo y la pluralidad de fuentes.
