@@ -45,5 +45,6 @@
     "lavanguardia.com",
     "elconfidencial.com",
     "abc.es"
-  ]
+  ],
+  "bloquear_fuentes_con_suscripcion_frecuente": true
 }
