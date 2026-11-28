@@ -20,7 +20,7 @@ class TestRefuerzo(unittest.TestCase):
         temas = g.topics_of("La investigación criminológica analiza reincidencia y victimología", "CRIME SCENE")
         self.assertIn("Criminología", temas)
         self.assertIn("Criminalística", temas)
-        self.assertIsNone(g.category("Investigadores prueban ADN de algas y hámster", "CRIME SCENE"))
+        self.assertIsNone(g.category("Un estudio de ADN sobre algas y hámster", "CRIME SCENE"))
 
     def test_literatura_en_ingles_sin_resenas_rutinarias(self):
         self.assertTrue(g.es_noticia_negrocriminal("The Dagger Awards 2026 shortlist announced"))
