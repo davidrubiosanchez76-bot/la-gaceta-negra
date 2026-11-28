@@ -2,8 +2,9 @@
   "meses": [
     {
       "mes": "2026-11",
-      "total": 293,
+      "total": 294,
       "expedientes": [
+        "caso-epstein",
         "extremismo-nihilista-violento",
         "isak-andic",
         "lindsay-clancy"
@@ -17,6 +18,7 @@
         "Crimen organizado",
         "Criminalística",
         "Desapariciones",
+        "Documentación judicial",
         "Estafas y fraudes",
         "Extremismo nihilista violento",
         "Festivales",
@@ -25,6 +27,7 @@
         "Informática forense",
         "Investigación policial",
         "Juicios",
+        "Justicia",
         "Narcotráfico",
         "Patología forense",
         "Pruebas forenses",
@@ -53,8 +56,9 @@
     },
     {
       "mes": "2026-10",
-      "total": 3,
+      "total": 4,
       "expedientes": [
+        "caso-epstein",
         "extremismo-nihilista-violento",
         "luigi-mangione"
       ],
@@ -62,13 +66,16 @@
         "Análisis criminológico",
         "Extremismo nihilista violento",
         "Investigación policial",
-        "Juicios"
+        "Juicios",
+        "Justicia"
       ],
       "regiones": [
         "ESTADOS UNIDOS",
         "MUNDO"
       ],
-      "paises": []
+      "paises": [
+        "ESTADOS UNIDOS"
+      ]
     },
     {
       "mes": "2026-09",
@@ -93,8 +100,9 @@
     },
     {
       "mes": "2026-08",
-      "total": 4,
+      "total": 6,
       "expedientes": [
+        "caso-epstein",
         "extremismo-nihilista-violento",
         "luigi-mangione"
       ],
@@ -108,7 +116,9 @@
         "ESPAÑA",
         "ESTADOS UNIDOS"
       ],
-      "paises": []
+      "paises": [
+        "ESTADOS UNIDOS"
+      ]
     },
     {
       "mes": "2026-07",
@@ -132,14 +142,17 @@
     },
     {
       "mes": "2026-06",
-      "total": 3,
+      "total": 4,
       "expedientes": [
+        "caso-epstein",
         "extremismo-nihilista-violento",
         "isak-andic"
       ],
       "temas": [
         "Análisis criminológico",
+        "Documentación judicial",
         "Extremismo nihilista violento",
+        "Investigación policial",
         "Juicios",
         "Justicia"
       ],
@@ -148,7 +161,9 @@
         "ESTADOS UNIDOS",
         "MUNDO"
       ],
-      "paises": []
+      "paises": [
+        "ESTADOS UNIDOS"
+      ]
     },
     {
       "mes": "2026-05",
@@ -186,111 +201,160 @@
     },
     {
       "mes": "2026-03",
-      "total": 1,
+      "total": 2,
       "expedientes": [
+        "caso-epstein",
         "extremismo-nihilista-violento"
       ],
       "temas": [
         "Extremismo nihilista violento",
+        "Juicios",
         "Justicia"
       ],
       "regiones": [
         "ESTADOS UNIDOS"
       ],
-      "paises": []
+      "paises": [
+        "ESTADOS UNIDOS"
+      ]
     },
     {
       "mes": "2026-02",
-      "total": 2,
+      "total": 3,
       "expedientes": [
+        "caso-epstein",
         "extremismo-nihilista-violento",
         "luigi-mangione"
       ],
       "temas": [
+        "Documentación judicial",
         "Extremismo nihilista violento",
         "Investigación policial",
-        "Juicios"
+        "Juicios",
+        "Justicia"
       ],
       "regiones": [
         "ESTADOS UNIDOS"
       ],
-      "paises": []
+      "paises": [
+        "ESTADOS UNIDOS"
+      ]
     },
     {
       "mes": "2026-01",
-      "total": 2,
+      "total": 3,
       "expedientes": [
+        "caso-epstein",
         "lindsay-clancy",
         "luigi-mangione"
       ],
       "temas": [
+        "Documentación judicial",
+        "Investigación policial",
         "Juicios",
         "Salud mental y responsabilidad penal"
       ],
       "regiones": [
         "ESTADOS UNIDOS"
       ],
-      "paises": []
+      "paises": [
+        "ESTADOS UNIDOS"
+      ]
     },
     {
       "mes": "2025-12",
-      "total": 1,
+      "total": 2,
       "expedientes": [
+        "caso-epstein",
         "luigi-mangione"
       ],
       "temas": [
+        "Documentación judicial",
         "Investigación policial",
         "Juicios"
       ],
       "regiones": [
         "ESTADOS UNIDOS"
       ],
-      "paises": []
+      "paises": [
+        "ESTADOS UNIDOS"
+      ]
     },
     {
       "mes": "2025-11",
-      "total": 1,
+      "total": 3,
       "expedientes": [
+        "caso-epstein",
         "extremismo-nihilista-violento"
       ],
       "temas": [
+        "Documentación judicial",
         "Extremismo nihilista violento",
+        "Investigación policial",
         "Justicia"
       ],
       "regiones": [
         "ESTADOS UNIDOS"
       ],
-      "paises": []
+      "paises": [
+        "ESTADOS UNIDOS"
+      ]
     },
     {
       "mes": "2025-10",
-      "total": 1,
+      "total": 2,
       "expedientes": [
+        "caso-epstein",
         "isak-andic"
       ],
       "temas": [
-        "Investigación policial"
+        "Investigación policial",
+        "Juicios"
       ],
       "regiones": [
-        "ESPAÑA"
+        "ESPAÑA",
+        "ESTADOS UNIDOS"
       ],
       "paises": [
-        "ESPAÑA"
+        "ESPAÑA",
+        "ESTADOS UNIDOS"
       ]
     },
     {
       "mes": "2025-09",
-      "total": 1,
+      "total": 2,
       "expedientes": [
+        "caso-epstein",
         "luigi-mangione"
       ],
       "temas": [
-        "Juicios"
+        "Documentación judicial",
+        "Juicios",
+        "Justicia"
       ],
       "regiones": [
         "ESTADOS UNIDOS"
       ],
-      "paises": []
+      "paises": [
+        "ESTADOS UNIDOS"
+      ]
+    },
+    {
+      "mes": "2025-07",
+      "total": 1,
+      "expedientes": [
+        "caso-epstein"
+      ],
+      "temas": [
+        "Documentación judicial",
+        "Investigación policial"
+      ],
+      "regiones": [
+        "ESTADOS UNIDOS"
+      ],
+      "paises": [
+        "ESTADOS UNIDOS"
+      ]
     },
     {
       "mes": "2025-05",
@@ -310,12 +374,14 @@
     },
     {
       "mes": "2025-04",
-      "total": 3,
+      "total": 4,
       "expedientes": [
+        "caso-epstein",
         "extremismo-nihilista-violento",
         "luigi-mangione"
       ],
       "temas": [
+        "Actualidad criminal",
         "Extremismo nihilista violento",
         "Juicios",
         "Justicia"
@@ -324,7 +390,9 @@
         "ESTADOS UNIDOS",
         "MUNDO"
       ],
-      "paises": []
+      "paises": [
+        "ESTADOS UNIDOS"
+      ]
     },
     {
       "mes": "2025-03",
@@ -342,11 +410,13 @@
     },
     {
       "mes": "2025-02",
-      "total": 1,
+      "total": 2,
       "expedientes": [
+        "caso-epstein",
         "luigi-mangione"
       ],
       "temas": [
+        "Documentación judicial",
         "Investigación policial",
         "Juicios"
       ],
@@ -393,10 +463,10 @@
       "paises": []
     },
     {
-      "mes": "2023-09",
+      "mes": "2024-09",
       "total": 1,
       "expedientes": [
-        "lindsay-clancy"
+        "caso-epstein"
       ],
       "temas": [
         "Juicios"
@@ -404,7 +474,80 @@
       "regiones": [
         "ESTADOS UNIDOS"
       ],
-      "paises": []
+      "paises": [
+        "ESTADOS UNIDOS"
+      ]
+    },
+    {
+      "mes": "2024-01",
+      "total": 1,
+      "expedientes": [
+        "caso-epstein"
+      ],
+      "temas": [
+        "Documentación judicial",
+        "Juicios"
+      ],
+      "regiones": [
+        "ESTADOS UNIDOS"
+      ],
+      "paises": [
+        "ESTADOS UNIDOS"
+      ]
+    },
+    {
+      "mes": "2023-09",
+      "total": 2,
+      "expedientes": [
+        "caso-epstein",
+        "lindsay-clancy"
+      ],
+      "temas": [
+        "Juicios",
+        "Justicia"
+      ],
+      "regiones": [
+        "ESTADOS UNIDOS"
+      ],
+      "paises": [
+        "ESTADOS UNIDOS"
+      ]
+    },
+    {
+      "mes": "2023-06",
+      "total": 2,
+      "expedientes": [
+        "caso-epstein"
+      ],
+      "temas": [
+        "Investigación policial",
+        "Juicios",
+        "Justicia",
+        "Pruebas forenses"
+      ],
+      "regiones": [
+        "ESTADOS UNIDOS"
+      ],
+      "paises": [
+        "ESTADOS UNIDOS"
+      ]
+    },
+    {
+      "mes": "2023-05",
+      "total": 1,
+      "expedientes": [
+        "caso-epstein"
+      ],
+      "temas": [
+        "Juicios",
+        "Justicia"
+      ],
+      "regiones": [
+        "ESTADOS UNIDOS"
+      ],
+      "paises": [
+        "ESTADOS UNIDOS"
+      ]
     },
     {
       "mes": "2023-02",
@@ -433,6 +576,330 @@
         "ESTADOS UNIDOS"
       ],
       "paises": []
+    },
+    {
+      "mes": "2022-06",
+      "total": 1,
+      "expedientes": [
+        "caso-epstein"
+      ],
+      "temas": [
+        "Agresiones sexuales",
+        "Juicios"
+      ],
+      "regiones": [
+        "ESTADOS UNIDOS"
+      ],
+      "paises": [
+        "ESTADOS UNIDOS"
+      ]
+    },
+    {
+      "mes": "2022-02",
+      "total": 1,
+      "expedientes": [
+        "caso-epstein"
+      ],
+      "temas": [
+        "Agresiones sexuales",
+        "Juicios"
+      ],
+      "regiones": [
+        "ESTADOS UNIDOS"
+      ],
+      "paises": [
+        "ESTADOS UNIDOS"
+      ]
+    },
+    {
+      "mes": "2021-12",
+      "total": 1,
+      "expedientes": [
+        "caso-epstein"
+      ],
+      "temas": [
+        "Agresiones sexuales",
+        "Juicios"
+      ],
+      "regiones": [
+        "ESTADOS UNIDOS"
+      ],
+      "paises": [
+        "ESTADOS UNIDOS"
+      ]
+    },
+    {
+      "mes": "2020-11",
+      "total": 1,
+      "expedientes": [
+        "caso-epstein"
+      ],
+      "temas": [
+        "Investigación policial",
+        "Justicia"
+      ],
+      "regiones": [
+        "ESTADOS UNIDOS"
+      ],
+      "paises": [
+        "ESTADOS UNIDOS"
+      ]
+    },
+    {
+      "mes": "2020-07",
+      "total": 1,
+      "expedientes": [
+        "caso-epstein"
+      ],
+      "temas": [
+        "Agresiones sexuales",
+        "Juicios"
+      ],
+      "regiones": [
+        "ESTADOS UNIDOS"
+      ],
+      "paises": [
+        "ESTADOS UNIDOS"
+      ]
+    },
+    {
+      "mes": "2019-11",
+      "total": 1,
+      "expedientes": [
+        "caso-epstein"
+      ],
+      "temas": [
+        "Investigación policial",
+        "Juicios"
+      ],
+      "regiones": [
+        "ESTADOS UNIDOS"
+      ],
+      "paises": [
+        "ESTADOS UNIDOS"
+      ]
+    },
+    {
+      "mes": "2019-08",
+      "total": 1,
+      "expedientes": [
+        "caso-epstein"
+      ],
+      "temas": [
+        "Investigación policial",
+        "Justicia"
+      ],
+      "regiones": [
+        "ESTADOS UNIDOS"
+      ],
+      "paises": [
+        "ESTADOS UNIDOS"
+      ]
+    },
+    {
+      "mes": "2019-07",
+      "total": 2,
+      "expedientes": [
+        "caso-epstein"
+      ],
+      "temas": [
+        "Agresiones sexuales",
+        "Investigación policial",
+        "Juicios",
+        "Justicia"
+      ],
+      "regiones": [
+        "ESTADOS UNIDOS"
+      ],
+      "paises": [
+        "ESTADOS UNIDOS"
+      ]
+    },
+    {
+      "mes": "2019-02",
+      "total": 1,
+      "expedientes": [
+        "caso-epstein"
+      ],
+      "temas": [
+        "Juicios",
+        "Justicia"
+      ],
+      "regiones": [
+        "ESTADOS UNIDOS"
+      ],
+      "paises": [
+        "ESTADOS UNIDOS"
+      ]
+    },
+    {
+      "mes": "2018-12",
+      "total": 1,
+      "expedientes": [
+        "caso-epstein"
+      ],
+      "temas": [
+        "Investigación policial"
+      ],
+      "regiones": [
+        "ESTADOS UNIDOS"
+      ],
+      "paises": [
+        "ESTADOS UNIDOS"
+      ]
+    },
+    {
+      "mes": "2018-11",
+      "total": 1,
+      "expedientes": [
+        "caso-epstein"
+      ],
+      "temas": [
+        "Agresiones sexuales",
+        "Investigación policial"
+      ],
+      "regiones": [
+        "ESTADOS UNIDOS"
+      ],
+      "paises": [
+        "ESTADOS UNIDOS"
+      ]
+    },
+    {
+      "mes": "2014-12",
+      "total": 1,
+      "expedientes": [
+        "caso-epstein"
+      ],
+      "temas": [
+        "Agresiones sexuales",
+        "Juicios"
+      ],
+      "regiones": [
+        "ESTADOS UNIDOS"
+      ],
+      "paises": [
+        "ESTADOS UNIDOS"
+      ]
+    },
+    {
+      "mes": "2011-03",
+      "total": 1,
+      "expedientes": [
+        "caso-epstein"
+      ],
+      "temas": [
+        "Agresiones sexuales",
+        "Investigación policial"
+      ],
+      "regiones": [
+        "ESTADOS UNIDOS"
+      ],
+      "paises": [
+        "ESTADOS UNIDOS"
+      ]
+    },
+    {
+      "mes": "2009-05",
+      "total": 1,
+      "expedientes": [
+        "caso-epstein"
+      ],
+      "temas": [
+        "Agresiones sexuales",
+        "Juicios"
+      ],
+      "regiones": [
+        "ESTADOS UNIDOS"
+      ],
+      "paises": [
+        "ESTADOS UNIDOS"
+      ]
+    },
+    {
+      "mes": "2008-06",
+      "total": 1,
+      "expedientes": [
+        "caso-epstein"
+      ],
+      "temas": [
+        "Agresiones sexuales",
+        "Juicios"
+      ],
+      "regiones": [
+        "ESTADOS UNIDOS"
+      ],
+      "paises": [
+        "ESTADOS UNIDOS"
+      ]
+    },
+    {
+      "mes": "2007-09",
+      "total": 1,
+      "expedientes": [
+        "caso-epstein"
+      ],
+      "temas": [
+        "Investigación policial",
+        "Juicios"
+      ],
+      "regiones": [
+        "ESTADOS UNIDOS"
+      ],
+      "paises": [
+        "ESTADOS UNIDOS"
+      ]
+    },
+    {
+      "mes": "2006-07",
+      "total": 1,
+      "expedientes": [
+        "caso-epstein"
+      ],
+      "temas": [
+        "Agresiones sexuales",
+        "Investigación policial"
+      ],
+      "regiones": [
+        "ESTADOS UNIDOS"
+      ],
+      "paises": [
+        "ESTADOS UNIDOS"
+      ]
+    },
+    {
+      "mes": "2005-03",
+      "total": 1,
+      "expedientes": [
+        "caso-epstein"
+      ],
+      "temas": [
+        "Agresiones sexuales",
+        "Investigación policial"
+      ],
+      "regiones": [
+        "ESTADOS UNIDOS"
+      ],
+      "paises": [
+        "ESTADOS UNIDOS"
+      ]
+    },
+    {
+      "mes": "1996-09",
+      "total": 1,
+      "expedientes": [
+        "caso-epstein"
+      ],
+      "temas": [
+        "Agresiones sexuales",
+        "Investigación policial"
+      ],
+      "regiones": [
+        "ESTADOS UNIDOS"
+      ],
+      "paises": [
+        "ESTADOS UNIDOS"
+      ]
     }
   ]
 }

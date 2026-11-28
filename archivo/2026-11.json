@@ -135,8 +135,8 @@
       "region": "MUNDO",
       "pais": null,
       "temas": [
-        "Narcotráfico",
-        "Crimen organizado"
+        "Crimen organizado",
+        "Narcotráfico"
       ],
       "expedientes": [],
       "etiquetas_de_deteccion": [],
@@ -160,8 +160,8 @@
       "region": "MUNDO",
       "pais": null,
       "temas": [
-        "Terrorismo y extremismo",
-        "Homicidios y asesinatos"
+        "Homicidios y asesinatos",
+        "Terrorismo y extremismo"
       ],
       "expedientes": [],
       "etiquetas_de_deteccion": [],
@@ -501,9 +501,9 @@
       "region": "ESPAÑA",
       "pais": "ESPAÑA",
       "temas": [
-        "Violencia en la pareja",
         "Estafas y fraudes",
-        "Timos y suplantaciones"
+        "Timos y suplantaciones",
+        "Violencia en la pareja"
       ],
       "expedientes": [],
       "etiquetas_de_deteccion": [],
@@ -1108,7 +1108,7 @@
     {
       "id": "6c5266196c509c55",
       "medio_titular": "The Guardian — World",
-      "titular": "Grace. Tame llama al ex ejecutivo de los medios de comunicación de Murdoch que dijo que ‘debe estar buscando ser violada de nuevo’",
+      "titular": "Grace. Tame llama al ex ejecutivo de los medios de comunicación de Murdoch que dijo que “debe estar buscando ser violada de nuevo”",
       "titular_original": "Grace Tame calls out ex-Murdoch media executive who said she ‘must be looking to be raped again’",
       "metodo_titular": "traduccion_automatica",
       "fecha": "2026-11-27T06:54:59+00:00",
@@ -1805,7 +1805,7 @@
     {
       "id": "79582c328d349801",
       "medio_titular": "Forensic Focus",
-      "titular": "Automatización de flujos de trabajo forenses: Atola TaskForce 2 Web API + Autopsia",
+      "titular": "Automatización de flujos de trabajo forenses: Atola TaskForce 2 API web + Autopsia",
       "titular_original": "Automating Forensic Workflows: Atola TaskForce 2 Web API + Autopsy",
       "metodo_titular": "traduccion_automatica",
       "fecha": "2026-11-26T12:31:26+00:00",
@@ -1830,7 +1830,7 @@
     {
       "id": "f7d44997e7272390",
       "medio_titular": "BBC News — World",
-      "titular": "Las autoridades egipcias detienen a motorista sobre el accidente de tanque que mató a 31",
+      "titular": "Las autoridades egipcias detienen a motorista sobre un accidente de tanque que mató a 31",
       "titular_original": "Egyptian authorities arrest motorist over tanker crash that killed 31",
       "metodo_titular": "traduccion_automatica",
       "fecha": "2026-11-26T12:16:06+00:00",
@@ -1905,7 +1905,7 @@
     {
       "id": "deb2d0b9b0c2fe2d",
       "medio_titular": "ANSA — English",
-      "titular": "Hombre asesinos compañero entonces se tira de viaducto usado en femicidio pasado",
+      "titular": "Hombre asesinos compañero entonces se tira de viaducto usado en femicidios pasados",
       "titular_original": "Man murders partner then throws himself off viaduct used in past femicide",
       "metodo_titular": "traduccion_automatica",
       "fecha": "2026-11-26T11:06:02+00:00",
@@ -1929,7 +1929,7 @@
     {
       "id": "050a7bbb98880cbe",
       "medio_titular": "Meduza — English",
-      "titular": "Comandante Adjunto de las Fuerzas Aeroespaciales de Rusia arrestado por cargos de soborno en medio de represión continua contra altos funcionarios militares",
+      "titular": "Comandante Adjunto de las Fuerzas Aeroespaciales de Rusia arrestado por cargos de soborno en medio de una represión continua contra altos funcionarios militares",
       "titular_original": "Deputy commander of Russia’s Aerospace Forces arrested on bribery charges amid ongoing crackdown on senior military officials",
       "metodo_titular": "traduccion_automatica",
       "fecha": "2026-11-26T10:32:09+00:00",
@@ -2685,7 +2685,7 @@
     {
       "id": "5c5850aadf3f9341",
       "medio_titular": "The Guardian — UK",
-      "titular": "Turista suizo asesinado y británicos y estadounidenses heridos por elefantes en Camerún",
+      "titular": "Turista suizo asesinado y británico y americanos heridos por elefantes en Camerún",
       "titular_original": "Swiss tourist killed and British and Americans injured by elephants in Cameroon",
       "metodo_titular": "traduccion_automatica",
       "fecha": "2026-11-25T14:03:18+00:00",
@@ -2709,7 +2709,7 @@
     {
       "id": "f1ef09b3d88a7679",
       "medio_titular": "The Guardian — World",
-      "titular": "Número de mujeres asesinadas por hombres en Irlanda casi duplica en un año",
+      "titular": "Número de mujeres asesinadas por hombres en Irlanda casi se duplican en un año",
       "titular_original": "Number of women killed by men in Ireland almost doubles in a year",
       "metodo_titular": "traduccion_automatica",
       "fecha": "2026-11-25T13:28:39+00:00",
@@ -3180,7 +3180,7 @@
     {
       "id": "0dd6e1cdb53ecacf",
       "medio_titular": "BBC News — World",
-      "titular": "Lies, un disfraz y bolsas de surf: cómo un policía celoso de Sydney trató de cubrir el doble asesinato",
+      "titular": "Lies, un disfraz y bolsas de surf: cómo un policía celoso de Sydney trató de encubrir el doble asesinato",
       "titular_original": "Lies, a disguise and surfboard bags: how a jealous Sydney policeman tried to cover up double murder",
       "metodo_titular": "traduccion_automatica",
       "fecha": "2026-11-25T01:51:43+00:00",
@@ -3229,7 +3229,7 @@
     {
       "id": "8e9c790a528c5870",
       "medio_titular": "CrimeReads",
-      "titular": "La Marina de los Estados Unidos retira el pavo real, el tipo que Robert Redford usó en tres días del Cóndor",
+      "titular": "La Marina de los Estados Unidos retira el pavo real, el tipo que Robert Redford llevaba en tres días del Cóndor",
       "titular_original": "The U.S. Navy is retiring the peacoat—the kind that Robert Redford wore in Three Days of the Condor",
       "metodo_titular": "traduccion_automatica",
       "fecha": "2026-11-24T22:50:48+00:00",
@@ -3663,7 +3663,7 @@
     {
       "id": "17784998fd4d157d",
       "medio_titular": "The Guardian — UK",
-      "titular": "Dos detenidos después de presuntos robos en casa de Prince y Princess of Wales",
+      "titular": "Dos detenidos después del presunto robo en casa de Prince y Princess of Wales",
       "titular_original": "Two arrested after suspected burglary at home of Prince and Princess of Wales",
       "metodo_titular": "traduccion_automatica",
       "fecha": "2026-11-24T15:43:25+00:00",
@@ -3980,7 +3980,7 @@
     {
       "id": "9a45202faa71997a",
       "medio_titular": "ANSA — English",
-      "titular": "'Inicio' estudiante maduro encontrado muerto en tienda en la Universidad de La Sapienza de Roma",
+      "titular": "'Inicio' estudiante maduro encontrado muerto en tienda en la Universidad La Sapienza de Roma",
       "titular_original": "'Homeless' mature student found dead in tent at Rome's La Sapienza University",
       "metodo_titular": "traduccion_automatica",
       "fecha": "2026-11-24T08:50:15+00:00",
@@ -4719,7 +4719,7 @@
     {
       "id": "6bca7cd3efc630a7",
       "medio_titular": "CrimeReads",
-      "titular": "Sara Paretsky en el invento de idiomas y el sentimiento de parentesco con personajes mayores",
+      "titular": "Sara Paretsky en idiomas inventando y sintiendo parentesco con personajes mayores",
       "titular_original": "Sara Paretsky on inventing languages and feeling kinship with older characters",
       "metodo_titular": "traduccion_automatica",
       "fecha": "2026-11-23T09:09:20+00:00",
@@ -4767,7 +4767,7 @@
     {
       "id": "84cde718517c078d",
       "medio_titular": "The Guardian — World",
-      "titular": "El amor hizo un tonto de Beau Lamarre-Condon pero no lo convirtió en un asesino, la defensa argumenta",
+      "titular": "El amor hizo un tonto de Beau Lamarre-Condon pero no lo hizo un asesino, la defensa argumenta",
       "titular_original": "Love made a fool of Beau Lamarre-Condon but did not make him a murderer, defence argues",
       "metodo_titular": "traduccion_automatica",
       "fecha": "2026-11-23T04:34:11+00:00",
