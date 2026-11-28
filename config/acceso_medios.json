@@ -1,5 +1,5 @@
 {
-  "nota": "Preferencia estimada por medio, no comprobación individual de cada artículo.",
+  "nota": "Preferencia por dominio, nunca garantía de acceso gratuito a cada artículo. Comprobar el enlace individual antes de prometer lectura libre.",
   "habitualmente_abierto": [
     "20minutos.es",
     "europapress.es",
@@ -16,7 +16,18 @@
     "solonovelanegra.es",
     "vicentegonzalez-escritor.com",
     "jordivalerointerrobang.blogspot.com",
-    "zendalibros.com"
+    "zendalibros.com",
+    "fbi.gov",
+    "ftc.gov",
+    "nist.gov",
+    "europol.europa.eu",
+    "mysterytribune.com",
+    "valencianegra.com",
+    "themoscowtimes.com",
+    "meduza.io",
+    "dw.com",
+    "ansa.it",
+    "infobae.com"
   ],
   "acceso_variable": [
     "eldiario.es",
