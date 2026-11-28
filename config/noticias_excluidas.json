@@ -239,6 +239,42 @@
     {
       "id": "dc43e7c40de1ccd1",
       "motivo": "Opinión genérica sin hecho fraudulento identificable"
+    },
+    {
+      "id": "d3e43ba4838621a8",
+      "motivo": "Columna de opinión sin suceso criminal concreto; 'legítimo' generaba falso timo"
+    },
+    {
+      "id": "5c719f19013cefc8",
+      "motivo": "Precio de gasolina, ajeno al crimen; 'céntimos' generaba falso timo"
+    },
+    {
+      "id": "480822e0f50ca393",
+      "motivo": "Podcast de comentario político sobre presunto fraude, sin delito concreto descrito"
+    },
+    {
+      "id": "eac441e6b4b34720",
+      "motivo": "Entrevista de cine: 'me siento como un fraude' es una metáfora"
+    },
+    {
+      "id": "0205dff410a25f68",
+      "motivo": "Crónica electoral/local sin delito; 'último' generaba falso timo"
+    },
+    {
+      "id": "f4549b215de1cab6",
+      "motivo": "Anécdota personal de político ajena a sucesos; 'íntimo' generaba falso timo"
+    },
+    {
+      "id": "41ac3e4b538867c1",
+      "motivo": "Accidente aéreo sin indicios de delito"
+    },
+    {
+      "id": "a6f6d505412f2441",
+      "motivo": "Beatificación religiosa sin noticia de investigación criminal contemporánea"
+    },
+    {
+      "id": "aef23b418a0b129e",
+      "motivo": "Valoración política genérica sobre cifras de violencia sin acontecimiento judicial concreto"
     }
   ]
 }

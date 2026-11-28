@@ -113,3 +113,11 @@ Se han añadido **11 canales RSS** a `config/fuentes.json`: FBI, FTC (fraudes al
 - Se almacena `pais` cuando el título indica un país de los hechos de modo inequívoco (o el feed es oficial de ámbito nacional), y la lista de países por mes en `archivo/indice.json`. Blogger continúa usando las regiones anteriores, por compatibilidad. Para mostrar un filtro por país en la página hay que modificar su HTML.
 
 Las fuentes institucionales se interpretan como información sobre investigaciones y acusaciones, no como determinaciones de culpabilidad. No se asignan puntuaciones automáticas de veracidad según el perfil ideológico de cada periódico. La prioridad editorial es el hecho delictivo y la pluralidad de fuentes.
+
+## Equilibrio editorial de portada y revisión forense (28/11/2026)
+
+Se detectaron falsos positivos por la subcadena "timo" dentro de "último", "íntimo", "céntimos" y similares. Se corrigió el detector de texto completo y las etiquetas para exigir la palabra completa. Se añadieron exclusiones persistentes de nueve titulares inapropiados (opiniones y episodios ajenos a sucesos criminales, anécdotas políticas, un accidente y una nota religiosa).
+
+Las noticias archivadas se mantienen completas, pero **la portada** muestra como máximo tres entradas por medio y día. Sus primeras veinte tarjetas se diversifican con un máximo preferente de tres por medio, usando acontecimientos recientes de otras fuentes. Ninguna cabecera es excluida por su orientación ideológica; la representación responde exclusivamente a evitar duplicación editorial y acumulación de noticias en un único RSS. El HTML de Blogger deberá respetar el orden recibido desde data/noticias.json para conservar la mezcla; si vuelve a ordenar por fecha, seguirá vigente el máximo por medio y día.
+
+CASO EPSTEIN: añadido el análisis forense presentado el 16/11/2026 (Michael Freeman, Anders Eriksson e Itiel Dror) con fuentes independientes CNN/BBC/CBS, describiendo tanto sus dudas sobre el suicidio como el dictamen contrario del Médico Forense de Nueva York. No se atribuye como hecho probado un homicidio.

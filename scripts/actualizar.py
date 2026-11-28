@@ -58,9 +58,9 @@ TOPICS = {
         "missing woman", "persona desaparecida"),
     "Robos y atracos": ("robo", "robos", "atraco", "hurto", "allanamiento", "burglary",
         "robbery", "theft", "stolen", "asaltan"),
-    "Estafas y fraudes": ("estafa", "fraude", "fraud", "scam", "timo", "smishing", "phishing", "suplantacion bancaria", "blanqueo", "lavado de dinero",
+    "Estafas y fraudes": ("estafa", "fraude", "fraud", "scam", "smishing", "phishing", "suplantacion bancaria", "blanqueo", "lavado de dinero",
         "money laundering", "falsificac", "delito economico"),
-    "Timos y suplantaciones": ("timo", "phishing", "smishing", "vishing", "falso empleado del banco", "haciendose pasar por", "suplantacion de identidad", "fake bank", "bank impersonation", "romance scam", "investment scam"),
+    "Timos y suplantaciones": ("phishing", "smishing", "vishing", "falso empleado del banco", "haciendose pasar por", "suplantacion de identidad", "fake bank", "bank impersonation", "romance scam", "investment scam"),
     "Corrupción": ("malversacion", "cohecho", "soborno", "prevaricacion", "comisiones ilegales",
         "corrupcion", "bribery", "embezzl"),
     "Ciberdelincuencia": ("ciberataque", "hacke", "ransomware", "smishing", "vishing", "phishing", "ciberdelincuencia",
@@ -76,8 +76,8 @@ TOPICS = {
 
 CRIME_SCENE = ("criminologia", "investigacion criminologica", "estudio criminologico", "victimologia", "forensic research", "criminology research", "forensic toxicology", "trace evidence", "forensic anthropology", "forensic pathology", "ciencia forense", "forense", "tecnica forense", "medicina forense", "criminalistica", "antropologia forense", "balistica", "huellas dactilares", "genetica forense", "identificacion genetica", "restos humanos", "prueba pericial", "forensic", "dna evidence", "forensic dna", "forensic science", "fingerprint analysis", "forensic genealogy", "digital forensics", "crime scene analysis", "evidence testing", "forensic investigation", "forensic technology", "pericia forense", "pericial informatica")
 LITERARY = ("novela negra", "novela policiaca", "literatura criminal", "literatura negra", "ficcion criminal", "thriller policiac", "premio edgar", "premio hammett", "festival de novela negra", "novela de misterio", "novela policial", "cine negro", "ficcion noir", "crime fiction", "noir fiction", "mystery novel", "thriller novel", "detective novel", "crime novel", "mystery fiction", "novela negra", "novel·la negra", "novel·la policíaca")
-CRIME = ("estafa", "timo", "smishing", "phishing", "suplantacion bancaria", "ciberestafa", "fraude bancario", "extorsion", "scam", "romance scam", "asesinat", "asesino", "asesina", "homicid", "crimen", "criminal", "detenid", "detien", "blanqueo", "corrupcion", "malversacion", "cohecho", "etarra", "ciberataque", "secuestro", "narcotraf", "violencia machista", "violencia de genero", "feminicidio", "robo con violencia", "atraco", "sicario", "estafa millonaria", "policia investiga", "presunto asesino", "procesad", "condena por", "asesino en serie", "terrorismo", "trata de personas", "murder", "homicide", "killed", "killing", "slain", "stabbed", "stabbing", "arrested", "rape", "rapist", "sexual assault", "kidnapped", "kidnapping", "fraud", "shooting", "shot dead", "found dead", "missing girl", "missing woman", "missing person", "convicted", "sentenced to prison", "sentenced for", "pleads guilty", "pleaded guilty", "charged with murder", "criminal trial", "death penalty", "crime scene", "assassinat", "assassinat", "homicidi", "detingut", "detinguda", "detenen", "segrest", "narcotrafic", "violencia masclista", "feminicidi", "crim organitzat", "assassi", "robatori violent", "arson", "murdered", "throat slit")
-EXCLUDE = ("accidente de trafico", "colision entre", "incendio forestal", "terremoto", "atropello accidental", "fenomeno meteorologico", "gta vi", "video game", "glider crash", "crashes into", "road accident", "car crash", "plane crash", "forensic focus digest", "registration opens for", "virtual summit", "climate summit")
+CRIME = ("estafa", "smishing", "phishing", "suplantacion bancaria", "ciberestafa", "fraude bancario", "extorsion", "scam", "romance scam", "asesinat", "asesino", "asesina", "homicid", "crimen", "criminal", "detenid", "detien", "blanqueo", "corrupcion", "malversacion", "cohecho", "etarra", "ciberataque", "secuestro", "narcotraf", "violencia machista", "violencia de genero", "feminicidio", "robo con violencia", "atraco", "sicario", "estafa millonaria", "policia investiga", "presunto asesino", "procesad", "condena por", "asesino en serie", "terrorismo", "trata de personas", "murder", "homicide", "killed", "killing", "slain", "stabbed", "stabbing", "arrested", "rape", "rapist", "sexual assault", "kidnapped", "kidnapping", "fraud", "shooting", "shot dead", "found dead", "missing girl", "missing woman", "missing person", "convicted", "sentenced to prison", "sentenced for", "pleads guilty", "pleaded guilty", "charged with murder", "criminal trial", "death penalty", "crime scene", "assassinat", "assassinat", "homicidi", "detingut", "detinguda", "detenen", "segrest", "narcotrafic", "violencia masclista", "feminicidi", "crim organitzat", "assassi", "robatori violent", "arson", "murdered", "throat slit")
+EXCLUDE = ("accidente de trafico", "colision entre", "incendio forestal", "terremoto", "atropello accidental", "fenomeno meteorologico", "gta vi", "video game", "glider crash", "crashes into", "road accident", "car crash", "plane crash", "helicopter crash", "helicopter accident", "forensic focus digest", "registration opens for", "virtual summit", "climate summit")
 FUENTES_EXCLUIDAS = {"3CatInfo", "La Vanguardia — Barcelona"}
 
 
@@ -273,7 +273,7 @@ def category(text, src):
         return None
     if any(w in s for w in LITERARY):
         return "FICCIÓN NEGROCRIMINAL"
-    if any(w in s for w in CRIME) or desaparicion_de_persona(s):
+    if any(w in s for w in CRIME) or re.search(r"\btimos?\b", s) or desaparicion_de_persona(s):
         return "TRUE CRIME"
     return None
 
@@ -310,6 +310,10 @@ def topics_of(text, cat):
     if cat != "TRUE CRIME":
         return []
     found = [key for key, words in TOPICS.items() if any(word in s for word in words)]
+    # «timo» es palabra independiente: nunca parte de «último», «íntimo» o «céntimos».
+    if re.search(r"\btimos?\b", s):
+        found.extend(["Estafas y fraudes", "Timos y suplantaciones"])
+    found = list(dict.fromkeys(found))
     if not found:
         found = ["Actualidad criminal"]
     return found
@@ -492,6 +496,8 @@ def make_story(item, feed, config, correcciones=None, excluidas=None):
         return None
     if feed.get("solo_noticias_genero") and not es_noticia_negrocriminal(title):
         return None
+    if feed.get("categoria", "AUTO") == "AUTO" and any(part in urllib.parse.urlsplit(url).path.lower() for part in ("/opinion/", "/podcast/")):
+        return None  # Opiniones y debates no constituyen por sí solos una noticia criminal.
     full_text = title + " " + re.sub(r"<[^>]*>", " ", item["summary"])
     if feed.get("solo_timos") and not any(x in normalize(full_text) for x in ("scam", "fraud", "impostor", "deceptive", "phishing", "estafa", "timo", "suplantacion", "identity theft")):
         return None
@@ -569,6 +575,40 @@ def fetch(url):
         if len(data) > LIMIT_BYTES:
             raise ValueError("RSS demasiado grande")
         return data
+
+
+def seleccionar_portada(stories, cutoff, max_medio_dia=3, ventana_equilibrio=20, max_medio_ventana=3):
+    """Diversidad editorial solo en portada; la hemeroteca conserva todas las fichas.
+
+    El máximo por medio y fecha de publicación evita ocho titulares seguidos de
+    una misma cabecera. Durante las primeras tarjetas intercalamos medios sin
+    modificar las fechas reales, ni asignar cuotas por orientación política.
+    """
+    del_dia = {}
+    visibles = []
+    for noticia in stories:
+        if date_parse(noticia["fecha"]) < cutoff:
+            continue
+        medio = noticia.get("medio_titular") or (noticia.get("fuentes") or [{}])[0].get("medio", "")
+        clave = (medio, noticia["fecha"][:10])
+        if del_dia.get(clave, 0) >= max_medio_dia:
+            continue
+        del_dia[clave] = del_dia.get(clave, 0) + 1
+        visibles.append(noticia)
+    inicial, cola, ventana = [], [], {}
+    for noticia in visibles:
+        medio = noticia.get("medio_titular") or (noticia.get("fuentes") or [{}])[0].get("medio", "")
+        if len(inicial) < ventana_equilibrio and ventana.get(medio, 0) < max_medio_ventana:
+            inicial.append(noticia)
+            ventana[medio] = ventana.get(medio, 0) + 1
+        else:
+            cola.append(noticia)
+    # Si hay pocos medios distintos, completar la ventana con el resto.
+    if len(inicial) < ventana_equilibrio:
+        cuantos = ventana_equilibrio - len(inicial)
+        inicial.extend(cola[:cuantos])
+        cola = cola[cuantos:]
+    return inicial + cola
 
 
 def main():
@@ -693,7 +733,7 @@ def main():
         ordenar_fuentes(noticia, politica_acceso)
     stories.sort(key=lambda s: (s["fecha"], s["id"]), reverse=True)
     cutoff = NOW - timedelta(days=DAYS_KEEP_FRONTPAGE)
-    current = [x for x in stories if date_parse(x["fecha"]) >= cutoff]
+    current = seleccionar_portada(stories, cutoff)
     now_str = NOW.isoformat(timespec="seconds")
     current_doc = {"actualizado": now_str, "total": len(current), "noticias": current}
     # Evitar commits inútiles cuando no aparecen noticias nuevas.

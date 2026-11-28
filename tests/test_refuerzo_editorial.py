@@ -59,6 +59,37 @@ class TestRefuerzo(unittest.TestCase):
         self.assertIn("caso-epstein",g.make_story(story("Epstein files published by Justice Department"),feed,cfg)["expedientes"])
         self.assertIsNone(g.make_story(story("El Departamento de Justicia publica un informe meteorológico"),feed,cfg))
 
+    def test_timo_no_es_ultimo_intimo_centimos(self):
+        for title in (
+            "La gasolina ahorra varios céntimos por litro",
+            "En el último acto electoral hubo un discurso",
+            "La pareja comparte un momento íntimo",
+            "Malograr lo legítimo por abuso institucional",
+        ):
+            with self.subTest(title=title):
+                self.assertIsNone(g.category(title, "AUTO"))
+        self.assertEqual(g.category("Detenido por un timo bancario", "AUTO"), "TRUE CRIME")
+        self.assertIn("Timos y suplantaciones", g.topics_of("Detenido por un timo bancario", "TRUE CRIME"))
+
+    def test_portada_diversidad_sin_borrar_hemeroteca(self):
+        from datetime import datetime, timezone, timedelta
+        stamp=datetime.now(timezone.utc)
+        base=stamp.replace(hour=12,minute=0,second=0,microsecond=0)
+        stories=[]
+        for medium in ("Infobae — RSS","El Debate — Portada","BBC News","20minutos"):
+            for i in range(8):
+                stories.append({"id":medium+str(i),"medio_titular":medium,
+                                "fecha":(base-timedelta(minutes=i)).isoformat()})
+        from operator import itemgetter
+        stories.sort(key=itemgetter("fecha"),reverse=True)
+        final=g.seleccionar_portada(stories, stamp-timedelta(days=2), max_medio_dia=3,
+                                    ventana_equilibrio=10,max_medio_ventana=3)
+        self.assertEqual(len(stories), 32)
+        self.assertEqual(len(final), 12)
+        self.assertEqual(len(set(x["medio_titular"] for x in final[:10])),4)
+        from collections import Counter
+        self.assertLessEqual(max(Counter(x["medio_titular"] for x in final[:10]).values()),3)
+
     def test_detector_epstein(self):
         from detectar_epstein import coincide
         self.assertTrue(coincide("Jeffrey Epstein files released by US Justice Department"))

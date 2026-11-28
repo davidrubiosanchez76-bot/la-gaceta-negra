@@ -1,7 +1,7 @@
 {
   "id": "caso-epstein",
   "corte": "2026-11-28",
-  "total": 42,
+  "total": 43,
   "criterio": "42 hitos relevantes con referencia pública, entre el primer aviso documentado al FBI (1996), la investigación policial de 2005 y el 28 de noviembre de 2026. No son todas las publicaciones de prensa.",
   "notas": [
     "Fechas con precisión 'mes' o 'año': primer día es marcador técnico de ordenación, no fecha exacta del suceso.",
@@ -50,6 +50,8 @@
     "epstein-20260827-39",
     "epstein-20261110-40",
     "epstein-19960903-supl",
-    "epstein-20261026-supl"
-  ]
+    "epstein-20261026-supl",
+    "epstein-20261116-forense-freeman"
+  ],
+  "nota_actualizacion": "Incluido informe presentado por Michael Freeman, Anders Eriksson e Itiel Dror el 16/11/2026. La Oficina forense de Nueva York mantiene el dictamen de suicidio; presentar ambas posiciones y la documentación disponible."
 }

@@ -1,6 +1,6 @@
 {
   "mes": "2026-11",
-  "total": 294,
+  "total": 295,
   "noticias": [
     {
       "id": "197619ec43606549",
@@ -6981,6 +6981,48 @@
       "etiquetas_de_deteccion": [],
       "medio_titular": "Law & Crime",
       "pais": null
+    },
+    {
+      "id": "epstein-20261116-forense-freeman",
+      "titular": "Tres especialistas forenses cuestionan el suicidio de Epstein; el médico forense de Nueva York mantiene su dictamen",
+      "titular_original": "Forensic expert says Epstein was likely killed, but NYC medical examiner stands by suicide ruling",
+      "medio_titular": "CNN — Español",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2026-11-16T18:00:00+00:00",
+      "actualizado": "2026-11-16T18:00:00+00:00",
+      "precision_fecha": "día",
+      "fecha_publicacion_fuente": "2026-11-16",
+      "nota_contexto": "Michael Freeman, Anders Eriksson e Itiel Dror presentaron una revisión de lesiones cervicales y documentación de autopsia que consideran más compatible con un estrangulamiento. La Oficina del Médico Forense Jefe de Nueva York reafirmó la conclusión oficial de suicidio por ahorcamiento. El análisis no equivale a una sentencia ni demuestra la intervención de terceros. Además, se han documentado deficiencias de custodia e investigación.",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "pais": "ESTADOS UNIDOS",
+      "temas": [
+        "Patología forense",
+        "Pruebas forenses",
+        "Investigación policial",
+        "Justicia"
+      ],
+      "expedientes": [
+        "caso-epstein"
+      ],
+      "fuentes": [
+        {
+          "medio": "CNN — Español (ABC17)",
+          "url": "https://abc17news.com/cnn-spanish/2026/11/16/experto-forense-dice-que-la-muerte-de-epstein-tal-vez-fue-un-homicidio-forense-de-nueva-york-mantiene-dictamen-de-suicidio/",
+          "fecha": "2026-11-16T22:03:00+00:00"
+        },
+        {
+          "medio": "CBS News",
+          "url": "https://www.cbsnews.com/news/jeffrey-epstein-death-suicide-forensics-expert-analysis/",
+          "fecha": "2026-11-18T19:16:00+00:00"
+        },
+        {
+          "medio": "BBC News",
+          "url": "https://www.bbc.com/news/articles/c5n4exg1kkmyo",
+          "fecha": "2026-11-16T18:00:00+00:00"
+        }
+      ]
     },
     {
       "id": "55ce5b48b3f17130",
