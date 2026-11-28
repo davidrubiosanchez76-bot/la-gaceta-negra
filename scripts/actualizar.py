@@ -496,8 +496,11 @@ def make_story(item, feed, config, correcciones=None, excluidas=None):
     if feed.get("solo_timos") and not any(x in normalize(full_text) for x in ("scam", "fraud", "impostor", "deceptive", "phishing", "estafa", "timo", "suplantacion", "identity theft")):
         return None
     es_nve = es_extremismo_nihilista(title, item["summary"])
-    # Los RSS especializados en seguimiento no deben inundar la portada.
-    if feed.get("solo_expediente") and feed["solo_expediente"] not in cases_of(title, config, summary=item["summary"]):
+    # Los RSS oficiales pueden seguir varios expedientes sin duplicar su feed.
+    objetivos = list(feed.get("solo_expedientes") or [])
+    if feed.get("solo_expediente"):
+        objetivos.append(feed["solo_expediente"])
+    if objetivos and not set(objetivos).intersection(cases_of(title, config, summary=item["summary"])):
         return None
     sid = hashlib.sha1((normalize(title) + "|" + date.strftime("%Y-%m-%d")).encode()).hexdigest()[:16]
     if sid in (excluidas or set()):

@@ -130,13 +130,16 @@
     "idioma": "en"
   },
   {
-    "nombre": "Departamento de Justicia EE. UU. — Extremismo nihilista",
+    "nombre": "Departamento de Justicia EE. UU. — Expedientes",
     "url": "https://www.justice.gov/news/rss",
     "categoria": "AUTO",
     "region": "ESTADOS UNIDOS",
     "activo": true,
     "idioma": "en",
-    "solo_expediente": "extremismo-nihilista-violento"
+    "solo_expedientes": [
+      "extremismo-nihilista-violento",
+      "caso-epstein"
+    ]
   },
   {
     "nombre": "OKDIARIO — España",

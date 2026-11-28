@@ -44,6 +44,21 @@ class TestRefuerzo(unittest.TestCase):
         self.assertTrue(any(x["nombre"].startswith("FTC") and x.get("solo_timos") for x in cfg))
 
 
+    def test_feed_oficial_comparte_seguimientos_sin_mezclar_asuntos(self):
+        from datetime import datetime, timezone
+        from email.utils import format_datetime
+        feed={"nombre":"Departamento de Justicia EE. UU. — Expedientes",
+              "categoria":"AUTO","region":"ESTADOS UNIDOS","idioma":"es",
+              "solo_expedientes":["extremismo-nihilista-violento","caso-epstein"]}
+        cfg=[{"id":"caso-epstein","detector":"epstein","activo":True},
+             {"id":"extremismo-nihilista-violento","tipo":"tematico","detector":"nve","activo":True}]
+        def story(title):
+            return {"title":title,"url":"https://example.org/documento",
+                    "date":format_datetime(datetime.now(timezone.utc)),
+                    "summary":"","outlet":""}
+        self.assertIn("caso-epstein",g.make_story(story("Epstein files published by Justice Department"),feed,cfg)["expedientes"])
+        self.assertIsNone(g.make_story(story("El Departamento de Justicia publica un informe meteorológico"),feed,cfg))
+
     def test_detector_epstein(self):
         from detectar_epstein import coincide
         self.assertTrue(coincide("Jeffrey Epstein files released by US Justice Department"))
