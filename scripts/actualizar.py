@@ -62,7 +62,7 @@ TOPICS = {
     "Timos y suplantaciones": ("timo", "phishing", "smishing", "vishing", "falso empleado del banco", "haciendose pasar por", "suplantacion de identidad", "fake bank", "bank impersonation", "romance scam", "investment scam"),
     "Corrupción": ("malversacion", "cohecho", "soborno", "prevaricacion", "comisiones ilegales",
         "corrupcion", "bribery", "embezzl"),
-    "Ciberdelincuencia": ("ciberataque", "hacke", "ransomware", "phishing", "ciberdelincuencia",
+    "Ciberdelincuencia": ("ciberataque", "hacke", "ransomware", "smishing", "vishing", "phishing", "ciberdelincuencia",
         "cibercrimen", "cyberattack", "hacking", "hackers", "ciberdelito"),
     "Juicios": ("tribunal", "juicio", "sentencia", "juzgado", "fiscalia", "fiscal",
         "veredicto", "condenad", "condenan", "condena", "declara culpable", "acusan",
