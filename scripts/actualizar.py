@@ -655,6 +655,11 @@ def main():
     for f in feeds:
         if not f.get("activo", True):
             continue
+        if f.get("tipo_fuente") == "editorial":
+            continue  # Los catálogos editoriales no son noticia automática.
+        if politica_acceso.get("bloquear_fuentes_con_suscripcion_frecuente") and prioridad_fuente({"url": f["url"]}, politica_acceso) == 2:
+            print(f"OMITIDO POR SUSCRIPCION: {f['nombre']}")
+            continue
         try:
             items = rss_items(fetch(f["url"]))
             success += 1
