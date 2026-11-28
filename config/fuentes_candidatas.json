@@ -1,0 +1,105 @@
+{
+  "fecha_revision": "2026-11-28",
+  "criterio": "Fuentes pendientes de RSS utilizable, acceso público individual, o traducción al español. No están activadas; editoriales solo se consultan para contrastar hechos y no como catálogos.",
+  "pendientes": [
+    {
+      "zona": "ESPAÑA",
+      "medio": "ElCaso — Tecnología y estafas",
+      "web": "https://elcaso.elnacional.cat/es/tecnologia",
+      "pendiente": "RSS español no comprobado; prioridad alta para timos cotidianos"
+    },
+    {
+      "zona": "ESPAÑA",
+      "medio": "INCIBE — Ciudadanía",
+      "web": "https://www.incibe.es/ciudadania/avisos",
+      "pendiente": "RSS o canal automatizable verificado"
+    },
+    {
+      "zona": "FRANCIA",
+      "medio": "Gendarmerie Nationale",
+      "web": "https://www.gendarmerie.interieur.gouv.fr/gendinfo/",
+      "pendiente": "RSS y traducción francés-español"
+    },
+    {
+      "zona": "FRANCIA",
+      "medio": "franceinfo",
+      "web": "https://www.francetvinfo.fr/",
+      "pendiente": "RSS operativo y traducción francés-español"
+    },
+    {
+      "zona": "CHINA",
+      "medio": "South China Morning Post",
+      "web": "https://www.scmp.com/",
+      "rss_candidato": "https://www.scmp.com/rss/91/feed",
+      "pendiente": "RSS detectado; se necesita verificar acceso público por artículo"
+    },
+    {
+      "zona": "CHINA",
+      "medio": "China Daily",
+      "web": "https://www.chinadaily.com.cn/",
+      "pendiente": "RSS conocido sin respuesta operativa confirmada; identificar alternativa"
+    },
+    {
+      "zona": "ITALIA",
+      "medio": "ANSA — Cronaca en italiano",
+      "web": "https://www.ansa.it/sito/notizie/cronaca/cronaca.shtml",
+      "rss_candidato": "https://www.ansa.it/sito/notizie/cronaca/cronaca_rss.xml",
+      "pendiente": "Traductor italiano-español; de momento ANSA English"
+    },
+    {
+      "zona": "ALEMANIA",
+      "medio": "Bundeskriminalamt BKA",
+      "web": "https://www.bka.de/",
+      "pendiente": "RSS, traducción alemana y validación de relevancia"
+    },
+    {
+      "zona": "GRAN BRETAÑA",
+      "medio": "National Crime Agency",
+      "web": "https://www.nationalcrimeagency.gov.uk/news/all-news",
+      "pendiente": "Verificar RSS propio"
+    },
+    {
+      "zona": "GRAN BRETAÑA",
+      "medio": "Crime Writers’ Association",
+      "web": "https://thecwa.co.uk/",
+      "pendiente": "Canal automático para noticias sobre premios Dagger"
+    },
+    {
+      "zona": "ESPAÑA",
+      "medio": "Getafe Negro — noticias",
+      "web": "https://getafenegro.com/noticias/",
+      "pendiente": "Verificar RSS, evitando notas promocionales repetidas"
+    },
+    {
+      "zona": "INTERNACIONAL",
+      "medio": "National Institute of Justice",
+      "web": "https://nij.ojp.gov/topics/forensics",
+      "pendiente": "RSS específico de investigación forense"
+    },
+    {
+      "zona": "INTERNACIONAL",
+      "medio": "Forensic Magazine",
+      "web": "https://www.forensicmag.com/",
+      "pendiente": "RSS operativo"
+    },
+    {
+      "zona": "INTERNACIONAL",
+      "medio": "Crime Fiction Lover",
+      "web": "https://crimefictionlover.com/",
+      "rss_candidato": "https://crimefictionlover.com/feed/",
+      "pendiente": "RSS devuelve 403 en la comprobación; sin activar"
+    },
+    {
+      "zona": "INTERNACIONAL",
+      "medio": "Mystery Writers of America",
+      "web": "https://mysterywriters.org/",
+      "pendiente": "RSS fiable para premios Edgar"
+    },
+    {
+      "zona": "ESPAÑA",
+      "medio": "Editoriales del género",
+      "web": "https://balasyestrellas.blogspot.com/",
+      "pendiente": "Consultar pluralmente el directorio, no importar RSS promocionales ni catálogos"
+    }
+  ]
+}
