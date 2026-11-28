@@ -14,9 +14,9 @@
       "region": "ESPAÑA",
       "pais": "ESPAÑA",
       "temas": [
-        "Robos y atracos",
         "Estafas y fraudes",
-        "Investigación policial"
+        "Investigación policial",
+        "Robos y atracos"
       ],
       "expedientes": [],
       "etiquetas_de_deteccion": [],
@@ -112,8 +112,8 @@
       "region": "ESPAÑA",
       "pais": null,
       "temas": [
-        "Narcotráfico",
-        "Investigación policial"
+        "Investigación policial",
+        "Narcotráfico"
       ],
       "expedientes": [],
       "etiquetas_de_deteccion": [],

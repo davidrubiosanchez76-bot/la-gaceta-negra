@@ -2,7 +2,7 @@
   "meses": [
     {
       "mes": "2026-11",
-      "total": 290,
+      "total": 298,
       "expedientes": [
         "caso-epstein",
         "extremismo-nihilista-violento",
@@ -10,6 +10,7 @@
         "lindsay-clancy"
       ],
       "temas": [
+        "ADN y genética forense",
         "Actualidad criminal",
         "Adaptaciones y pantallas",
         "Agresiones sexuales",
@@ -25,11 +26,13 @@
         "Ficción negrocriminal",
         "Homicidios y asesinatos",
         "Informática forense",
+        "Investigación criminológica",
         "Investigación policial",
         "Juicios",
         "Justicia",
         "Narcotráfico",
         "Patología forense",
+        "Premios y concursos",
         "Pruebas forenses",
         "Robos y atracos",
         "Terrorismo y extremismo",
@@ -44,6 +47,7 @@
       ],
       "paises": [
         "ALEMANIA",
+        "CANADÁ",
         "COLOMBIA",
         "ESPAÑA",
         "ESTADOS UNIDOS",
@@ -56,24 +60,36 @@
     },
     {
       "mes": "2026-10",
-      "total": 4,
+      "total": 9,
       "expedientes": [
         "caso-epstein",
         "extremismo-nihilista-violento",
         "luigi-mangione"
       ],
       "temas": [
+        "ADN y genética forense",
+        "Adaptaciones y pantallas",
         "Análisis criminológico",
+        "Criminalística",
+        "Criminología",
         "Extremismo nihilista violento",
+        "Ficción negrocriminal",
+        "Informática forense",
         "Investigación policial",
         "Juicios",
-        "Justicia"
+        "Justicia",
+        "Premios y concursos",
+        "Reincidencia"
       ],
       "regiones": [
+        "ESPAÑA",
         "ESTADOS UNIDOS",
+        "EUROPA",
         "MUNDO"
       ],
       "paises": [
+        "AUSTRALIA",
+        "ESPAÑA",
         "ESTADOS UNIDOS"
       ]
     },

@@ -1,6 +1,6 @@
 {
   "mes": "2026-10",
-  "total": 8,
+  "total": 9,
   "noticias": [
     {
       "id": "lm-2026-10-31-18",
@@ -78,6 +78,31 @@
           "medio": "Comité Judicial de la Cámara — Grupo demócrata",
           "url": "https://democrats-judiciary.house.gov/media-center/press-releases/judiciary-democrats-report-details-mounting-evidence-linking-trump-to-epstein-s-criminal-activities-and-doj-s-cover-up-specific-accounts-involving-11-women-provide-more-evidence-of-potential-sex-crimes",
           "fecha": "2026-10-26T12:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "id": "e2058ac42c3ad5ac",
+      "medio_titular": "Revista Calibre .38",
+      "titular": "Descarga gratis el relato ganador y los finalistas de Bruma Negra 2026 (castellano)",
+      "titular_original": "Descarga gratis el relato ganador y los finalistas de Bruma Negra 2026 (castellano)",
+      "metodo_titular": "original",
+      "fecha": "2026-10-26T07:30:00+00:00",
+      "actualizado": "2026-10-26T07:30:00+00:00",
+      "categoria": "FICCIÓN NEGROCRIMINAL",
+      "region": "MUNDO",
+      "pais": null,
+      "temas": [
+        "Premios y concursos",
+        "Ficción negrocriminal"
+      ],
+      "expedientes": [],
+      "etiquetas_de_deteccion": [],
+      "fuentes": [
+        {
+          "medio": "Revista Calibre .38",
+          "url": "https://revistacalibre38.com/2026/10/26/descarga-gratis-el-relato-ganador-y-los-finalistas-de-bruma-negra-2026-castellano",
+          "fecha": "2026-10-26T07:30:00+00:00"
         }
       ]
     },
