@@ -1,6 +1,6 @@
 {
   "mes": "2026-10",
-  "total": 3,
+  "total": 4,
   "noticias": [
     {
       "id": "lm-2026-10-31-18",
@@ -26,6 +26,35 @@
         }
       ],
       "pais": null
+    },
+    {
+      "id": "epstein-20261026-supl",
+      "titular": "El grupo demócrata del Comité Judicial pide una investigación independiente tras publicar un informe de alegaciones sobre el caso Epstein",
+      "titular_original": "El grupo demócrata del Comité Judicial pide una investigación independiente tras publicar un informe de alegaciones sobre el caso Epstein",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "2026-10-26T12:00:00+00:00",
+      "actualizado": "2026-10-26T12:00:00+00:00",
+      "precision_fecha": "día",
+      "fecha_publicacion_fuente": "2026-10-26",
+      "nota_fecha": "Es un informe elaborado por personal demócrata, no una imputación judicial ni una condena; las alegaciones descritas deben atribuirse a sus autores.",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "pais": "ESTADOS UNIDOS",
+      "temas": [
+        "Investigación policial",
+        "Justicia"
+      ],
+      "expedientes": [
+        "caso-epstein"
+      ],
+      "fuentes": [
+        {
+          "medio": "Comité Judicial de la Cámara — Grupo demócrata",
+          "url": "https://democrats-judiciary.house.gov/media-center/press-releases/judiciary-democrats-report-details-mounting-evidence-linking-trump-to-epstein-s-criminal-activities-and-doj-s-cover-up-specific-accounts-involving-11-women-provide-more-evidence-of-potential-sex-crimes",
+          "fecha": "2026-10-26T12:00:00+00:00"
+        }
+      ]
     },
     {
       "id": "lm-2026-10-02-17",

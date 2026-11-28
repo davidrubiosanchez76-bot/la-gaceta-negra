@@ -1,0 +1,35 @@
+{
+  "mes": "1996-09",
+  "total": 1,
+  "noticias": [
+    {
+      "id": "epstein-19960903-supl",
+      "titular": "Un documento publicado décadas después revela que Maria Farmer había comunicado al FBI en 1996 acusaciones sobre Epstein y menores",
+      "titular_original": "Un documento publicado décadas después revela que Maria Farmer había comunicado al FBI en 1996 acusaciones sobre Epstein y menores",
+      "metodo_titular": "editorial",
+      "origen": "hemeroteca_manual",
+      "fecha": "1996-09-03T12:00:00+00:00",
+      "actualizado": "1996-09-03T12:00:00+00:00",
+      "precision_fecha": "día",
+      "fecha_publicacion_fuente": "2025-12-23",
+      "nota_fecha": "La fecha corresponde a la denuncia de 1996; la noticia que hizo públicos esos antecedentes es de 2025. El comunicado representa la investigación del sector demócrata del Congreso.",
+      "categoria": "TRUE CRIME",
+      "region": "ESTADOS UNIDOS",
+      "pais": "ESTADOS UNIDOS",
+      "temas": [
+        "Investigación policial",
+        "Agresiones sexuales"
+      ],
+      "expedientes": [
+        "caso-epstein"
+      ],
+      "fuentes": [
+        {
+          "medio": "Comisión de Supervisión — Grupo demócrata",
+          "url": "https://oversightdemocrats.house.gov/news/press-releases/ranking-member-robert-garcia-demands-answers-on-fbis-failure-to-investigate-jeffrey-epstein-after-survivor-maria-farmer-warned-agency-in-1996-newly-released-records-prove",
+          "fecha": "2025-12-23T12:00:00+00:00"
+        }
+      ]
+    }
+  ]
+}

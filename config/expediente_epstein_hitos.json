@@ -1,8 +1,8 @@
 {
   "id": "caso-epstein",
   "corte": "2026-11-28",
-  "total": 40,
-  "criterio": "Archivo inicial de hitos seleccionados, no inventario exhaustivo de toda la cobertura mediática. Cada registro apunta a prensa abierta o documento público. La fecha histórica y la publicación de la fuente pueden diferir.",
+  "total": 42,
+  "criterio": "42 hitos relevantes con referencia pública, entre el primer aviso documentado al FBI (1996), la investigación policial de 2005 y el 28 de noviembre de 2026. No son todas las publicaciones de prensa.",
   "notas": [
     "Fechas con precisión 'mes' o 'año': primer día es marcador técnico de ordenación, no fecha exacta del suceso.",
     "La inclusión de un nombre en un registro o documento no demuestra delito ni culpabilidad.",
@@ -48,6 +48,8 @@
     "epstein-20260623-37",
     "epstein-20260825-38",
     "epstein-20260827-39",
-    "epstein-20261110-40"
+    "epstein-20261110-40",
+    "epstein-19960903-supl",
+    "epstein-20261026-supl"
   ]
 }
